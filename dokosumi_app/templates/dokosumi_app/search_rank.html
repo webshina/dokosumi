@@ -1,0 +1,28 @@
+{% extends 'dokosumi_app/base.html' %}
+
+{% block content %}
+{% load static %}
+{% load widget_tweaks %}
+<form class="" method="post" enctype="multipart/form-data">{% csrf_token %}
+    <div class="row mb-1">
+        <div class="col-12" style="display: table;height: 90px;">
+            <div style="display: table-cell;vertical-align: middle;">
+                <input type="text" name="station" id="station" style="font-size: 2.5vh;width: 100%;">
+            </div>
+        </div>
+        <div class="col-10 mb-5">
+            <input type="range" name="value_1"/>
+        </div>
+        <div class="col-10 mb-5">
+            <input type="range" name="value_2"/>
+        </div>
+    </div>
+    <div class="row mb-5"></div>
+    <button type="submit" id="send" class="btn btn-info mb-5">SUBMIT</button>
+</form>
+<!-- 文字の長さ測定用 -->
+<span id="ruler" style="font-family:Lobster;font:3vw 'Lobster';visibility:hidden;position:absolute;white-space:nowrap;"></span>
+<div style="margin: 500px;">
+</div>
+<script type="text/javascript" src="{% static 'js/upload_pict.js' %}"></script>
+{% endblock %}

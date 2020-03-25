@@ -1,0 +1,39 @@
+{% load static %}
+<html>
+    <head>
+        <title>どこ住吉</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Lobster|M+PLUS+1p|M+PLUS+Rounded+1c|Acme|Alfa+Slab+One|Anton|Raleway:200|Righteous|Noto+Sans+JP&display=swap" rel="stylesheet">
+        <link rel="preload" href="{% static 'fonts/851MkPOP_002.ttf' %}" as="font" type="font/ttf" crossorigin="anonymous">
+        <link rel="stylesheet" href="{% static 'css/base.css' %}">
+        <link rel="stylesheet" href="{% static 'css/pulldownMenu/sp-menu.css' %}" />
+        <link rel="stylesheet/less" type="text/css" href="{% static 'css/base.less' %}" />
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js" ></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js"></script>
+        <script data-ad-client="ca-pub-9489739357718254" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    </head>
+    <body>
+        <!-- <div id="sp-icon" class="sp-close">
+            <span></span>
+        </div>
+        <ul id="menu">
+            <li><a href="{% url 'top' %}">TOP</a></li>
+        </ul> -->
+        <h1 class="title_header">どこ住吉</h1>
+        <div class="subtitle">あなたの『住みよい街』検索ツール</div>
+        <div class="row mb-5">
+            <!-- 余白 -->
+        </div>
+        {% block content %}
+        {% endblock %}
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://cdn.rawgit.com/blueimp/JavaScript-Load-Image/v2.6.2/js/load-image.all.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/canvg/1.4/rgbcolor.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/canvg/dist/browser/canvg.min.js"></script>
+        <script src="{% static 'js/base.js' %}"></script>
+        <script src="{% static 'js/pulldownMenu/sp-menu.js' %}"></script>
+    </body>
+</html>
