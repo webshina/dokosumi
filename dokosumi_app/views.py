@@ -55,7 +55,7 @@ def search_rank(request):
 
         # 駅名のTSVファイルを取得
         dirname = os.path.dirname(__file__)
-        score_df = pd.read_table(dirname + '\data\score_by_station.tsv')
+        score_df = pd.read_table(dirname + '/data/score_by_station.tsv')
         
         #駅名を取得
         station_name = request.POST.get('station_name', False)
@@ -140,8 +140,8 @@ def town_detail(request, station_name):
         return redirect('town_detail')
     else:
         # 駅名のTSVファイルを取得
-        score_tsv_file = pathlib.Path('data\score_by_station.tsv')
-        score_df = pd.read_table(score_tsv_file)
+        dirname = os.path.dirname(__file__)
+        score_df = pd.read_table(dirname + '/data/score_by_station.tsv')
 
         town_score = score_df.loc[score_df['station_name'] == station_name]
         town_score = town_score.iloc[0]
