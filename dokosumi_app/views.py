@@ -14,6 +14,7 @@ import random
 import pandas as pd
 import time
 import os
+import pathlib
 import math
 import numpy as np
 import copy
@@ -53,8 +54,8 @@ def search_rank(request):
         print(value_np)
 
         # 駅名のTSVファイルを取得
-        score_tsv_file = 'D:\programs\Python\Dokosumi\dokosumi_app\data\score_by_station.tsv'
-        score_df = pd.read_table(score_tsv_file)
+        dirname = os.path.dirname(__file__)
+        score_df = pd.read_table(dirname + '\data\score_by_station.tsv')
         
         #駅名を取得
         station_name = request.POST.get('station_name', False)
@@ -65,10 +66,10 @@ def search_rank(request):
         if station_name != '':
             if station_name not in score_df['station_name'].values:
                 message = '『' + station_name + '』駅は存在しません。関東圏の駅のみが検索可能です。'
-            context = {
-                'message' : message
-            }
-            return render(request, 'dokosumi_app/error.html', context)
+                context = {
+                    'message' : message
+                }
+                return render(request, 'dokosumi_app/error.html', context)
 
 
             lat = score_df.loc[score_df['station_name'] == station_name, 'lat']
@@ -139,7 +140,7 @@ def town_detail(request, station_name):
         return redirect('town_detail')
     else:
         # 駅名のTSVファイルを取得
-        score_tsv_file = 'D:\programs\Python\Dokosumi\dokosumi_app\data\score_by_station.tsv'
+        score_tsv_file = pathlib.Path('data\score_by_station.tsv')
         score_df = pd.read_table(score_tsv_file)
 
         town_score = score_df.loc[score_df['station_name'] == station_name]
