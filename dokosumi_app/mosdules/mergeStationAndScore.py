@@ -44,4 +44,4 @@ for score_keyword in score_keywords:
 #結果をTSVファイルに保存
 dirname = os.path.dirname(station_tsv_file)
 filename = os.path.basename(station_tsv_file)
-base_df.to_csv(dirname + '\score_by_station\score_by_station.tsv', index=False, sep='\t')
+base_df.to_csv('D:\programs\Python\Dokosumi\dokosumi_app\data\score_by_station.tsv', index=False, sep='\t')

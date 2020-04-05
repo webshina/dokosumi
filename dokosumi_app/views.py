@@ -53,7 +53,7 @@ def search_rank(request):
         print(value_np)
 
         # 駅名のTSVファイルを取得
-        score_tsv_file = 'D:\programs\Python\Dokosumi\data\score_by_station\score_by_station.tsv'
+        score_tsv_file = 'D:\programs\Python\Dokosumi\dokosumi_app\data\score_by_station.tsv'
         score_df = pd.read_table(score_tsv_file)
         
         #駅名を取得
@@ -139,7 +139,7 @@ def town_detail(request, station_name):
         return redirect('town_detail')
     else:
         # 駅名のTSVファイルを取得
-        score_tsv_file = 'D:\programs\Python\Dokosumi\data\score_by_station\score_by_station.tsv'
+        score_tsv_file = 'D:\programs\Python\Dokosumi\dokosumi_app\data\score_by_station.tsv'
         score_df = pd.read_table(score_tsv_file)
 
         town_score = score_df.loc[score_df['station_name'] == station_name]
