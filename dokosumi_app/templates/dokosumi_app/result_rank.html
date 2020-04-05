@@ -3,22 +3,99 @@
 {% block content %}
 {% load static %}
 {% load widget_tweaks %}
-<form class="" method="post" enctype="multipart/form-data">{% csrf_token %}
-        
-    {% for i in score_list %}
-    <div class="row mb-1">
-        <div class="col-10 mb-5">
-            {{ i.station_name }}
-        </div>
+
+    {% comment %} Twitterシェアボタン {% endcomment %}
+    <div class="middleWrapper">
+    <a href="https://twitter.com/intent/tweet?text=『わたしの住みよい街ランキング』%0a1位 {{ resultRanks.1.station_name }}%0a2位 {{ resultRanks.2.station_name }}%0a3位 {{ resultRanks.3.station_name }}%0a&url=https://www.url.url/&hashtags=DOKOSUMIYOSHI,どこ住吉" 
+        onClick="window.open(encodeURI(decodeURI(this.href)), 'tweetwindow', 'width=650, height=470, personalbar=0, toolbar=0, scrollbars=1, sizable=1'); return false;" 
+        rel="nofollow" 
+        class="twitter-link btn btn-info">あなたの住みよい街ランキングをTweet</a>
     </div>
+    
+    {% comment %} 駅ごとのスコアを一覧化 {% endcomment %}
+    {% for resultRank in resultRanks %}
+            <div class="title-box3">
+                <div class="title-box3-title">
+                    <a class="btn btn-success" href="{% url 'town_detail' resultRank.station_name %}" style="width:200; padding:1px">
+                        {{ resultRank.rank }}位 {{ resultRank.station_name }}
+                    </a>
+                </div>
+
+                <div style="margin:10 0">
+                    
+                    {% comment %} スコア#1 {% endcomment %}
+                    <div style="margin:5 10">
+                        <div style="text-align:left">総合スコア</div>
+                        <div class="progress" style="height: 12px;">
+                            <div class="progress-bar bg-warning" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:{{ resultRank.score }}%; text-align:left; padding-left:5px;">
+                                {{ resultRank.score }} P
+                            </div>
+                        </div>
+                    </div>
+
+                    {% comment %} スコア#2 {% endcomment %}
+                    <div style="margin:0 10">
+                        <div style="text-align:left">職場からの距離</div>
+                        <div class="progress" style="height: 12px;">
+                            <div class="progress-bar bg-success" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:{{ resultRank.dist_to_office }}%; text-align:left; padding-left:5px;">
+                                {{ resultRank.dist_to_office }} P
+                            </div>
+                        </div>
+                    </div>
+
+                    {% comment %} スコア#2 {% endcomment %}
+                    <div style="margin:0 10">
+                        <div style="text-align:left">交通利便性</div>
+                        <div class="progress" style="height: 12px;">
+                            <div class="progress-bar bg-success" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:{{ resultRank.access }}%; text-align:left; padding-left:5px;">
+                                {{ resultRank.access }} P
+                            </div>
+                        </div>
+                    </div>
+
+                    {% comment %} スコア#3 {% endcomment %}
+                    <div style="margin:0 10">
+                        <div style="text-align:left">家賃の安さ</div>
+                        <div class="progress" style="height: 12px;">
+                            <div class="progress-bar bg-success" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:{{ resultRank.landPrice }}%; text-align:left; padding-left:5px;">
+                                {{ resultRank.landPrice }} P
+                            </div>
+                        </div>
+                    </div>
+
+                    {% comment %} スコア#4 {% endcomment %}
+                    <div style="margin:0 10">
+                        <div style="text-align:left">治安の良さ</div>
+                        <div class="progress" style="height: 12px;">
+                            <div class="progress-bar bg-success" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:{{ resultRank.security }}%; text-align:left; padding-left:5px;">
+                                {{ resultRank.security }} P
+                            </div>
+                        </div>
+                    </div>
+
+                    {% comment %} スコア#4 {% endcomment %}
+                    <div style="margin:0 10">
+                        <div style="text-align:left">緑地の多さ</div>
+                        <div class="progress" style="height: 12px;">
+                            <div class="progress-bar bg-success" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:{{ resultRank.park }}%; text-align:left; padding-left:5px;">
+                                {{ resultRank.park }} P
+                            </div>
+                        </div>
+                    </div>
+
+                    {% comment %} スコア#5 {% endcomment %}
+                    <div style="margin:0 10">
+                        <div style="text-align:left">浸水危険度の低さ</div>
+                        <div class="progress" style="height: 12px;">
+                            <div class="progress-bar bg-success" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:{{ resultRank.flood }}%; text-align:left; padding-left:5px;">
+                                {{ resultRank.flood }} P
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
     {% endfor %}
 
-    <div class="row mb-5"></div>
-    <button type="submit" id="send" class="btn btn-info mb-5">SUBMIT</button>
-</form>
-<!-- 文字の長さ測定用 -->
-<span id="ruler" style="font-family:Lobster;font:3vw 'Lobster';visibility:hidden;position:absolute;white-space:nowrap;"></span>
-<div style="margin: 500px;">
-</div>
-<script type="text/javascript" src="{% static 'js/upload_pict.js' %}"></script>
 {% endblock %}

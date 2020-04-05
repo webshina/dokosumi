@@ -23,5 +23,7 @@ from . import views
 urlpatterns = [
     path('', views.search_rank, name='search_rank'),
     path('top/', views.top, name='top'),
-    path('search_rank/', views.search_rank, name='search_rank')
+    path('search_rank/', views.search_rank, name='search_rank'),
+    path('town_detail/<str:station_name>', views.town_detail, name='town_detail'),
+    path('test/', views.test, name='test'),
 ]

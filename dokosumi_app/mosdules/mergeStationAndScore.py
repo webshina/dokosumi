@@ -12,12 +12,12 @@ import math
 import numpy as np
 from sklearn import preprocessing
 
-score_keywords = ['landPrice', 'population']
+score_keywords = ['landPrice', 'access', 'population', 'park', 'flood', 'security']
 
 # 駅名のTSVリストを取得
 station_tsv_file = 'D:\programs\Python\Dokosumi\data\station_list_mesh_kanto.tsv'
 station_df = pd.read_table(station_tsv_file)
-station_df = station_df[['station_name']]
+station_df = station_df[['station_name', 'lon', 'lat']]
 #station_df.set_index("station_name")
 print(station_df)
 
@@ -29,11 +29,11 @@ for score_keyword in score_keywords:
     score_df = pd.read_table(score_tsv_file)
     score_df = score_df[['station_name', 'SCORE']]
     # 効用関数を適用
-    score_np = np.log(score_df['SCORE'].values)
+    score_np = np.log(score_df['SCORE'].values + 1)
     # 最大1最小0で正規化
     score_np = (score_np - score_np.min()).astype(float) / (score_np.max() - score_np.min()).astype(float)
 
-    score_df['SCORE'] = score_np
+    score_df['SCORE'] = score_np * 100
 
     # 列名の変更
     score_df = score_df.rename(columns={'SCORE' : score_keyword})

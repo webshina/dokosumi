@@ -31,60 +31,6 @@ def cal_rho(lon_a,lat_a,lon_b,lat_b):
     rho=ra*(xx+dr)
     return rho
 
-# 角度を求める
-def angle2(P, A, B):
-    '''
-    args
-    ----
-        P: np.array((x, y))
-        A: np.array((x, y))
-        B: np.array((x, y))
-    returns
-    -------
-        theta: float (dgree)
-    '''
-    # 全体をシフトさせる
-    A = np.array(A, dtype=float)
-    B = np.array(B, dtype=float)
-    P = np.array(P, dtype=float)
-    PA = A - P
-    PB = B - P
-    # cosθを求める
-    costheta = round(inner(PA, PB)/norm(PA)/norm(PB))
-    # 角度を求める(度)
-    theta = np.arccos(costheta)/np.pi * 180
-    # 時計回りか、反時計回りか判定し、thetaをプラスかマイナスにして返す
-    if PA[0]*PB[1] - PA[1]*PB[0] > 0:
-        # 条件(i)'に該当するときはなにもしない(ここではthetaはプラス)
-        pass
-    else:
-        # 条件(ii)'に該当するときはthetaをマイナスにする
-        theta *= -1.0
-    return theta
-
-#点Pが多角形pointsに含まれるか判定
-def is_inside_polygon(points, P):
-    '''
-    args
-    ----
-        points: list of np.array((x, y))
-        P: np.array((x, y))
-    returns
-    -------
-        theta: x (degree)
-    '''
-    points = [np.array(p) for p in points]
-    P = np.array(P)
-    angle_total = 0.0
-    for A, B in zip(points, points[1:] + points[0:1]): # Notice! "points[1:] + points[0:1]" means something like "points[1:].extend(points[0:1])"
-        angle_total += angle2(P, A, B)
-    if np.isclose(abs(angle_total), 360):
-        # 360°の場合はポリゴンの内側なのでTrueを返す
-        return True
-    else:
-        # ポリゴンの外側
-        return False
-
 # 駅名DataFrameにSCOREを追加(駅から1.5kmの座標のSCOREを取得)
 def addScoreToStationByLatlon(station_df, score_df):
 
@@ -149,46 +95,46 @@ def addScoreToStationByPolygon(station_df, score_df):
         cnt = 0
         for row_score in score_df.itertuples():
 
-            #SCOREの多角形座標リストを取得
+            #SCOREの中心座標を取得
             latlons = row_score.LATLON.splitlines()
-            points = []
             for latlon in latlons:
                 latlon = str(latlon).split()
-                points.append(latlon)
 
-            # 座標が多角形にふくまれるか判定
-            if is_inside_polygon(points, [row_station.lon, row_station.lat]):
-                if row_score.SCORE == 11:
-                    depth = 0.0
-                elif row_score.SCORE == 12:
-                    depth = 0.5
-                elif row_score.SCORE == 13:
-                    depth = 1.0
-                elif row_score.SCORE == 14:
-                    depth = 2.0
-                elif row_score.SCORE == 15:
-                    depth = 5.0
-                elif row_score.SCORE == 21:
-                    depth = 0.0
-                elif row_score.SCORE == 22:
-                    depth = 0.5
-                elif row_score.SCORE == 23:
-                    depth = 1.0
-                elif row_score.SCORE == 24:
-                    depth = 2.0
-                elif row_score.SCORE == 25:
-                    depth = 3.0
-                elif row_score.SCORE == 26:
-                    depth = 4.0
-                elif row_score.SCORE == 27:
-                    depth = 5.0
-                
-                score += depth
-                cnt += 1
-                print('LATLON:' + str(lat_score) + ',' + str(lon_score))
-                print('DISTANCE:' + str(dist))
-                print('CORRECT:' + str(score))
-                break
+                dist = cal_rho(float(latlon[1]),float(latlon[0]),float(row_station.lon),float(row_station.lat))
+
+                if dist < 1.0:
+                    if row_score.SCORE == 11:
+                        depth = 0.0
+                    elif row_score.SCORE == 12:
+                        depth = 0.5
+                    elif row_score.SCORE == 13:
+                        depth = 1.0
+                    elif row_score.SCORE == 14:
+                        depth = 2.0
+                    elif row_score.SCORE == 15:
+                        depth = 5.0
+                    elif row_score.SCORE == 21:
+                        depth = 0.0
+                    elif row_score.SCORE == 22:
+                        depth = 0.5
+                    elif row_score.SCORE == 23:
+                        depth = 1.0
+                    elif row_score.SCORE == 24:
+                        depth = 2.0
+                    elif row_score.SCORE == 25:
+                        depth = 3.0
+                    elif row_score.SCORE == 26:
+                        depth = 4.0
+                    elif row_score.SCORE == 27:
+                        depth = 5.0
+                    
+                    score += depth
+                    cnt += 1
+                    print('DISTANCE:' + str(dist))
+                    print('CORRECT:' + str(score))
+                    break
+        
+        print('SCORE:' + str(score))
         
         if cnt != 0:
             # # SCOREの平均値を取得
@@ -211,7 +157,7 @@ def addScoreToStationByPolygon(station_df, score_df):
 
 
 # 駅名のTSVリストを取得
-station_tsv_file = 'D:\programs\Python\Dokosumi\data\station_list_mesh_test.tsv'
+station_tsv_file = 'D:\programs\Python\Dokosumi\data\station_list_mesh_kanto.tsv'
 station_df = pd.read_table(station_tsv_file)
 
 # 緯度経度ごとのSCOREのTSVリストを取得
@@ -219,7 +165,7 @@ score_tsv_file = 'D:\programs\Python\Dokosumi\data\\flood_by_latlon.tsv'
 score_df = pd.read_table(score_tsv_file)
 
 #駅名DataFrameに列を追加
-station_df['SCORE'] = 0
+station_df['SCORE'] = 0.0
 
 station_df = addScoreToStationByPolygon(station_df, score_df)
 

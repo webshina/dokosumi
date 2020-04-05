@@ -1,6 +1,6 @@
 #!/bin/sh
 
-cd /home/apps/myenv/bin/Dokosumi
+cd /home/apps/dokosumi
 git pull origin master
 
 python ./manage.py makemigrations

@@ -1,0 +1,102 @@
+body{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 12px;
+    color: #333333;
+    background: #F5F5F5;
+    width: 100%;
+    max-width: 400
+}
+
+.bigwrapper{
+    text-align: center;
+    margin: 30 auto;
+}
+
+.middleWrapper{
+    text-align: center;
+    margin: 10 auto;
+}
+
+.wrapper{
+    text-align: center;
+    margin: 2 auto;
+}
+
+.all-min-wrapper{
+    margin: 2;
+}
+
+.titleWrapper{
+    padding: 10px;
+    color: #FFFFFF;
+    background-color: #009900;
+}
+
+.title_header{
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: Thin;
+}
+
+.subtitle{
+    text-align: center;
+}
+
+.textInput{
+    font-size: 2.5vh;
+    width: 150px;
+}
+
+[class*="col-"] {
+    margin:0;
+    padding:0;
+    vertical-align: middle;
+}
+
+// BOX
+    .box {
+        position: relative;
+        margin: 2em 0;
+        padding: 0.5em 1em;
+        border: solid 3px #009900;
+        background: #F5F5F5;
+        font-size: 13px;
+        font-weight: 700;
+    }
+    .box .box-title {
+        position: absolute;
+        display: inline-block;
+        top: -27px;
+        left: -3px;
+        padding: 0 9px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 15px;
+        font-weight: 500;
+        background: #009900;
+        color: #ffffff;
+        border-radius: 5px 5px 0 0;
+    }
+
+// BOX_RANK
+    .title-box3{
+        margin: 1em 0;
+        background-color: #F5F5F5;
+        border: 2px solid #009900;
+        letter-spacing: .3px;
+      }
+      
+      .title-box3-title{
+        color: #fff;
+        font-weight: bold;
+        background-color: #009900;
+        padding: 4px 6px;
+        text-align: center;
+      }
+
+// MAP
+    #map {
+    height: 250px;
+    }

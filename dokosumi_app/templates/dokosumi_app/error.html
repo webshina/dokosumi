@@ -1,0 +1,16 @@
+{% extends 'dokosumi_app/base.html' %}
+
+{% block content %}
+{% load static %}
+{% load widget_tweaks %}
+
+
+<div class="middleWrapper">
+
+    <div class="alert alert-warning" >{{ message }}</div>
+
+    <button class="btn btn-info" onclick="history.back()">戻る</button>
+
+</div>
+
+{% endblock %}
