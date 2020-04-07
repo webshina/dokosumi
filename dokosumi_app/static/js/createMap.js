@@ -21,5 +21,5 @@ marker.bindPopup(station_name);
 
 
 $('.leaflet-control-container').ready( function() {
-    setTimeout([mymap.invalidateSize, 0]);
+    setTimeout([mymap.invalidateSize, 1000]);
 });
