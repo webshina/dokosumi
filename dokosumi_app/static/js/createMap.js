@@ -20,5 +20,5 @@ var station_name = document.getElementById('station_name').innerText
 marker.bindPopup(station_name);
 
 $('#map').ready( function() {
-    mymap.invalidateSize
+    setTimeout([mymap.invalidateSize, 10000]);
 });
