@@ -1,7 +1,3 @@
-/* メニュー */
-@import url("dokosumi_app\static\css\pulldownMenu\reset.css");
-@import url("dokosumi_app\static\css\pulldownMenu\sp-menu.css");
-
 body {
   font-family: 'M PLUS Rounded 1c', sans-serif;
   font-size: 12px;
