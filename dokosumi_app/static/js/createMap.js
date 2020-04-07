@@ -19,4 +19,6 @@ var marker = L.marker([lat, lon]).addTo(mymap);
 var station_name = document.getElementById('station_name').innerText
 marker.bindPopup(station_name);
 
-mymap.invalidateSize
+$('#map').ready( function() {
+    mymap.invalidateSize
+});
