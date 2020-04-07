@@ -6,16 +6,10 @@
 
     {% comment %} Twitterシェアボタン {% endcomment %}
     <div class="middleWrapper">
-    <a href="https://twitter.com/intent/tweet?text=『わたしの住みよい街』: {{ town_score.station_name }}%0a&url=https://www.url.url/&hashtags=DOKOSUMIYOSHI,どこ住吉" 
+    <a href="https://twitter.com/intent/tweet?text=『わたしの住みよい街』: {{ town_score.station_name }}%0a&url=https://dokosumi.stuply.com/&hashtags=DOKOSUMIYOSHI,どこ住吉" 
         onClick="window.open(encodeURI(decodeURI(this.href)), 'tweetwindow', 'width=100%%, height=470, personalbar=0, toolbar=0, scrollbars=1, sizable=1'); return false;" 
         rel="nofollow" 
         class="twitter-link btn btn-info">あなたの住みよい街をTweet</a>
-    </div>
-
-    <div id="map"></div>
-    <div style="display:none;">
-        <div id="lat">{{ town_score.lat }}</div>
-        <div id="lon">{{ town_score.lon }}</div>
     </div>
     
     {% comment %} 駅ごとのスコアを一覧化 {% endcomment %}
@@ -26,6 +20,14 @@
 
                 <div style="margin:10 0">
                     
+                    <div style="margin:5 10">
+                        <div id="map"></div>
+                        <div style="display:none;">
+                            <div id="lat">{{ town_score.lat }}</div>
+                            <div id="lon">{{ town_score.lon }}</div>
+                        </div>
+                    </div>
+                                    
                     {% comment %} スコア#1 {% endcomment %}
                     <div style="margin:5 10">
                         <div style="text-align:left">交通利便性</div>
