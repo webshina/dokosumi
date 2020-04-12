@@ -2,4 +2,4 @@
 
 source /home/apps/myenv/bin/activate
 
-python /home/apps/dokosumi/dokosumi_app/manage.py followUser hoge
+python /home/apps/dokosumi/manage.py followUser hoge
