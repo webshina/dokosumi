@@ -2,3 +2,4 @@
 modelpress
 katsuyatakasu
 my_savas_jp
+entrypostman

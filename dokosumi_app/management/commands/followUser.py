@@ -1,11 +1,10 @@
 from django.core.management.base import BaseCommand
 from django.shortcuts import render, get_object_or_404, redirect
-from stuply_app.models import Pict
 import tweepy
 import twitter
 from requests_oauthlib import OAuth1Session
 import json
-from stuply_app.configs import twitter_key
+from dokosumi_app.configs import keys as twitter_key
 from PIL import Image
 import io
 import base64
