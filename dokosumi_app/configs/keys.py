@@ -1,1 +1,7 @@
 google_api_key = 'AIzaSyAfXxSIIH0bg1mu-hiXE-1jfpUTxy1i2ps'
+
+user_id = '1244119517275361280'
+consumer_key='lWkYU1CBv01mqfGCEUz4VIA8X'
+consumer_secret='bKAdtznSEKBYDPceONiaxfVYfv2Taj3NtHRjlMEdK85vfpKY1n'
+access_token_key='1244119517275361280-uvZKcW3ec33T189JH7olfTpO0hlQXt'
+access_token_secret='4V3S1X8DhdLGSkWlvnCVlEl8a4A47yCPOQkHaB7qQDkNp'
