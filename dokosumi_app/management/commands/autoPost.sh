@@ -1,5 +1,5 @@
 #!/bin/sh
 
-source /home/apps/myenv/bin/acticate
+source /home/apps/dokosumi/myenv/bin/activate
 
-python /home/apps/myenv/bin/stuply/manage.py autoPost hoge
+python /home/apps/dokosumi/manage.py autoPost hoge
