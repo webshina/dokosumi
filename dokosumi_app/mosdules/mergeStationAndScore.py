@@ -15,10 +15,9 @@ from sklearn import preprocessing
 score_keywords = ['landPrice', 'access', 'population', 'park', 'flood', 'security']
 
 # 駅名のTSVリストを取得
-station_tsv_file = 'D:\programs\Python\Dokosumi\data\station_list_mesh_kanto.tsv'
+station_tsv_file = 'D:\programs\Python\Dokosumi\data\station_list_mesh_minamikanto.tsv'
 station_df = pd.read_table(station_tsv_file)
 station_df = station_df[['station_name', 'lon', 'lat']]
-#station_df.set_index("station_name")
 print(station_df)
 
 base_df = station_df
@@ -27,7 +26,13 @@ for score_keyword in score_keywords:
     # 緯度経度ごとのSCOREのTSVリストを取得
     score_tsv_file = 'D:\programs\Python\Dokosumi\data\score_by_station\\' + score_keyword + '_by_station.tsv'
     score_df = pd.read_table(score_tsv_file)
+
+    # 駅名のTSVリストにある駅のみ抽出
+    score_df = pd.merge(base_df, score_df, on='station_name', how='inner')
+    print(score_df)
     score_df = score_df[['station_name', 'SCORE']]
+    print(score_df)
+
     # 効用関数を適用
     score_np = np.log(score_df['SCORE'].values + 1)
     # 最大1最小0で正規化
@@ -40,6 +45,7 @@ for score_keyword in score_keywords:
 
     # 駅名DataFrameとScore DataFrameをマージ
     base_df = pd.merge(base_df, score_df, on='station_name')
+    print(base_df)
 
 #結果をTSVファイルに保存
 dirname = os.path.dirname(station_tsv_file)
