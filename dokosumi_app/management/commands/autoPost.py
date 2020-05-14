@@ -3,7 +3,8 @@ from dokosumi_app.tools import TwitterModule
 import random
 import os
 import pandas as pd
- 
+import urllib.parse
+
 class Command(BaseCommand):
  
     def add_arguments(self, parser):
