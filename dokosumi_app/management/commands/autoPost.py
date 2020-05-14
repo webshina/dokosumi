@@ -29,7 +29,7 @@ class Command(BaseCommand):
         print(twitter_post_comment)
 
         # 画像取得
-        twitter_post_img = 'dokosumi_app/data/town_img/' + sample.station_name + '.png'
+        twitter_post_img = 'dokosumi_app/data/town_img/' + sample.station_name + '.jpg'
 
         twitterModule = TwitterModule()
         twitterModule.officialPost(twitter_post_comment, twitter_post_img)
