@@ -25,7 +25,7 @@ class Command(BaseCommand):
         twitter_post_comment += '家賃の安さ : ' + str(int(sample.landPrice)) + ' 点\n'
         twitter_post_comment += '治安の良さ : ' + str(int(sample.security)) + ' 点\n'
         twitter_post_comment += '緑地の多さ : ' + str(int(sample.park)) + ' 点\n'
-        twitter_post_comment += '浸水危険度の低さ : ' + str(int(sample.flood)) + ' 点\n'
+        twitter_post_comment += '浸水危険度の低さ : ' + str(int(sample.flood)) + ' 点\n\n'
         twitter_post_comment += 'https://dokosumi.stuply.com/town_detail/' + urllib.parse.quote(sample.station_name) + '\n'
         print(twitter_post_comment)
 
