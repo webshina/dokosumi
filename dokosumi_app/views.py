@@ -65,7 +65,7 @@ def search_rank(request):
         score_df['dist_to_office'] = 0.0
         if station_name != '':
             if station_name not in score_df['station_name'].values:
-                message = '『' + station_name + '』駅は存在しません。関東圏の駅のみが検索可能です。'
+                message = '『' + station_name + '』駅は存在しません。東京・千葉・神奈川・埼玉の駅のみが検索可能です。'
                 context = {
                     'message' : message
                 }
