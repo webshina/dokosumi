@@ -16,7 +16,7 @@
     {% for resultRank in resultRanks %}
             <div class="title-box3">
                 <div class="title-box3-title">
-                    <a class="btn btn-success" href="{% url 'town_detail' resultRank.station_name %}" style="width:200; padding:1px">
+                    <a class="btn btn-danger" href="{% url 'town_detail' resultRank.station_name %}" style="width:200; padding:1px">
                         {{ resultRank.rank }}位 {{ resultRank.station_name }}
                     </a>
                 </div>
@@ -37,7 +37,7 @@
                     <div style="margin:0 10">
                         <div style="text-align:left">職場からの距離</div>
                         <div class="progress" style="height: 12px;">
-                            <div class="progress-bar bg-success" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:{{ resultRank.dist_to_office }}%; text-align:left; padding-left:5px;">
+                            <div class="progress-bar bg-info" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:{{ resultRank.dist_to_office }}%; text-align:left; padding-left:5px;">
                                 {{ resultRank.dist_to_office }} P
                             </div>
                         </div>
@@ -47,7 +47,7 @@
                     <div style="margin:0 10">
                         <div style="text-align:left">交通利便性</div>
                         <div class="progress" style="height: 12px;">
-                            <div class="progress-bar bg-success" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:{{ resultRank.access }}%; text-align:left; padding-left:5px;">
+                            <div class="progress-bar bg-info" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:{{ resultRank.access }}%; text-align:left; padding-left:5px;">
                                 {{ resultRank.access }} P
                             </div>
                         </div>
@@ -57,7 +57,7 @@
                     <div style="margin:0 10">
                         <div style="text-align:left">家賃の安さ</div>
                         <div class="progress" style="height: 12px;">
-                            <div class="progress-bar bg-success" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:{{ resultRank.landPrice }}%; text-align:left; padding-left:5px;">
+                            <div class="progress-bar bg-info" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:{{ resultRank.landPrice }}%; text-align:left; padding-left:5px;">
                                 {{ resultRank.landPrice }} P
                             </div>
                         </div>
@@ -67,7 +67,7 @@
                     <div style="margin:0 10">
                         <div style="text-align:left">治安の良さ</div>
                         <div class="progress" style="height: 12px;">
-                            <div class="progress-bar bg-success" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:{{ resultRank.security }}%; text-align:left; padding-left:5px;">
+                            <div class="progress-bar bg-info" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:{{ resultRank.security }}%; text-align:left; padding-left:5px;">
                                 {{ resultRank.security }} P
                             </div>
                         </div>
@@ -77,7 +77,7 @@
                     <div style="margin:0 10">
                         <div style="text-align:left">緑地公園の多さ</div>
                         <div class="progress" style="height: 12px;">
-                            <div class="progress-bar bg-success" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:{{ resultRank.park }}%; text-align:left; padding-left:5px;">
+                            <div class="progress-bar bg-info" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:{{ resultRank.park }}%; text-align:left; padding-left:5px;">
                                 {{ resultRank.park }} P
                             </div>
                         </div>
@@ -87,7 +87,7 @@
                     <div style="margin:0 10">
                         <div style="text-align:left">浸水危険度の低さ</div>
                         <div class="progress" style="height: 12px;">
-                            <div class="progress-bar bg-success" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:{{ resultRank.flood }}%; text-align:left; padding-left:5px;">
+                            <div class="progress-bar bg-info" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:{{ resultRank.flood }}%; text-align:left; padding-left:5px;">
                                 {{ resultRank.flood }} P
                             </div>
                         </div>
