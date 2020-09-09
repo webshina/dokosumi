@@ -21,13 +21,16 @@
                 <div style="margin:10 0">
                     
                     <div style="margin:5 10">
-                        <div id="map"></div>
+                        {% comment %} <div id="map"></div> {% endcomment %}
+                        <iframe src="https://maps.google.co.jp/maps?output=embed&ll={{ town_score.lat }},{{ town_score.lon }}&z=15" style='height:250; width:100%'></iframe>
                         <div style="display:none;">
                             <div id="lat">{{ town_score.lat }}</div>
                             <div id="lon">{{ town_score.lon }}</div>
                         </div>
                     </div>
-                                    
+
+                    
+
                     {% comment %} スコア#1 {% endcomment %}
                     <div style="margin:5 10">
                         <div style="text-align:left">交通利便性</div>

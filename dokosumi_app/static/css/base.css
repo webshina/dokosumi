@@ -2,13 +2,11 @@ body {
   font-family: 'M PLUS Rounded 1c', sans-serif;
   font-size: 12px;
   color: #333333;
-  /* background: #F5F5F5; */
-  background-image: url('../img/city_background_image.png');
-  background-size:20% auto;
-  background-position: 5% top;
-  background-repeat: no-repeat;
+  background-image: url("../img/city_background_image.png");
+  background-size: 200px auto;
+  background-repeat: repeat-y;
   width: 100%;
-  max-width: 400;    
+  max-width: 400;
 }
 
 .bigwrapper {
@@ -64,7 +62,8 @@ body {
   margin: 2em 0;
   padding: 0.5em 1em;
   border: solid 3px #FF5619;
-  background:rgba(245, 245, 245, 0.75);
+  background: #F5F5F5;
+  opacity: 0.85;
   font-size: 13px;
   font-weight: 700;
 }

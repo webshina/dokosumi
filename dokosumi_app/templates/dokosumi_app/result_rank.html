@@ -16,7 +16,7 @@
     {% for resultRank in resultRanks %}
             <div class="title-box3">
                 <div class="title-box3-title">
-                    <a class="btn btn-danger" href="{% url 'town_detail' resultRank.station_name %}" style="width:200; padding:1px">
+                    <a class="btn" href="{% url 'town_detail' resultRank.station_name %}" style="width:200; padding:1px; color:#fff">
                         {{ resultRank.rank }}位 {{ resultRank.station_name }}
                     </a>
                 </div>

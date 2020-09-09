@@ -4,6 +4,8 @@ body{
     color: #333333;
     // background: #F5F5F5;
     background-image: url('../img/city_background_image.png');
+    background-size:200px auto;
+    background-repeat: repeat-y;
     width: 100%;
     max-width: 400
 }
@@ -63,7 +65,7 @@ body{
         padding: 0.5em 1em;
         border: solid 3px #FF5619;
         background: #F5F5F5;
-        opacity:0.5;
+        opacity:0.85;
         font-size: 13px;
         font-weight: 700;
     }
