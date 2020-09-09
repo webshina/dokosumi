@@ -22,7 +22,7 @@
                     
                     <div style="margin:5 10">
                         {% comment %} <div id="map"></div> {% endcomment %}
-                        <iframe src="https://maps.google.co.jp/maps?output=embed&ll={{ town_score.lat }},{{ town_score.lon }}&z=15" style='height:250; width:100%'></iframe>
+                        <iframe src="https://maps.google.co.jp/maps?output=embed&ll={{ town_score.lat }},{{ town_score.lon }}&z=15" style='height:250; width:100%; border:none;'></iframe>
                         <div style="display:none;">
                             <div id="lat">{{ town_score.lat }}</div>
                             <div id="lon">{{ town_score.lon }}</div>
