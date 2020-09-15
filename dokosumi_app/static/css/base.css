@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'WaonJoyo-R';
+    src: url('../fonts/chogokubosogothic_5.ttf');
+}
+
 body {
   font-family: 'M PLUS Rounded 1c', sans-serif;
   font-size: 12px;
@@ -37,9 +42,10 @@ body {
 .title_header {
   color: #FFFFFF;
   text-align: center;
-  font-family: 'Raleway', sans-serif;
+  font-family:'WaonJoyo-R';
+  /* font-family: 'Raleway', sans-serif; */
   font-size: 30px;
-  font-weight: Thin;
+  font-weight: 900;
 }
 
 .subtitle {
