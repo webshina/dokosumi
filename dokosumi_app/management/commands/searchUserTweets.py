@@ -29,7 +29,7 @@ class Command(BaseCommand):
         self.access_token_secret = twitter_key.access_token_secret
  
     def add_arguments(self, parser):
-        parser.add_argument('hoge')
+        parser.add_argument('keyword', type=str, help='Tweetを検索するキーワードを入力')
 
     ##################################################################
     ## メイン処理
@@ -44,7 +44,7 @@ class Command(BaseCommand):
         # ツイートID
         max_id = ''
         # 検索ワード
-        keyword = '住みたい街'
+        keyword = options['keyword']
         # ツイート取得対象日
         dt_now = datetime.datetime.now()
         start_dt = dt_now.strftime('%Y%m%d')
