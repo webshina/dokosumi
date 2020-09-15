@@ -44,7 +44,7 @@ class Command(BaseCommand):
         # ツイートID
         max_id = ''
         # 検索ワード
-        keyword = '引越し'
+        keyword = '住みたい街'
         # ツイート取得対象日
         dt_now = datetime.datetime.now()
         start_dt = dt_now.strftime('%Y%m%d')
