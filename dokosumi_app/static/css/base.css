@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'WaonJoyo-R';
+    font-family: 'chogokubosogothic_5';
     src: url('../fonts/chogokubosogothic_5.ttf');
 }
 
@@ -42,8 +42,7 @@ body {
 .title_header {
   color: #FFFFFF;
   text-align: center;
-  font-family:'WaonJoyo-R';
-  /* font-family: 'Raleway', sans-serif; */
+  font-family:'chogokubosogothic_5';
   font-size: 30px;
   font-weight: 900;
 }
