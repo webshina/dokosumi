@@ -87,6 +87,9 @@ def search_rank(request):
             # DataFrameに再格納
             score_df['dist_to_office'] = score_np * 100
 
+        # 物件数が少なく、住むのに向いていないであろう街を除外
+        score_df = score_df.loc[score_df['livable'] != 0.0]
+
         # Numpyに変換
         score_np = score_df[keywords].values
         print(score_np)

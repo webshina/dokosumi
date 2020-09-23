@@ -30,6 +30,7 @@ class ScrapingSUUMO:
         station_rents = []
 
         for pref in prefs:
+            print(pref + "から取得")
 
             #「路線・沿線から家賃相場・賃料相場情報を探す」へアクセス
             url = 'https://suumo.jp/chintai/soba/'+pref+'/ensen/'
@@ -71,7 +72,6 @@ class ScrapingSUUMO:
                 #駅名・家賃取得
                 soup = soup.find_all("tr")
 
-                rent_min = 999999999.0
                 for tr in soup:
 
                     #駅名取得
@@ -90,16 +90,7 @@ class ScrapingSUUMO:
 
                     station_rent = [station, rent]
 
-                    #家賃の最小値を記録
-                    if float(rent) < float(rent_min) and rent != 0.0:
-                        rent_min = rent
-
                     station_rents.append(station_rent)
-                
-                #家賃がNULLの場合はその路線の最小値を設定
-                for station_rent in station_rents:
-                    if station_rent[1] == 0.0:
-                        station_rent[1] = rent_min
                         
         print(station_rents)
         browser.quit()

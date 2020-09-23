@@ -12,7 +12,7 @@ import math
 import numpy as np
 from sklearn import preprocessing
 
-score_keywords = ['landPrice', 'access', 'population', 'park', 'flood', 'security']
+score_keywords = ['landPrice', 'access', 'population', 'park', 'flood', 'security', 'livable']
 
 # 駅名のTSVリストを取得
 station_tsv_file = 'D:\programs\Python\Dokosumi\data\station_list_mesh_minamikanto.tsv'
