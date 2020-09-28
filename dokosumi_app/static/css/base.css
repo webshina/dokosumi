@@ -1,13 +1,8 @@
-@font-face {
-  font-family: 'chogokubosogothic_5';
-  src: url("../fonts/chogokubosogothic_5.ttf");
-}
-
 body {
   font-family: 'M PLUS Rounded 1c', sans-serif;
   font-size: 12px;
   color: #333333;
-  background-image: url("../img/city_background_image.jpg");
+  background-image: url("../img/city_background_image.png");
   background-size: cover;
   background-repeat: repeat-y;
   width: 100%;
