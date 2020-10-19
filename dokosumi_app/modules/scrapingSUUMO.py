@@ -61,7 +61,7 @@ for pref in prefs:
         time.sleep(1)
 
         #表示対象の間取りを変更
-        mdkbn = browser.find_element_by_id("souba_madori-1LDK/2K/2DK")
+        mdkbn = browser.find_element_by_id("souba_madori-1K/1DK")
         mdkbn.click()
         #「相場情報を更新する」ボタンをクリック
         mdkbn = browser.find_element_by_class_name("js-sobaKoshinLink")
@@ -93,7 +93,7 @@ for pref in prefs:
                 rent = tr.find("span", attrs={"class":"graphpanel_matrix-td_graphinfo-strong"}).string
             except AttributeError:
                 print('Not Found')
-                rent = 0.0
+                rent = '#N/A'
 
             station_rent = [station, rent]
 

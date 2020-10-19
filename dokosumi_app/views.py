@@ -117,6 +117,8 @@ def search_rank(request):
             resultRank = ResultRank(\
                 rank=rank, \
                 station_name=row_s.station_name, \
+                lat=row_s.lat, \
+                lon=row_s.lon, \
                 dist_to_office=round(float(row_s.dist_to_office)), \
                 access=round(float(row_s.access)), \
                 landPrice=round(float(row_s.landPrice)), \

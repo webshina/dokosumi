@@ -23,6 +23,16 @@
 
                 <div style="margin:10 0">
                     
+                    {% comment %} Google Map {% endcomment %}
+                    <div style="margin:5 10">
+                        {% comment %} <div id="map"></div> {% endcomment %}
+                        <iframe src="https://maps.google.co.jp/maps?output=embed&ll={{ resultRank.lat }},{{ resultRank.lon }}&z=13" style='height:250; width:100%; border:none;'></iframe>
+                        <div style="display:none;">
+                            <div id="lat">{{ resultRank.lat }}</div>
+                            <div id="lon">{{ resultRank.lon }}</div>
+                        </div>
+                    </div>
+                    
                     {% comment %} スコア#1 {% endcomment %}
                     <div style="margin:5 10">
                         <div style="text-align:left">総合スコア</div>
