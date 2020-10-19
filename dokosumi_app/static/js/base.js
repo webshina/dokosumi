@@ -6,7 +6,7 @@ for(let i = 0; i < elems.length; i++){
     elemRange.addEventListener('input', function(event) {
         
         // テキストボックスからフォーカスを外す
-        var active_element = document.getElementsByName('station_name');
+        var active_element = document.activeElement;
         if(active_element){
             active_element.blur();
         }
