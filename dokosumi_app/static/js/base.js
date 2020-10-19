@@ -4,6 +4,13 @@ var elems = document.getElementsByClassName('valueRange');
 for(let i = 0; i < elems.length; i++){
     elemRange = elems[i].getElementsByClassName('range')[0]
     elemRange.addEventListener('input', function(event) {
+        
+        // テキストボックスからフォーカスを外す
+        var active_element = document.getElementsByName('station_name');
+        if(active_element){
+            active_element.blur();
+        }
+
         var newValue = event.target.value;
         var value = elems[i].getElementsByClassName('value')[0];
         value.innerHTML = newValue;
