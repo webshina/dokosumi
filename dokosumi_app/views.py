@@ -32,12 +32,7 @@ def top(request):
     if request.method == "POST":
         return redirect('top')
     else:
-        picts = Pict.objects.filter(user_sendTo="").order_by('?')[:10]
-        context = {
-            'picts':picts,
-        }
-        print("TOP")
-        return render(request, 'stuply_app/top.html', context)
+        return redirect('top')
 
 # search_rank
 def search_rank(request):

@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_cleanup',
+    'django.contrib.sites',
+    'django.contrib.sitemaps',
     'dokosumi_app',
     'widget_tweaks',
     'stdimage',
@@ -146,3 +148,6 @@ STATICFILES_DIRS = [
 ]
 
 DATA_UPLOAD_MAX_MEMORY_SIZE = 524288000
+
+# サイトマップ用
+SITE_ID = 1

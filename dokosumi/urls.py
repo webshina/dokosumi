@@ -21,12 +21,21 @@ from django.conf import settings
 from django.contrib.staticfiles.urls import static
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 import social_django.urls
+from django.contrib.sitemaps.views import sitemap
+from .sitemaps import (
+    StaticViewSitemap,
+)
+
+sitemaps = {
+    'static': StaticViewSitemap,
+}
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('accounts/', include('django.contrib.auth.urls')),
     path('', include('dokosumi_app.urls')),
     path('', include('social_django.urls', namespace = 'social')),
+    path('sitemap.xml', sitemap, {'sitemaps': sitemaps}, name='sitemap')
 ]
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
