@@ -123,9 +123,25 @@ def search_rank(request):
                 score=round(float(row_s.score)), \
             )
             resultRanks.append(resultRank)
+
+        # ユーザーの価値観ポイント取得
+        value = ResultRank(\
+            rank=0, \
+            station_name=request.POST.get("station_name"), \
+            lat=0.0, \
+            lon=0.0, \
+            dist_to_office=round(float(request.POST.get("dist_to_office", False))), \
+            access=round(float(request.POST.get("access", False))), \
+            landPrice=round(float(request.POST.get("landPrice", False))), \
+            park=round(float(request.POST.get("park", False))), \
+            flood=round(float(request.POST.get("flood", False))), \
+            security=round(float(request.POST.get("security", False))), \
+            score=0.0, \
+        )
         
         context = {
-            'resultRanks' : resultRanks
+            'resultRanks' : resultRanks,
+            'value' : value
         }
         return render(request, 'dokosumi_app/result_rank.html', context)
 

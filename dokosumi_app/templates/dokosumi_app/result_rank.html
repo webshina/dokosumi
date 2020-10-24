@@ -3,20 +3,99 @@
 {% block content %}
 {% load static %}
 {% load widget_tweaks %}
+            
+    {% comment %} ユーザーの価値観 {% endcomment %}
+    <div class="title-box3" style="margin:5px 0px 20px 0px">
+        <div class="title-box3-title">
+            あなたの価値観
+        </div>
+
+        <div>
+
+            {% comment %} スコア#2 {% endcomment %}
+            <div style="margin:0 10">
+                <div style="text-align:left">『職場からの距離』の重要度</div>
+                <div class="progress" style="height: 12px;">
+                    <div class="progress-bar bg-info" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:{{ value.dist_to_office }}%; text-align:left; padding-left:5px;">
+                        {{ value.dist_to_office }} P
+                    </div>
+                </div>
+            </div>
+
+            {% comment %} スコア#2 {% endcomment %}
+            <div style="margin:0 10">
+                <div style="text-align:left">『交通利便性』の重要度</div>
+                <div class="progress" style="height: 12px;">
+                    <div class="progress-bar bg-info" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:{{ value.access }}%; text-align:left; padding-left:5px;">
+                        {{ value.access }} P
+                    </div>
+                </div>
+            </div>
+
+            {% comment %} スコア#3 {% endcomment %}
+            <div style="margin:0 10">
+                <div style="text-align:left">『家賃の安さ』の重要度</div>
+                <div class="progress" style="height: 12px;">
+                    <div class="progress-bar bg-info" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:{{ value.landPrice }}%; text-align:left; padding-left:5px;">
+                        {{ value.landPrice }} P
+                    </div>
+                </div>
+            </div>
+
+            {% comment %} スコア#4 {% endcomment %}
+            <div style="margin:0 10">
+                <div style="text-align:left">『治安の良さ』の重要度</div>
+                <div class="progress" style="height: 12px;">
+                    <div class="progress-bar bg-info" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:{{ value.security }}%; text-align:left; padding-left:5px;">
+                        {{ value.security }} P
+                    </div>
+                </div>
+            </div>
+
+            {% comment %} スコア#4 {% endcomment %}
+            <div style="margin:0 10">
+                <div style="text-align:left">『公園の多さ』の重要度</div>
+                <div class="progress" style="height: 12px;">
+                    <div class="progress-bar bg-info" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:{{ value.park }}%; text-align:left; padding-left:5px;">
+                        {{ value.park }} P
+                    </div>
+                </div>
+            </div>
+
+            {% comment %} スコア#5 {% endcomment %}
+            <div style="margin:0 10">
+                <div style="text-align:left">『浸水危険度の低さ』の重要度</div>
+                <div class="progress" style="height: 12px;">
+                    <div class="progress-bar bg-info" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:{{ value.flood }}%; text-align:left; padding-left:5px;">
+                        {{ value.flood }} P
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
 
     {% comment %} Twitterシェアボタン {% endcomment %}
     <div class="middleWrapper">
-    <a href="https://twitter.com/intent/tweet?text=『わたしの住みよい街ランキング』%0a1位 {{ resultRanks.1.station_name }}%0a2位 {{ resultRanks.2.station_name }}%0a3位 {{ resultRanks.3.station_name }}%0a&url=https://dokosumi.stuply.com/&hashtags=DOKOSUMIYOSHI,どこ住吉" 
-        onClick="window.open(encodeURI(decodeURI(this.href)), 'tweetwindow', 'width=650, height=470, personalbar=0, toolbar=0, scrollbars=1, sizable=1'); return false;" 
-        rel="nofollow" 
-        class="twitter-link btn btn-info">あなたの住みよい街ランキングをTweet</a>
+        <div class="twitter-link btn">
+            
+            <a href="https://twitter.com/intent/tweet?text=『わたしの住みよい街ランキング』%0a1位 {{ resultRanks.1.station_name }}%0a2位 {{ resultRanks.2.station_name }}%0a3位 {{ resultRanks.3.station_name }}%0a&url=https://dokosumiyoshi.tokyo/&hashtags=DOKOSUMIYOSHI,どこ住吉" 
+                onClick="window.open(encodeURI(decodeURI(this.href)), 'tweetwindow', 'width=650, height=470, personalbar=0, toolbar=0, scrollbars=1, sizable=1'); return false;" 
+                rel="nofollow" 
+                class="twitter-link btn btn-info"
+                >
+                <img src="{% static 'img/Twitter_Logo_WhiteOnImage.png' %}" alt="Twitterロゴ" width="16" height="16" style="margin:2px; vertical-align:middle;">
+                <span style="margin:2px; vertical-align:middle;">あなたの住みよい街ランキング</span>
+            </a>
+        </div>
     </div>
-    
+
     {% comment %} 駅ごとのスコアを一覧化 {% endcomment %}
     {% for resultRank in resultRanks %}
             <div class="title-box3">
                 <div class="title-box3-title">
-                    <a class="btn" href="{% url 'town_detail' resultRank.station_name %}" style="width:300; padding:1px; color:#fff; border-radius: 3px; border:solid; border-width:thin">
+                    <a class="btn" href="{% url 'town_detail' resultRank.station_name %}" style="width:300; padding:1px; color:#fff;">
                         {{ resultRank.rank }}位 {{ resultRank.station_name }}
                     </a>
                 </div>
