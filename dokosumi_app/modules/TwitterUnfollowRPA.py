@@ -40,7 +40,7 @@ username = "dokosumiyoshi"
 password = 'mzkPnd13'
 
 options = Options()
-# options.add_argument('--headless')
+options.add_argument('--headless')
 driver = webdriver.Chrome(executable_path="C:\Program Files\chromedriver_win32\chromedriver.exe", options=options)
 driver.get("https://twitter.com/")
 
