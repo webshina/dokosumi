@@ -25,3 +25,22 @@ for(let i = 0; i < elems.length; i++){
         }
     }, false);
 };
+
+window.onload = function() {
+    // URLとパラメータを分ける
+    var href = location.href;
+    var param = location.search;
+    var url = href.replace(param, '');
+
+    // パラメータをエンコード
+    param = encodeURIComponent(param);
+
+    // 各SNSのシェアURLと、シェアしたいURL、パラメータ、ハッシュタグを結合
+    var twLink_t = document.getElementById('twitter-link-btn').href
+    console.log(twLink_t)
+    twLink = twLink_t + url + param + '&hashtags=DOKOSUMIYOSHI,どこ住吉'
+
+    // シェアボタンのリンクを置き換える
+    // Twitter
+    $('#twitter-link-btn').attr('href', twLink);
+};
