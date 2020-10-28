@@ -24,6 +24,7 @@ urlpatterns = [
     path('', views.search_rank, name='search_rank'),
     path('top/', views.top, name='top'),
     path('search_rank/', views.search_rank, name='search_rank'),
+    path('result_rank/', views.result_rank, name='result_rank'),
     path('town_detail/<str:station_name>', views.town_detail, name='town_detail'),
     path('test/', views.test, name='test'),
 ]

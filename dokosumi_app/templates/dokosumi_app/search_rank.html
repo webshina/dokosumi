@@ -3,7 +3,7 @@
 {% block content %}
 {% load static %}
 {% load widget_tweaks %}
-<form method="post" enctype="multipart/form-data">{% csrf_token %}
+<form method="get" action="{% url 'result_rank' %}" >
         <div class="bigwrapper">
 
             {% comment %} 職場の最寄り駅入力 {% endcomment %}
@@ -152,5 +152,6 @@
     <div class="wrapper">
         <button type="submit" id="send" class="btn btn-danger mb-5" style="width:140; background-color:#FF5619">検索</button>
     </div>
+
 </form>
 {% endblock %}

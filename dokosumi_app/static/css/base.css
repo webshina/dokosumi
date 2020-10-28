@@ -1,3 +1,9 @@
+@charset "UTF-8";
+@font-face {
+  font-family: '07LogoTypeGothic7';
+  src: url("../fonts/ロゴたいぷゴシック.otf");
+}
+
 body {
   font-family: 'M PLUS Rounded 1c', sans-serif;
   font-size: 12px;
@@ -29,21 +35,40 @@ body {
 }
 
 .titleWrapper {
+  width: 100%;
+  height: 110px;
+  margin: 0 0 10 0;
   padding: 10px;
   color: #FFFFFF;
-  background-color: #FF5619;
+  background-image: url(../img/title.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .title_header {
+  margin-left: 10px;
+  margin-bottom: 0px;
   color: #FFFFFF;
-  text-align: center;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: "07LogoTypeGothic7";
   font-size: 30px;
-  font-weight: Thin;
+  text-align: center;
 }
 
 .subtitle {
+  margin-left: 15px;
+  color: #FFFFFF;
+  font-family: "UD デジタル 教科書体 NK-R","UD Digi Kyokasho NK-R";
+  font-weight: 100;
   text-align: center;
+}
+
+.svg-bg {
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
 .textInput {
