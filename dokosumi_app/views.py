@@ -61,7 +61,7 @@ def result_rank(request):
     score_df = pd.read_table(dirname + '/data/score_by_station.tsv')
     
     #駅名を取得
-    station_name = params['station_name'][0]
+    station_name = params.get('station_name',[''])[0]
     print('station_name:' + station_name)
 
     # 職場の最寄り駅からの距離を計算
@@ -135,7 +135,7 @@ def result_rank(request):
     # ユーザーの価値観ポイント取得
     value = ResultRank(\
         rank=0, \
-        station_name=params["station_name"][0], \
+        station_name=params.get("station_name",[""])[0], \
         lat=0.0, \
         lon=0.0, \
         dist_to_office=round(float(params["dist_to_office"][0])), \
