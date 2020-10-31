@@ -34,6 +34,8 @@ window.onload = function() {
 
     // パラメータをエンコード
     param = encodeURIComponent(param);
+    // 「?」はエンコードしない
+    param = param.replace('%3F','?');
 
     // 各SNSのシェアURLと、シェアしたいURL、パラメータ、ハッシュタグを結合
     var twLink_t = document.getElementById('twitter-link-btn').href
@@ -41,6 +43,5 @@ window.onload = function() {
     twLink = twLink_t + url + param + '&hashtags=DOKOSUMIYOSHI,どこ住吉'
 
     // シェアボタンのリンクを置き換える
-    // Twitter
     $('#twitter-link-btn').attr('href', twLink);
 };

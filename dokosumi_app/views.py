@@ -43,13 +43,16 @@ def search_rank(request):
 # 住みよい街ランキング表示
 def result_rank(request):
 
+    queryString = urllib.parse.unquote(request.META['QUERY_STRING'])
+    params = urllib.parse.parse_qs(queryString)
+
     # ランキングを作る元keywordを取得
     keywords = ['dist_to_office', 'access', 'landPrice', 'park', 'flood', 'security']
 
     # ユーザーの価値観ポイント取得
     values = []
     for i in range(len(keywords)):
-        values.append(request.GET.get(keywords[i], False))
+        values.append(params[keywords[i]][0])
     value_np = np.array(values, dtype=float)
     print(value_np)
 
@@ -58,7 +61,7 @@ def result_rank(request):
     score_df = pd.read_table(dirname + '/data/score_by_station.tsv')
     
     #駅名を取得
-    station_name = request.GET.get('station_name', '')
+    station_name = params['station_name'][0]
     print('station_name:' + station_name)
 
     # 職場の最寄り駅からの距離を計算
@@ -132,15 +135,15 @@ def result_rank(request):
     # ユーザーの価値観ポイント取得
     value = ResultRank(\
         rank=0, \
-        station_name=request.GET.get("station_name"), \
+        station_name=params["station_name"][0], \
         lat=0.0, \
         lon=0.0, \
-        dist_to_office=round(float(request.GET.get("dist_to_office", False))), \
-        access=round(float(request.GET.get("access", False))), \
-        landPrice=round(float(request.GET.get("landPrice", False))), \
-        park=round(float(request.GET.get("park", False))), \
-        flood=round(float(request.GET.get("flood", False))), \
-        security=round(float(request.GET.get("security", False))), \
+        dist_to_office=round(float(params["dist_to_office"][0])), \
+        access=round(float(params["access"][0])), \
+        landPrice=round(float(params["landPrice"][0])), \
+        park=round(float(params["park"][0])), \
+        flood=round(float(params["flood"][0])), \
+        security=round(float(params["security"][0])), \
         score=0.0, \
     )
     
