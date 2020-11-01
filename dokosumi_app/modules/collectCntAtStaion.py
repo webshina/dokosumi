@@ -17,7 +17,7 @@ keyword = sys.argv[1]
 radius = sys.argv[2]
 
 # 駅名のTSVリストを取得
-tsv_file = '..\..\data\station_list_mesh_minamikanto_test.tsv'
+tsv_file = '..\..\data\station_list_mesh_minamikanto.tsv'
 df = pd.read_table(tsv_file)
 
 #DataFrameに列を追加
