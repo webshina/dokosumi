@@ -11,9 +11,11 @@ from stdimage.models import StdImageField
 class ResultRank(models.Model):
     rank =  models.IntegerField(default=None)
     station_name = models.CharField(max_length=999, default=None)
+    partners_station_name = models.CharField(max_length=999, default=None)
     lat = models.FloatField(default=0.0)
     lon = models.FloatField(default=0.0)
     dist_to_office = models.FloatField(default=None)
+    dist_to_partners_office = models.FloatField(default=None)
     access = models.FloatField(default=None)
     landPrice = models.FloatField(default=None)
     park = models.FloatField(default=None)

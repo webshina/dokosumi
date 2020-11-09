@@ -126,4 +126,27 @@ body {
 #map {
   height: 250px;
 }
+
+.hidden-target {
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+  opacity: 0;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+}
+
+.hidden-target.is-shown {
+  height: auto;
+  padding: auto;
+  overflow: visible;
+  opacity: 100;
+}
+
+.hidden-button.is-hidden {
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+  opacity: 0;
+}
 /*# sourceMappingURL=base.css.map */

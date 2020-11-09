@@ -12,65 +12,19 @@
 
         <div style="margin:10 0">
         
-            {% comment %} スコア#2 {% endcomment %}
-            <div style="margin:0 10">
-                <div style="text-align:left">『職場からの距離』の重要度</div>
-                <div class="progress" style="height: 12px;">
-                    <div class="progress-bar bg-info" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:{{ value.dist_to_office }}%; text-align:left; padding-left:5px;">
-                        {{ value.dist_to_office }} P
+            {% comment %} ユーザーの価値観を再帰的に表示 {% endcomment %}
+            {% for key, value in values.items %}
+                {% if value.param > 0.0 %}
+                    <div style="margin:0 10">
+                        <div style="text-align:left">『{{ value.description }}』の重要度</div>
+                        <div class="progress" style="height: 12px;">
+                            <div class="progress-bar bg-info" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:{{ value.param }}%; text-align:left; padding-left:5px;">
+                                {{ value.param }} P
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-
-            {% comment %} スコア#2 {% endcomment %}
-            <div style="margin:0 10">
-                <div style="text-align:left">『交通利便性』の重要度</div>
-                <div class="progress" style="height: 12px;">
-                    <div class="progress-bar bg-info" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:{{ value.access }}%; text-align:left; padding-left:5px;">
-                        {{ value.access }} P
-                    </div>
-                </div>
-            </div>
-
-            {% comment %} スコア#3 {% endcomment %}
-            <div style="margin:0 10">
-                <div style="text-align:left">『家賃の安さ』の重要度</div>
-                <div class="progress" style="height: 12px;">
-                    <div class="progress-bar bg-info" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:{{ value.landPrice }}%; text-align:left; padding-left:5px;">
-                        {{ value.landPrice }} P
-                    </div>
-                </div>
-            </div>
-
-            {% comment %} スコア#4 {% endcomment %}
-            <div style="margin:0 10">
-                <div style="text-align:left">『治安の良さ』の重要度</div>
-                <div class="progress" style="height: 12px;">
-                    <div class="progress-bar bg-info" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:{{ value.security }}%; text-align:left; padding-left:5px;">
-                        {{ value.security }} P
-                    </div>
-                </div>
-            </div>
-
-            {% comment %} スコア#4 {% endcomment %}
-            <div style="margin:0 10">
-                <div style="text-align:left">『公園の多さ』の重要度</div>
-                <div class="progress" style="height: 12px;">
-                    <div class="progress-bar bg-info" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:{{ value.park }}%; text-align:left; padding-left:5px;">
-                        {{ value.park }} P
-                    </div>
-                </div>
-            </div>
-
-            {% comment %} スコア#5 {% endcomment %}
-            <div style="margin:0 10">
-                <div style="text-align:left">『浸水危険度の低さ』の重要度</div>
-                <div class="progress" style="height: 12px;">
-                    <div class="progress-bar bg-info" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:{{ value.flood }}%; text-align:left; padding-left:5px;">
-                        {{ value.flood }} P
-                    </div>
-                </div>
-            </div>
+                {% endif %} 
+            {% endfor %}
 
         </div>
 
@@ -80,7 +34,7 @@
     <div class="middleWrapper">
         <div class="twitter-link btn">
             
-            <a href="https://twitter.com/intent/tweet?text=『わたしの住みよい街ランキング』%0a1位 {{ resultRanks.0.station_name }}%0a2位 {{ resultRanks.1.station_name }}%0a3位 {{ resultRanks.2.station_name }}%0a&url=" 
+            <a href="https://twitter.com/intent/tweet?text=『わたしの住みよい街ランキング』%0a1位 {{ resultRanks.0.station_name.param }}%0a2位 {{ resultRanks.1.station_name.param }}%0a3位 {{ resultRanks.2.station_name.param }}%0a&url=" 
                 onClick="window.open(encodeURI(decodeURI(this.href)), 'tweetwindow', 'width=650, height=470, personalbar=0, toolbar=0, scrollbars=1, sizable=1'); return false;" 
                 rel="nofollow" 
                 id="twitter-link-btn"
@@ -94,98 +48,42 @@
 
     {% comment %} 駅ごとのスコアを一覧化 {% endcomment %}
     {% for resultRank in resultRanks %}
-            <div class="title-box3">
-                <div class="title-box3-title">
-                    <a class="btn" href="{% url 'town_detail' resultRank.station_name %}" style="width:300; padding:1px; color:#fff;">
-                        {{ resultRank.rank }}位 {{ resultRank.station_name }}
-                    </a>
+        <div class="title-box3">
+            <div class="title-box3-title">
+                <a class="btn" href="{% url 'town_detail' resultRank.station_name.param %}" style="width:300; padding:1px; color:#fff;">
+                    {{ resultRank.rank.param }}位 {{ resultRank.station_name.param }}
+                </a>
+            </div>
+
+            <div style="margin:10 0">
+                
+                {% comment %} Google Map {% endcomment %}
+                <div style="margin:5 10">
+                    {% comment %} <div id="map"></div> {% endcomment %}
+                    <iframe src="https://maps.google.co.jp/maps?output=embed&ll={{ resultRank.lat.param }},{{ resultRank.lon.param }}&z=13" style='height:250; width:100%; border:none;'></iframe>
+                    <div style="display:none;">
+                        <div id="lat">{{ resultRank.lat.param }}</div>
+                        <div id="lon">{{ resultRank.lon.param }}</div>
+                    </div>
                 </div>
-
-                <div style="margin:10 0">
-                    
-                    {% comment %} Google Map {% endcomment %}
+                
+                {% comment %} 街ごとのスコアを表示 {% endcomment %}
+                {% for key, value in resultRank.values.items %}
                     <div style="margin:5 10">
-                        {% comment %} <div id="map"></div> {% endcomment %}
-                        <iframe src="https://maps.google.co.jp/maps?output=embed&ll={{ resultRank.lat }},{{ resultRank.lon }}&z=13" style='height:250; width:100%; border:none;'></iframe>
-                        <div style="display:none;">
-                            <div id="lat">{{ resultRank.lat }}</div>
-                            <div id="lon">{{ resultRank.lon }}</div>
-                        </div>
-                    </div>
-                    
-                    {% comment %} スコア#1 {% endcomment %}
-                    <div style="margin:5 10">
-                        <div style="text-align:left">総合スコア</div>
+                        <div style="text-align:left">{{ value.description }}</div>
                         <div class="progress" style="height: 12px;">
-                            <div class="progress-bar bg-info" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:{{ resultRank.score }}%; text-align:left; padding-left:5px;">
-                                {{ resultRank.score }} P
+                            <div class="progress-bar bg-info" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:{{ value.param }}%; text-align:left; padding-left:5px;">
+                                {{ value.param }} P
                             </div>
                         </div>
                     </div>
-
-                    {% comment %} スコア#2 {% endcomment %}
-                    <div style="margin:0 10">
-                        <div style="text-align:left">職場からの距離</div>
-                        <div class="progress" style="height: 12px;">
-                            <div class="progress-bar bg-info" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:{{ resultRank.dist_to_office }}%; text-align:left; padding-left:5px;">
-                                {{ resultRank.dist_to_office }} P
-                            </div>
-                        </div>
-                    </div>
-
-                    {% comment %} スコア#2 {% endcomment %}
-                    <div style="margin:0 10">
-                        <div style="text-align:left">交通利便性</div>
-                        <div class="progress" style="height: 12px;">
-                            <div class="progress-bar bg-info" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:{{ resultRank.access }}%; text-align:left; padding-left:5px;">
-                                {{ resultRank.access }} P
-                            </div>
-                        </div>
-                    </div>
-
-                    {% comment %} スコア#3 {% endcomment %}
-                    <div style="margin:0 10">
-                        <div style="text-align:left">家賃の安さ</div>
-                        <div class="progress" style="height: 12px;">
-                            <div class="progress-bar bg-info" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:{{ resultRank.landPrice }}%; text-align:left; padding-left:5px;">
-                                {{ resultRank.landPrice }} P
-                            </div>
-                        </div>
-                    </div>
-
-                    {% comment %} スコア#4 {% endcomment %}
-                    <div style="margin:0 10">
-                        <div style="text-align:left">治安の良さ</div>
-                        <div class="progress" style="height: 12px;">
-                            <div class="progress-bar bg-info" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:{{ resultRank.security }}%; text-align:left; padding-left:5px;">
-                                {{ resultRank.security }} P
-                            </div>
-                        </div>
-                    </div>
-
-                    {% comment %} スコア#4 {% endcomment %}
-                    <div style="margin:0 10">
-                        <div style="text-align:left">公園の多さ</div>
-                        <div class="progress" style="height: 12px;">
-                            <div class="progress-bar bg-info" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:{{ resultRank.park }}%; text-align:left; padding-left:5px;">
-                                {{ resultRank.park }} P
-                            </div>
-                        </div>
-                    </div>
-
-                    {% comment %} スコア#5 {% endcomment %}
-                    <div style="margin:0 10">
-                        <div style="text-align:left">浸水危険度の低さ</div>
-                        <div class="progress" style="height: 12px;">
-                            <div class="progress-bar bg-info" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:{{ resultRank.flood }}%; text-align:left; padding-left:5px;">
-                                {{ resultRank.flood }} P
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
+                {% endfor %}
 
             </div>
+        </div>
     {% endfor %}
+
+{% comment %} JavaScript {% endcomment %}
+<script src="{% static 'js/result_rank.js' %}"></script>
 
 {% endblock %}

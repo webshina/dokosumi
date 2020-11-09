@@ -80,73 +80,109 @@
                 </div>
             </div>
 
-            {% comment %} 価値観入力 {% endcomment %}
+            {% comment %} その他(オプション指定の価値観)     {% endcomment %}
             <div class="bigwrapper">
-                <div class="box">
-                    <span class="box-title">治安の良さ</span>
-                    <div class="wrapper">
-                        <div  class="valueRange">
-                            <div class="row">
-                                <div class="col-6" style="margin-left:20px">
-                                    <input type="range" class="range" name="security" min="0" max="100" value="0">
+                <button type="button" class="hidden-button twitter-link btn" style="padding:5 30 5 30">その他</button>
+            </div>
+
+            <div class="hidden-target">
+
+                {% comment %} 職場の最寄り駅入力 {% endcomment %}
+                <div class="bigwrapper">
+                    <div class="box">
+                        <span class="box-title">パートナーの職場の最寄駅</span>
+                        <input type="text" class="textInput" name="partners_station_name" placeholder="指定しない"> 駅
+                    </div>
+                </div>
+
+                {% comment %} 価値観入力 {% endcomment %}
+                <div class="bigwrapper">
+                    <div class="box">
+                        <span class="box-title">パートナーの職場への距離</span>
+                        <div class="wrapper">
+                            <div  class="valueRange">
+                                <div class="row">
+                                    <div class="col-6" style="margin-left:20px">
+                                        <input type="range" class="range" name="dist_to_partners_office" min="0" max="100" value="0">
+                                    </div>
+                                    <div class="col-1 d-flex align-items-center" style="margin: 0 auto;">
+                                        <span class="value">0</span>
+                                    </div>
+                                    <div class="col-3 d-flex align-items-center">
+                                        <span class="descripion">気にしない</span>
+                                    </div>
                                 </div>
-                                <div class="col-1 d-flex align-items-center" style="margin: 0 auto;">
-                                    <span class="value">0</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {% comment %} 価値観入力 {% endcomment %}
+                <div class="bigwrapper">
+                    <div class="box">
+                        <span class="box-title">治安の良さ</span>
+                        <div class="wrapper">
+                            <div  class="valueRange">
+                                <div class="row">
+                                    <div class="col-6" style="margin-left:20px">
+                                        <input type="range" class="range" name="security" min="0" max="100" value="0">
+                                    </div>
+                                    <div class="col-1 d-flex align-items-center" style="margin: 0 auto;">
+                                        <span class="value">0</span>
+                                    </div>
+                                    <div class="col-3 d-flex align-items-center">
+                                        <span class="descripion">気にしない</span>
+                                    </div>
                                 </div>
-                                <div class="col-3 d-flex align-items-center">
-                                    <span class="descripion">気にしない</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {% comment %} 価値観入力 {% endcomment %}
+                <div class="bigwrapper">
+                    <div class="box">
+                        <span class="box-title">公園の多さ</span>
+                        <div class="wrapper">
+                            <div  class="valueRange">
+                                <div class="row">
+                                    <div class="col-6" style="margin-left:20px">
+                                        <input type="range" class="range" name="park" min="0" max="100" value="0">
+                                    </div>
+                                    <div class="col-1 d-flex align-items-center" style="margin: 0 auto;">
+                                        <span class="value">0</span>
+                                    </div>
+                                    <div class="col-3 d-flex align-items-center">
+                                        <span class="descripion">気にしない</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {% comment %} 価値観入力 {% endcomment %}
+                <div class="bigwrapper">
+                    <div class="box">
+                        <span class="box-title">浸水危険度の低さ</span>
+                        <div class="wrapper">
+                            <div  class="valueRange">
+                                <div class="row">
+                                    <div class="col-6" style="margin-left:20px">
+                                        <input type="range" class="range" name="flood" min="0" max="100" value="0">
+                                    </div>
+                                    <div class="col-1 d-flex align-items-center" style="margin: 0 auto;">
+                                        <span class="value">0</span>
+                                    </div>
+                                    <div class="col-3 d-flex align-items-center">
+                                        <span class="descripion">気にしない</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-            {% comment %} 価値観入力 {% endcomment %}
-            <div class="bigwrapper">
-                <div class="box">
-                    <span class="box-title">公園の多さ</span>
-                    <div class="wrapper">
-                        <div  class="valueRange">
-                            <div class="row">
-                                <div class="col-6" style="margin-left:20px">
-                                    <input type="range" class="range" name="park" min="0" max="100" value="0">
-                                </div>
-                                <div class="col-1 d-flex align-items-center" style="margin: 0 auto;">
-                                    <span class="value">0</span>
-                                </div>
-                                <div class="col-3 d-flex align-items-center">
-                                    <span class="descripion">気にしない</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            {% comment %} 価値観入力 {% endcomment %}
-            <div class="bigwrapper">
-                <div class="box">
-                    <span class="box-title">浸水危険度の低さ</span>
-                    <div class="wrapper">
-                        <div  class="valueRange">
-                            <div class="row">
-                                <div class="col-6" style="margin-left:20px">
-                                    <input type="range" class="range" name="flood" min="0" max="100" value="0">
-                                </div>
-                                <div class="col-1 d-flex align-items-center" style="margin: 0 auto;">
-                                    <span class="value">0</span>
-                                </div>
-                                <div class="col-3 d-flex align-items-center">
-                                    <span class="descripion">気にしない</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
         </div>
     
     <div class="wrapper">
@@ -154,4 +190,8 @@
     </div>
 
 </form>
+
+{% comment %} JavaScript {% endcomment %}
+<script src="{% static 'js/search_rank.js' %}"></script>
+
 {% endblock %}
