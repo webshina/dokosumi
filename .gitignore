@@ -6,4 +6,4 @@ myvenv
 db.sqlite3
 .DS_Store
 /data
-/dokosumi_app/configs/
+/dokosumi_app/configs/keys.py
