@@ -28,6 +28,7 @@ from .sitemaps import (
 
 sitemaps = {
     'static': StaticViewSitemap,
+    'dokosumi_app': StaticViewSitemap,
 }
 
 urlpatterns = [
