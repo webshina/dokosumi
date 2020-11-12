@@ -52,6 +52,7 @@
             <div class="title-box3-title">
                 <a class="btn" href="{% url 'town_detail' resultRank.station_name.param %}" style="width:300; padding:1px; color:#fff;">
                     {{ resultRank.rank.param }}位 {{ resultRank.station_name.param }}
+                    <img src="{% static 'icon/next.png' %}" alt="詳細" width="15" height="12" style="margin:0 0 5 5; vertical-align:middle;">
                 </a>
             </div>
 

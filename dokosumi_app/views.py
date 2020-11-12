@@ -74,7 +74,7 @@ def result_rank(request):
         return render(request, 'dokosumi_app/error.html', context)
 
     # ランキングを作る元keywordを取得
-    keywords = ['dist_to_office', 'dist_to_partners_office', 'access', 'landPrice', 'park', 'flood', 'security']
+    keywords = ['dist_to_office', 'dist_to_partners_office', 'access', 'landPrice', 'park', 'flood', 'security', 'supermarket']
 
     # ユーザーの価値観ポイント取得
     values = []
@@ -120,6 +120,7 @@ def result_rank(request):
         "park":{"description":"公園の多さ", "param":round(float(params["park"][0]))}, \
         "flood":{"description":"浸水危険度の低さ", "param":round(float(params["flood"][0]))}, \
         "security":{"description":"治安の良さ", "param":round(float(params["security"][0]))}, \
+        "supermarket":{"description":"買い物のしやすさ", "param":round(float(params["supermarket"][0]))}, \
     }
 
     # 各街のステータスリストを作成
@@ -137,6 +138,7 @@ def result_rank(request):
                 "park":{"description":"公園の多さ", "param":round(float(row_s.park))}, \
                 "flood":{"description":"浸水危険度の低さ", "param":round(float(row_s.flood))}, \
                 "security":{"description":"治安の良さ", "param":round(float(row_s.security))}, \
+                "supermarket":{"description":"買い物のしやすさ", "param":round(float(row_s.supermarket))}, \
         } 
 
         # ユーザーの価値観が0以上のパラメータのみ採用

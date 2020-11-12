@@ -4,6 +4,19 @@ from django.shortcuts import resolve_url
 import pandas as pd
 import os
 
+class TopPageSitemap(Sitemap):
+    """
+    静的ページのサイトマップ
+    """
+    changefreq = "daily"
+    priority = 1.0
+
+    def items(self):
+        return ['search_rank']
+
+    def location(self, item):
+        return reverse('search_rank')
+
 class StaticViewSitemap(Sitemap):
     """
     静的ページのサイトマップ

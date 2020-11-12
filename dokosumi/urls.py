@@ -24,11 +24,12 @@ import social_django.urls
 from django.contrib.sitemaps.views import sitemap
 from .sitemaps import (
     StaticViewSitemap,
+    TopPageSitemap,
 )
 
 sitemaps = {
     'static': StaticViewSitemap,
-    'dokosumi_app': StaticViewSitemap,
+    'toppage': TopPageSitemap,
 }
 
 urlpatterns = [
