@@ -15,30 +15,38 @@ import os
 import re
 import pandas as pd
 import urllib.parse
+import sys
+
+#対象範囲を取得
+start = int(sys.argv[1])
+end = int(sys.argv[2])
 
 # 駅名のTSVファイルを取得
 dirname = os.path.dirname(__file__)
-tsv_file = dirname + '/../data/score_by_station.tsv'
-station_name_df = pd.read_table(tsv_file)
+tsv_file = dirname + '/../data/score_by_station_test.tsv'
+score_by_station_df = pd.read_table(tsv_file)
 
 #DataFrameに列を追加
-station_name_df = pd.DataFrame(station_name_df['station_name'])
+station_name_df_all = pd.DataFrame(score_by_station_df['station_name'])
+#選択範囲のみ取得
+station_name_df = pd.DataFrame(station_name_df_all[start:end])
+
 print(station_name_df)
 
 #各駅から各駅への時間を再帰的に取得
 for station_name_1 in station_name_df['station_name']:
 
     #駅Aから各駅までの所要時間を格納するDataFrameを取得
-    TimeToArriveByStation_df = station_name_df
+    timeToArriveByStation_df = station_name_df
 
     #駅Aから各駅までの所要時間を取得
-    for station_name_2 in station_name_df['station_name']:
+    for station_name_2 in station_name_df_all['station_name']:
         print(station_name_1 + ' to ' + station_name_2)
 
         #駅名が同じだった場合はスキップ
         if station_name_1 == station_name_2:
             #駅Aの駅Bまでの所要時間を更新
-            TimeToArriveByStation_df[station_name_2] = 'None'
+            timeToArriveByStation_df[station_name_2] = 'None'
             continue
 
         station_name_1_encode = urllib.parse.quote(station_name_1)
@@ -72,16 +80,23 @@ for station_name_1 in station_name_df['station_name']:
             time = 'Error'
 
         #駅Aの駅Bまでの所要時間を更新
-        TimeToArriveByStation_df[station_name_2] = time
+        timeToArriveByStation_df[station_name_2] = time
     
     #駅Aから各駅までの所要時間を格納
-    TimeToStationAtoOtherStation_df = TimeToArriveByStation_df[TimeToArriveByStation_df.station_name == station_name_1]
+    timeToStationAtoOtherStation_df = timeToArriveByStation_df[timeToArriveByStation_df.station_name == station_name_1]
 
-    #CSVに出力
     #プログラムの実行ディレクトリを取得
     dirname = os.path.dirname(os.path.abspath(__file__))
-    csv_file = dirname + '/TimeToArriveByStation.csv'
+    csv_file = dirname + '/TimeToArriveByStation_' + str(start) + '_' + str(end) + '.csv'
+
+    #ファイルが存在しない場合
+    if not os.path.exists(csv_file):
+        f = open(csv_file,'w')
+        f.write('')
+        f.close()
+
+    #CSVに出力
     if os.stat(csv_file).st_size == 0:
-        TimeToStationAtoOtherStation_df.to_csv(csv_file, index=False, encoding="utf-8", mode='a', header=True)
+        timeToStationAtoOtherStation_df.to_csv(csv_file, index=False, encoding="utf-8", mode='a', header=True)
     else:
-        TimeToStationAtoOtherStation_df.to_csv(csv_file, index=False, encoding="utf-8", mode='a', header=False)
+        timeToStationAtoOtherStation_df.to_csv(csv_file, index=False, encoding="utf-8", mode='a', header=False)
