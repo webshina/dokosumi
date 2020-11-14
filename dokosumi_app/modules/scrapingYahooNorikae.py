@@ -23,7 +23,7 @@ end = int(sys.argv[2])
 
 # 駅名のTSVファイルを取得
 dirname = os.path.dirname(__file__)
-tsv_file = dirname + '/../data/score_by_station_test.tsv'
+tsv_file = dirname + '/../data/score_by_station.tsv'
 score_by_station_df = pd.read_table(tsv_file)
 
 #DataFrameに列を追加
