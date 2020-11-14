@@ -211,17 +211,21 @@ def town_detail(request, station_name):
         print(town_score)
 
         # 街のステータスを作成
-        town_score = { \
-                "station_name":{"description":"駅名", "param":town_score.get('station_name','')}, \
-                "lat":{"description":"緯度", "param":float(town_score.get('lat',0))}, \
-                "lon":{"description":"経度", "param":float(town_score.get('lon',0))}, \
-                "access":{"description":"交通利便性", "param":round(float(town_score.get('access',0)))}, \
-                "landPrice":{"description":"家賃の安さ", "param":round(float(town_score.get('landPrice',0)))}, \
-                "park":{"description":"公園の多さ", "param":round(float(town_score.get('park',0)))}, \
-                "flood":{"description":"浸水危険度の低さ", "param":round(float(town_score.get('flood',0)))}, \
-                "security":{"description":"治安の良さ", "param":round(float(town_score.get('security',0)))}, \
-                "supermarket":{"description":"買い物のしやすさ", "param":round(float(town_score.get('supermarket',0)))}, \
+        town_values = { \
+            "access":{"description":"交通利便性", "param":round(float(town_score.get('access',0)))}, \
+            "landPrice":{"description":"家賃の安さ", "param":round(float(town_score.get('landPrice',0)))}, \
+            "park":{"description":"公園の多さ", "param":round(float(town_score.get('park',0)))}, \
+            "flood":{"description":"浸水危険度の低さ", "param":round(float(town_score.get('flood',0)))}, \
+            "security":{"description":"治安の良さ", "param":round(float(town_score.get('security',0)))}, \
+            "supermarket":{"description":"買い物のしやすさ", "param":round(float(town_score.get('supermarket',0)))}, \
         } 
+
+        town_score = { \
+            "station_name":{"description":"駅名", "param":town_score.get('station_name','')}, \
+            "lat":{"description":"緯度", "param":float(town_score.get('lat',0))}, \
+            "lon":{"description":"経度", "param":float(town_score.get('lon',0))}, \
+            "values":town_values
+        }
 
         context = {
             'town_score':town_score,

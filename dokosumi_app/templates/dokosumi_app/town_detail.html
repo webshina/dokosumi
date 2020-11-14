@@ -33,9 +33,6 @@
                         </div>
                     </div>
 
-                    
-
-                    
                     {% comment %} 街ごとのスコアを表示 {% endcomment %}
                     {% for key, value in town_score.values.items %}
                         <div style="margin:5 10">
@@ -51,7 +48,4 @@
                 </div>
 
             </div>
-
-<script src="{% static 'js/createMap.js' %}"></script>
-
 {% endblock %}
