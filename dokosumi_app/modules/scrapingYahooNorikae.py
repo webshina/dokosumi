@@ -18,7 +18,7 @@ import urllib.parse
 
 # 駅名のTSVファイルを取得
 dirname = os.path.dirname(__file__)
-tsv_file = dirname + '/../data/score_by_station.tsv'
+tsv_file = dirname + '/../data/score_by_station_test.tsv'
 station_name_df = pd.read_table(tsv_file)
 
 #DataFrameに列を追加
