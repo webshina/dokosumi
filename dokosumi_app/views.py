@@ -45,14 +45,18 @@ def result_rank(request):
 
     # エンコードされたGETパラメータを取得
     queryString = urllib.parse.unquote(request.META['QUERY_STRING'])
-    params = urllib.parse.parse_qs(queryString)
+    params_list_in_dict = urllib.parse.parse_qs(queryString)
+    # エンコードされたGETパラメータはリストを含む辞書型なので、単純な辞書型に変更
+    params = {}
+    for key, value in params_list_in_dict.items():
+        params[key] = value[0]
 
     # 駅名のTSVファイルを取得
     dirname = os.path.dirname(__file__)
     score_df = pd.read_table(dirname + '/data/score_by_station.tsv')
     
     #駅名を取得
-    station_name = params.get('station_name',[''])[0]
+    station_name = params.get('station_name','')
     print('station_name:' + station_name)
     # 駅名の存在チェック
     if station_name != '' and station_name not in score_df['station_name'].values:
@@ -63,7 +67,7 @@ def result_rank(request):
         return render(request, 'dokosumi_app/error.html', context)
     
     #パートナーの駅名を取得
-    partners_station_name = params.get('partners_station_name',[''])[0]
+    partners_station_name = params.get('partners_station_name','')
     print('partners_station_name:' + partners_station_name)
     # 駅名の存在チェック
     if partners_station_name != '' and partners_station_name not in score_df['station_name'].values:
@@ -73,14 +77,13 @@ def result_rank(request):
         }
         return render(request, 'dokosumi_app/error.html', context)
 
-    # ランキングを作る元keywordを取得
-    keywords = ['dist_to_office', 'dist_to_partners_office', 'access', 'landPrice', 'park', 'flood', 'security', 'supermarket']
-
-    # ユーザーの価値観ポイント取得
-    values = []
-    for i in range(len(keywords)):
-        values.append(params[keywords[i]][0])
-    value_np = np.array(values, dtype=float)
+    # ランキングを作る元keyword(ユーザーの価値観ポイント)を取得
+    params_only_numbers = params.copy()
+    for key, value in params.items():
+        if key == 'station_name' or key == 'partners_station_name':
+            del params_only_numbers[key]
+    
+    value_np = np.array(list(params_only_numbers.values()), dtype=float)
     print(value_np)
 
     # 職場からの距離を計算
@@ -93,7 +96,7 @@ def result_rank(request):
     score_df = score_df.loc[score_df['livable'] != 0.0]
 
     # Numpyに変換
-    score_np = score_df[keywords].values
+    score_np = score_df[params_only_numbers.keys()].values
     print(score_np)
 
     # 内積計算
@@ -113,32 +116,32 @@ def result_rank(request):
 
     # ユーザーの価値観ポイント取得
     user_values = {\
-        "dist_to_office":{"description":"職場からの距離", "param":round(float(params["dist_to_office"][0]))}, \
-        "dist_to_partners_office":{"description":"パートナーの職場からの距離", "param":round(float(params["dist_to_partners_office"][0]))}, \
-        "access":{"description":"交通利便性", "param":round(float(params["access"][0]))}, \
-        "landPrice":{"description":"家賃の安さ", "param":round(float(params["landPrice"][0]))}, \
-        "park":{"description":"公園の多さ", "param":round(float(params["park"][0]))}, \
-        "flood":{"description":"浸水危険度の低さ", "param":round(float(params["flood"][0]))}, \
-        "security":{"description":"治安の良さ", "param":round(float(params["security"][0]))}, \
-        "supermarket":{"description":"買い物のしやすさ", "param":round(float(params["supermarket"][0]))}, \
+        "dist_to_office":{"description":"職場からの距離", "param":round(float(params.get("dist_to_office",0)))}, \
+        "dist_to_partners_office":{"description":"パートナーの職場からの距離", "param":round(float(params.get("dist_to_partners_office",0)))}, \
+        "access":{"description":"交通利便性", "param":round(float(params.get("access",0)))}, \
+        "landPrice":{"description":"家賃の安さ", "param":round(float(params.get("landPrice",0)))}, \
+        "park":{"description":"公園の多さ", "param":round(float(params.get("park",0)))}, \
+        "flood":{"description":"浸水危険度の低さ", "param":round(float(params.get("flood",0)))}, \
+        "security":{"description":"治安の良さ", "param":round(float(params.get("security",0)))}, \
+        "supermarket":{"description":"買い物のしやすさ", "param":round(float(params.get("supermarket",0)))}, \
     }
 
     # 各街のステータスリストを作成
     resultRanks = []
     rank = 0
-    for row_s in score_df.itertuples():
+    for row_s in score_df.to_dict(orient='records'):
         rank += 1
 
         # 街のステータスを作成
         town_values_all = { \
-                "dist_to_office":{"description":"職場からの距離", "param":round(float(row_s.dist_to_office))}, \
-                "dist_to_partners_office":{"description":"パートナーの職場からの距離", "param":round(float(row_s.dist_to_partners_office))}, \
-                "access":{"description":"交通利便性", "param":round(float(row_s.access))}, \
-                "landPrice":{"description":"家賃の安さ", "param":round(float(row_s.landPrice))}, \
-                "park":{"description":"公園の多さ", "param":round(float(row_s.park))}, \
-                "flood":{"description":"浸水危険度の低さ", "param":round(float(row_s.flood))}, \
-                "security":{"description":"治安の良さ", "param":round(float(row_s.security))}, \
-                "supermarket":{"description":"買い物のしやすさ", "param":round(float(row_s.supermarket))}, \
+                "dist_to_office":{"description":"職場からの距離", "param":round(float(row_s.get('dist_to_office',0)))}, \
+                "dist_to_partners_office":{"description":"パートナーの職場からの距離", "param":round(float(row_s.get('dist_to_partners_office',0)))}, \
+                "access":{"description":"交通利便性", "param":round(float(row_s.get('access',0)))}, \
+                "landPrice":{"description":"家賃の安さ", "param":round(float(row_s.get('landPrice',0)))}, \
+                "park":{"description":"公園の多さ", "param":round(float(row_s.get('park',0)))}, \
+                "flood":{"description":"浸水危険度の低さ", "param":round(float(row_s.get('flood',0)))}, \
+                "security":{"description":"治安の良さ", "param":round(float(row_s.get('security',0)))}, \
+                "supermarket":{"description":"買い物のしやすさ", "param":round(float(row_s.get('supermarket',0)))}, \
         } 
 
         # ユーザーの価値観が0以上のパラメータのみ採用
@@ -149,10 +152,10 @@ def result_rank(request):
 
         resultRank = { \
             "rank":{"description":"順位", "param":rank}, \
-            "station_name":{"description":"駅名", "param":row_s.station_name}, \
-            "lat":{"description":"緯度", "param":row_s.lat}, \
-            "lon":{"description":"経度", "param":row_s.lon}, \
-            "score":{"description":"総合スコア", "param":round(float(row_s.score))}, \
+            "station_name":{"description":"駅名", "param":row_s.get('station_name',0)}, \
+            "lat":{"description":"緯度", "param":row_s.get('lat',0)}, \
+            "lon":{"description":"経度", "param":row_s.get('lon',0)}, \
+            "score":{"description":"総合スコア", "param":round(float(row_s.get('score',0)))}, \
             "values":town_values, \
         }
 
@@ -207,18 +210,18 @@ def town_detail(request, station_name):
         town_score = town_score.iloc[0]
         print(town_score)
 
-        town_score = ResultRank(\
-                rank=0, \
-                station_name=town_score.station_name, \
-                lat=float(town_score.lat), \
-                lon=float(town_score.lon), \
-                access=round(float(town_score.access)), \
-                landPrice=round(float(town_score.landPrice)), \
-                park=round(float(town_score.park)), \
-                flood=round(float(town_score.flood)), \
-                security=round(float(town_score.security)), \
-                score=0.0, \
-            )
+        # 街のステータスを作成
+        town_score = { \
+                "station_name":{"description":"駅名", "param":town_score.get('station_name','')}, \
+                "lat":{"description":"緯度", "param":float(town_score.get('lat',0))}, \
+                "lon":{"description":"経度", "param":float(town_score.get('lon',0))}, \
+                "access":{"description":"交通利便性", "param":round(float(town_score.get('access',0)))}, \
+                "landPrice":{"description":"家賃の安さ", "param":round(float(town_score.get('landPrice',0)))}, \
+                "park":{"description":"公園の多さ", "param":round(float(town_score.get('park',0)))}, \
+                "flood":{"description":"浸水危険度の低さ", "param":round(float(town_score.get('flood',0)))}, \
+                "security":{"description":"治安の良さ", "param":round(float(town_score.get('security',0)))}, \
+                "supermarket":{"description":"買い物のしやすさ", "param":round(float(town_score.get('supermarket',0)))}, \
+        } 
 
         context = {
             'town_score':town_score,
