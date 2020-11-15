@@ -93,7 +93,7 @@ def result_rank(request):
     score_df['dist_to_partners_office'] = calc_dist_score(partners_station_name)
 
     # 物件数が少なく、住むのに向いていないであろう街を除外
-    score_df = score_df.loc[score_df['livable'] != 0.0]
+    score_df = score_df.loc[score_df['livable'] != "0.0"]
 
     # Numpyに変換
     score_np = score_df[params_only_numbers.keys()].astype(float).values
