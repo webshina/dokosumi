@@ -38,16 +38,10 @@ body {
   width: 100%;
   height: 150px;
   margin: 0 0 10 0;
-  padding: 10px;
   color: #FFFFFF;
-  background-image: url(../img/title.png);
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 
 .title_header {
-  margin-left: 10px;
-  margin-bottom: 0px;
   color: #FFFFFF;
   font-family: "07LogoTypeGothic7";
   font-size: 30px;

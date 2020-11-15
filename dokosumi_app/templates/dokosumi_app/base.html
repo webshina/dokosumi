@@ -13,8 +13,9 @@
 
         <script data-ad-client="ca-pub-1096467934048807" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
-        <title>どこ住吉</title>
-        {% comment %} <meta name="viewport" content="width=320px, initial-scale=1.0"> {% endcomment %}
+        <title>どこ住吉|あなたの住みよい街検索エンジン</title>
+        <meta name="description" content="『職場への距離』『家賃』『交通利便性』『買い物のしやすさ』などから、あなたの住みよい街を検索します。引っ越しを考えている方、物件を探す前に、あなたにとって住みよい街を探してみませんか。"
+
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Lobster|M+PLUS+1p:wght@800|M+PLUS+Rounded+1c:wght@900|Acme|Alfa+Slab+One|Anton|Raleway:200|Righteous|Noto+Sans+JP|Baloo+Thambi+2|Raleway:300|Noto+Serif+JP:wght@900&display=swap" rel="stylesheet">
@@ -56,8 +57,9 @@
 
             {% comment %} タイトル {% endcomment %}
             <a href="{% url 'search_rank' %}">
-                <div class="title_header">
-                </div>
+                <h1 class="title_header">
+                    <img src="{% static 'img/title.png' %}" alt="どこ住吉|あなたの住みよい街検索エンジン" style="width:100%;">
+                </h1>
             </a>
         </div>
         {% block content %}
