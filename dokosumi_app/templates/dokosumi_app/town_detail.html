@@ -18,7 +18,7 @@
     
     {% comment %} 駅ごとのスコアを一覧化 {% endcomment %}
             <div class="title-box3">
-                <div id="station_name" class="title-box3-title">
+                <div id="station_name" class="title-box3-title" style="text-decoration: none">
                     {{ town_score.station_name.param }}
                 </div>
 
@@ -48,4 +48,18 @@
                 </div>
 
             </div>
+
+            {% comment %} SUUMOのリンクを埋め込み
+            <div class="title-box3">
+                <a href="https://suumo.jp/chintai/tokyo/ek_{{ town_score.suumoEkiCode.param }}/">
+                    <div id="suumo_link" class="title-box3-title">
+                        <span style="vertical-align:middle;">SUUMOで{{ town_score.station_name.param }}の物件を探す</span>
+                        <img src="{% static 'icon/next.png' %}" alt="詳細" width="15" height="12" style="margin:0 0 0 5; vertical-align:middle;">
+                    </div>
+                </a>
+                <div>
+                    <iframe id="suumo-frame" src="https://suumo.jp/chintai/{{ town_score.pref.param }}/ek_{{ town_score.suumoEkiCode.param }}/" width="100%" height="1000" scrolling="no" frameborder="0" style="pointer-events:none;"></iframe>
+                </div>
+            </div> {% endcomment %}
+
 {% endblock %}

@@ -6,7 +6,7 @@
             
     {% comment %} ユーザーの価値観 {% endcomment %}
     <div class="title-box3">
-        <div class="title-box3-title">
+        <div class="title-box3-title" style="text-decoration: none">
             あなたの価値観
         </div>
 
@@ -51,7 +51,7 @@
         <div class="title-box3">
             <div class="title-box3-title">
                 <a class="btn" href="{% url 'town_detail' resultRank.station_name.param %}" style="width:300; padding:1px; color:#fff;">
-                    <span style="vertical-align:middle;">{{ resultRank.rank.param }}位 {{ resultRank.station_name.param }}</span>
+                    <span style="vertical-align:middle; text-decoration: underline">{{ resultRank.rank.param }}位 {{ resultRank.station_name.param }}</span>
                     <img src="{% static 'icon/next.png' %}" alt="詳細" width="15" height="12" style="margin:0 0 0 5; vertical-align:middle;">
                 </a>
             </div>

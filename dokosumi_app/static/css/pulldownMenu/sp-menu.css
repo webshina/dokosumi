@@ -1,13 +1,18 @@
 @charset "utf-8";
-
+@font-face {
+    font-family: '07LogoTypeGothic7';
+    src: url('../fonts/ロゴたいぷゴシック.otf');
+}
 
 /* -- ul#menu -------------------------------------------------------------------------------- */
+
+
 
 ul#menu {
 	list-style-type: none;
 	width: 100%;
     max-width: 400;
-	background: #FF5619;
+	background: #FA6900;
 	opacity: 0.9;
 	position: absolute;
 	left: 0px;
@@ -23,10 +28,10 @@ ul#menu li {
 ul#menu li a {
     color: azure;
     font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-size: 7.0vw;
+    font-size: 35;
 	text-decoration: none;
 	display: block;
-	padding: 10px 0;
+    padding: 10px 0;
 }
 
 ul#menu li a:hover {

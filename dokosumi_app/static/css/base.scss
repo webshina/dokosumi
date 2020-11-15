@@ -76,17 +76,6 @@ body{
 }
 
 // BOX
-    .box {
-        position: relative;
-        margin: 0 0 40 0;
-        padding: 13;
-        border-radius: 0px 10px 10px 10px;
-        background-color:  #FA6900;
-        color:#FFFFFF;
-        font-size: 13px;
-        font-weight: 700;
-        box-shadow: 5px 5px 0px 0 #CCC9BA;
-    }
     .box .box-title {
         position: absolute;
         display: inline-block;
@@ -101,6 +90,17 @@ body{
         color: #ffffff;
         border-radius: 10px 10px 0 0;
     }
+    .box {
+        position: relative;
+        margin: 0 0 40 0;
+        padding: 13;
+        border-radius: 0px 10px 10px 10px;
+        background-color:  #FA6900;
+        color:#FFFFFF;
+        font-size: 13px;
+        font-weight: 700;
+        box-shadow: 5px 5px 0px 0 #CCC9BA;
+    }
 
 // BOX_RANK
     .title-box3-title{
@@ -109,17 +109,20 @@ body{
     background-color: #FA6900;
     padding: 4px 6px;
     text-align: center;
+    text-decoration: underline;
     border-radius: 2px 2px 2px 2px;
+    font-size: 15px;
+    font-weight: 700;
     }
 
     .title-box3{
-        background-color: #E0E4CC;
-        border: 2px solid #FA6900;
-        letter-spacing: .3px;
-        margin: 10 0 20 0;
-        border-radius: 10px 10px 10px 10px;
-        box-shadow: 2px 2px 0px 0 #CCC9BA;
-      }
+    background-color: #E0E4CC;
+    border: 2px solid #FA6900;
+    letter-spacing: .3px;
+    margin: 10 0 20 0;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 2px 2px 0px 0 #CCC9BA;
+    }
 
 // MAP
     #map {

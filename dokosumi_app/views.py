@@ -53,7 +53,7 @@ def result_rank(request):
 
     # 駅名のTSVファイルを取得
     dirname = os.path.dirname(__file__)
-    score_df = pd.read_table(dirname + '/data/score_by_station.tsv')
+    score_df = pd.read_table(dirname + '/data/score_by_station.tsv', dtype=str)
     
     #駅名を取得
     station_name = params.get('station_name','')
@@ -96,7 +96,7 @@ def result_rank(request):
     score_df = score_df.loc[score_df['livable'] != 0.0]
 
     # Numpyに変換
-    score_np = score_df[params_only_numbers.keys()].values
+    score_np = score_df[params_only_numbers.keys()].astype(float).values
     print(score_np)
 
     # 内積計算
@@ -153,6 +153,8 @@ def result_rank(request):
         resultRank = { \
             "rank":{"description":"順位", "param":rank}, \
             "station_name":{"description":"駅名", "param":row_s.get('station_name',0)}, \
+            "suumoEkiCode":{"description":"SUUMO駅コード", "param":row_s.get('SUUMOEkiCode',0)}, \
+            "pref":{"description":"都道府県", "param":row_s.get('pref',0)}, \
             "lat":{"description":"緯度", "param":row_s.get('lat',0)}, \
             "lon":{"description":"経度", "param":row_s.get('lon',0)}, \
             "score":{"description":"総合スコア", "param":round(float(row_s.get('score',0)))}, \
@@ -188,6 +190,7 @@ def calc_dist_score(station_name):
         # 効用関数を適用
         ## 近い方がSCOREが高くなる
         score_np = pow(score_df['dist_to_office'].values, 0.4) * -1
+        
         # 最大1最小0で正規化
         score_np = (score_np - score_np.min()).astype(float) / (score_np.max() - score_np.min()).astype(float)
 
@@ -204,7 +207,7 @@ def town_detail(request, station_name):
     else:
         # 駅名のTSVファイルを取得
         dirname = os.path.dirname(__file__)
-        score_df = pd.read_table(dirname + '/data/score_by_station.tsv')
+        score_df = pd.read_table(dirname + '/data/score_by_station.tsv', dtype=str)
 
         town_score = score_df.loc[score_df['station_name'] == station_name]
         town_score = town_score.iloc[0]
@@ -222,6 +225,8 @@ def town_detail(request, station_name):
 
         town_score = { \
             "station_name":{"description":"駅名", "param":town_score.get('station_name','')}, \
+            "suumoEkiCode":{"description":"SUUMO駅コード", "param":town_score.get('SUUMOEkiCode','')}, \
+            "pref":{"description":"都道府県", "param":town_score.get('pref',0)}, \
             "lat":{"description":"緯度", "param":float(town_score.get('lat',0))}, \
             "lon":{"description":"経度", "param":float(town_score.get('lon',0))}, \
             "values":town_values

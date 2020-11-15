@@ -16,8 +16,8 @@ score_keywords = ['landPrice', 'access', 'population', 'park', 'flood', 'securit
 
 # 駅名のTSVリストを取得
 station_tsv_file = 'D:\programs\Python\Dokosumi\data\station_list_mesh_minamikanto.tsv'
-station_df = pd.read_table(station_tsv_file)
-station_df = station_df[['station_name', 'lon', 'lat']]
+station_df = pd.read_table(station_tsv_file, dtype=str)
+station_df = station_df[['station_name', 'lon', 'lat', 'SUUMOEkiCode', 'pref']]
 print(station_df)
 
 base_df = station_df
@@ -33,8 +33,9 @@ for score_keyword in score_keywords:
     score_df = score_df[['station_name', 'SCORE']]
     print(score_df)
 
-    # 効用関数を適用
-    score_np = np.log(score_df['SCORE'].values + 1)
+    ## 効用関数を適用
+    # score_np = np.log(score_df['SCORE'].values + 1)
+    score_np = score_df['SCORE'].values
     # 最大1最小0で正規化
     score_np = (score_np - score_np.min()).astype(float) / (score_np.max() - score_np.min()).astype(float)
 

@@ -76,19 +76,6 @@ body {
   vertical-align: middle;
 }
 
-.box {
-  position: relative;
-  margin: 0 0 40 0;
-  padding: 13;
-  border-radius: 0px 10px 10px 10px;
-  background-color: #FA6900;
-  color: #FFFFFF;
-  font-size: 13px;
-  font-weight: 700;
-  -webkit-box-shadow: 5px 5px 0px 0 #CCC9BA;
-          box-shadow: 5px 5px 0px 0 #CCC9BA;
-}
-
 .box .box-title {
   position: absolute;
   display: inline-block;
@@ -103,13 +90,29 @@ body {
   border-radius: 10px 10px 0 0;
 }
 
+.box {
+  position: relative;
+  margin: 0 0 40 0;
+  padding: 13;
+  border-radius: 0px 10px 10px 10px;
+  background-color: #FA6900;
+  color: #FFFFFF;
+  font-size: 13px;
+  font-weight: 700;
+  -webkit-box-shadow: 5px 5px 0px 0 #CCC9BA;
+          box-shadow: 5px 5px 0px 0 #CCC9BA;
+}
+
 .title-box3-title {
   color: #fff;
   font-weight: 700;
   background-color: #FA6900;
   padding: 4px 6px;
   text-align: center;
+  text-decoration: underline;
   border-radius: 2px 2px 2px 2px;
+  font-size: 15px;
+  font-weight: 700;
 }
 
 .title-box3 {
