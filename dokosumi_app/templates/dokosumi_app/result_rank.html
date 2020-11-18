@@ -10,7 +10,7 @@
             あなたの価値観
         </div>
 
-        <div style="margin:10 0">
+        <div style="padding:10 5">
         
             {% comment %} ユーザーの価値観を再帰的に表示 {% endcomment %}
             {% for key, value in values.items %}
@@ -39,6 +39,7 @@
                 rel="nofollow" 
                 id="twitter-link-btn"
                 class="twitter-link btn btn-info"
+                style="box-shadow: 5px 5px 0px 0 #CCC9BA;"
                 >
                 <img src="{% static 'img/Twitter_Logo_WhiteOnImage.png' %}" alt="Twitterロゴ" width="18" height="16" style="margin:2px; vertical-align:middle;">
                 <span style="margin:2px; vertical-align:middle;">あなたの住みよい街ランキング</span>
@@ -56,7 +57,7 @@
                 </a>
             </div>
 
-            <div style="margin:10 0">
+            <div style="padding:10 5">
                 
                 {% comment %} Google Map {% endcomment %}
                 <div style="margin:5 10">
@@ -67,13 +68,37 @@
                         <div id="lon">{{ resultRank.lon.param }}</div>
                     </div>
                 </div>
+
+                {% comment %} キャッシュバック賃貸のリンクを埋め込み {% endcomment %}
+                <div style="margin:10">
+                    <div class="suumo_btn" >
+                        <a href="" value="{{ town_score.station_name.param }}" rel="nofollow" id="commerce-btn" style="color:#FFFFFF; vertical-align:middle;">                                
+                            <span class="text">
+                                {{ resultRank.station_name.param }}の物件を探す
+                                <img src="{% static 'icon/next.png' %}" alt="詳細" width="15" height="12" style="margin:0 7px 0 0; vertical-align:middle;">
+                            </span>
+                            <img src="{% static 'img/2814358.png' %}" height="25" >
+                        </a>
+                    </div>
+                </div>
+
+                {% comment %} SUUMOで検索
+                <div style="margin:5 10">
+                    <div class="suumo_btn" >
+                        <a href="https://suumo.jp/chintai/{{ resultRank.pref.param }}/ek_{{ resultRank.suumoEkiCode.param }}/">
+                            <img src="http://suumo.jp/edit/rewrite/help/img/logo_suumo_s.gif" alt="リクルートの不動産・住宅サイト SUUMO(スーモ)" height="25" >
+                            <span style="vertical-align:middle; color:#FFFFFF;">{{ resultRank.station_name.param }}の物件を探す</span>
+                        </a>
+                    </div>
+                </div> {% endcomment %}
+
                 
                 {% comment %} 街ごとのスコアを表示 {% endcomment %}
                 {% for key, value in resultRank.values.items %}
-                    <div style="margin:5 10">
+                    <div style="margin:10">
                         <div style="text-align:left">{{ value.description }}</div>
                         <div class="progress" style="height: 12px;">
-                            <div class="progress-bar bg-info" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:{{ value.param }}%; text-align:left; padding-left:5px;">
+                            <div class="progress-bar bg-info" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:{{ value.param }}%; text-align:left;">
                                 {{ value.param }} P
                             </div>
                         </div>

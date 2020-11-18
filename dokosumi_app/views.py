@@ -118,7 +118,7 @@ def result_rank(request):
     user_values = {\
         "dist_to_office":{"description":"職場からの距離", "param":round(float(params.get("dist_to_office",0)))}, \
         "dist_to_partners_office":{"description":"パートナーの職場からの距離", "param":round(float(params.get("dist_to_partners_office",0)))}, \
-        "access":{"description":"交通利便性", "param":round(float(params.get("access",0)))}, \
+        "access":{"description":"アクセスの良さ", "param":round(float(params.get("access",0)))}, \
         "landPrice":{"description":"家賃の安さ", "param":round(float(params.get("landPrice",0)))}, \
         "park":{"description":"公園の多さ", "param":round(float(params.get("park",0)))}, \
         "flood":{"description":"浸水危険度の低さ", "param":round(float(params.get("flood",0)))}, \
@@ -136,7 +136,7 @@ def result_rank(request):
         town_values_all = { \
                 "dist_to_office":{"description":"職場からの距離", "param":round(float(row_s.get('dist_to_office',0)))}, \
                 "dist_to_partners_office":{"description":"パートナーの職場からの距離", "param":round(float(row_s.get('dist_to_partners_office',0)))}, \
-                "access":{"description":"交通利便性", "param":round(float(row_s.get('access',0)))}, \
+                "access":{"description":"アクセスの良さ", "param":round(float(row_s.get('access',0)))}, \
                 "landPrice":{"description":"家賃の安さ", "param":round(float(row_s.get('landPrice',0)))}, \
                 "park":{"description":"公園の多さ", "param":round(float(row_s.get('park',0)))}, \
                 "flood":{"description":"浸水危険度の低さ", "param":round(float(row_s.get('flood',0)))}, \
@@ -215,7 +215,7 @@ def town_detail(request, station_name):
 
         # 街のステータスを作成
         town_values = { \
-            "access":{"description":"交通利便性", "param":round(float(town_score.get('access',0)))}, \
+            "access":{"description":"アクセスの良さ", "param":round(float(town_score.get('access',0)))}, \
             "landPrice":{"description":"家賃の安さ", "param":round(float(town_score.get('landPrice',0)))}, \
             "park":{"description":"公園の多さ", "param":round(float(town_score.get('park',0)))}, \
             "flood":{"description":"浸水危険度の低さ", "param":round(float(town_score.get('flood',0)))}, \

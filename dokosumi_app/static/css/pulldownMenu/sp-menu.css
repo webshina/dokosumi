@@ -1,7 +1,7 @@
 @charset "utf-8";
 @font-face {
     font-family: '07LogoTypeGothic7';
-    src: url('../fonts/ロゴたいぷゴシック.otf');
+    src: url('../../fonts/07LogoTypeGothic7.otf');
 }
 
 /* -- ul#menu -------------------------------------------------------------------------------- */

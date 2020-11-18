@@ -1,14 +1,14 @@
 @charset "UTF-8";
 @font-face {
   font-family: '07LogoTypeGothic7';
-  src: url("../fonts/ロゴたいぷゴシック.otf");
+  src: url("../fonts/07LogoTypeGothic7.otf");
 }
 
 body {
   font-family: 'M PLUS Rounded 1c', sans-serif;
   font-size: 12px;
   color: #333333;
-  background-image: url("../img/city_background_image.png");
+  background-color: #eaf0f1;
   background-size: 85% auto;
   background-repeat: repeat;
   width: 100%;
@@ -81,7 +81,8 @@ body {
   display: inline-block;
   top: -26px;
   left: -5px;
-  padding: 0 9px;
+  margin: 0 0 0 5;
+  padding: 0 20 0 15;
   height: 30px;
   font-size: 15px;
   font-weight: 700;
@@ -92,7 +93,7 @@ body {
 
 .box {
   position: relative;
-  margin: 0 0 40 0;
+  margin: 55 15;
   padding: 13;
   border-radius: 0px 10px 10px 10px;
   background-color: #FA6900;
@@ -107,26 +108,87 @@ body {
   color: #fff;
   font-weight: 700;
   background-color: #FA6900;
-  padding: 4px 6px;
+  padding: 5;
   text-align: center;
   text-decoration: underline;
-  border-radius: 2px 2px 2px 2px;
+  border-radius: 10px 10px 0px 0px;
   font-size: 15px;
   font-weight: 700;
 }
 
 .title-box3 {
   background-color: #E0E4CC;
-  border: 2px solid #FA6900;
   letter-spacing: .3px;
-  margin: 10 0 20 0;
+  margin: 30 20;
   border-radius: 10px 10px 10px 10px;
-  -webkit-box-shadow: 2px 2px 0px 0 #CCC9BA;
-          box-shadow: 2px 2px 0px 0 #CCC9BA;
+  -webkit-box-shadow: 5px 5px 0px 0 #CCC9BA;
+          box-shadow: 5px 5px 0px 0 #CCC9BA;
 }
 
 #map {
   height: 250px;
+}
+
+.red_btn {
+  color: #fff;
+  font-family: "07LogoTypeGothic7";
+  font-weight: 700;
+  font-size: 17px;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  background-color: #ff0000;
+  border: thin solid #FFFFFF;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 2px 0px 0 #fffacd;
+          box-shadow: 2px 2px 0px 0 #fffacd;
+}
+
+.suumo_btn {
+  color: #fff;
+  font-family: "07LogoTypeGothic7";
+  font-weight: 700;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+  background-color: #71bd2c;
+  border: thin solid #FFFFFF;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 0 0 #CCC9BA;
+          box-shadow: 5px 5px 0 0 #CCC9BA;
+}
+
+.text {
+  color: #FFFFFF;
+  font-family: "07LogoTypeGothic7";
+  font-weight: 700;
+  font-size: 15px;
+  text-align: center;
+}
+
+.cp_iptxt {
+  position: relative;
+  width: 80%;
+}
+
+.cp_iptxt input[type='text'] {
+  font: 15px/24px sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 160px;
+  padding: 0.3em;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  letter-spacing: 1px;
+  color: #aaaaaa;
+  border: 0px solid #333333;
+  border-radius: 4px;
+}
+
+.ef input[type='text']:focus {
+  border: 1px solid #96ebe6;
+  outline: none;
+  -webkit-box-shadow: 0 0 5px 1px rgba(218, 60, 65, 0.5);
+          box-shadow: 0 0 5px 1px rgba(218, 60, 65, 0.5);
 }
 
 .hidden-target {

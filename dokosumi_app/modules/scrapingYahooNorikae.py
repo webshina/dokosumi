@@ -31,7 +31,21 @@ station_name_df_all = pd.DataFrame(score_by_station_df['station_name'])
 #選択範囲のみ取得
 station_name_df = pd.DataFrame(station_name_df_all[start:end])
 
-print(station_name_df)
+
+#書き込み先のファイルが存在しない場合作成
+dirname = os.path.dirname(os.path.abspath(__file__))
+csv_file = dirname + '/TimeToArriveByStation_' + str(start) + '_' + str(end) + '.csv'
+
+if not os.path.exists(csv_file):
+    f = open(csv_file,'w')
+    f.write('')
+    f.close()
+elif os.stat(csv_file).st_size != 0:
+    #すでに取得済みの駅があれば検索対象から除外
+    gotten_station_df = pd.read_csv(csv_file, header=0)
+    station_name_df = station_name_df[~station_name_df['station_name'].isin(gotten_station_df['station_name'])]
+else:
+    pass
 
 #各駅から各駅への時間を再帰的に取得
 for station_name_1 in station_name_df['station_name']:
@@ -88,12 +102,6 @@ for station_name_1 in station_name_df['station_name']:
     #プログラムの実行ディレクトリを取得
     dirname = os.path.dirname(os.path.abspath(__file__))
     csv_file = dirname + '/TimeToArriveByStation_' + str(start) + '_' + str(end) + '.csv'
-
-    #ファイルが存在しない場合
-    if not os.path.exists(csv_file):
-        f = open(csv_file,'w')
-        f.write('')
-        f.close()
 
     #CSVに出力
     if os.stat(csv_file).st_size == 0:

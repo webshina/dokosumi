@@ -10,7 +10,13 @@
             <div class="bigwrapper">
                 <div class="box">
                     <span class="box-title">職場の最寄駅</span>
-                    <input type="text" class="textInput" name="station_name" placeholder="指定しない"> 駅
+                    {% comment %} <input type="text" class="textInput" name="station_name" placeholder="指定しない"> 駅 {% endcomment %}
+                    <span class="cp_iptxt">
+                        <label class="ef" style='margin:0;'>
+                        <input type="text" class="textInput" name="station_name" placeholder="指定しない">
+                        </label>
+                        <span>駅</span>
+                    </span>
                 </div>
             </div>
 
@@ -39,7 +45,7 @@
             {% comment %} 価値観入力 {% endcomment %}
             <div class="bigwrapper">
                 <div class="box">
-                    <span class="box-title">交通利便性</span>
+                    <span class="box-title">アクセスの良さ</span>
                     <div class="wrapper">
                         <div  class="valueRange">
                             <div class="row">
