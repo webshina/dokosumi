@@ -2,6 +2,7 @@
 
 {% block content %}
 {% load static %}
+{% static "" as staticUrl %}
 {% load widget_tweaks %}
 
     {% comment %} Twitterシェアボタン {% endcomment %}
@@ -25,9 +26,14 @@
 
                 <div style="padding:10 5">
                     
+                    {% comment %} 街の写真 {% endcomment %}
+                    <div style="margin:5 10">
+                        <img src="{{staticUrl}}img/town_img/{{town_score.station_name.param}}.jpg" alt="{{town_score.station_name.param}}" style="width:100%;">
+                    </div>
+                    
                     <div style="margin:5 10">
                         {% comment %} <div id="map"></div> {% endcomment %}
-                        <iframe src="https://maps.google.co.jp/maps?output=embed&ll={{ town_score.lat.param }},{{ town_score.lon.param }}&z=15" style='height:250; width:100%; border:none;'></iframe>
+                        <iframe src="https://maps.google.co.jp/maps?output=embed&ll={{ town_score.lat.param }},{{ town_score.lon.param }}&z=15" style='height:100; width:100%; border:none;'></iframe>
                         <div style="display:none;">
                             <div id="lat">{{ town_score.lat.param }}</div>
                             <div id="lon">{{ town_score.lon.param }}</div>

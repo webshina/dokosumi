@@ -48,13 +48,19 @@
         <div class="titleWrapper">
 
             {% comment %} メニューボタン {% endcomment %}
-            <div id="sp-icon" class="sp-close">
+            <nav>
+                <div id="glaylayer"></div>
+                <ul id="slidemenu">
+                    <li><a href="{% url 'search_rank' %}">TOP</a></li>
+                    <li><a href="https://twitter.com/dokosumiyoshi">twitter@どこ住吉</a></li>
+                </ul>
+            </nav>
+            <button id="hamburgerbtn">
                 <span></span>
-            </div>
-            <ul id="menu">
-                <li><a href="{% url 'search_rank' %}">TOP</a></li>
-                <li><a href="https://twitter.com/dokosumiyoshi">twitter@どこ住吉</a></li>
-            </ul>
+                <span></span>
+                <span></span>
+                <p style="display: inline-block;">menu</p>
+            </button>
 
             {% comment %} タイトル {% endcomment %}
             <a href="{% url 'search_rank' %}">
