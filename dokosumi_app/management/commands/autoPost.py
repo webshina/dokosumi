@@ -33,5 +33,7 @@ class Command(BaseCommand):
         # 画像取得
         twitter_post_img = 'dokosumi_app/static/img/town_img/' + sample.station_name + '.jpg'
 
+        # 投稿モジュールに渡す
         twitterModule = TwitterModule()
         twitterModule.officialPost(twitter_post_comment, twitter_post_img)
+    
