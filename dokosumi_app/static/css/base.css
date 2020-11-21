@@ -214,11 +214,6 @@ body {
   text-align: center;
 }
 
-.descripion {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(90%, #FA6900));
-  background: linear-gradient(transparent 70%, #FA6900 90%);
-}
-
 .cp_iptxt {
   position: relative;
   width: 80%;

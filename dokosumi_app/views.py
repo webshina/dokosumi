@@ -205,7 +205,11 @@ def result_rank(request):
 def calc_dist_score(score_df, time_df, station_name):
 
     # 職場の最寄り駅からの距離を取得
-    score_df['time'] = 0.0
+
+    # 初期設定
+    score_time_df = score_df
+    score_time_df['time'] = 0
+
     if station_name != '':
 
         # 駅を順番通りに入れ替え
