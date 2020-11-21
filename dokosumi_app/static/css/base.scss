@@ -8,7 +8,7 @@ body{
     font-family: '07LogoTypeGothic7';
     font-size: 12px;
     color: #333333;
-    background-color: #eaf0f1;
+    background-color: #ffffff;
     // background-image: url("../img/city_background_image.png");
     background-size: 85% auto;
     background-repeat: repeat;
@@ -113,6 +113,12 @@ body{
         opacity: 0.3;
     }
 
+//アイコン
+    .icon {
+        width:50px;
+        height:50px;
+        margin-right: 5;
+    }
 
 .svg-bg {
     position: absolute;
@@ -134,35 +140,20 @@ body{
     vertical-align: middle;
 }
 
-// BOX
-    .box .box-title {
-        position: absolute;
-        display: inline-block;
-        top: -26px;
-        left: -5px;
-        margin: 0 0 0 5;
-        padding: 0 20 0 15;
-        height: 30px;
-        // line-height: 25px;
-        font-size: 15px;
-        font-weight: 700;
-        background: #FA6900;
-        color: #ffffff;
-        border-radius: 10px 10px 0 0;
-    }
+// 検索用BOX
     .box {
-        position: relative;
-        margin: 45 15;
-        padding: 13;
-        border-radius: 0px 10px 10px 10px;
-        background-color:  #FA6900;
-        color:#FFFFFF;
         font-size: 13px;
-        font-weight: 700;
-        box-shadow: 5px 5px 0px 0 #CCC9BA;
+        font-weight: 500;
+    }
+    .box .box-title {
+        display:block;
+        margin: 10;
+        padding: 0 20 0 15;
+        text-align: left;
+        font-size: 15px;
     }
 
-// BOX_RANK
+// ランキング用BOX
     .title-box3-title{
     color: #fff;
     font-weight: 700;
@@ -188,18 +179,16 @@ body{
         height: 250px;
     }
 
-// 赤いボタン
-    .red_btn{
-        color: #fff;
-        font-family: "07LogoTypeGothic7";
-        font-weight: 700;
-        font-size: 17px;
-        text-align: center;
-        padding: 10px 10px 10px 10px;
-        background-color: #ff0000;
-        border: thin solid #FFFFFF;
-        border-radius: 10px;
-        box-shadow: 2px 2px 0px 0 #fffacd;
+// 検索ボタン
+    .search-btn{
+        width:140; 
+        padding:10 30; 
+        color: #FFFFFF;
+        background-color:#FA6900; 
+        font-size: 15px;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 5px 5px 0px 0 #CCC9BA;
     }
 
 // SUUMOボタン
@@ -225,6 +214,11 @@ body{
         text-align: center;
     }
 
+// アンダーライン
+    .descripion{
+        background: linear-gradient(transparent 70%, #FA6900 90%);
+    }
+
 // テキストボックス
 .cp_iptxt {
 	position: relative;
@@ -237,8 +231,8 @@ body{
 	padding: 0.3em;
 	transition: 0.3s;
 	letter-spacing: 1px;
-	color: #aaaaaa;
-	border: 0px solid #333333;
+	color: #333333;
+	border: 2px solid #727272;
 	border-radius: 4px;
 }
 .ef input[type='text']:focus {

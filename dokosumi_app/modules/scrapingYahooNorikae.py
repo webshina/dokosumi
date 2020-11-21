@@ -23,7 +23,7 @@ end = int(sys.argv[2])
 
 # 駅名のTSVファイルを取得
 dirname = os.path.dirname(__file__)
-tsv_file = dirname + '/../data/score_by_station.tsv'
+tsv_file = dirname + '../data/score_by_station.tsv'
 score_by_station_df = pd.read_table(tsv_file)
 
 #DataFrameに列を追加
@@ -76,8 +76,9 @@ for station_name_1 in station_name_df['station_name']:
 
         try:
             #駅から駅までの乗り換え情報取得
-            get_url_info = requests.get('https://transit.yahoo.co.jp/search/result?from=' + station_name_1_encode + '&to=' + station_name_2_encode + '&y=' + y + '&m=' + m + '&d=' + d + '&hh=' + hh + '&m2=' + m2 + '&m1=' + m1)
-
+            url = 'https://transit.yahoo.co.jp/search/result?from=' + station_name_1_encode + '&to=' + station_name_2_encode + '&y=' + y + '&m=' + m + '&d=' + d + '&hh=' + hh + '&m2=' + m2 + '&m1=' + m1 + '&flatlon=&fromgid=&type=1&ticket=ic&expkind=1&ws=3&s=0&al=1&shin=1&ex=1&hb=1&lb=1&sr=1&viacode=&via=&tlatlon=&togid='
+            get_url_info = requests.get(url)
+            
             #ページソースを取得
             soup = BeautifulSoup(get_url_info.text, 'lxml')
 

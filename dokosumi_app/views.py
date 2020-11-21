@@ -86,11 +86,15 @@ def result_rank(request):
     value_np = np.array(list(params_only_numbers.values()), dtype=float)
     print(value_np)
 
-    # 職場からの距離を計算
-    score_df['dist_to_office'] = calc_dist_score(station_name)
+    # 駅名のTSVファイルを取得
+    dirname = os.path.dirname(__file__)
+    time_df = pd.read_table(dirname + '/data/TimeToArriveByStation.tsv')
 
-    # パートナーの職場からの距離を計算
-    score_df['dist_to_partners_office'] = calc_dist_score(partners_station_name)
+    # 通勤時間を計算
+    score_df['dist_to_office'] = calc_dist_score(score_df, time_df, station_name)
+
+    # パートナーの通勤時間を計算
+    score_df['dist_to_partners_office'] = calc_dist_score(score_df, time_df, partners_station_name)
 
     # 物件数が少なく、住むのに向いていないであろう街を除外
     score_df = score_df.loc[score_df['livable'] != "0.0"]
@@ -116,8 +120,8 @@ def result_rank(request):
 
     # ユーザーの価値観ポイント取得
     user_values = {\
-        "dist_to_office":{"description":"職場からの距離", "param":round(float(params.get("dist_to_office",0)))}, \
-        "dist_to_partners_office":{"description":"パートナーの職場からの距離", "param":round(float(params.get("dist_to_partners_office",0)))}, \
+        "dist_to_office":{"description":"通勤時間", "param":round(float(params.get("dist_to_office",0)))}, \
+        "dist_to_partners_office":{"description":"パートナーの通勤時間", "param":round(float(params.get("dist_to_partners_office",0)))}, \
         "access":{"description":"アクセスの良さ", "param":round(float(params.get("access",0)))}, \
         "landPrice":{"description":"家賃の安さ", "param":round(float(params.get("landPrice",0)))}, \
         "park":{"description":"公園の多さ", "param":round(float(params.get("park",0)))}, \
@@ -132,10 +136,36 @@ def result_rank(request):
     for row_s in score_df.to_dict(orient='records'):
         rank += 1
 
+        #職場の最寄り駅からの時間を取得
+        if station_name != '':
+            # station_name列が対象の駅名と一致する行を取得
+            time_to_station = time_df[time_df['station_name'] == station_name]
+            # station_name列が対象の駅名と一致する行を取得
+            time_to_station = time_to_station[row_s.get('station_name',0)].astype(float).values[0]
+            hh = int(time_to_station / 60)
+            mm = int(time_to_station % 60)
+            time_to_station = '(' + str(hh) + '時間' + str(mm) + '分' + ')'
+        else:
+            time_to_station = ''
+
+        #パートナーの職場の最寄り駅からの時間を取得
+        if partners_station_name != '':
+            # station_name列が対象の駅名と一致する行を取得
+            time_to_partners_station = time_df[time_df['station_name'] == partners_station_name]
+            # station_name列が対象の駅名と一致する行を取得
+            time_to_partners_station = time_to_partners_station[row_s.get('station_name',0)].astype(float).values[0]
+            hh = int(time_to_partners_station / 60)
+            mm = int(time_to_partners_station % 60)
+            time_to_partners_station = '(' + str(hh) + '時間' + str(mm) + '分' + ')'
+        else:
+            time_to_partners_station = ''
+
+
+
         # 街のステータスを作成
         town_values_all = { \
-                "dist_to_office":{"description":"職場からの距離", "param":round(float(row_s.get('dist_to_office',0)))}, \
-                "dist_to_partners_office":{"description":"パートナーの職場からの距離", "param":round(float(row_s.get('dist_to_partners_office',0)))}, \
+                "dist_to_office":{"description":"通勤時間", "remarks":time_to_station, "param":round(float(row_s.get('dist_to_office',0)))}, \
+                "dist_to_partners_office":{"description":"パートナーの通勤時間", "remarks":time_to_partners_station, "param":round(float(row_s.get('dist_to_partners_office',0)))}, \
                 "access":{"description":"アクセスの良さ", "param":round(float(row_s.get('access',0)))}, \
                 "landPrice":{"description":"家賃の安さ", "param":round(float(row_s.get('landPrice',0)))}, \
                 "park":{"description":"公園の多さ", "param":round(float(row_s.get('park',0)))}, \
@@ -167,37 +197,29 @@ def result_rank(request):
         'values' : user_values,
         'resultRanks' : resultRanks,
     }
+
     return render(request, 'dokosumi_app/result_rank.html', context)
 
 
 # 距離の計算
-def calc_dist_score(station_name):
+def calc_dist_score(score_df, time_df, station_name):
 
-    # 駅名のTSVファイルを取得
-    dirname = os.path.dirname(__file__)
-    score_df = pd.read_table(dirname + '/data/score_by_station.tsv')
-
-    # 職場の最寄り駅からの距離を計算
-    score_df['dist_to_office'] = 0.0
+    # 職場の最寄り駅からの距離を取得
+    score_df['time'] = 0.0
     if station_name != '':
 
-        lat = score_df.loc[score_df['station_name'] == station_name, 'lat']
-        lon = score_df.loc[score_df['station_name'] == station_name, 'lon']
-        
-        # 職場の最寄り駅と各駅の距離を計算
-        score_df['dist_to_office'] = np.sqrt(pow(float(lat) - score_df['lat'], 2) + pow(float(lon) - score_df['lon'], 2))
-        
-        # 効用関数を適用
-        ## 近い方がSCOREが高くなる
-        score_np = pow(score_df['dist_to_office'].values, 0.4) * -1
+        # 駅を順番通りに入れ替え
+        score_time_df = pd.merge(score_df, time_df, on='station_name')
+        score_time_np = score_time_df[station_name].astype(float).values
         
         # 最大1最小0で正規化
-        score_np = (score_np - score_np.min()).astype(float) / (score_np.max() - score_np.min()).astype(float)
+        # 時間が短いほどスコアは高くする
+        score_time_np = 1 - (score_time_np - score_time_np.min()).astype(float) / (score_time_np.max() - score_time_np.min()).astype(float)
 
         # DataFrameに再格納
-        score_df['dist_to_office'] = score_np * 100
+        score_time_df['time'] = score_time_np * 100
 
-    return score_df['dist_to_office']
+    return score_time_df['time']
 
 
 # 街の詳細
