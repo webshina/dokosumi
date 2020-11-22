@@ -50,7 +50,7 @@
 
     {% comment %} 駅ごとのスコアを一覧化 {% endcomment %}
     {% for resultRank in resultRanks %}
-        <div class="title-box3">
+        <div class="title-box3 townScore">
             <div class="title-box3-title">
                 <a class="btn" href="{% url 'town_detail' resultRank.station_name.param %}" style="width:300; padding:1px; color:#fff;">
                     <span style="vertical-align:middle; text-decoration: underline">{{ resultRank.rank.param }}位 {{ resultRank.station_name.param }}</span>
@@ -79,7 +79,7 @@
                 <div style="margin:10">
                     <div class="suumo_btn" >
                         <div id="station_name" style="display:none">{{ resultRank.station_name.param }}</div>
-                        <a href="" value="{{ resultRank.station_name.param }}" rel="nofollow" id="commerce-btn" style="color:#FFFFFF; vertical-align:middle;">                                
+                        <a href="" name="{{ resultRank.station_name.param }}" rel="nofollow" class="commerce-btn" style="color:#FFFFFF; vertical-align:middle;">                                
                             <span class="text">
                                 {{ resultRank.station_name.param }}の物件を探す
                                 <img src="{% static 'icon/next.png' %}" alt="詳細" width="15" height="12" style="margin:0 7px 0 0; vertical-align:middle;">

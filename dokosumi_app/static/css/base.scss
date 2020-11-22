@@ -146,11 +146,25 @@ body{
         font-weight: 500;
     }
     .box .box-title {
-        display:block;
+        display:flex;
         margin: 10;
         padding: 0 20 0 15;
         text-align: left;
+    }
+    .label{
+        width: 100%;
+        display:flex;
+        flex-flow: column;
+        margin-left: 8;
+    }
+    .label .heading{
         font-size: 15px;
+        font-weight: 900;
+        background: linear-gradient(transparent 80%, #E0E4CC 0);
+    }
+    .label .description{
+        font-size: 9px;
+        font-weight: 100;
     }
 
 // ランキング用BOX

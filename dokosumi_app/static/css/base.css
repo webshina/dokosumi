@@ -148,11 +148,36 @@ body {
 }
 
 .box .box-title {
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   margin: 10;
   padding: 0 20 0 15;
   text-align: left;
+}
+
+.label {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  margin-left: 8;
+}
+
+.label .heading {
   font-size: 15px;
+  font-weight: 900;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, transparent), color-stop(0, #E0E4CC));
+  background: linear-gradient(transparent 80%, #E0E4CC 0);
+}
+
+.label .description {
+  font-size: 9px;
+  font-weight: 100;
 }
 
 .title-box3-title {
