@@ -43,7 +43,7 @@
                     {% comment %} キャッシュバック賃貸のリンクを埋め込み {% endcomment %}
                     <div style="margin:5 10">
                         <div class="suumo_btn" >
-                            <a href="" value="{{ town_score.station_name.param }}" rel="nofollow" id="commerce-btn" style="color:#FFFFFF; vertical-align:middle;">                                
+                            <a href="" name="{{ town_score.station_name.param }}" rel="nofollow" class="commerce-btn" style="color:#FFFFFF; vertical-align:middle;">                                
                                 <span class="text">
                                     {{ town_score.station_name.param }}の物件を探す
                                     <img src="{% static 'icon/next.png' %}" alt="詳細" width="15" height="12" style="margin:0 7px 0 0; vertical-align:middle;">
@@ -68,20 +68,6 @@
                 </div>
 
             </div>
-
-
-            {% comment %} SUUMOのリンクを埋め込み{% endcomment %}
-            {% comment %} <div class="title-box3">
-                <a href="https://suumo.jp/chintai/{{ town_score.pref.param }}/ek_{{ town_score.suumoEkiCode.param }}/">
-                    <div id="suumo_link" class="title-box3-title">
-                        <span style="vertical-align:middle;">SUUMOで{{ town_score.station_name.param }}の物件を探す</span>
-                        <img src="{% static 'icon/next.png' %}" alt="詳細" width="15" height="12" style="margin:0 0 0 5; vertical-align:middle;">
-                    </div>
-                </a>
-                <div>
-                    <iframe id="suumo-frame" src="https://suumo.jp/chintai/{{ town_score.pref.param }}/ek_{{ town_score.suumoEkiCode.param }}/" width="100%" height="1000" scrolling="no" frameborder="0" style="pointer-events:none;"></iframe>
-                </div>
-            </div>  {% endcomment %}
 
 {% comment %} JavaScript {% endcomment %}
 <script src="{% static 'js/town_detail.js' %}"></script>

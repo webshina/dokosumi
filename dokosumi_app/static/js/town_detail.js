@@ -1,12 +1,15 @@
-// 街の名前を取得
-var townName = document.getElementById('station_name').innerText
+window.onload = function() {
+    // アフィリエイトリンク生成
+    var elems = document.getElementsByClassName('commerce-btn');
 
-// パラメータをエンコード
-townName = encodeURIComponent(townName);
-
-// 各SNSのシェアURLと、シェアしたいURL、パラメータ、ハッシュタグを結合
-commerceLink = "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3560929&pid=886843625&vc_url=https://cbchintai.com/property/search/?query%5D=" + townName ;
-
-// シェアボタンのリンクを置き換える
-var commerceBtn = document.getElementById('commerce-btn')
-commerceBtn.href = commerceLink;
+    for(let i = 0; i < elems.length; i++){
+        // 街の名前を取得
+        var townName = elems[i].name
+        // パラメータをエンコード
+        townName = encodeURIComponent(townName);
+        // 各SNSのシェアURLと、シェアしたいURL、パラメータ、ハッシュタグを結合
+        commerceLink = "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3560929&pid=886843625&vc_url=https://cbchintai.com/property/search/?query%5D=" + townName ;
+        // シェアボタンのリンクを置き換える
+        elems[i].href = commerceLink;
+    };
+};
