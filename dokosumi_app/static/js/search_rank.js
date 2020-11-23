@@ -29,7 +29,7 @@ for(let i = 0; i < elems.length; i++){
     }
 
     // rangeバーにイベントリスナーを追加
-    elemRange.addEventListener('input', function(event) {
+    elemRange.addEventListener('input', function() {
         
         // テキストボックスからフォーカスを外す
         var active_element = document.activeElement;
@@ -43,7 +43,7 @@ for(let i = 0; i < elems.length; i++){
     }, false);
 
     // rangeバーに読み込み完了時のイベントリスナーを追加
-    window.addEventListener('pageshow', function(event) {
+    window.addEventListener('pageshow', function() {
 
         // rangeバーの値を更新するファンクション呼び出し
         changeRangeValue()
