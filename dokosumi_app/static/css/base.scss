@@ -193,6 +193,18 @@ body{
         height: 250px;
     }
 
+// その他の項目ボタン
+    .otherBtn{
+        width:90%; 
+        margin:0 0 20 0; 
+        padding:5 30 5 30; 
+        color: #333333;
+        background-color:#CCC9BA; 
+        border:none; 
+        border-radius: 10px 10px 10px 10px;
+    }
+
+
 // 検索ボタン
     .search-btn{
         width:140; 

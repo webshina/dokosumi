@@ -12,7 +12,7 @@ body {
   background-size: 85% auto;
   background-repeat: repeat;
   width: 100%;
-  max-width: 400;
+  max-width: 420;
 }
 
 .bigwrapper {
@@ -203,6 +203,16 @@ body {
 
 #map {
   height: 250px;
+}
+
+.otherBtn {
+  width: 90%;
+  margin: 0 0 20 0;
+  padding: 5 30 5 30;
+  color: #333333;
+  background-color: #CCC9BA;
+  border: none;
+  border-radius: 10px 10px 10px 10px;
 }
 
 .search-btn {
