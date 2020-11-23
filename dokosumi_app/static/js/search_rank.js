@@ -1,32 +1,36 @@
+// rangeバーの値を更新するファンクションを定義
+function changeRangeValue(elem){
+
+    // rangeバーの入力値を取得
+    let rangeValue = elem.getElementsByClassName('range')[0].value;
+    // 価値観オブジェクトを取得
+    let value = elem.getElementsByClassName('value')[0];
+    // 目安オブジェクトを取得
+    let description = elem.getElementsByClassName('descripion')[0];
+
+    //ユーザーに表示している数値をrangeバーの入力値で更新
+    value.innerHTML = rangeValue;
+    //ユーザーに表示している目安をrangeバーの入力値で更新
+    if (rangeValue >= 0 && rangeValue < 33) {
+        description.innerHTML = "気にしない"
+    } else if(rangeValue >= 33 && rangeValue < 66) {
+        description.innerHTML = "気にする"
+    } else {
+        description.innerHTML = "重要"
+    }
+
+}
+
 // rangeバーの値を更新
 var elems = document.getElementsByClassName('valueRange');
 
 for(let i = 0; i < elems.length; i++){
+
+    //rangeinput全体を取得
+    let elem = elems[i]
+
     // rangeバーオブジェクトを取得
-    let elemRange = elems[i].getElementsByClassName('range')[0]
-
-    // rangeバーの値を更新するファンクションを定義
-    function changeRangeValue(){
-
-        // rangeバーの入力値を取得
-        let rangeValue = elems[i].getElementsByClassName('range')[0].value;
-        // 価値観オブジェクトを取得
-        let value = elems[i].getElementsByClassName('value')[0];
-        // 目安オブジェクトを取得
-        let description = elems[i].getElementsByClassName('descripion')[0];
-    
-        //ユーザーに表示している数値をrangeバーの入力値で更新
-        value.innerHTML = rangeValue;
-        //ユーザーに表示している目安をrangeバーの入力値で更新
-        if (rangeValue >= 0 && rangeValue < 33) {
-            description.innerHTML = "気にしない"
-        } else if(rangeValue >= 33 && rangeValue < 66) {
-            description.innerHTML = "気にする"
-        } else {
-            description.innerHTML = "重要"
-        }
-
-    }
+    let elemRange = elem.getElementsByClassName('range')[0]
 
     // rangeバーにイベントリスナーを追加
     elemRange.addEventListener('input', function() {
@@ -38,7 +42,7 @@ for(let i = 0; i < elems.length; i++){
         }
 
         // rangeバーの値を更新するファンクション呼び出し
-        changeRangeValue()
+        changeRangeValue(elem)
         
     }, false);
 
@@ -46,7 +50,7 @@ for(let i = 0; i < elems.length; i++){
     window.addEventListener('pageshow', function() {
 
         // rangeバーの値を更新するファンクション呼び出し
-        changeRangeValue()
+        changeRangeValue(elem)
 
     }, false);
 
