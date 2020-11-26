@@ -213,6 +213,8 @@ body {
   color: #333333;
   border: none;
   border-radius: 10px 10px 10px 10px;
+  -webkit-box-shadow: 2px 2px 0px 0 #aaa79d;
+          box-shadow: 2px 2px 0px 0 #aaa79d;
 }
 
 .search-btn {
