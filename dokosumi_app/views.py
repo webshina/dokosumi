@@ -217,8 +217,13 @@ def calc_dist_score(score_df, time_df, station_name):
         score_time_np = score_time_df[station_name].astype(float).values
         
         # 最大1最小0で正規化
+        score_time_np = (score_time_np - score_time_np.min()).astype(float) / (score_time_np.max() - score_time_np.min()).astype(float)
+        # 効用関数を適用
+        score_time_np = score_time_np ** (1/1.5)
         # 時間が短いほどスコアは高くする
-        score_time_np = 1 - (score_time_np - score_time_np.min()).astype(float) / (score_time_np.max() - score_time_np.min()).astype(float)
+        score_time_np = 1 - score_time_np
+
+
 
         # DataFrameに再格納
         score_time_df['time'] = score_time_np * 100
