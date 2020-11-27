@@ -1,5 +1,5 @@
 # 使用方法
-# python .\collectCntAtStaion.py "<検索キーワード>" <検索対象範囲の半径>
+# python .\collectCntAtStaion.py "<検索キーワード>" <検索対象範囲の半径(m)>
 # Ex. python .\collectCntAtStaion.py "スーパー" 500
 
 import sys

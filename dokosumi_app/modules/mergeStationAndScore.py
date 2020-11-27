@@ -41,6 +41,7 @@ for score_keyword in score_keywords:
 
     score_df['SCORE'] = score_np * 100
 
+
     # 列名の変更
     score_df = score_df.rename(columns={'SCORE' : score_keyword})
 
