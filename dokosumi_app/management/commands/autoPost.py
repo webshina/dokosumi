@@ -16,6 +16,14 @@ class Command(BaseCommand):
         dirname = os.path.dirname(__file__)
         score_df = pd.read_table('dokosumi_app/data/score_by_station.tsv')
 
+        # 住みたい街ランキングのTSVファイルを取得
+        dirname = os.path.dirname(__file__)
+        sumitaimachi_rank_df = pd.read_table('dokosumi_app/data/sumitaimachi_rank.tsv')
+
+        # 住みたい街ランキング100位圏内の街を抽出
+        score_df = score_df[score_df['station_name'].isin(sumitaimachi_rank_df['station_name'])]
+
+        # ランダムに一つ抽出
         sample = score_df.sample().iloc[0]
 
         # コメント作成
