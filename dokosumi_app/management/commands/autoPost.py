@@ -28,14 +28,13 @@ class Command(BaseCommand):
 
         # コメント作成
         twitter_post_comment = '~あなたの街の鑑定結果~\n'
-        twitter_post_comment += '『' + sample.station_name + '』\n\n'
+        twitter_post_comment += '#' + sample.station_name + '\n\n'
         twitter_post_comment += '交通利便性 : ' + str(int(sample.access)) + ' 点\n'
         twitter_post_comment += '家賃の安さ : ' + str(int(sample.landPrice)) + ' 点\n'
         twitter_post_comment += '買い物のしやすさ : ' + str(int(sample.supermarket)) + ' 点\n'
         twitter_post_comment += '治安の良さ : ' + str(int(sample.security)) + ' 点\n'
         twitter_post_comment += '公園の多さ : ' + str(int(sample.park)) + ' 点\n'
         twitter_post_comment += '浸水危険度の低さ : ' + str(int(sample.flood)) + ' 点\n'
-        twitter_post_comment += '#' + sample.station_name + '\n'
         twitter_post_comment += '#どこ住吉\n\n'
         twitter_post_comment += 'https://dokosumiyoshi.tokyo/town_detail/' + urllib.parse.quote(sample.station_name) + '\n'
         print(twitter_post_comment)
