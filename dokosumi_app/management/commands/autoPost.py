@@ -28,7 +28,7 @@ class Command(BaseCommand):
 
         # コメント作成
         twitter_post_comment = '#' + sample.station_name + '\n\n'
-        twitter_post_comment += sample.comment + '\n\n'
+        twitter_post_comment += '' + sample.comment + '\n\n'
         twitter_post_comment += 'アクセスの良さ : ' + str(int(sample.access)) + ' 点\n'
         twitter_post_comment += '家賃の安さ : ' + str(int(sample.landPrice)) + ' 点\n'
         twitter_post_comment += '買い物のしやすさ : ' + str(int(sample.supermarket)) + ' 点\n'
