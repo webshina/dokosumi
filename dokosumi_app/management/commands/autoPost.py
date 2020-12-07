@@ -28,7 +28,17 @@ class Command(BaseCommand):
 
         # コメント作成
         twitter_post_comment = '#' + sample.station_name + '\n\n'
-        twitter_post_comment += '' + str(sample.comment) + '\n\n'
+
+        # 街のコメントを作成
+        comment = str(sample.comment)
+        # 街のコメントが80文字を超える場合は省略
+        if len(comment) > 80:
+            comment = comment[0:80] + '…' 
+        # Nullの場合はなにも設定しない
+        if comment == 'nan':
+            comment = ''
+
+        twitter_post_comment += '' + comment + '\n\n'
         twitter_post_comment += 'アクセスの良さ : ' + str(int(sample.access)) + ' 点\n'
         twitter_post_comment += '家賃の安さ : ' + str(int(sample.landPrice)) + ' 点\n'
         twitter_post_comment += '買い物のしやすさ : ' + str(int(sample.supermarket)) + ' 点\n'
