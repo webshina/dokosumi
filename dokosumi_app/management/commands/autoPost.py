@@ -34,15 +34,15 @@ class Command(BaseCommand):
         # 街のコメントが80文字を超える場合は省略
         if len(comment) > 80:
             comment = comment[0:80] + '…' 
-        # Nullの場合はなにも設定しない
+        # Nullの場合はコメントをテンプレート設定
         if comment == 'nan':
-            comment = ''
+            comment = 'コメント募集中！この街へのコメントとともにリツイートお願いします。'
 
         twitter_post_comment += '' + comment + '\n\n'
         twitter_post_comment += 'アクセスの良さ : ' + str(int(sample.access)) + ' 点\n'
         twitter_post_comment += '家賃の安さ : ' + str(int(sample.landPrice)) + ' 点\n'
         twitter_post_comment += '買い物のしやすさ : ' + str(int(sample.supermarket)) + ' 点\n'
-        twitter_post_comment += '治安の良さ : …\n'
+        twitter_post_comment += '治安の良さ : … '
         twitter_post_comment += 'https://dokosumiyoshi.tokyo/town_detail/' + urllib.parse.quote(sample.station_name) + '\n'
         print(twitter_post_comment)
 

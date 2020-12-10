@@ -256,7 +256,7 @@ def town_detail(request, station_name):
 
         town_score = { \
             "station_name":{"description":"駅名", "param":town_score.get('station_name','')}, \
-            "comment":{"description":"コメント", "param":town_score.get('comment','')}, \
+            "comment":{"description":"コメント", "param":str(town_score.get('comment','')).replace('nan','この街へのコメント募集中！Twitterボタンからこの街へのコメントをTweetしてください')}, \
             "pref":{"description":"都道府県", "param":town_score.get('pref',0)}, \
             "lat":{"description":"緯度", "param":float(town_score.get('lat',0))}, \
             "lon":{"description":"経度", "param":float(town_score.get('lon',0))}, \
