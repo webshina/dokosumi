@@ -61,7 +61,10 @@
             {% comment %} 街ごとのスコアを表示 {% endcomment %}
             {% for key, value in town_score.values.items %}
                 <div style="margin:5 10">
-                    <div style="text-align:left">{{ value.description }}</div>
+                        <div style="text-align:left">
+                            <span style="font-weight:900">{{ value.description }}</span>
+                            <span style="color:#727272">{{ value.remarks }}</span>
+                        </div>
                     <div class="progress" style="height: 12px;">
                         <div class="progress-bar bg-info" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:{{ value.param }}%; text-align:left; padding-left:5px;">
                             {{ value.param }} P

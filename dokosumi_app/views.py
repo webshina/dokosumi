@@ -133,7 +133,7 @@ def result_rank(request):
     # 各街のステータスリストを作成
     resultRanks = []
     rank = 0
-    for row_s in score_df.to_dict(orient='records'):
+    for town_score in score_df.to_dict(orient='records'):
         rank += 1
 
         #職場の最寄り駅からの時間を取得
@@ -141,7 +141,7 @@ def result_rank(request):
             # station_name列が対象の駅名と一致する行を取得
             time_to_station = time_df[time_df['station_name'] == station_name]
             # station_name列が対象の駅名と一致する行を取得
-            time_to_station = time_to_station[row_s.get('station_name',0)].astype(float).values[0]
+            time_to_station = time_to_station[town_score.get('station_name',0)].astype(float).values[0]
             hh = int(time_to_station / 60)
             mm = int(time_to_station % 60)
             time_to_station = '(' + str(hh) + '時間' + str(mm) + '分' + ')'
@@ -153,7 +153,7 @@ def result_rank(request):
             # station_name列が対象の駅名と一致する行を取得
             time_to_partners_station = time_df[time_df['station_name'] == partners_station_name]
             # station_name列が対象の駅名と一致する行を取得
-            time_to_partners_station = time_to_partners_station[row_s.get('station_name',0)].astype(float).values[0]
+            time_to_partners_station = time_to_partners_station[town_score.get('station_name',0)].astype(float).values[0]
             hh = int(time_to_partners_station / 60)
             mm = int(time_to_partners_station % 60)
             time_to_partners_station = '(' + str(hh) + '時間' + str(mm) + '分' + ')'
@@ -164,14 +164,14 @@ def result_rank(request):
 
         # 街のステータスを作成
         town_values_all = { \
-                "dist_to_office":{"description":"通勤時間", "remarks":time_to_station, "param":round(float(row_s.get('dist_to_office',0)))}, \
-                "dist_to_partners_office":{"description":"パートナーの通勤時間", "remarks":time_to_partners_station, "param":round(float(row_s.get('dist_to_partners_office',0)))}, \
-                "access":{"description":"アクセスの良さ", "param":round(float(row_s.get('access',0)))}, \
-                "landPrice":{"description":"家賃の安さ", "param":round(float(row_s.get('landPrice',0)))}, \
-                "park":{"description":"公園の多さ", "param":round(float(row_s.get('park',0)))}, \
-                "flood":{"description":"浸水危険度の低さ", "param":round(float(row_s.get('flood',0)))}, \
-                "security":{"description":"治安の良さ", "param":round(float(row_s.get('security',0)))}, \
-                "supermarket":{"description":"買い物のしやすさ", "param":round(float(row_s.get('supermarket',0)))}, \
+                "dist_to_office":{"description":"通勤時間", "remarks":time_to_station, "param":round(float(town_score.get('dist_to_office',0)))}, \
+                "dist_to_partners_office":{"description":"パートナーの通勤時間", "remarks":time_to_partners_station, "param":round(float(town_score.get('dist_to_partners_office',0)))}, \
+                "access":{"description":"アクセスの良さ", "remarks":"(乗り入れ路線数: "+str(town_score.get('access_remark',0))+"路線)", "param":round(float(town_score.get('access',0)))}, \
+                "landPrice":{"description":"家賃の安さ", "remarks":"(家賃相場(1LDK): "+str(town_score.get('landPrice_remark',0))+"万円 )", "param":round(float(town_score.get('landPrice',0)))}, \
+                "park":{"description":"公園の多さ", "param":round(float(town_score.get('park',0)))}, \
+                "flood":{"description":"浸水危険度の低さ", "param":round(float(town_score.get('flood',0)))}, \
+                "security":{"description":"治安の良さ", "remarks":"(駅周辺のパチンコ店数: "+str(town_score.get('security_remark',0))+"店舗)", "param":round(float(town_score.get('security',0)))}, \
+                "supermarket":{"description":"買い物のしやすさ", "remarks":"(駅周辺の食料品店数: "+str(town_score.get('supermarket_remark',0))+"店舗)", "param":round(float(town_score.get('supermarket',0)))}, \
         } 
 
         # ユーザーの価値観が0以上のパラメータのみ採用
@@ -182,12 +182,12 @@ def result_rank(request):
 
         resultRank = { \
             "rank":{"description":"順位", "param":rank}, \
-            "station_name":{"description":"駅名", "param":row_s.get('station_name',0)}, \
-            "suumoEkiCode":{"description":"SUUMO駅コード", "param":row_s.get('SUUMOEkiCode',0)}, \
-            "pref":{"description":"都道府県", "param":row_s.get('pref',0)}, \
-            "lat":{"description":"緯度", "param":row_s.get('lat',0)}, \
-            "lon":{"description":"経度", "param":row_s.get('lon',0)}, \
-            "score":{"description":"総合スコア", "param":round(float(row_s.get('score',0)))}, \
+            "station_name":{"description":"駅名", "param":town_score.get('station_name',0)}, \
+            "suumoEkiCode":{"description":"SUUMO駅コード", "param":town_score.get('SUUMOEkiCode',0)}, \
+            "pref":{"description":"都道府県", "param":town_score.get('pref',0)}, \
+            "lat":{"description":"緯度", "param":town_score.get('lat',0)}, \
+            "lon":{"description":"経度", "param":town_score.get('lon',0)}, \
+            "score":{"description":"総合スコア", "param":round(float(town_score.get('score',0)))}, \
             "values":town_values, \
         }
 
@@ -246,12 +246,12 @@ def town_detail(request, station_name):
 
         # 街のステータスを作成
         town_values = { \
-            "access":{"description":"アクセスの良さ", "param":round(float(town_score.get('access',0)))}, \
-            "landPrice":{"description":"家賃の安さ", "param":round(float(town_score.get('landPrice',0)))}, \
-            "park":{"description":"公園の多さ", "param":round(float(town_score.get('park',0)))}, \
-            "flood":{"description":"浸水危険度の低さ", "param":round(float(town_score.get('flood',0)))}, \
-            "security":{"description":"治安の良さ", "param":round(float(town_score.get('security',0)))}, \
-            "supermarket":{"description":"買い物のしやすさ", "param":round(float(town_score.get('supermarket',0)))}, \
+                "access":{"description":"アクセスの良さ", "remarks":"(乗り入れ路線数: "+str(town_score.get('access_remark',0))+"路線)", "param":round(float(town_score.get('access',0)))}, \
+                "landPrice":{"description":"家賃の安さ", "remarks":"(家賃相場(1LDK): "+str(town_score.get('landPrice_remark',0))+"万円 )", "param":round(float(town_score.get('landPrice',0)))}, \
+                "park":{"description":"公園の多さ", "param":round(float(town_score.get('park',0)))}, \
+                "flood":{"description":"浸水危険度の低さ", "param":round(float(town_score.get('flood',0)))}, \
+                "security":{"description":"治安の良さ", "remarks":"(駅周辺のパチンコ店数: "+str(town_score.get('security_remark',0))+"店舗)", "param":round(float(town_score.get('security',0)))}, \
+                "supermarket":{"description":"買い物のしやすさ", "remarks":"(駅周辺の食料品店数: "+str(town_score.get('supermarket_remark',0))+"店舗)", "param":round(float(town_score.get('supermarket',0)))}, \
         } 
 
         town_score = { \
