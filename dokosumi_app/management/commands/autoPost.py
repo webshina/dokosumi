@@ -24,9 +24,7 @@ class Command(BaseCommand):
         score_df = score_df[score_df['station_name'].isin(sumitaimachi_rank_df['station_name'])]
 
         # ランダムに一つ抽出
-        # sample = score_df.sample().iloc[0]
-        sample = score_df.loc[score_df['station_name'] == '武蔵浦和']
-        print(sample.station_name)
+        sample = score_df.sample().iloc[0]
 
         # コメント作成
         twitter_post_comment = '#' + sample.station_name + '\n\n'
