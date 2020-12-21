@@ -1,0 +1,16 @@
+start /b python ./scrapingNavitime.py 0 99
+start /b python ./scrapingNavitime.py 100 199
+start /b python ./scrapingNavitime.py 200 299
+start /b python ./scrapingNavitime.py 300 399
+start /b python ./scrapingNavitime.py 400 499
+start /b python ./scrapingNavitime.py 500 599
+start /b python ./scrapingNavitime.py 600 699
+start /b python ./scrapingNavitime.py 700 799
+start /b python ./scrapingNavitime.py 800 899
+start /b python ./scrapingNavitime.py 900 999
+start /b python ./scrapingNavitime.py 1000 1099
+start /b python ./scrapingNavitime.py 1100 1199
+start /b python ./scrapingNavitime.py 1200 1299
+start /b python ./scrapingNavitime.py 1300 1399
+start /b python ./scrapingNavitime.py 1400 1499
+start /b python ./scrapingNavitime.py 1500 1599

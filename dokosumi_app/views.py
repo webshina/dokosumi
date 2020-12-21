@@ -131,7 +131,7 @@ def result_rank(request):
     }
 
     # 各街のステータスリストを作成
-    resultRanks = []
+    town_scores = []
     rank = 0
     for town_score in score_df.to_dict(orient='records'):
         rank += 1
@@ -180,10 +180,11 @@ def result_rank(request):
             if user_values.get(key).get("param") > 0:
                town_values[key] = town_values_all[key]
 
-        resultRank = { \
+        # 街の属性情報を作成
+        town_score = { \
             "rank":{"description":"順位", "param":rank}, \
             "station_name":{"description":"駅名", "param":town_score.get('station_name',0)}, \
-            "suumoEkiCode":{"description":"SUUMO駅コード", "param":town_score.get('SUUMOEkiCode',0)}, \
+            "suumoEkiCode":{"description":"SUUMO駅コード", "param":town_score.get('suumoEkiCode',0)}, \
             "pref":{"description":"都道府県", "param":town_score.get('pref',0)}, \
             "lat":{"description":"緯度", "param":town_score.get('lat',0)}, \
             "lon":{"description":"経度", "param":town_score.get('lon',0)}, \
@@ -191,11 +192,11 @@ def result_rank(request):
             "values":town_values, \
         }
 
-        resultRanks.append(resultRank)
+        town_scores.append(town_score)
     
     context = {
         'values' : user_values,
-        'resultRanks' : resultRanks,
+        'town_scores' : town_scores,
     }
 
     return render(request, 'dokosumi_app/result_rank.html', context)
@@ -258,6 +259,7 @@ def town_detail(request, station_name):
             "station_name":{"description":"駅名", "param":town_score.get('station_name','')}, \
             "comment":{"description":"コメント", "param":str(town_score.get('comment','')).replace('nan','この街へのコメント募集中！Twitterボタンからこの街へのコメントをTweetしてください')}, \
             "pref":{"description":"都道府県", "param":town_score.get('pref',0)}, \
+            "suumoEkiCode":{"description":"SUUMO駅コード", "param":town_score.get('suumoEkiCode',0)}, \
             "lat":{"description":"緯度", "param":float(town_score.get('lat',0))}, \
             "lon":{"description":"経度", "param":float(town_score.get('lon',0))}, \
             "values":town_values

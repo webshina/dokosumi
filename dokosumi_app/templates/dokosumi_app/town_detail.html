@@ -52,15 +52,17 @@
                         <span class="text">
                             {{ town_score.station_name.param }}の物件を探す
                             <img src="{% static 'icon/next.png' %}" alt="詳細" width="15" height="12" style="margin:0 7px 0 0; vertical-align:middle;">
+                            <div class="pref" style="display:none">{{ town_score.pref.param }}</div>
+                            <div class="suumoEkiCode" style="display:none">{{ town_score.suumoEkiCode.param }}</div>
                         </span>
-                        <img src="{% static 'img/2814358.png' %}" height="25" >
+                        <img src="http://suumo.jp/edit/rewrite/help/img/logo_suumo_l.gif" height="25" >
                     </a>
                 </div>
             </div>
 
             {% comment %} 街ごとのスコアを表示 {% endcomment %}
             {% for key, value in town_score.values.items %}
-                <div style="margin:5 10">
+                <div style="margin:10">
                         <div style="text-align:left">
                             <span style="font-weight:900">{{ value.description }}</span>
                             <span style="color:#727272">{{ value.remarks }}</span>

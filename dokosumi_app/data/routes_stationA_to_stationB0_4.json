@@ -1,0 +1,194 @@
+{
+    "東京_新橋": {
+        "0": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "ＪＲ上野東京ライン快速 品川行",
+            "congestion": "普通に立てる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "新橋"
+        }
+    },
+    "東京_品川": {
+        "0": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "ＪＲ上野東京ライン快速 品川行",
+            "congestion": "普通に立てる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "品川"
+        }
+    },
+    "東京_川崎": {
+        "0": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "19分",
+            "line": "ＪＲ東海道本線 平塚行",
+            "congestion": "普通に立てる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "川崎"
+        }
+    },
+    "新橋_東京": {
+        "0": {
+            "station_block": 1,
+            "station_name": "新橋"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "ＪＲ上野東京ライン 宇都宮〔東京経由〕行",
+            "congestion": "席はいっぱい"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "東京"
+        }
+    },
+    "新橋_品川": {
+        "0": {
+            "station_block": 1,
+            "station_name": "新橋"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "ＪＲ上野東京ライン 品川行",
+            "congestion": "普通に立てる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "品川"
+        }
+    },
+    "新橋_川崎": {
+        "0": {
+            "station_block": 1,
+            "station_name": "新橋"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "ＪＲ東海道本線 小田原行",
+            "congestion": "普通に立てる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "川崎"
+        }
+    },
+    "品川_東京": {
+        "0": {
+            "station_block": 1,
+            "station_name": "品川"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "ＪＲ横須賀線 成田空港（成田第１ターミナル）行",
+            "congestion": "圧迫される"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "東京"
+        }
+    },
+    "品川_新橋": {
+        "0": {
+            "station_block": 1,
+            "station_name": "品川"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "ＪＲ横須賀線 成田空港（成田第１ターミナル）行",
+            "congestion": "圧迫される"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "新橋"
+        }
+    },
+    "品川_川崎": {
+        "0": {
+            "station_block": 1,
+            "station_name": "品川"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "ＪＲ東海道本線 国府津行",
+            "congestion": "普通に立てる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "川崎"
+        }
+    },
+    "川崎_東京": {
+        "0": {
+            "station_block": 1,
+            "station_name": "川崎"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "22分",
+            "line": "ＪＲ上野東京ライン 上野〔東京経由〕行",
+            "congestion": "普通に立てる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "東京"
+        }
+    },
+    "川崎_新橋": {
+        "0": {
+            "station_block": 1,
+            "station_name": "川崎"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "18分",
+            "line": "ＪＲ上野東京ライン 上野〔東京経由〕行",
+            "congestion": "普通に立てる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "新橋"
+        }
+    },
+    "川崎_品川": {
+        "0": {
+            "station_block": 1,
+            "station_name": "川崎"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "ＪＲ上野東京ライン 上野〔東京経由〕行",
+            "congestion": "普通に立てる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "品川"
+        }
+    }
+}

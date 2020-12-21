@@ -42,7 +42,7 @@
     <div class="middleWrapper">
         <div class="twitter-link btn">
             
-            <a href="https://twitter.com/intent/tweet?text=『わたしの住みよい街ランキング』%0a1位 {{ resultRanks.0.station_name.param }}%0a2位 {{ resultRanks.1.station_name.param }}%0a3位 {{ resultRanks.2.station_name.param }}%0a&url=" 
+            <a href="https://twitter.com/intent/tweet?text=『わたしの住みよい街ランキング』%0a1位 {{ town_scores.0.station_name.param }}%0a2位 {{ town_scores.1.station_name.param }}%0a3位 {{ town_scores.2.station_name.param }}%0a&url=" 
                 onClick="window.open(encodeURI(decodeURI(this.href)), 'tweetwindow', 'width=650, height=470, personalbar=0, toolbar=0, scrollbars=1, sizable=1'); return false;" 
                 rel="nofollow" 
                 id="twitter-link-btn"
@@ -56,11 +56,11 @@
     </div>
 
     {% comment %} 駅ごとのスコアを一覧化 {% endcomment %}
-    {% for resultRank in resultRanks %}
+    {% for town_score in town_scores %}
         <div class="title-box3 townScore">
             <div class="title-box3-title">
-                <a class="btn" href="{% url 'town_detail' resultRank.station_name.param %}" style="width:300; padding:1px; color:#fff;">
-                    <span style="vertical-align:middle; text-decoration: underline">{{ resultRank.rank.param }}位 {{ resultRank.station_name.param }}</span>
+                <a class="btn" href="{% url 'town_detail' town_score.station_name.param %}" style="width:300; padding:1px; color:#fff;">
+                    <span style="vertical-align:middle; text-decoration: underline">{{ town_score.rank.param }}位 {{ town_score.station_name.param }}</span>
                     <img src="{% static 'icon/next.png' %}" alt="詳細" width="15" height="12" style="margin:0 0 0 5; vertical-align:middle;">
                 </a>
             </div>
@@ -69,36 +69,38 @@
                     
                 {% comment %} 街の写真 {% endcomment %}
                 <div style="margin:5 10">
-                    <img src="{{staticUrl}}img/town_img/{{resultRank.station_name.param}}.jpg" alt="{{resultRank.station_name.param}}" style="width:100%;">
+                    <img src="{{staticUrl}}img/town_img/{{town_score.station_name.param}}.jpg" alt="{{town_score.station_name.param}}" style="width:100%;">
                 </div>
                 
                 {% comment %} Google Map {% endcomment %}
                 <div style="margin:5 10">
                     {% comment %} <div id="map"></div> {% endcomment %}
-                    <iframe src="https://maps.google.co.jp/maps?output=embed&ll={{ resultRank.lat.param }},{{ resultRank.lon.param }}&z=13" style='height:100; width:100%; border:none;'></iframe>
+                    <iframe src="https://maps.google.co.jp/maps?output=embed&ll={{ town_score.lat.param }},{{ town_score.lon.param }}&z=13" style='height:100; width:100%; border:none;'></iframe>
                     <div style="display:none;">
-                        <div id="lat">{{ resultRank.lat.param }}</div>
-                        <div id="lon">{{ resultRank.lon.param }}</div>
+                        <div id="lat">{{ town_score.lat.param }}</div>
+                        <div id="lon">{{ town_score.lon.param }}</div>
                     </div>
                 </div>
 
-                {% comment %} キャッシュバック賃貸のリンクを埋め込み {% endcomment %}
+                {% comment %} 賃貸のリンクを埋め込み {% endcomment %}
                 <div style="margin:10">
                     <div class="suumo_btn" >
-                        <div id="station_name" style="display:none">{{ resultRank.station_name.param }}</div>
-                        <a href="" name="{{ resultRank.station_name.param }}" rel="nofollow" class="commerce-btn" style="color:#FFFFFF; vertical-align:middle;">                                
+                        <div id="station_name" style="display:none">{{ town_score.station_name.param }}</div>
+                        <a href="" name="{{ town_score.station_name.param }}" rel="nofollow" class="commerce-btn" style="color:#FFFFFF; vertical-align:middle;">                                
                             <span class="text">
-                                {{ resultRank.station_name.param }}の物件を探す
+                                {{ town_score.station_name.param }}の物件を探す
                                 <img src="{% static 'icon/next.png' %}" alt="詳細" width="15" height="12" style="margin:0 7px 0 0; vertical-align:middle;">
+                                <div class="pref" style="display:none">{{ town_score.pref.param }}</div>
+                                <div class="suumoEkiCode" style="display:none">{{ town_score.suumoEkiCode.param }}</div>
                             </span>
-                            <img src="{% static 'img/2814358.png' %}" height="25" >
+                            <img src="http://suumo.jp/edit/rewrite/help/img/logo_suumo_l.gif" height="25" >
                         </a>
                     </div>
                 </div>
 
                 
                 {% comment %} 街ごとのスコアを表示 {% endcomment %}
-                {% for key, value in resultRank.values.items %}
+                {% for key, value in town_score.values.items %}
                     <div style="margin:10">
                         <div style="text-align:left">
                             <span style="font-weight:900">{{ value.description }}</span>

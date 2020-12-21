@@ -17,9 +17,17 @@ score_keywords = ['landPrice', 'access', 'population', 'park', 'flood', 'securit
 # 駅名のTSVリストを取得
 station_tsv_file = 'D:\programs\Python\Dokosumi\data\station_list_mesh_minamikanto.tsv'
 station_df = pd.read_table(station_tsv_file, dtype=str)
-station_df = station_df[['station_name', 'lon', 'lat', 'comment', 'pref', 'access_remark', 'landPrice_remark', 'security_remark', 'supermarket_remark']]
+station_df = station_df[['station_name']]
 print(station_df)
 
+#街の属性情報をマージ
+station_attr_tsv_file = 'D:\programs\Python\Dokosumi\data\station_attributes.tsv'
+station_attr_df = pd.read_table(station_attr_tsv_file, dtype=str)
+station_attr_df = station_attr_df[['station_name', 'lon', 'lat', 'comment', 'pref', 'suumoEkiCode', 'access_remark', 'landPrice_remark', 'security_remark', 'supermarket_remark']]
+station_df = pd.merge(station_df, station_attr_df, on='station_name', how='inner')
+print(station_df)
+
+#街の統計情報をマージ
 base_df = station_df
 for score_keyword in score_keywords:
 
