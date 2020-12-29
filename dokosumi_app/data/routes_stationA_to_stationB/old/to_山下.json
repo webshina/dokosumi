@@ -1,0 +1,734 @@
+{
+    "扇町_山下": {
+        "0": {
+            "station_block": 1,
+            "station_name": "扇町"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "1分",
+            "line": "OsakaMetro堺筋線 天下茶屋行",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "南森町"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "OsakaMetro谷町線 都島行",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "東梅田"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "大阪梅田"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "25分",
+            "line": "阪急宝塚線急行 宝塚行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "川西能勢口"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "能勢電鉄妙見線 日生中央行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "山下"
+        }
+    },
+    "小林_山下": {
+        "0": {
+            "station_block": 1,
+            "station_name": "小林"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "阪急今津線 宝塚行",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "宝塚"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "阪急宝塚線急行 大阪梅田（阪急線）行",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "川西能勢口"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "能勢電鉄妙見線 日生中央行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "山下"
+        }
+    },
+    "大和田_山下": {
+        "0": {
+            "station_block": 1,
+            "station_name": "大和田"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "京阪本線 淀屋橋行",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "門真市"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "36分",
+            "line": "大阪モノレール 大阪空港[伊丹]行",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "蛍池"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "阪急宝塚線急行 宝塚行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "川西能勢口"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "能勢電鉄妙見線 日生中央行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "山下"
+        }
+    },
+    "学園前_山下": {
+        "0": {
+            "station_block": 1,
+            "station_name": "学園前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "21分",
+            "line": "近鉄難波・奈良線快速急行 神戸三宮〔阪神線〕行",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "鶴橋"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "ＪＲ大阪環状線 京橋（大阪府）,大阪方面",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "大阪"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "大阪梅田"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "22分",
+            "line": "阪急宝塚線急行 宝塚行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "川西能勢口"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "能勢電鉄妙見線 妙見口行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "山下"
+        }
+    },
+    "山田_山下": {
+        "0": {
+            "station_block": 1,
+            "station_name": "山田"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "12分",
+            "line": "大阪モノレール 大阪空港[伊丹]行",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "蛍池"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "阪急宝塚線 雲雀丘花屋敷行",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "川西能勢口"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "能勢電鉄妙見線 妙見口行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "山下"
+        }
+    },
+    "黒川_山下": {
+        "0": {
+            "station_block": 1,
+            "station_name": "黒川"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "名古屋市営名城線 栄（愛知県）,金山（愛知県）方面",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "栄"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "名古屋市営東山線 高畑行",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "名古屋"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "近鉄名古屋"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "2時間18分",
+            "line": "近鉄名阪特急 大阪難波〔近鉄・阪神線〕行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "鶴橋"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "ＪＲ大阪環状線 京橋（大阪府）,大阪方面",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "大阪"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "大阪梅田"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "21分",
+            "line": "阪急宝塚線急行 宝塚行",
+            "congestion": "余裕で座れる"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "川西能勢口"
+        },
+        "15": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "能勢電鉄妙見線 妙見口行",
+            "congestion": "余裕で座れる"
+        },
+        "16": {
+            "station_block": 1,
+            "station_name": "山下"
+        }
+    },
+    "京橋_山下": {
+        "0": {
+            "station_block": 1,
+            "station_name": "京橋"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "ＪＲ大阪環状線 大阪,西九条方面",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "大阪"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "ＪＲ東海道山陽本線新快速 姫路行",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "尼崎〔ＪＲ〕"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "ＪＲ福知山線〔宝塚線〕快速 新三田行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "川西池田"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "川西能勢口"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "能勢電鉄妙見線 日生中央行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "山下"
+        }
+    },
+    "栄町_山下": {
+        "0": {
+            "station_block": 1,
+            "station_name": "栄町"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "栄"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "名古屋市営東山線 高畑行",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "名古屋"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "近鉄名古屋"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "2時間18分",
+            "line": "近鉄名阪特急 大阪難波〔近鉄・阪神線〕行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "鶴橋"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "ＪＲ大阪環状線 京橋（大阪府）,大阪方面",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "大阪"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "大阪梅田"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "21分",
+            "line": "阪急宝塚線急行 宝塚行",
+            "congestion": "余裕で座れる"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "川西能勢口"
+        },
+        "15": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "能勢電鉄妙見線 妙見口行",
+            "congestion": "余裕で座れる"
+        },
+        "16": {
+            "station_block": 1,
+            "station_name": "山下"
+        }
+    },
+    "市役所前_山下": {
+        "0": {
+            "station_block": 1,
+            "station_name": "京都市役所前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "京都市営東西線 太秦天神川行",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "烏丸御池"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "京都市営烏丸線 竹田（京都府）行",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "四条"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "烏丸"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "44分",
+            "line": "阪急京都線通勤特急 大阪梅田（阪急線）行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "十三"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "19分",
+            "line": "阪急宝塚線急行 宝塚行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "川西能勢口"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "能勢電鉄妙見線 妙見口行",
+            "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "山下"
+        }
+    },
+    "県庁前_山下": {
+        "0": {
+            "station_block": 1,
+            "station_name": "県庁前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "神戸市営北神・西神・山手線 谷上行",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "三宮"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "神戸三宮〔阪急線〕"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "阪急神戸線通勤特急 大阪梅田（阪急線）行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "西宮北口"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "阪急今津線 宝塚行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "宝塚"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "阪急宝塚線急行 大阪梅田（阪急線）行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "川西能勢口"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "能勢電鉄妙見線 妙見口行",
+            "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "山下"
+        }
+    },
+    "高松_山下": {
+        "0": {
+            "station_block": 1,
+            "station_name": "高松"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "高松駅高速バスターミナル"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "2時間36分",
+            "line": "高速バス フットバス 三宮バスターミナル行",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "三宮バスターミナル"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "三ノ宮"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "28分",
+            "line": "ＪＲ東海道山陽本線各停 高槻〔ＪＲ〕行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "尼崎〔ＪＲ〕"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "ＪＲ福知山線〔宝塚線〕区間快速 篠山口行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "川西池田"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "川西能勢口"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "能勢電鉄妙見線 日生中央行",
+            "congestion": "余裕で座れる"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "山下"
+        }
+    },
+    "大町_山下": {
+        "0": {
+            "station_block": 1,
+            "station_name": "大町"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "アストラムライン 本通行",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "中筋"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "中筋駅"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "4時間37分",
+            "line": "大阪-広島/グラン昼特急広島号[高速バス] グラン昼特急高速バス グラン昼特急大阪号 湊町バスターミナル〔ＯＣＡＴ〕行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "大阪駅ＪＲ高速バスターミナル"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "大阪梅田"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "21分",
+            "line": "阪急宝塚線急行 宝塚行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "川西能勢口"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "能勢電鉄妙見線 妙見口行",
+            "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "山下"
+        }
+    }
+}

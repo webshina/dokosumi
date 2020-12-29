@@ -1,0 +1,890 @@
+{
+    "扇町_高松": {
+        "0": {
+            "station_block": 1,
+            "station_name": "扇町"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "天満"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "ＪＲ大阪環状線 大阪,西九条方面",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "大阪"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "26分",
+            "line": "ＪＲ東海道山陽本線新快速 西明石行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "神戸"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "ＪＲ東海道山陽本線快速 姫路行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "舞子"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "高速舞子"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "2時間12分",
+            "line": "高速バス フットバス 国分寺（香川県）行",
+            "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "高松駅高速バスターミナル"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "高松"
+        }
+    },
+    "小林_高松": {
+        "0": {
+            "station_block": 1,
+            "station_name": "小林"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "阪急今津線 西宮北口行",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "西宮北口"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "阪急神戸線通勤特急 新開地行",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "神戸三宮〔阪急線〕"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "三ノ宮"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "27分",
+            "line": "ＪＲ東海道山陽本線各停 西明石行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "舞子"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "高速舞子"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "2時間12分",
+            "line": "高速バス フットバス 国分寺（香川県）行",
+            "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "高松駅高速バスターミナル"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "高松"
+        }
+    },
+    "祇園_高松": {
+        "0": {
+            "station_block": 1,
+            "station_name": "祇園"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "福岡市営空港線 福岡空港行",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "博多"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "博多バスターミナル〔博多駅〕"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "4時間32分",
+            "line": "JR高速バス 広福ライナー 広島駅〔南口〕行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "広島バスセンター"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "広島バスセンター"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "2時間42分",
+            "line": "JR高速バス サンサンライナー 岡山駅〔西口〕行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "岡山駅〔西口〕"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "岡山"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "57分",
+            "line": "ＪＲ瀬戸大橋線 快速マリンライナー55号 高松（香川県）行",
+            "congestion": "余裕で座れる"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "高松"
+        }
+    },
+    "大和田_高松": {
+        "0": {
+            "station_block": 1,
+            "station_name": "大和田"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "19分",
+            "line": "京阪本線 淀屋橋行",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "京橋"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "関空快速 大阪,西九条方面",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "大阪"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "大阪駅前〔桜橋口ＪＲ線高架下〕"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "3時間9分",
+            "line": "高速バス フットバス 国分寺（香川県）行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "高松駅高速バスターミナル"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "高松"
+        }
+    },
+    "学園前_高松": {
+        "0": {
+            "station_block": 1,
+            "station_name": "学園前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "31分",
+            "line": "近鉄難波・奈良線快速急行 大阪難波〔近鉄・阪神線〕行",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "大阪難波〔近鉄・阪神線〕"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "湊町バスターミナル〔ＯＣＡＴ〕"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "3時間15分",
+            "line": "大阪-香川/さぬきエクスプレス大阪号[高速バス] 高速バス さぬきエクスプレス大阪号 高松駅高速バスターミナル行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "高松駅高速バスターミナル"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "高松"
+        }
+    },
+    "山田_高松": {
+        "0": {
+            "station_block": 1,
+            "station_name": "山田"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "阪急千里線 大阪梅田（阪急線）行",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "淡路〔阪急線〕"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "阪急京都線 大阪梅田（阪急線）行",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "大阪梅田"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "12分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "大阪駅前〔桜橋口ＪＲ線高架下〕"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "3時間9分",
+            "line": "高速バス フットバス 国分寺（香川県）行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "高松駅高速バスターミナル"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "高松"
+        }
+    },
+    "黒川_高松": {
+        "0": {
+            "station_block": 1,
+            "station_name": "黒川"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "名古屋市営名城線 栄（愛知県）,金山（愛知県）方面",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "栄"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "名古屋市営東山線 高畑行",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "名古屋"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "近鉄名古屋"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "2時間9分",
+            "line": "近鉄名阪特急ひのとり 大阪難波〔近鉄・阪神線〕行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "大阪難波〔近鉄・阪神線〕"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "湊町バスターミナル〔ＯＣＡＴ〕"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "3時間15分",
+            "line": "大阪-香川/さぬきエクスプレス大阪号[高速バス] 高速バス さぬきエクスプレス大阪号 高松駅高速バスターミナル行",
+            "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "高松駅高速バスターミナル"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "高松"
+        }
+    },
+    "山下_高松": {
+        "0": {
+            "station_block": 1,
+            "station_name": "山下"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "日生エクスプレス 大阪梅田（阪急線）行",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "川西能勢口"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "川西池田"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "ＪＲ福知山線〔宝塚線〕 大阪行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "尼崎〔ＪＲ〕"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "ＪＲ東海道山陽本線新快速 姫路行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "三ノ宮"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "三宮〔日生ビル前〕"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "1時間35分",
+            "line": "高速バス エディ 徳島駅行",
+            "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "松茂"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "松茂"
+        },
+        "15": {
+            "route_block": 1,
+            "time": "1時間8分",
+            "line": "高速バス 高徳エクスプレス 高松駅高速バスターミナル行",
+            "congestion": "余裕で座れる"
+        },
+        "16": {
+            "station_block": 1,
+            "station_name": "高松駅高速バスターミナル"
+        },
+        "17": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "18": {
+            "station_block": 1,
+            "station_name": "高松"
+        }
+    },
+    "京橋_高松": {
+        "0": {
+            "station_block": 1,
+            "station_name": "京橋"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "ＪＲ大阪環状線 大阪,西九条方面",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "大阪"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "26分",
+            "line": "ＪＲ東海道山陽本線新快速 西明石行",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "神戸"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "ＪＲ東海道山陽本線快速 姫路行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "舞子"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "高速舞子"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "2時間12分",
+            "line": "高速バス フットバス 国分寺（香川県）行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "高松駅高速バスターミナル"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "高松"
+        }
+    },
+    "栄町_高松": {
+        "0": {
+            "station_block": 1,
+            "station_name": "栄町"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "栄"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "名古屋市営東山線 高畑行",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "名古屋"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "近鉄名古屋"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "2時間9分",
+            "line": "近鉄名阪特急ひのとり 大阪難波〔近鉄・阪神線〕行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "大阪難波〔近鉄・阪神線〕"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "湊町バスターミナル〔ＯＣＡＴ〕"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "3時間15分",
+            "line": "大阪-香川/さぬきエクスプレス大阪号[高速バス] 高速バス さぬきエクスプレス大阪号 高松駅高速バスターミナル行",
+            "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "高松駅高速バスターミナル"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "高松"
+        }
+    },
+    "市役所前_高松": {
+        "0": {
+            "station_block": 1,
+            "station_name": "京都市役所前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "京都市営東西線 太秦天神川行",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "烏丸御池"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "京都市営烏丸線 竹田（京都府）行",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "京都"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "京都駅〔烏丸口〕"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "3時間40分",
+            "line": "京都-香川/高松エクスプレス京都号[高速バス] 高速バス 高松エクスプレス京都号 高松駅高速バスターミナル行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "高松駅高速バスターミナル"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "高松"
+        }
+    },
+    "県庁前_高松": {
+        "0": {
+            "station_block": 1,
+            "station_name": "県庁前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "神戸市営北神・西神・山手線 西神中央行",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "新長田"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "ＪＲ東海道山陽本線各停 西明石行",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "舞子"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "高速舞子"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "2時間12分",
+            "line": "高速バス フットバス 国分寺（香川県）行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "高松駅高速バスターミナル"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "高松"
+        }
+    },
+    "大町_高松": {
+        "0": {
+            "station_block": 1,
+            "station_name": "大町"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "アストラムライン 本通行",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "中筋"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "中筋駅"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "1時間30分",
+            "line": "高速バス ローズライナー 福山駅前行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "福山駅前"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "福山"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "1時間0分",
+            "line": "ＪＲ山陽本線 岡山行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "岡山"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "32分",
+            "line": "ＪＲ瀬戸大橋線 特急しおかぜ9号 松山（愛媛県）行",
+            "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "宇多津"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "22分",
+            "line": "サンポート南風リレー号 高松（香川県）行",
+            "congestion": "余裕で座れる"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "高松"
+        }
+    }
+}

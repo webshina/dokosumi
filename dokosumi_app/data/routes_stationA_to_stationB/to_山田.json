@@ -1,624 +1,624 @@
 {
-    "î’¬_R“c": {
+    "æ‰‡ç”º_å±±ç”°": {
         "0": {
             "station_block": 1,
-            "station_name": "î’¬"
+            "station_name": "æ‰‡ç”º"
         },
         "1": {
             "route_block": 1,
-            "time": "1•ª",
-            "line": "OsakaMetroä‹Øü –kç—¢s",
-            "congestion": "—]—T‚ÅÀ‚ê‚é"
+            "time": "1åˆ†",
+            "line": "OsakaMetroå ºç­‹ç·š åŒ—åƒé‡Œè¡Œ",
+            "congestion": "ä½™è£•ã§åº§ã‚Œã‚‹"
         },
         "2": {
             "station_block": 1,
-            "station_name": "“V_‹´‹Ø˜Z’š–Ú"
+            "station_name": "å¤©ç¥æ©‹ç­‹å…­ä¸ç›®"
         },
         "3": {
             "route_block": 1,
-            "time": "24•ª",
-            "line": "ã‹}ç—¢ü –kç—¢s",
-            "congestion": "—]—T‚ÅÀ‚ê‚é"
+            "time": "24åˆ†",
+            "line": "é˜ªæ€¥åƒé‡Œç·š åŒ—åƒé‡Œè¡Œ",
+            "congestion": "ä½™è£•ã§åº§ã‚Œã‚‹"
         },
         "4": {
             "station_block": 1,
-            "station_name": "R“c"
+            "station_name": "å±±ç”°"
         }
     },
-    "¬—Ñ_R“c": {
+    "å°æ—_å±±ç”°": {
         "0": {
             "station_block": 1,
-            "station_name": "¬—Ñ"
+            "station_name": "å°æ—"
         },
         "1": {
             "route_block": 1,
-            "time": "6•ª",
-            "line": "ã‹}¡’Ãü •ó’Ës",
-            "congestion": "—]—T‚ÅÀ‚ê‚é"
+            "time": "6åˆ†",
+            "line": "é˜ªæ€¥ä»Šæ´¥ç·š å®å¡šè¡Œ",
+            "congestion": "ä½™è£•ã§åº§ã‚Œã‚‹"
         },
         "2": {
             "station_block": 1,
-            "station_name": "•ó’Ë"
+            "station_name": "å®å¡š"
         },
         "3": {
             "route_block": 1,
-            "time": "22•ª",
-            "line": "ã‹}•ó’Ëü‹}s ‘åã”~“ciã‹}üjs",
-            "congestion": "—]—T‚ÅÀ‚ê‚é"
+            "time": "22åˆ†",
+            "line": "é˜ªæ€¥å®å¡šç·šæ€¥è¡Œ å¤§é˜ªæ¢…ç”°ï¼ˆé˜ªæ€¥ç·šï¼‰è¡Œ",
+            "congestion": "ä½™è£•ã§åº§ã‚Œã‚‹"
         },
         "4": {
             "station_block": 1,
-            "station_name": "Œu’r"
+            "station_name": "è›æ± "
         },
         "5": {
             "route_block": 1,
-            "time": "13•ª",
-            "line": "‘åãƒ‚ƒmƒŒ[ƒ‹ –å^ss",
-            "congestion": "—]—T‚ÅÀ‚ê‚é"
+            "time": "13åˆ†",
+            "line": "å¤§é˜ªãƒ¢ãƒãƒ¬ãƒ¼ãƒ« é–€çœŸå¸‚è¡Œ",
+            "congestion": "ä½™è£•ã§åº§ã‚Œã‚‹"
         },
         "6": {
             "station_block": 1,
-            "station_name": "R“c"
+            "station_name": "å±±ç”°"
         }
     },
-    "‘å˜a“c_R“c": {
+    "å¤§å’Œç”°_å±±ç”°": {
         "0": {
             "station_block": 1,
-            "station_name": "‘å˜a“c"
+            "station_name": "å¤§å’Œç”°"
         },
         "1": {
             "route_block": 1,
-            "time": "4•ª",
-            "line": "‹ã–{ü —„‰®‹´s",
-            "congestion": "—]—T‚ÅÀ‚ê‚é"
+            "time": "4åˆ†",
+            "line": "äº¬é˜ªæœ¬ç·š æ·€å±‹æ©‹è¡Œ",
+            "congestion": "ä½™è£•ã§åº§ã‚Œã‚‹"
         },
         "2": {
             "station_block": 1,
-            "station_name": "–å^s"
+            "station_name": "é–€çœŸå¸‚"
         },
         "3": {
             "route_block": 1,
-            "time": "23•ª",
-            "line": "‘åãƒ‚ƒmƒŒ[ƒ‹ ‘åã‹ó`[ˆÉ’O]s",
-            "congestion": "—]—T‚ÅÀ‚ê‚é"
+            "time": "23åˆ†",
+            "line": "å¤§é˜ªãƒ¢ãƒãƒ¬ãƒ¼ãƒ« å¤§é˜ªç©ºæ¸¯[ä¼Šä¸¹]è¡Œ",
+            "congestion": "ä½™è£•ã§åº§ã‚Œã‚‹"
         },
         "4": {
             "station_block": 1,
-            "station_name": "R“c"
+            "station_name": "å±±ç”°"
         }
     },
-    "Šw‰€‘O_R“c": {
+    "å­¦åœ’å‰_å±±ç”°": {
         "0": {
             "station_block": 1,
-            "station_name": "Šw‰€‘O"
+            "station_name": "å­¦åœ’å‰"
         },
         "1": {
             "route_block": 1,
-            "time": "26•ª",
-            "line": "‹ß“S“ï”gE“Ş—Çü‰õ‘¬‹}s _ŒËO‹{kã_üls",
-            "congestion": "—]—T‚ÅÀ‚ê‚é"
+            "time": "26åˆ†",
+            "line": "è¿‘é‰„é›£æ³¢ãƒ»å¥ˆè‰¯ç·šå¿«é€Ÿæ€¥è¡Œ ç¥æˆ¸ä¸‰å®®ã€”é˜ªç¥ç·šã€•è¡Œ",
+            "congestion": "ä½™è£•ã§åº§ã‚Œã‚‹"
         },
         "2": {
             "station_block": 1,
-            "station_name": "‹ß“S“ú–{‹´"
+            "station_name": "è¿‘é‰„æ—¥æœ¬æ©‹"
         },
         "3": {
             "route_block": 1,
-            "time": "5•ª",
-            "line": "“k•à ",
-            "congestion": "—]—T‚ÅÀ‚ê‚é"
+            "time": "5åˆ†",
+            "line": "å¾’æ­© ",
+            "congestion": "ä½™è£•ã§åº§ã‚Œã‚‹"
         },
         "4": {
             "station_block": 1,
-            "station_name": "“ú–{‹´"
+            "station_name": "æ—¥æœ¬æ©‹"
         },
         "5": {
             "route_block": 1,
-            "time": "10•ª",
-            "line": "OsakaMetroä‹Øü –kç—¢s",
-            "congestion": "—]—T‚ÅÀ‚ê‚é"
+            "time": "10åˆ†",
+            "line": "OsakaMetroå ºç­‹ç·š åŒ—åƒé‡Œè¡Œ",
+            "congestion": "ä½™è£•ã§åº§ã‚Œã‚‹"
         },
         "6": {
             "station_block": 1,
-            "station_name": "“V_‹´‹Ø˜Z’š–Ú"
+            "station_name": "å¤©ç¥æ©‹ç­‹å…­ä¸ç›®"
         },
         "7": {
             "route_block": 1,
-            "time": "25•ª",
-            "line": "ã‹}ç—¢ü –kç—¢s",
-            "congestion": "—]—T‚ÅÀ‚ê‚é"
+            "time": "25åˆ†",
+            "line": "é˜ªæ€¥åƒé‡Œç·š åŒ—åƒé‡Œè¡Œ",
+            "congestion": "ä½™è£•ã§åº§ã‚Œã‚‹"
         },
         "8": {
             "station_block": 1,
-            "station_name": "R“c"
+            "station_name": "å±±ç”°"
         }
     },
-    "•ì_R“c": {
+    "é»’å·_å±±ç”°": {
         "0": {
             "station_block": 1,
-            "station_name": "•ì"
+            "station_name": "é»’å·"
         },
         "1": {
             "route_block": 1,
-            "time": "9•ª",
-            "line": "–¼ŒÃ‰®s‰c–¼éü ‰hiˆ¤’mŒ§j,‹àRiˆ¤’mŒ§j•û–Ê",
-            "congestion": "—]—T‚ÅÀ‚ê‚é"
+            "time": "9åˆ†",
+            "line": "åå¤å±‹å¸‚å–¶ååŸç·š æ „ï¼ˆæ„›çŸ¥çœŒï¼‰,é‡‘å±±ï¼ˆæ„›çŸ¥çœŒï¼‰æ–¹é¢",
+            "congestion": "ä½™è£•ã§åº§ã‚Œã‚‹"
         },
         "2": {
             "station_block": 1,
-            "station_name": "‰h"
+            "station_name": "æ „"
         },
         "3": {
             "route_block": 1,
-            "time": "6•ª",
-            "line": "–¼ŒÃ‰®s‰c“ŒRü ‚”¨s",
-            "congestion": "—]—T‚ÅÀ‚ê‚é"
+            "time": "6åˆ†",
+            "line": "åå¤å±‹å¸‚å–¶æ±å±±ç·š é«˜ç•‘è¡Œ",
+            "congestion": "ä½™è£•ã§åº§ã‚Œã‚‹"
         },
         "4": {
             "station_block": 1,
-            "station_name": "–¼ŒÃ‰®"
+            "station_name": "åå¤å±‹"
         },
         "5": {
             "route_block": 1,
-            "time": "7•ª",
-            "line": "“k•à ",
-            "congestion": "—]—T‚ÅÀ‚ê‚é"
+            "time": "7åˆ†",
+            "line": "å¾’æ­© ",
+            "congestion": "ä½™è£•ã§åº§ã‚Œã‚‹"
         },
         "6": {
             "station_block": 1,
-            "station_name": "‹ß“S–¼ŒÃ‰®"
+            "station_name": "è¿‘é‰„åå¤å±‹"
         },
         "7": {
             "route_block": 1,
-            "time": "2ŠÔ18•ª",
-            "line": "‹ß“S–¼ã“Á‹} ‘åã“ï”gk‹ß“SEã_üls",
-            "congestion": "—]—T‚ÅÀ‚ê‚é"
+            "time": "2æ™‚é–“18åˆ†",
+            "line": "è¿‘é‰„åé˜ªç‰¹æ€¥ å¤§é˜ªé›£æ³¢ã€”è¿‘é‰„ãƒ»é˜ªç¥ç·šã€•è¡Œ",
+            "congestion": "ä½™è£•ã§åº§ã‚Œã‚‹"
         },
         "8": {
             "station_block": 1,
-            "station_name": "’ß‹´"
+            "station_name": "é¶´æ©‹"
         },
         "9": {
             "route_block": 1,
-            "time": "4•ª",
-            "line": "OsakaMetroç“ú‘Oü –ì“cã_s",
-            "congestion": "—]—T‚ÅÀ‚ê‚é"
+            "time": "4åˆ†",
+            "line": "OsakaMetroåƒæ—¥å‰ç·š é‡ç”°é˜ªç¥è¡Œ",
+            "congestion": "ä½™è£•ã§åº§ã‚Œã‚‹"
         },
         "10": {
             "station_block": 1,
-            "station_name": "“ú–{‹´"
+            "station_name": "æ—¥æœ¬æ©‹"
         },
         "11": {
             "route_block": 1,
-            "time": "9•ª",
-            "line": "OsakaMetroä‹Øü –kç—¢s",
-            "congestion": "—]—T‚ÅÀ‚ê‚é"
+            "time": "9åˆ†",
+            "line": "OsakaMetroå ºç­‹ç·š åŒ—åƒé‡Œè¡Œ",
+            "congestion": "ä½™è£•ã§åº§ã‚Œã‚‹"
         },
         "12": {
             "station_block": 1,
-            "station_name": "“V_‹´‹Ø˜Z’š–Ú"
+            "station_name": "å¤©ç¥æ©‹ç­‹å…­ä¸ç›®"
         },
         "13": {
             "route_block": 1,
-            "time": "24•ª",
-            "line": "ã‹}ç—¢ü –kç—¢s",
-            "congestion": "—]—T‚ÅÀ‚ê‚é"
+            "time": "24åˆ†",
+            "line": "é˜ªæ€¥åƒé‡Œç·š åŒ—åƒé‡Œè¡Œ",
+            "congestion": "ä½™è£•ã§åº§ã‚Œã‚‹"
         },
         "14": {
             "station_block": 1,
-            "station_name": "R“c"
+            "station_name": "å±±ç”°"
         }
     },
-    "R‰º_R“c": {
+    "å±±ä¸‹_å±±ç”°": {
         "0": {
             "station_block": 1,
-            "station_name": "R‰º"
+            "station_name": "å±±ä¸‹"
         },
         "1": {
             "route_block": 1,
-            "time": "18•ª",
-            "line": "”\¨“d“S–­Œ©ü ì¼”\¨Œûs",
-            "congestion": "—]—T‚ÅÀ‚ê‚é"
+            "time": "18åˆ†",
+            "line": "èƒ½å‹¢é›»é‰„å¦™è¦‹ç·š å·è¥¿èƒ½å‹¢å£è¡Œ",
+            "congestion": "ä½™è£•ã§åº§ã‚Œã‚‹"
         },
         "2": {
             "station_block": 1,
-            "station_name": "ì¼”\¨Œû"
+            "station_name": "å·è¥¿èƒ½å‹¢å£"
         },
         "3": {
             "route_block": 1,
-            "time": "9•ª",
-            "line": "ã‹}•ó’Ëü ‘åã”~“ciã‹}üjs",
-            "congestion": "—]—T‚ÅÀ‚ê‚é"
+            "time": "9åˆ†",
+            "line": "é˜ªæ€¥å®å¡šç·š å¤§é˜ªæ¢…ç”°ï¼ˆé˜ªæ€¥ç·šï¼‰è¡Œ",
+            "congestion": "ä½™è£•ã§åº§ã‚Œã‚‹"
         },
         "4": {
             "station_block": 1,
-            "station_name": "Œu’r"
+            "station_name": "è›æ± "
         },
         "5": {
             "route_block": 1,
-            "time": "13•ª",
-            "line": "‘åãƒ‚ƒmƒŒ[ƒ‹ –å^ss",
-            "congestion": "—]—T‚ÅÀ‚ê‚é"
+            "time": "13åˆ†",
+            "line": "å¤§é˜ªãƒ¢ãƒãƒ¬ãƒ¼ãƒ« é–€çœŸå¸‚è¡Œ",
+            "congestion": "ä½™è£•ã§åº§ã‚Œã‚‹"
         },
         "6": {
             "station_block": 1,
-            "station_name": "R“c"
+            "station_name": "å±±ç”°"
         }
     },
-    "‹‹´_R“c": {
+    "äº¬æ©‹_å±±ç”°": {
         "0": {
             "station_block": 1,
-            "station_name": "‹‹´"
+            "station_name": "äº¬æ©‹"
         },
         "1": {
             "route_block": 1,
-            "time": "5•ª",
-            "line": "‹ã–{ü€‹} –‡•ûss",
-            "congestion": "—]—T‚ÅÀ‚ê‚é"
+            "time": "5åˆ†",
+            "line": "äº¬é˜ªæœ¬ç·šæº–æ€¥ æšæ–¹å¸‚è¡Œ",
+            "congestion": "ä½™è£•ã§åº§ã‚Œã‚‹"
         },
         "2": {
             "station_block": 1,
-            "station_name": "çŒûsk‹ãül"
+            "station_name": "å®ˆå£å¸‚ã€”äº¬é˜ªç·šã€•"
         },
         "3": {
             "route_block": 1,
-            "time": "3•ª",
-            "line": "‹ã–{ü o’¬–ös",
-            "congestion": "—]—T‚ÅÀ‚ê‚é"
+            "time": "3åˆ†",
+            "line": "äº¬é˜ªæœ¬ç·š å‡ºç”ºæŸ³è¡Œ",
+            "congestion": "ä½™è£•ã§åº§ã‚Œã‚‹"
         },
         "4": {
             "station_block": 1,
-            "station_name": "–å^s"
+            "station_name": "é–€çœŸå¸‚"
         },
         "5": {
             "route_block": 1,
-            "time": "23•ª",
-            "line": "‘åãƒ‚ƒmƒŒ[ƒ‹ ‘åã‹ó`[ˆÉ’O]s",
-            "congestion": "—]—T‚ÅÀ‚ê‚é"
+            "time": "23åˆ†",
+            "line": "å¤§é˜ªãƒ¢ãƒãƒ¬ãƒ¼ãƒ« å¤§é˜ªç©ºæ¸¯[ä¼Šä¸¹]è¡Œ",
+            "congestion": "ä½™è£•ã§åº§ã‚Œã‚‹"
         },
         "6": {
             "station_block": 1,
-            "station_name": "R“c"
+            "station_name": "å±±ç”°"
         }
     },
-    "‰h’¬_R“c": {
+    "æ „ç”º_å±±ç”°": {
         "0": {
             "station_block": 1,
-            "station_name": "‰h’¬"
+            "station_name": "æ „ç”º"
         },
         "1": {
             "route_block": 1,
-            "time": "3•ª",
-            "line": "“k•à ",
-            "congestion": "—]—T‚ÅÀ‚ê‚é"
+            "time": "3åˆ†",
+            "line": "å¾’æ­© ",
+            "congestion": "ä½™è£•ã§åº§ã‚Œã‚‹"
         },
         "2": {
             "station_block": 1,
-            "station_name": "‰h"
+            "station_name": "æ „"
         },
         "3": {
             "route_block": 1,
-            "time": "6•ª",
-            "line": "–¼ŒÃ‰®s‰c“ŒRü ‚”¨s",
-            "congestion": "—]—T‚ÅÀ‚ê‚é"
+            "time": "6åˆ†",
+            "line": "åå¤å±‹å¸‚å–¶æ±å±±ç·š é«˜ç•‘è¡Œ",
+            "congestion": "ä½™è£•ã§åº§ã‚Œã‚‹"
         },
         "4": {
             "station_block": 1,
-            "station_name": "–¼ŒÃ‰®"
+            "station_name": "åå¤å±‹"
         },
         "5": {
             "route_block": 1,
-            "time": "7•ª",
-            "line": "“k•à ",
-            "congestion": "—]—T‚ÅÀ‚ê‚é"
+            "time": "7åˆ†",
+            "line": "å¾’æ­© ",
+            "congestion": "ä½™è£•ã§åº§ã‚Œã‚‹"
         },
         "6": {
             "station_block": 1,
-            "station_name": "‹ß“S–¼ŒÃ‰®"
+            "station_name": "è¿‘é‰„åå¤å±‹"
         },
         "7": {
             "route_block": 1,
-            "time": "2ŠÔ18•ª",
-            "line": "‹ß“S–¼ã“Á‹} ‘åã“ï”gk‹ß“SEã_üls",
-            "congestion": "—]—T‚ÅÀ‚ê‚é"
+            "time": "2æ™‚é–“18åˆ†",
+            "line": "è¿‘é‰„åé˜ªç‰¹æ€¥ å¤§é˜ªé›£æ³¢ã€”è¿‘é‰„ãƒ»é˜ªç¥ç·šã€•è¡Œ",
+            "congestion": "ä½™è£•ã§åº§ã‚Œã‚‹"
         },
         "8": {
             "station_block": 1,
-            "station_name": "’ß‹´"
+            "station_name": "é¶´æ©‹"
         },
         "9": {
             "route_block": 1,
-            "time": "4•ª",
-            "line": "OsakaMetroç“ú‘Oü –ì“cã_s",
-            "congestion": "—]—T‚ÅÀ‚ê‚é"
+            "time": "4åˆ†",
+            "line": "OsakaMetroåƒæ—¥å‰ç·š é‡ç”°é˜ªç¥è¡Œ",
+            "congestion": "ä½™è£•ã§åº§ã‚Œã‚‹"
         },
         "10": {
             "station_block": 1,
-            "station_name": "“ú–{‹´"
+            "station_name": "æ—¥æœ¬æ©‹"
         },
         "11": {
             "route_block": 1,
-            "time": "9•ª",
-            "line": "OsakaMetroä‹Øü –kç—¢s",
-            "congestion": "—]—T‚ÅÀ‚ê‚é"
+            "time": "9åˆ†",
+            "line": "OsakaMetroå ºç­‹ç·š åŒ—åƒé‡Œè¡Œ",
+            "congestion": "ä½™è£•ã§åº§ã‚Œã‚‹"
         },
         "12": {
             "station_block": 1,
-            "station_name": "“V_‹´‹Ø˜Z’š–Ú"
+            "station_name": "å¤©ç¥æ©‹ç­‹å…­ä¸ç›®"
         },
         "13": {
             "route_block": 1,
-            "time": "24•ª",
-            "line": "ã‹}ç—¢ü –kç—¢s",
-            "congestion": "—]—T‚ÅÀ‚ê‚é"
+            "time": "24åˆ†",
+            "line": "é˜ªæ€¥åƒé‡Œç·š åŒ—åƒé‡Œè¡Œ",
+            "congestion": "ä½™è£•ã§åº§ã‚Œã‚‹"
         },
         "14": {
             "station_block": 1,
-            "station_name": "R“c"
+            "station_name": "å±±ç”°"
         }
     },
-    "s–ğŠ‘O_R“c": {
+    "å¸‚å½¹æ‰€å‰_å±±ç”°": {
         "0": {
             "station_block": 1,
-            "station_name": "‹“ss–ğŠ‘O"
+            "station_name": "äº¬éƒ½å¸‚å½¹æ‰€å‰"
         },
         "1": {
             "route_block": 1,
-            "time": "2•ª",
-            "line": "‹“ss‰c“Œ¼ü ‘¾`“V_ìs",
-            "congestion": "—]—T‚ÅÀ‚ê‚é"
+            "time": "2åˆ†",
+            "line": "äº¬éƒ½å¸‚å–¶æ±è¥¿ç·š å¤ªç§¦å¤©ç¥å·è¡Œ",
+            "congestion": "ä½™è£•ã§åº§ã‚Œã‚‹"
         },
         "2": {
             "station_block": 1,
-            "station_name": "‰GŠÛŒä’r"
+            "station_name": "çƒä¸¸å¾¡æ± "
         },
         "3": {
             "route_block": 1,
-            "time": "2•ª",
-            "line": "‹“ss‰c‰GŠÛü ’|“ci‹“s•{js",
-            "congestion": "—]—T‚ÅÀ‚ê‚é"
+            "time": "2åˆ†",
+            "line": "äº¬éƒ½å¸‚å–¶çƒä¸¸ç·š ç«¹ç”°ï¼ˆäº¬éƒ½åºœï¼‰è¡Œ",
+            "congestion": "ä½™è£•ã§åº§ã‚Œã‚‹"
         },
         "4": {
             "station_block": 1,
-            "station_name": "lğ"
+            "station_name": "å››æ¡"
         },
         "5": {
             "route_block": 1,
-            "time": "5•ª",
-            "line": "“k•à ",
-            "congestion": "—]—T‚ÅÀ‚ê‚é"
+            "time": "5åˆ†",
+            "line": "å¾’æ­© ",
+            "congestion": "ä½™è£•ã§åº§ã‚Œã‚‹"
         },
         "6": {
             "station_block": 1,
-            "station_name": "‰GŠÛ"
+            "station_name": "çƒä¸¸"
         },
         "7": {
             "route_block": 1,
-            "time": "28•ª",
-            "line": "ã‹}‹“sü’Ê‹Î“Á‹} ‘åã”~“ciã‹}üjs",
-            "congestion": "—]—T‚ÅÀ‚ê‚é"
+            "time": "28åˆ†",
+            "line": "é˜ªæ€¥äº¬éƒ½ç·šé€šå‹¤ç‰¹æ€¥ å¤§é˜ªæ¢…ç”°ï¼ˆé˜ªæ€¥ç·šï¼‰è¡Œ",
+            "congestion": "ä½™è£•ã§åº§ã‚Œã‚‹"
         },
         "8": {
             "station_block": 1,
-            "station_name": "ˆï–Øskã‹}ül"
+            "station_name": "èŒ¨æœ¨å¸‚ã€”é˜ªæ€¥ç·šã€•"
         },
         "9": {
             "route_block": 1,
-            "time": "3•ª",
-            "line": "ã‹}‹“sü€‹} “V‰º’ƒ‰®s",
-            "congestion": "—]—T‚ÅÀ‚ê‚é"
+            "time": "3åˆ†",
+            "line": "é˜ªæ€¥äº¬éƒ½ç·šæº–æ€¥ å¤©ä¸‹èŒ¶å±‹è¡Œ",
+            "congestion": "ä½™è£•ã§åº§ã‚Œã‚‹"
         },
         "10": {
             "station_block": 1,
-            "station_name": "“ìˆï–Ø"
+            "station_name": "å—èŒ¨æœ¨"
         },
         "11": {
             "route_block": 1,
-            "time": "5•ª",
-            "line": "“k•à ",
-            "congestion": "—]—T‚ÅÀ‚ê‚é"
+            "time": "5åˆ†",
+            "line": "å¾’æ­© ",
+            "congestion": "ä½™è£•ã§åº§ã‚Œã‚‹"
         },
         "12": {
             "station_block": 1,
-            "station_name": "“ìˆï–Ø"
+            "station_name": "å—èŒ¨æœ¨"
         },
         "13": {
             "route_block": 1,
-            "time": "9•ª",
-            "line": "‘åãƒ‚ƒmƒŒ[ƒ‹ ‘åã‹ó`[ˆÉ’O]s",
-            "congestion": "—]—T‚ÅÀ‚ê‚é"
+            "time": "9åˆ†",
+            "line": "å¤§é˜ªãƒ¢ãƒãƒ¬ãƒ¼ãƒ« å¤§é˜ªç©ºæ¸¯[ä¼Šä¸¹]è¡Œ",
+            "congestion": "ä½™è£•ã§åº§ã‚Œã‚‹"
         },
         "14": {
             "station_block": 1,
-            "station_name": "R“c"
+            "station_name": "å±±ç”°"
         }
     },
-    "Œ§’¡‘O_R“c": {
+    "çœŒåºå‰_å±±ç”°": {
         "0": {
             "station_block": 1,
-            "station_name": "Œ§’¡‘O"
+            "station_name": "çœŒåºå‰"
         },
         "1": {
             "route_block": 1,
-            "time": "2•ª",
-            "line": "_ŒËs‰c–k_E¼_ERèü ’Jãs",
-            "congestion": "—]—T‚ÅÀ‚ê‚é"
+            "time": "2åˆ†",
+            "line": "ç¥æˆ¸å¸‚å–¶åŒ—ç¥ãƒ»è¥¿ç¥ãƒ»å±±æ‰‹ç·š è°·ä¸Šè¡Œ",
+            "congestion": "ä½™è£•ã§åº§ã‚Œã‚‹"
         },
         "2": {
             "station_block": 1,
-            "station_name": "O‹{"
+            "station_name": "ä¸‰å®®"
         },
         "3": {
             "route_block": 1,
-            "time": "7•ª",
-            "line": "“k•à ",
-            "congestion": "—]—T‚ÅÀ‚ê‚é"
+            "time": "7åˆ†",
+            "line": "å¾’æ­© ",
+            "congestion": "ä½™è£•ã§åº§ã‚Œã‚‹"
         },
         "4": {
             "station_block": 1,
-            "station_name": "_ŒËO‹{kã‹}ül"
+            "station_name": "ç¥æˆ¸ä¸‰å®®ã€”é˜ªæ€¥ç·šã€•"
         },
         "5": {
             "route_block": 1,
-            "time": "28•ª",
-            "line": "ã‹}_ŒËü’Ê‹Î“Á‹} ‘åã”~“ciã‹}üjs",
-            "congestion": "—]—T‚ÅÀ‚ê‚é"
+            "time": "28åˆ†",
+            "line": "é˜ªæ€¥ç¥æˆ¸ç·šé€šå‹¤ç‰¹æ€¥ å¤§é˜ªæ¢…ç”°ï¼ˆé˜ªæ€¥ç·šï¼‰è¡Œ",
+            "congestion": "ä½™è£•ã§åº§ã‚Œã‚‹"
         },
         "6": {
             "station_block": 1,
-            "station_name": "\O"
+            "station_name": "åä¸‰"
         },
         "7": {
             "route_block": 1,
-            "time": "6•ª",
-            "line": "ã‹}‹“sü –kç—¢s",
-            "congestion": "—]—T‚ÅÀ‚ê‚é"
+            "time": "6åˆ†",
+            "line": "é˜ªæ€¥äº¬éƒ½ç·š åŒ—åƒé‡Œè¡Œ",
+            "congestion": "ä½™è£•ã§åº§ã‚Œã‚‹"
         },
         "8": {
             "station_block": 1,
-            "station_name": "’W˜Hkã‹}ül"
+            "station_name": "æ·¡è·¯ã€”é˜ªæ€¥ç·šã€•"
         },
         "9": {
             "route_block": 1,
-            "time": "16•ª",
-            "line": "ã‹}ç—¢ü –kç—¢s",
-            "congestion": "—]—T‚ÅÀ‚ê‚é"
+            "time": "16åˆ†",
+            "line": "é˜ªæ€¥åƒé‡Œç·š åŒ—åƒé‡Œè¡Œ",
+            "congestion": "ä½™è£•ã§åº§ã‚Œã‚‹"
         },
         "10": {
             "station_block": 1,
-            "station_name": "R“c"
+            "station_name": "å±±ç”°"
         }
     },
-    "‚¼_R“c": {
+    "é«˜æ¾_å±±ç”°": {
         "0": {
             "station_block": 1,
-            "station_name": "‚¼"
+            "station_name": "é«˜æ¾"
         },
         "1": {
             "route_block": 1,
-            "time": "3•ª",
-            "line": "“k•à ",
-            "congestion": "—]—T‚ÅÀ‚ê‚é"
+            "time": "3åˆ†",
+            "line": "å¾’æ­© ",
+            "congestion": "ä½™è£•ã§åº§ã‚Œã‚‹"
         },
         "2": {
             "station_block": 1,
-            "station_name": "‚¼‰w‚‘¬ƒoƒXƒ^[ƒ~ƒiƒ‹"
+            "station_name": "é«˜æ¾é§…é«˜é€Ÿãƒã‚¹ã‚¿ãƒ¼ãƒŸãƒŠãƒ«"
         },
         "3": {
             "route_block": 1,
-            "time": "2ŠÔ36•ª",
-            "line": "‚‘¬ƒoƒX ƒtƒbƒgƒoƒX O‹{ƒoƒXƒ^[ƒ~ƒiƒ‹s",
-            "congestion": "—]—T‚ÅÀ‚ê‚é"
+            "time": "2æ™‚é–“36åˆ†",
+            "line": "é«˜é€Ÿãƒã‚¹ ãƒ•ãƒƒãƒˆãƒã‚¹ ä¸‰å®®ãƒã‚¹ã‚¿ãƒ¼ãƒŸãƒŠãƒ«è¡Œ",
+            "congestion": "ä½™è£•ã§åº§ã‚Œã‚‹"
         },
         "4": {
             "station_block": 1,
-            "station_name": "O‹{ƒoƒXƒ^[ƒ~ƒiƒ‹"
+            "station_name": "ä¸‰å®®ãƒã‚¹ã‚¿ãƒ¼ãƒŸãƒŠãƒ«"
         },
         "5": {
             "route_block": 1,
-            "time": "11•ª",
-            "line": "“k•à ",
-            "congestion": "—]—T‚ÅÀ‚ê‚é"
+            "time": "11åˆ†",
+            "line": "å¾’æ­© ",
+            "congestion": "ä½™è£•ã§åº§ã‚Œã‚‹"
         },
         "6": {
             "station_block": 1,
-            "station_name": "_ŒËO‹{kã‹}ül"
+            "station_name": "ç¥æˆ¸ä¸‰å®®ã€”é˜ªæ€¥ç·šã€•"
         },
         "7": {
             "route_block": 1,
-            "time": "39•ª",
-            "line": "ã‹}_ŒËü ‘åã”~“ciã‹}üjs",
-            "congestion": "—]—T‚ÅÀ‚ê‚é"
+            "time": "39åˆ†",
+            "line": "é˜ªæ€¥ç¥æˆ¸ç·š å¤§é˜ªæ¢…ç”°ï¼ˆé˜ªæ€¥ç·šï¼‰è¡Œ",
+            "congestion": "ä½™è£•ã§åº§ã‚Œã‚‹"
         },
         "8": {
             "station_block": 1,
-            "station_name": "\O"
+            "station_name": "åä¸‰"
         },
         "9": {
             "route_block": 1,
-            "time": "6•ª",
-            "line": "ã‹}‹“sü –kç—¢s",
-            "congestion": "—]—T‚ÅÀ‚ê‚é"
+            "time": "6åˆ†",
+            "line": "é˜ªæ€¥äº¬éƒ½ç·š åŒ—åƒé‡Œè¡Œ",
+            "congestion": "ä½™è£•ã§åº§ã‚Œã‚‹"
         },
         "10": {
             "station_block": 1,
-            "station_name": "’W˜Hkã‹}ül"
+            "station_name": "æ·¡è·¯ã€”é˜ªæ€¥ç·šã€•"
         },
         "11": {
             "route_block": 1,
-            "time": "15•ª",
-            "line": "ã‹}ç—¢ü –kç—¢s",
-            "congestion": "—]—T‚ÅÀ‚ê‚é"
+            "time": "15åˆ†",
+            "line": "é˜ªæ€¥åƒé‡Œç·š åŒ—åƒé‡Œè¡Œ",
+            "congestion": "ä½™è£•ã§åº§ã‚Œã‚‹"
         },
         "12": {
             "station_block": 1,
-            "station_name": "R“c"
+            "station_name": "å±±ç”°"
         }
     },
-    "‘å’¬_R“c": {
+    "å¤§ç”º_å±±ç”°": {
         "0": {
             "station_block": 1,
-            "station_name": "‘å’¬"
+            "station_name": "å¤§ç”º"
         },
         "1": {
             "route_block": 1,
-            "time": "3•ª",
-            "line": "ƒAƒXƒgƒ‰ƒ€ƒ‰ƒCƒ“ –{’Ês",
-            "congestion": "—]—T‚ÅÀ‚ê‚é"
+            "time": "3åˆ†",
+            "line": "ã‚¢ã‚¹ãƒˆãƒ©ãƒ ãƒ©ã‚¤ãƒ³ æœ¬é€šè¡Œ",
+            "congestion": "ä½™è£•ã§åº§ã‚Œã‚‹"
         },
         "2": {
             "station_block": 1,
-            "station_name": "’†‹Ø"
+            "station_name": "ä¸­ç­‹"
         },
         "3": {
             "route_block": 1,
-            "time": "5•ª",
-            "line": "“k•à ",
-            "congestion": "—]—T‚ÅÀ‚ê‚é"
+            "time": "5åˆ†",
+            "line": "å¾’æ­© ",
+            "congestion": "ä½™è£•ã§åº§ã‚Œã‚‹"
         },
         "4": {
             "station_block": 1,
-            "station_name": "’†‹Ø‰w"
+            "station_name": "ä¸­ç­‹é§…"
         },
         "5": {
             "route_block": 1,
-            "time": "4ŠÔ37•ª",
-            "line": "‘åã-L“‡/ƒOƒ‰ƒ“’‹“Á‹}L“‡†[‚‘¬ƒoƒX] ƒOƒ‰ƒ“’‹“Á‹}‚‘¬ƒoƒX ƒOƒ‰ƒ“’‹“Á‹}‘åã† –©’¬ƒoƒXƒ^[ƒ~ƒiƒ‹k‚n‚b‚`‚sls",
-            "congestion": "—]—T‚ÅÀ‚ê‚é"
+            "time": "4æ™‚é–“37åˆ†",
+            "line": "å¤§é˜ª-åºƒå³¶/ã‚°ãƒ©ãƒ³æ˜¼ç‰¹æ€¥åºƒå³¶å·[é«˜é€Ÿãƒã‚¹] ã‚°ãƒ©ãƒ³æ˜¼ç‰¹æ€¥é«˜é€Ÿãƒã‚¹ ã‚°ãƒ©ãƒ³æ˜¼ç‰¹æ€¥å¤§é˜ªå· æ¹Šç”ºãƒã‚¹ã‚¿ãƒ¼ãƒŸãƒŠãƒ«ã€”ï¼¯ï¼£ï¼¡ï¼´ã€•è¡Œ",
+            "congestion": "ä½™è£•ã§åº§ã‚Œã‚‹"
         },
         "6": {
             "station_block": 1,
-            "station_name": "‘åã‰w‚i‚q‚‘¬ƒoƒXƒ^[ƒ~ƒiƒ‹"
+            "station_name": "å¤§é˜ªé§…ï¼ªï¼²é«˜é€Ÿãƒã‚¹ã‚¿ãƒ¼ãƒŸãƒŠãƒ«"
         },
         "7": {
             "route_block": 1,
-            "time": "15•ª",
-            "line": "“k•à ",
-            "congestion": "—]—T‚ÅÀ‚ê‚é"
+            "time": "15åˆ†",
+            "line": "å¾’æ­© ",
+            "congestion": "ä½™è£•ã§åº§ã‚Œã‚‹"
         },
         "8": {
             "station_block": 1,
-            "station_name": "‘åã”~“c"
+            "station_name": "å¤§é˜ªæ¢…ç”°"
         },
         "9": {
             "route_block": 1,
-            "time": "10•ª",
-            "line": "ã‹}‹“sü –kç—¢s",
-            "congestion": "—]—T‚ÅÀ‚ê‚é"
+            "time": "10åˆ†",
+            "line": "é˜ªæ€¥äº¬éƒ½ç·š åŒ—åƒé‡Œè¡Œ",
+            "congestion": "ä½™è£•ã§åº§ã‚Œã‚‹"
         },
         "10": {
             "station_block": 1,
-            "station_name": "’W˜Hkã‹}ül"
+            "station_name": "æ·¡è·¯ã€”é˜ªæ€¥ç·šã€•"
         },
         "11": {
             "route_block": 1,
-            "time": "15•ª",
-            "line": "ã‹}ç—¢ü –kç—¢s",
-            "congestion": "—]—T‚ÅÀ‚ê‚é"
+            "time": "15åˆ†",
+            "line": "é˜ªæ€¥åƒé‡Œç·š åŒ—åƒé‡Œè¡Œ",
+            "congestion": "ä½™è£•ã§åº§ã‚Œã‚‹"
         },
         "12": {
             "station_block": 1,
-            "station_name": "R“c"
+            "station_name": "å±±ç”°"
         }
     }
 }
