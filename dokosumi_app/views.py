@@ -25,8 +25,6 @@ import re
 import locale
 import sys
 
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
-sys.stdin = io.TextIOWrapper(sys.stdin.buffer, encoding='utf-8')
 
 # TEST
 def test(request):
@@ -91,14 +89,12 @@ def result_rank(request):
         }
         return render(request, 'dokosumi_app/error.html', context)
 
-    locale.setlocale(locale.LC_CTYPE, ('C'))
-
     # 各駅から職場の最寄り駅への経路情報のJSONファイルを取得
     routes_dict = {}
     print("駅から駅への経路情報のJSONファイルを取得 - 処理開始")
     if station_name != '':
         json_file = dirname + '/data/routes_stationA_to_stationB/to_' + station_name + '.json'
-        with open(json_file.encode('utf-8'), encoding='utf-8') as f:
+        with open(json_file.encode('utf-8')) as f:
             routes_dict_tmp = json.load(f)
         routes_dict.update(routes_dict_tmp)
 
@@ -106,7 +102,7 @@ def result_rank(request):
     print("駅から駅への経路情報のJSONファイルを取得 - 処理開始")
     if partners_station_name != '':
         json_file = dirname + '/data/routes_stationA_to_stationB/to_' + partners_station_name + '.json'
-        with open(json_file.encode('utf-8'), encoding='utf-8') as f:
+        with open(json_file.encode('utf-8')) as f:
             routes_dict_tmp = json.load(f)
         routes_dict.update(routes_dict_tmp)
 
