@@ -86,6 +86,8 @@ def result_rank(request):
         }
         return render(request, 'dokosumi_app/error.html', context)
 
+    locale.setlocale(locale.LC_CTYPE, ('C'))
+
     # 各駅から職場の最寄り駅への経路情報のJSONファイルを取得
     routes_dict = {}
     print("駅から駅への経路情報のJSONファイルを取得 - 処理開始")
