@@ -24,6 +24,9 @@ import datetime
 import re
 import locale
 
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+sys.stdin = io.TextIOWrapper(sys.stdin.buffer, encoding='utf-8')
+
 # TEST
 def test(request):
     if request.method == "POST":
