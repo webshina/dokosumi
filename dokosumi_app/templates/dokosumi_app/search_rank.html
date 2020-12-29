@@ -66,6 +66,34 @@
     <div class="bigwrapper">
         <div class="box">
             <div class="box-title">
+                <img src="{{staticUrl}}icon/congestion.png" class="icon"></img>
+                <div class="label">
+                    <div class="heading">通勤混雑度</div>
+                    <div class="description">職場への通勤電車の混雑具合</div>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div  class="valueRange">
+                    <div class="row">
+                        <div class="col-6" style="margin-left:80px">
+                            <input type="range" class="range" name="congestion" min="0" max="100" value="0">
+                        </div>
+                        <div class="col-1 d-flex align-items-center">
+                            <span class="value">0</span>
+                        </div>
+                        <div class="col-2 d-flex align-items-center">
+                            <span class="descripion">気にしない</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% comment %} 価値観入力 {% endcomment %}
+    <div class="bigwrapper">
+        <div class="box">
+            <div class="box-title">
                 <img src="{{staticUrl}}icon/train.png" class="icon"></img>
                 <div class="label">
                     <div class="heading">アクセスの良さ</div>
@@ -118,34 +146,6 @@
         </div>
     </div>
 
-    {% comment %} 価値観入力 {% endcomment %}
-    <div class="bigwrapper">
-        <div class="box">
-            <div class="box-title">
-                <img src="{{staticUrl}}icon/shopping.png" class="icon"></img>
-                <div class="label">
-                    <div class="heading">買い物のしやすさ</div>
-                    <div class="description">駅周辺のスーパーの多さ</div>
-                </div>
-            </div>
-            <div class="wrapper">
-                <div  class="valueRange">
-                    <div class="row">
-                        <div class="col-6" style="margin-left:80px">
-                            <input type="range" class="range" name="supermarket" min="0" max="100" value="0">
-                        </div>
-                        <div class="col-1 d-flex align-items-center">
-                            <span class="value">0</span>
-                        </div>
-                        <div class="col-2 d-flex align-items-center">
-                            <span class="descripion">気にしない</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
     {% comment %} その他(オプション指定の価値観)     {% endcomment %}
     <div class="bigwrapper">
         <button type="button" class="hidden-button box otherBtn">
@@ -154,6 +154,34 @@
     </div>
 
     <div class="hidden-target">
+
+        {% comment %} 価値観入力 {% endcomment %}
+        <div class="bigwrapper">
+            <div class="box">
+                <div class="box-title">
+                    <img src="{{staticUrl}}icon/shopping.png" class="icon"></img>
+                    <div class="label">
+                        <div class="heading">買い物のしやすさ</div>
+                        <div class="description">駅周辺のスーパーの多さ</div>
+                    </div>
+                </div>
+                <div class="wrapper">
+                    <div  class="valueRange">
+                        <div class="row">
+                            <div class="col-6" style="margin-left:80px">
+                                <input type="range" class="range" name="supermarket" min="0" max="100" value="0">
+                            </div>
+                            <div class="col-1 d-flex align-items-center">
+                                <span class="value">0</span>
+                            </div>
+                            <div class="col-2 d-flex align-items-center">
+                                <span class="descripion">気にしない</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         {% comment %} 職場の最寄り駅入力 {% endcomment %}
         <div class="bigwrapper">
@@ -189,6 +217,34 @@
                         <div class="row">
                             <div class="col-6" style="margin-left:80px">
                                 <input type="range" class="range" name="dist_to_partners_office" min="0" max="100" value="0">
+                            </div>
+                            <div class="col-1 d-flex align-items-center">
+                                <span class="value">0</span>
+                            </div>
+                            <div class="col-2 d-flex align-items-center">
+                                <span class="descripion">気にしない</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {% comment %} 価値観入力 {% endcomment %}
+        <div class="bigwrapper">
+            <div class="box">
+                <div class="box-title">
+                    <img src="{{staticUrl}}icon/congestion.png" class="icon"></img>
+                    <div class="label">
+                        <div class="heading">パートナーの通勤混雑度</div>
+                        <div class="description">パートナーの職場への通勤電車の混雑具合</div>
+                    </div>
+                </div>
+                <div class="wrapper">
+                    <div  class="valueRange">
+                        <div class="row">
+                            <div class="col-6" style="margin-left:80px">
+                                <input type="range" class="range" name="partners_congestion" min="0" max="100" value="0">
                             </div>
                             <div class="col-1 d-flex align-items-center">
                                 <span class="value">0</span>
@@ -289,6 +345,7 @@
     
     <div class="wrapper">
         <button type="submit" id="send" class="search-btn" >検索</button>
+        <div>※検索処理に数秒時間がかかります</div>
     </div>
 
 </form>

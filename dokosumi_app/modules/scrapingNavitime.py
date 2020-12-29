@@ -140,7 +140,13 @@ for station_name_1 in station_list:
                         route_item["line"] = line
                         
                         #混雑度取得
-                        congestion = item.find("img", attrs={"class":"section-congestion-icon"})["src"]
+                        congestion = item.find("img", attrs={"class":"section-congestion-icon"})
+                        #混雑度があれば取得
+                        if congestion != None:
+                            congestion = item.find("img", attrs={"class":"section-congestion-icon"})["src"]
+                        else:
+                            congestion = "/congestion_1.png"
+                        
                         #混雑度の画像名を取得
                         congestion = congestion.split("/")[-1]
                         #コメントに変換

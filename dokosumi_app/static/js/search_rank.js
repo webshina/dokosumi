@@ -11,9 +11,13 @@ function changeRangeValue(elem){
     //ユーザーに表示している数値をrangeバーの入力値で更新
     value.innerHTML = rangeValue;
     //ユーザーに表示している目安をrangeバーの入力値で更新
-    if (rangeValue >= 0 && rangeValue < 33) {
+    if (rangeValue >= 0 && rangeValue < 20) {
         description.innerHTML = "気にしない"
-    } else if(rangeValue >= 33 && rangeValue < 66) {
+    } else if(rangeValue >= 21 && rangeValue < 40) {
+        description.innerHTML = "あまり気にしない"
+    } else if(rangeValue >= 41 && rangeValue < 60) {
+        description.innerHTML = "少し気にする"
+    } else if(rangeValue >= 61 && rangeValue < 80) {
         description.innerHTML = "気にする"
     } else {
         description.innerHTML = "重要"

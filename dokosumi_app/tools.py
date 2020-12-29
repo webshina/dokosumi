@@ -31,21 +31,24 @@ class TwitterModule:
     # 公式アカウントで投稿
     def officialPost(self, twitter_post_comment, pict_img):
         
-        # 画像をアップロードし、media_idを取得
         upload_api = "https://upload.twitter.com/1.1/media/upload.json"
         post_api = "https://api.twitter.com/1.1/statuses/update.json"
         
         oAuth = OAuth1Session(self.consumer_key, self.consumer_secret, self.access_token_key, self.access_token_secret)
 
-        pict_img = os.path.join(pict_img)
-        print(pict_img)
-        img = {"media" : open(pict_img, 'rb')}
-        print(img)
-        req_media = oAuth.post(upload_api, files = img)
-        print(req_media.text)
-        media_id = json.loads(req_media.text)['media_id']
+        # 画像がある場合は画像をアップロードし、media_idを取得
+        if pict_img != '':
+            pict_img = os.path.join(pict_img)
+            print(pict_img)
+            img = {"media" : open(pict_img, 'rb')}
+            print(img)
+            req_media = oAuth.post(upload_api, files = img)
+            print(req_media.text)
+            media_id = json.loads(req_media.text)['media_id']
 
-        params = {"status": twitter_post_comment, "lang": "ja", "media_ids": [media_id]}
+            params = {"status": twitter_post_comment, "lang": "ja", "media_ids": [media_id]}
+        else:
+            params = {"status": twitter_post_comment, "lang": "ja"}
 
         # 画像と文章を投稿
         req_post = oAuth.post(post_api, params)

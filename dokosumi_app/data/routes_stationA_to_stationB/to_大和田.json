@@ -1,0 +1,694 @@
+{
+    "扇町_大和田": {
+        "0": {
+            "station_block": 1,
+            "station_name": "扇町"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "OsakaMetro堺筋線 天下茶屋行",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "北浜"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "なにわ橋"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "京阪中之島線準急 出町柳行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "天満橋"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "京阪本線準急 出町柳行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "守口市〔京阪線〕"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "京阪本線 萱島行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "大和田"
+        }
+    },
+    "小林_大和田": {
+        "0": {
+            "station_block": 1,
+            "station_name": "小林"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "阪急今津線 大阪梅田（阪急線）行",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "塚口"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "阪急神戸線準急 大阪梅田（阪急線）行",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "大阪梅田"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "東梅田"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "OsakaMetro谷町線 喜連瓜破行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "天満橋"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "京阪本線区間急行 萱島行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "大和田"
+        }
+    },
+    "学園前_大和田": {
+        "0": {
+            "station_block": 1,
+            "station_name": "学園前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "21分",
+            "line": "近鉄難波・奈良線快速急行 神戸三宮〔阪神線〕行",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "鶴橋"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "ＪＲ大阪環状線 京橋（大阪府）,大阪方面",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "京橋"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "京阪本線準急 樟葉行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "守口市〔京阪線〕"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "京阪本線 出町柳行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "大和田"
+        }
+    },
+    "山田_大和田": {
+        "0": {
+            "station_block": 1,
+            "station_name": "山田"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "24分",
+            "line": "大阪モノレール 門真市行",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "門真市"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "京阪本線 萱島行",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "大和田"
+        }
+    },
+    "黒川_大和田": {
+        "0": {
+            "station_block": 1,
+            "station_name": "黒川"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "名古屋市営名城線 栄（愛知県）,金山（愛知県）方面",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "栄"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "名古屋市営東山線 高畑行",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "名古屋"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "近鉄名古屋"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "2時間18分",
+            "line": "近鉄名阪特急 大阪難波〔近鉄・阪神線〕行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "鶴橋"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "ＪＲ大阪環状線 京橋（大阪府）,大阪方面",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "京橋"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "京阪本線準急 出町柳行",
+            "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "守口市〔京阪線〕"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "京阪本線 枚方市行",
+            "congestion": "余裕で座れる"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "大和田"
+        }
+    },
+    "山下_大和田": {
+        "0": {
+            "station_block": 1,
+            "station_name": "山下"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "日生エクスプレス 大阪梅田（阪急線）行",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "川西能勢口"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "24分",
+            "line": "日生エクスプレス 大阪梅田（阪急線）行",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "大阪梅田"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "梅田"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "OsakaMetro御堂筋線 天王寺行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "淀屋橋"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "京阪本線急行 樟葉行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "守口市〔京阪線〕"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "京阪本線 出町柳行",
+            "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "大和田"
+        }
+    },
+    "京橋_大和田": {
+        "0": {
+            "station_block": 1,
+            "station_name": "京橋"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "京阪本線準急 枚方市行",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "守口市〔京阪線〕"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "京阪本線 出町柳行",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "大和田"
+        }
+    },
+    "栄町_大和田": {
+        "0": {
+            "station_block": 1,
+            "station_name": "栄町"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "栄"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "名古屋市営東山線 高畑行",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "名古屋"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "近鉄名古屋"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "2時間18分",
+            "line": "近鉄名阪特急 大阪難波〔近鉄・阪神線〕行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "鶴橋"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "ＪＲ大阪環状線 京橋（大阪府）,大阪方面",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "京橋"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "京阪本線準急 出町柳行",
+            "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "守口市〔京阪線〕"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "京阪本線 枚方市行",
+            "congestion": "余裕で座れる"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "大和田"
+        }
+    },
+    "市役所前_大和田": {
+        "0": {
+            "station_block": 1,
+            "station_name": "京都市役所前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "1分",
+            "line": "京都市営東西線 びわ湖浜大津行",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "三条京阪"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "三条"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "31分",
+            "line": "京阪本線特急 淀屋橋行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "枚方市"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "20分",
+            "line": "京阪本線 中之島行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "大和田"
+        }
+    },
+    "県庁前_大和田": {
+        "0": {
+            "station_block": 1,
+            "station_name": "県庁前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "神戸市営北神・西神・山手線 新神戸行",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "三宮"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "三ノ宮"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "27分",
+            "line": "ＪＲ東海道山陽本線快速 大阪行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "大阪"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "ＪＲ大阪環状線直通快速 京橋（大阪府）,鶴橋方面",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "京橋"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "京阪本線準急 枚方市行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "守口市〔京阪線〕"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "京阪本線 出町柳行",
+            "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "大和田"
+        }
+    },
+    "高松_大和田": {
+        "0": {
+            "station_block": 1,
+            "station_name": "高松"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "高松駅高速バスターミナル"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "2時間36分",
+            "line": "高速バス フットバス 三宮バスターミナル行",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "三宮バスターミナル"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "三ノ宮"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "21分",
+            "line": "ＪＲ東海道山陽本線新快速 近江塩津行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "大阪"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "ＪＲ大阪環状線 京橋（大阪府）,鶴橋方面",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "京橋"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "京阪本線準急 出町柳行",
+            "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "守口市〔京阪線〕"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "京阪本線 枚方市行",
+            "congestion": "余裕で座れる"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "大和田"
+        }
+    },
+    "大町_大和田": {
+        "0": {
+            "station_block": 1,
+            "station_name": "大町"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "アストラムライン 本通行",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "中筋"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "中筋駅"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "4時間37分",
+            "line": "大阪-広島/グラン昼特急広島号[高速バス] グラン昼特急高速バス グラン昼特急大阪号 湊町バスターミナル〔ＯＣＡＴ〕行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "大阪駅ＪＲ高速バスターミナル"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "徒歩 ",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "大阪"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "関空快速 京橋（大阪府）,鶴橋方面",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "京橋"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "京阪本線準急 出町柳行",
+            "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "守口市〔京阪線〕"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "京阪本線 枚方市行",
+            "congestion": "余裕で座れる"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "大和田"
+        }
+    }
+}

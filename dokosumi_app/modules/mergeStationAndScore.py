@@ -23,7 +23,7 @@ print(station_df)
 #街の属性情報をマージ
 station_attr_tsv_file = 'D:\programs\Python\Dokosumi\data\station_attributes.tsv'
 station_attr_df = pd.read_table(station_attr_tsv_file, dtype=str)
-station_attr_df = station_attr_df[['station_name', 'lon', 'lat', 'comment', 'pref', 'suumoEkiCode', 'access_remark', 'landPrice_remark', 'security_remark', 'supermarket_remark']]
+station_attr_df = station_attr_df
 station_df = pd.merge(station_df, station_attr_df, on='station_name', how='inner')
 print(station_df)
 

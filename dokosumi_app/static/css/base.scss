@@ -209,7 +209,7 @@ body{
 // 検索ボタン
     .search-btn{
         width:140; 
-        margin:0 0 100 0;
+        margin:0 0 10 0;
         padding:10 30; 
         color: #FFFFFF;
         background-color:#FA6900; 
@@ -288,4 +288,18 @@ body{
     padding: 0;
     overflow: hidden;
     opacity: 0;
+}
+
+// 経路情報 - 駅名ボックス
+.station_block{
+    padding: 5px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+//経路情報 - 経路ボックス
+.route_block{
+    margin-left: 10px;
+    padding: 10px;
+    border-left: solid 5px #17a2b8;
 }

@@ -100,18 +100,70 @@
 
                 
                 {% comment %} 街ごとのスコアを表示 {% endcomment %}
+                {% comment %} 街のステータス情報ごとにループ {% endcomment %}
                 {% for key, value in town_score.values.items %}
-                    <div style="margin:10">
-                        <div style="text-align:left">
-                            <span style="font-weight:900">{{ value.description }}</span>
-                            <span style="color:#727272">{{ value.remarks }}</span>
-                        </div>
-                        <div class="progress" style="height: 12px;">
-                            <div class="progress-bar bg-info" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:{{ value.param }}%; text-align:left; padding-left:5px;">
-                                {{ value.param }} P
+                    {% comment %} 経路情報の場合 {% endcomment %}
+                    {% if '通勤経路情報' in value.description  %}
+                        <div style='margin:5px;'>
+                            <div style="text-align:left; margin:5px;">
+                                <span style="font-weight:900">{{ value.description }}</span>
                             </div>
+                            {% for key,value in value.remarks.items %}
+                                {% if value.station_block == 1 %}
+                                    <div class="station_block">
+                                        <img src="{% static 'icon/marker.png' %}" alt="駅" width="auto" height="18" style="margin:2px; vertical-align:middle;">
+                                        <span style="margin:2px; vertical-align:middle;">{{ value.station_name }}</span>
+                                    </div>
+                                {% elif value.route_block == 1 %}
+                                    <div class="route_block">
+                                        <div>
+                                            <img src="{% static 'icon/train_gray.png' %}" alt="駅" width="15" height="18" style="margin-left:1px; vertical-align:middle;">
+                                            <span style="vertical-align:middle;">
+                                                {{ value.line }}
+                                            </span>
+                                        </div>
+                                        <div>
+                                            <img src="{% static 'icon/time_gray.png' %}" alt="駅" width="18" height="18" style="vertical-align:middle;">
+                                            <span style="vertical-align:middle;">
+                                                {{ value.time }}
+                                            </span>
+                                        </div>
+                                        <div>
+                                            <img src="{% static 'icon/congestion_gray.png' %}" alt="駅" width="18" height="18" style="vertical-align:middle;">
+                                            <span style="vertical-align:middle;">
+                                                <span>朝の混雑状況:</span>
+                                                <span>{{ value.congestion }}</span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                {% endif %}
+                            {% endfor %}
                         </div>
-                    </div>
+                    {% else %}
+                        {% comment %} 経路情報以外 {% endcomment %}
+                        <div style="margin:10">
+                            <div style="text-align:left">
+                                <span style="font-weight:900">{{ value.description }}</span>
+                            </div>
+                            <div class="progress" style="height: 12px;">
+                                <div class="progress-bar bg-info" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width:{{ value.param }}%; text-align:left; padding-left:5px;">
+                                    {{ value.param }} P
+                                </div>
+                            </div>
+                            {% comment %} 目安属性情報 {% endcomment %}
+                            {% for key, value in value.remarks.items %}
+                                <div style="color:#727272">
+                                    {% comment %} その他目安属性情報の場合 {% endcomment %}
+                                    <div>
+                                        <span>-</span>
+                                        <span>{{ value.description }}</span>
+                                        <span>{{ value.value }}</span>
+                                        <span>{{ value.unit }}</span>
+                                    </div>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    {% endif %}
                 {% endfor %}
 
             </div>
