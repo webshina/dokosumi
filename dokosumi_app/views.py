@@ -91,7 +91,7 @@ def result_rank(request):
     print("駅から駅への経路情報のJSONファイルを取得 - 処理開始")
     if station_name != '':
         json_file = dirname + '/data/routes_stationA_to_stationB/to_' + station_name + '.json'
-        with open(json_file) as f:
+        with open(json_file.decode('utf-8')) as f:
             routes_dict_tmp = json.load(f)
         routes_dict.update(routes_dict_tmp)
 
