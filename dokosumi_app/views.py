@@ -22,6 +22,7 @@ from .models import ResultRank
 import json
 import datetime
 import re
+import locale
 
 # TEST
 def test(request):
