@@ -23,8 +23,6 @@ import json
 import datetime
 import re
 
-sys.stdin = io.TextIOWrapper(sys.stdin.buffer, encoding=)
-
 # TEST
 def test(request):
     if request.method == "POST":
