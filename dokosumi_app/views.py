@@ -67,6 +67,9 @@ def result_rank(request):
     # 駅から駅への所要時間のTSVファイルを取得
     time_df = pd.read_table(dirname + '/data/TimeToArriveByStation.tsv')
 
+    # 駅から駅への所要時間のTSVファイルを取得
+    congestion_df = pd.read_table(dirname + '/data/congestion_stationA_to_stationB.tsv')
+
     #駅名を取得
     station_name = params.get('station_name','')
     print('station_name:' + station_name)
@@ -91,7 +94,6 @@ def result_rank(request):
 
     # 各駅から職場の最寄り駅への経路情報のJSONファイルを取得
     routes_dict = {}
-    print("駅から駅への経路情報のJSONファイルを取得 - 処理開始")
     if station_name != '':
         json_file = dirname + '/data/routes_stationA_to_stationB/to_' + station_name + '.json'
         with open(json_file.encode('utf-8'), encoding='utf-8') as f:
@@ -99,7 +101,6 @@ def result_rank(request):
         routes_dict.update(routes_dict_tmp)
 
     # 各駅からパートナーの職場の最寄り駅への経路情報のJSONファイルを取得
-    print("駅から駅への経路情報のJSONファイルを取得 - 処理開始")
     if partners_station_name != '':
         json_file = dirname + '/data/routes_stationA_to_stationB/to_' + partners_station_name + '.json'
         with open(json_file.encode('utf-8'), encoding='utf-8') as f:
@@ -118,14 +119,13 @@ def result_rank(request):
 
     # 通勤時間を計算
     score_df['dist_to_office'] = calc_dist_score(score_df, time_df, station_name)
-    print("score_df['dist_to_office']:" + str(score_df['dist_to_office']))
     # パートナーの通勤時間を計算
     score_df['dist_to_partners_office'] = calc_dist_score(score_df, time_df, partners_station_name)
 
     # 通勤混雑度を取得
-    score_df['congestion'] = calc_congestion(score_df, routes_dict, station_name)
+    score_df['congestion'] = calc_congestion(score_df, congestion_df, station_name)
     # パートナーの通勤混雑度を取得
-    score_df['partners_congestion'] = calc_congestion(score_df, routes_dict, partners_station_name)
+    score_df['partners_congestion'] = calc_congestion(score_df, congestion_df, partners_station_name)
     
     print("score_df:" + str(score_df))
 
@@ -156,6 +156,8 @@ def result_rank(request):
     user_values = {\
         "dist_to_office":{"description":"通勤時間", "param":round(float(params.get("dist_to_office",0)))}, \
         "dist_to_partners_office":{"description":"パートナーの通勤時間", "param":round(float(params.get("dist_to_partners_office",0)))}, \
+        "congestion":{"description":"通勤混雑度", "param":round(float(params.get("congestion",0)))}, \
+        "partners_congestion":{"description":"パートナーの通勤混雑度", "param":round(float(params.get("partners_congestion",0)))}, \
         "access":{"description":"アクセスの良さ", "param":round(float(params.get("access",0)))}, \
         "landPrice":{"description":"家賃の安さ", "param":round(float(params.get("landPrice",0)))}, \
         "park":{"description":"公園の多さ", "param":round(float(params.get("park",0)))}, \
@@ -169,110 +171,17 @@ def result_rank(request):
     rank = 0
     for town_score in score_df.to_dict(orient='records'):
         rank += 1
-
-
-        # 街のステータスを作成
-        town_values_all = { \
-            "access":{
-                "description":"アクセスの良さ", 
-                "remarks":{
-                    "0":{
-                        "description":"乗り入れ路線数",
-                        "value":str(town_score.get('line_num',0)),
-                        "unit":"路線",
-                    },
-                },
-                "param":round(float(town_score.get('access',0))),
-            }, \
-            "landPrice":{
-                "description":"家賃の安さ",  
-                "remarks":{
-                    "0":{
-                        "description":"家賃相場(ワンルーム)",
-                        "value":str(town_score.get('rent_oneRoom',0)),
-                        "unit":"万円",
-                    },
-                    "1":{
-                        "description":"家賃相場(1K)",
-                        "value":str(town_score.get('rent_1K',0)),
-                        "unit":"万円",
-                    },
-                    "2":{
-                        "description":"家賃相場(1LDK)",
-                        "value":str(town_score.get('rent_1LDK',0)),
-                        "unit":"万円",
-                    },
-                    "3":{
-                        "description":"家賃相場(2LDK)",
-                        "value":str(town_score.get('rent_2LDK',0)),
-                        "unit":"万円",
-                    },
-                    "4":{
-                        "description":"家賃相場(3LDK)",
-                        "value":str(town_score.get('rent_3LDK',0)),
-                        "unit":"万円",
-                    },
-                },
-                "param":round(float(town_score.get('landPrice',0))),
-            }, \
-            "park":{
-                "description":"公園の多さ",  
-                "remarks":{
-
-                },
-                "param":round(float(town_score.get('park',0))),
-            }, \
-            "flood":{
-                "description":"浸水危険度の低さ", 
-                "remarks":{
-                    
-                }, 
-                "param":round(float(town_score.get('flood',0))),
-            }, \
-            "security":{
-                "description":"治安の良さ", 
-                "remarks":{
-                    "0":{
-                        "description":"駅周辺のパチンコ店",
-                        "value":str(town_score.get('pachinko',0)),
-                        "unit":"店舗",
-                    },
-                    "1":{
-                        "description":"駅周辺の風俗店",
-                        "value":str(town_score.get('sexShop',0)),
-                        "unit":"店舗",
-                    },
-                }, 
-                "param":round(float(town_score.get('security',0))),
-            }, \
-            "supermarket":{
-                "description":"買い物のしやすさ", 
-                "remarks":{
-                    "0":{
-                        "description":"駅周辺の食料品店",
-                        "value":str(town_score.get('supermarket_num',0)),
-                        "unit":"店舗",
-                    },
-                }, 
-                "param":round(float(town_score.get('supermarket',0))),
-            }, \
-        } 
-
-        # ユーザーの価値観が0以上のパラメータのみ採用
-        town_values = {}
-        for key in town_values_all.keys():
-            # ユーザーの価値観が0以上のパラメータおよび通勤経路情報を取得
-            if user_values.get(key).get("param") > 0:
-               town_values[key] = town_values_all[key]
         
+        #街のステータス情報を格納する辞書を設定
+        town_values = {}
 
         #職場の最寄り駅が設定されていれば、通勤系の情報を追加
         if station_name != '':
             # 職場の最寄り駅への時間を取得
-            # station_name列が対象の駅名と一致する行を取得
-            time_to_station = time_df[time_df['station_name'] == station_name]
-            # station_name列が対象の駅名と一致する行を取得
-            time_to_station = time_to_station[town_score.get('station_name',0)].astype(float).values[0]
+            # 発車駅が対象の駅名と一致する行を取得
+            time_to_station = time_df[time_df['station_name'] == town_score.get('station_name',0)]
+            # 到着駅が対象の駅名と一致する列を取得
+            time_to_station = time_to_station[station_name].astype(float).values[0]
             hh = int(time_to_station / 60)
             mm = int(time_to_station % 60)
             time_to_station = '約' + str(hh) + '時間' + str(mm) + '分'
@@ -322,7 +231,7 @@ def result_rank(request):
             # テンプレートに渡す情報を格納
             town_values["partners_commutingRoot"] = {
                 "description":"パートナーの通勤経路情報", 
-                "remarks":route_dict,
+                "remarks":partners_route_dict,
             }
             
             town_values["dist_to_partners_office"] = {
@@ -343,6 +252,104 @@ def result_rank(request):
                 },
                 "param":round(float(town_score.get('partners_congestion',0))),
             }
+
+
+        # 街のステータスを設定
+        town_values["access"] = {
+            "description":"アクセスの良さ", 
+            "remarks":{
+                "0":{
+                    "description":"乗り入れ路線数",
+                    "value":str(town_score.get('line_num',0)),
+                    "unit":"路線",
+                },
+            },
+            "param":round(float(town_score.get('access',0))),
+        }
+
+        town_values["landPrice"] = {
+            "description":"家賃の安さ",  
+            "remarks":{
+                "0":{
+                    "description":"家賃相場(ワンルーム)",
+                    "value":str(town_score.get('rent_oneRoom',0)),
+                    "unit":"万円",
+                },
+                "1":{
+                    "description":"家賃相場(1K)",
+                    "value":str(town_score.get('rent_1K',0)),
+                    "unit":"万円",
+                },
+                "2":{
+                    "description":"家賃相場(1LDK)",
+                    "value":str(town_score.get('rent_1LDK',0)),
+                    "unit":"万円",
+                },
+                "3":{
+                    "description":"家賃相場(2LDK)",
+                    "value":str(town_score.get('rent_2LDK',0)),
+                    "unit":"万円",
+                },
+                "4":{
+                    "description":"家賃相場(3LDK)",
+                    "value":str(town_score.get('rent_3LDK',0)),
+                    "unit":"万円",
+                },
+            },
+            "param":round(float(town_score.get('landPrice',0))),
+        }
+
+        town_values["park"] = {
+            "description":"公園の多さ",  
+            "remarks":{
+
+            },
+            "param":round(float(town_score.get('park',0))),
+        }
+
+        town_values["flood"] = {
+            "description":"浸水危険度の低さ", 
+            "remarks":{
+                
+            }, 
+            "param":round(float(town_score.get('flood',0))),
+        }
+
+        town_values["security"] = {
+            "description":"治安の良さ", 
+            "remarks":{
+                "0":{
+                    "description":"駅周辺のパチンコ店",
+                    "value":str(town_score.get('pachinko',0)),
+                    "unit":"店舗",
+                },
+                "1":{
+                    "description":"駅周辺の風俗店",
+                    "value":str(town_score.get('sexShop',0)),
+                    "unit":"店舗",
+                },
+            }, 
+            "param":round(float(town_score.get('security',0))),
+        }
+
+        town_values["supermarket"] = {
+            "description":"買い物のしやすさ", 
+            "remarks":{
+                "0":{
+                    "description":"駅周辺の食料品店",
+                    "value":str(town_score.get('supermarket_num',0)),
+                    "unit":"店舗",
+                },
+            }, 
+            "param":round(float(town_score.get('supermarket',0))),
+        } 
+
+        # ユーザーの価値観が0のパラメータを削除
+        town_values_all = town_values.copy()
+        for key in town_values_all.keys():
+            if user_values.get(key, "") != "":
+                if user_values.get(key, "").get("param", 0) == 0:
+                    del town_values[key]
 
         # 街の属性情報を作成
         town_score = { \
@@ -394,89 +401,18 @@ def calc_dist_score(score_df, time_df, station_name):
 
 
 # 通勤混雑度を取得
-def calc_congestion(score_df, routes_dict, station_name):
-
-    # 初期設定
-    score_congestion_df = score_df
-    score_congestion_df['congestion'] = 0.5
+def calc_congestion(score_df, congestion_df, station_name):
 
     if station_name != '':
 
-        # 各駅の混雑度を計算
-        for stationA in score_congestion_df["station_name"]:
-            print("各駅から職場の最寄り駅への経路取得：" + stationA + "から" + station_name)
+        # 駅を順番通りに入れ替え
+        score_congestion_df = pd.merge(score_df, congestion_df, on='station_name', how="left")
 
-            if stationA != station_name:
-                
-                #各駅から職場の最寄り駅への経路情報取得
-                route_dict = routes_dict.get(stationA + '_' + station_name, '')
+        # DataFrameに再格納
+        score_congestion_df['congestion'] = score_congestion_df[station_name].astype(float).values
 
-                if route_dict != '':
-                    #経路情報から合計乗車時間・乗車時間*混雑度を取得
-                    times = []
-                    time_congestions = []
-                    for value in route_dict.values():
-                        if value.get("route_block","") == 1:
-                            #時間のフォーマット変換 分単位に直す
-                            time = value.get('time', 0)
-                            
-                            #時間を取得
-                            hh = re.match(r'(.*?)時間.*', time)
-                            if hh != None:
-                                hh = float(hh.group(1))
-                            else:
-                                hh = 0.0
-                            
-                            #分を取得
-                            mm = re.match(r'.*時間(.*?)分.*', time)
-                            if mm != None:
-                                mm = float(mm.group(1))
-                            else:
-                                mm = re.match(r'(.*?)分.*', time)
-                                if mm != None:
-                                    mm = float(mm.group(1))
-                                else:
-                                    mm = 0.0
-                            
-                            #分単位に換算
-                            time = hh * 60 + mm
-
-                            #混雑度を数値に変換
-                            congestion = value.get("congestion","")
-                            if congestion == "余裕で座れる":
-                                congestion_score = 1.0
-                            elif congestion == "席はいっぱい":
-                                congestion_score = 0.3
-                            elif congestion == "普通に立てる":
-                                congestion_score = 0.5
-                            elif congestion == "圧迫される":
-                                congestion_score = 0.7
-                            elif congestion == "身動き不可":
-                                congestion_score = 0.8
-                            elif congestion == "乗れない":
-                                congestion_score = 0.0
-                            else:
-                                congestion_score = 0.5
-
-                            #合計乗車時間・乗車時間*混雑度を取得
-                            times.append(time)
-                            time_congestions.append(time * congestion_score)
-
-                        else:
-                            continue
-                    
-                    #平均混雑度を取得
-                    if sum(times) != 0:
-                        congestion_avg = sum(time_congestions) / sum(times)
-                    else:
-                        congestion_avg = 1
-                    
-                    # DataFrameのアップデート
-                    score_congestion_df['congestion'].loc[score_congestion_df['station_name'] == stationA] = congestion_avg * 100
-                else:
-                    continue
-            else:
-                score_congestion_df['congestion'].loc[score_congestion_df['station_name'] == stationA] = 100
+        # NULLの値を置換
+        score_congestion_df = score_congestion_df.fillna(50)
 
     return score_congestion_df['congestion']
 

@@ -1,3 +1,6 @@
+# 使用方法
+# python 
+
 import requests
 from bs4 import BeautifulSoup
 import webbrowser
@@ -29,14 +32,9 @@ station_list = station_list_all[int(sys.argv[1]):int(sys.argv[2])]
 print(station_list)
 
 #保存先を取得
-json_file = 'D:\programs\Python\Dokosumi\dokosumi_app\data\\routes_stationA_to_stationB.json'
-
-#ファイルが存在する場合は取得
-if os.path.exists(json_file):
-    with open(json_file) as f:
-        routes_stationA_to_stationB_existing = json.load(f)
-else:
-    routes_stationA_to_stationB_existing = {}
+json_file = 'D:\programs\Python\Dokosumi\data\元データ\駅から駅への経路情報\\routes_stationA_to_stationB.json'
+with open(json_file) as f:
+    routes_stationA_to_stationB_existing = json.load(f)
 
 #各駅から各駅への経路情報を格納する辞書を作成
 routes_stationA_to_stationB = {}
@@ -145,7 +143,7 @@ for station_name_1 in station_list:
                         if congestion != None:
                             congestion = item.find("img", attrs={"class":"section-congestion-icon"})["src"]
                         else:
-                            congestion = "/congestion_1.png"
+                            congestion = "/unknown"
                         
                         #混雑度の画像名を取得
                         congestion = congestion.split("/")[-1]
@@ -172,6 +170,7 @@ for station_name_1 in station_list:
                     num = num + 1
 
                 routes_stationA_to_stationB[station_name_1 + "_" + station_name_2] = route_items
+                print(route_items)
 
             #スクレイピング中にエラーが発生したら所要時間にErrorを設定
             except Exception as e:
@@ -181,7 +180,7 @@ for station_name_1 in station_list:
             pass
 
 #保存先を取得
-json_file = 'D:\programs\Python\Dokosumi\dokosumi_app\data\\routes_stationA_to_stationB' + sys.argv[1] + "_" + sys.argv[2] + '.json'
+json_file = 'D:\programs\Python\Dokosumi\data\元データ\駅から駅への経路情報\\routes_stationA_to_stationB' + sys.argv[1] + "_" + sys.argv[2] + '.json'
 #JSONに出力
 with open(json_file, mode="w") as f:
     json.dump(routes_stationA_to_stationB, f, indent=4, ensure_ascii=False)

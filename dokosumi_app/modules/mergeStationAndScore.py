@@ -35,6 +35,12 @@ for score_keyword in score_keywords:
     score_tsv_file = 'D:\programs\Python\Dokosumi\data\score_by_station\\' + score_keyword + '_by_station.tsv'
     score_df = pd.read_table(score_tsv_file)
 
+    # 重複チェック
+    print("重複行数：" + str(score_df.duplicated(subset=['station_name']).sum()))
+    if score_df.duplicated(subset=['station_name']).sum() > 0:
+        print(score_tsv_file + " で駅名の重複が発生しています")
+        sys.exit( )
+
     # 駅名のTSVリストにある駅のみ抽出
     score_df = pd.merge(base_df, score_df, on='station_name', how='inner')
     print(score_df)
