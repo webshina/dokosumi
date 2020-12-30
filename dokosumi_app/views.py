@@ -403,6 +403,9 @@ def calc_dist_score(score_df, time_df, station_name):
 # 通勤混雑度を取得
 def calc_congestion(score_df, congestion_df, station_name):
 
+    #初期設定
+    score_congestion_df = score_df
+
     if station_name != '':
 
         # 駅を順番通りに入れ替え
