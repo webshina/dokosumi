@@ -3549,6 +3549,62 @@
             "station_name": "岩槻"
         }
     },
+    "扇町_岩槻": {
+        "0": {
+            "station_block": 1,
+            "station_name": "扇町"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "ＪＲ鶴見線 鶴見行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "鶴見"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "ＪＲ京浜東北・根岸線 南浦和行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "川崎"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "22分",
+            "line": "ＪＲ上野東京ライン 小金井〔東京経由〕行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "32分",
+            "line": "ＪＲ宇都宮線 小金井行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "東武アーバンパークライン急行 船橋行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "岩槻"
+        }
+    },
     "北府中_岩槻": {
         "0": {
             "station_block": 1,
@@ -3945,6 +4001,52 @@
         "7": {
             "route_block": 1,
             "time": "10分",
+            "line": "東武アーバンパークライン 大宮（埼玉県）行",
+            "congestion": "普通に立てる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "岩槻"
+        }
+    },
+    "吉川_岩槻": {
+        "0": {
+            "station_block": 1,
+            "station_name": "吉川"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "ＪＲ武蔵野線 府中本町行",
+            "congestion": "普通に立てる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "南越谷"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "新越谷"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "東武伊勢崎線[スカイツリーライン]急行 久喜行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "春日部"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "9分",
             "line": "東武アーバンパークライン 大宮（埼玉県）行",
             "congestion": "普通に立てる"
         },
@@ -17185,6 +17287,52 @@
             "station_name": "岩槻"
         }
     },
+    "竹岡_岩槻": {
+        "0": {
+            "station_block": 1,
+            "station_name": "竹岡"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "24分",
+            "line": "ＪＲ内房線 木更津行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "君津"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "44分",
+            "line": "ＪＲ内房線快速 逗子行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "ＪＲ総武本線快速 逗子行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "船橋"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "1時間11分",
+            "line": "東武アーバンパークライン急行 大宮（埼玉県）行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "岩槻"
+        }
+    },
     "浜金谷_岩槻": {
         "0": {
             "station_block": 1,
@@ -17683,6 +17831,92 @@
             "time": "6分",
             "line": "徒歩 ",
             "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "新越谷"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "東武伊勢崎線[スカイツリーライン]急行 久喜行",
+            "congestion": "余裕で座れる"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "春日部"
+        },
+        "15": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "東武アーバンパークライン 大宮（埼玉県）行",
+            "congestion": "余裕で座れる"
+        },
+        "16": {
+            "station_block": 1,
+            "station_name": "岩槻"
+        }
+    },
+    "千歳_岩槻": {
+        "0": {
+            "station_block": 1,
+            "station_name": "千歳"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "ＪＲ内房線 館山行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "館山"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "59分",
+            "line": "ＪＲ内房線 木更津行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "君津"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "38分",
+            "line": "ＪＲ内房線快速 逗子行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "蘇我"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "ＪＲ京葉線快速 東京行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "南船橋"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "38分",
+            "line": "ＪＲ武蔵野線 府中本町行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "南越谷"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
         },
         "12": {
             "station_block": 1,
@@ -19809,6 +20043,42 @@
             "station_name": "岩槻"
         }
     },
+    "小林_岩槻": {
+        "0": {
+            "station_block": 1,
+            "station_name": "小林"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "24分",
+            "line": "ＪＲ成田線 我孫子（千葉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "我孫子"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "ＪＲ常磐線快速 上野行",
+            "congestion": "席はいっぱい"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "柏"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "54分",
+            "line": "東武アーバンパークライン 大宮（埼玉県）行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "岩槻"
+        }
+    },
     "安食_岩槻": {
         "0": {
             "station_block": 1,
@@ -19944,151 +20214,41 @@
         },
         "1": {
             "route_block": 1,
-            "time": "2分",
-            "line": "福岡市営空港線 福岡空港行",
-            "congestion": "余裕で座れる"
+            "time": "4分",
+            "line": "ＪＲ久留里線 木更津行",
+            "congestion": "不明"
         },
         "2": {
             "station_block": 1,
-            "station_name": "博多"
+            "station_name": "木更津"
         },
         "3": {
             "route_block": 1,
-            "time": "46分",
-            "line": "ＪＲ鹿児島本線 特急ソニック11号 大分行",
-            "congestion": "余裕で座れる"
+            "time": "36分",
+            "line": "ＪＲ内房線快速 逗子行",
+            "congestion": "不明"
         },
         "4": {
             "station_block": 1,
-            "station_name": "小倉"
+            "station_name": "千葉"
         },
         "5": {
             "route_block": 1,
-            "time": "6分",
-            "line": "ＪＲ鹿児島本線 下関行",
-            "congestion": "余裕で座れる"
+            "time": "14分",
+            "line": "ＪＲ総武本線快速 逗子行",
+            "congestion": "不明"
         },
         "6": {
             "station_block": 1,
-            "station_name": "門司"
+            "station_name": "船橋"
         },
         "7": {
             "route_block": 1,
-            "time": "6分",
-            "line": "ＪＲ山陽本線 下関行",
+            "time": "1時間11分",
+            "line": "東武アーバンパークライン急行 大宮（埼玉県）行",
             "congestion": "余裕で座れる"
         },
         "8": {
-            "station_block": 1,
-            "station_name": "下関"
-        },
-        "9": {
-            "route_block": 1,
-            "time": "3時間34分",
-            "line": "ＪＲ山陽本線 岩国行",
-            "congestion": "余裕で座れる"
-        },
-        "10": {
-            "station_block": 1,
-            "station_name": "岩国"
-        },
-        "11": {
-            "route_block": 1,
-            "time": "2時間11分",
-            "line": "ＪＲ山陽本線 糸崎行",
-            "congestion": "余裕で座れる"
-        },
-        "12": {
-            "station_block": 1,
-            "station_name": "糸崎"
-        },
-        "13": {
-            "route_block": 1,
-            "time": "27分",
-            "line": "ＪＲ山陽本線 岡山行",
-            "congestion": "余裕で座れる"
-        },
-        "14": {
-            "station_block": 1,
-            "station_name": "福山"
-        },
-        "15": {
-            "route_block": 1,
-            "time": "50分",
-            "line": "ＪＲ山陽本線快速〔サンライナー〕 岡山行",
-            "congestion": "余裕で座れる"
-        },
-        "16": {
-            "station_block": 1,
-            "station_name": "岡山"
-        },
-        "17": {
-            "route_block": 1,
-            "time": "1時間25分",
-            "line": "ＪＲ山陽本線 姫路行",
-            "congestion": "余裕で座れる"
-        },
-        "18": {
-            "station_block": 1,
-            "station_name": "姫路"
-        },
-        "19": {
-            "route_block": 1,
-            "time": "1時間33分",
-            "line": "ＪＲ東海道山陽本線新快速 長浜行",
-            "congestion": "余裕で座れる"
-        },
-        "20": {
-            "station_block": 1,
-            "station_name": "京都"
-        },
-        "21": {
-            "route_block": 1,
-            "time": "8分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
-        },
-        "22": {
-            "station_block": 1,
-            "station_name": "京都駅八条口"
-        },
-        "23": {
-            "route_block": 1,
-            "time": "7時間15分",
-            "line": "高速バス シルクライナー 前橋バスセンター行",
-            "congestion": "余裕で座れる"
-        },
-        "24": {
-            "station_block": 1,
-            "station_name": "さいたま新都心駅東口"
-        },
-        "25": {
-            "route_block": 1,
-            "time": "7分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
-        },
-        "26": {
-            "station_block": 1,
-            "station_name": "さいたま新都心"
-        },
-        "27": {
-            "route_block": 1,
-            "time": "3分",
-            "line": "ＪＲ京浜東北・根岸線 大宮（埼玉県）行",
-            "congestion": "余裕で座れる"
-        },
-        "28": {
-            "station_block": 1,
-            "station_name": "大宮"
-        },
-        "29": {
-            "route_block": 1,
-            "time": "11分",
-            "line": "東武アーバンパークライン 船橋行",
-            "congestion": "余裕で座れる"
-        },
-        "30": {
             "station_block": 1,
             "station_name": "岩槻"
         }
@@ -24493,6 +24653,22 @@
         "1": {
             "route_block": 1,
             "time": "8分",
+            "line": "東武アーバンパークライン 春日部行",
+            "congestion": "普通に立てる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "岩槻"
+        }
+    },
+    "大和田_岩槻": {
+        "0": {
+            "station_block": 1,
+            "station_name": "大和田"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "5分",
             "line": "東武アーバンパークライン 春日部行",
             "congestion": "普通に立てる"
         },
@@ -29807,6 +29983,62 @@
             "station_name": "岩槻"
         }
     },
+    "競艇場前_岩槻": {
+        "0": {
+            "station_block": 1,
+            "station_name": "競艇場前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "12分",
+            "line": "西武多摩川線各停 武蔵境行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "武蔵境"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "26分",
+            "line": "ＪＲ中央線快速 東京行",
+            "congestion": "圧迫される"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "新宿"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "ＪＲ埼京線 大宮（埼玉県）行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "赤羽"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "ＪＲ宇都宮線 小金井行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "東武アーバンパークライン急行 船橋行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "岩槻"
+        }
+    },
     "是政_岩槻": {
         "0": {
             "station_block": 1,
@@ -33115,6 +33347,92 @@
             "station_name": "岩槻"
         }
     },
+    "学園前_岩槻": {
+        "0": {
+            "station_block": 1,
+            "station_name": "学園前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "京成千原線 京成津田沼行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉中央"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "京成千葉線 京成津田沼行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "京成幕張本郷"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "幕張本郷"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "ＪＲ中央総武線各停 三鷹行",
+            "congestion": "普通に立てる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "西船橋"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "33分",
+            "line": "ＪＲ武蔵野線 府中本町行",
+            "congestion": "席はいっぱい"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "南越谷"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "新越谷"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "東武伊勢崎線[スカイツリーライン]急行 東武動物公園行",
+            "congestion": "余裕で座れる"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "春日部"
+        },
+        "15": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "東武アーバンパークライン 大宮（埼玉県）行",
+            "congestion": "席はいっぱい"
+        },
+        "16": {
+            "station_block": 1,
+            "station_name": "岩槻"
+        }
+    },
     "おゆみ野_岩槻": {
         "0": {
             "station_block": 1,
@@ -35623,6 +35941,62 @@
             "congestion": "余裕で座れる"
         },
         "12": {
+            "station_block": 1,
+            "station_name": "岩槻"
+        }
+    },
+    "山田_岩槻": {
+        "0": {
+            "station_block": 1,
+            "station_name": "山田"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "京王高尾線各停 高尾山口行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "高尾"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "29分",
+            "line": "ＪＲ中央線快速 東京行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "西国分寺"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "32分",
+            "line": "ＪＲ武蔵野線 南船橋行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "南浦和"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "ＪＲ京浜東北・根岸線 大宮（埼玉県）行",
+            "congestion": "席はいっぱい"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "東武アーバンパークライン 柏行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
             "station_block": 1,
             "station_name": "岩槻"
         }
@@ -39144,61 +39518,51 @@
         },
         "1": {
             "route_block": 1,
-            "time": "8分",
-            "line": "名古屋市営名城線 栄（愛知県）,金山（愛知県）方面",
-            "congestion": "余裕で座れる"
+            "time": "1分",
+            "line": "小田急多摩線各停 新百合ヶ丘行",
+            "congestion": "席はいっぱい"
         },
         "2": {
             "station_block": 1,
-            "station_name": "栄"
+            "station_name": "栗平"
         },
         "3": {
             "route_block": 1,
-            "time": "4分",
-            "line": "名古屋市営東山線 藤が丘（愛知県）行",
-            "congestion": "余裕で座れる"
+            "time": "3分",
+            "line": "小田急多摩線通勤急行 新宿行",
+            "congestion": "普通に立てる"
         },
         "4": {
             "station_block": 1,
-            "station_name": "千種"
+            "station_name": "新百合ヶ丘"
         },
         "5": {
             "route_block": 1,
-            "time": "1時間47分",
-            "line": "ＪＲ中央本線 特急ワイドビューしなの5号 長野行",
-            "congestion": "余裕で座れる"
+            "time": "30分",
+            "line": "小田急小田原線通勤急行 新宿行",
+            "congestion": "不明"
         },
         "6": {
             "station_block": 1,
-            "station_name": "塩尻"
+            "station_name": "新宿"
         },
         "7": {
             "route_block": 1,
-            "time": "2時間24分",
-            "line": "ＪＲ中央本線 特急あずさ22号 新宿行",
-            "congestion": "余裕で座れる"
+            "time": "31分",
+            "line": "ＪＲ埼京線通勤快速 川越行",
+            "congestion": "席はいっぱい"
         },
         "8": {
             "station_block": 1,
-            "station_name": "新宿"
+            "station_name": "大宮"
         },
         "9": {
             "route_block": 1,
-            "time": "31分",
-            "line": "ＪＲ湘南新宿ライン 籠原行",
-            "congestion": "席はいっぱい"
-        },
-        "10": {
-            "station_block": 1,
-            "station_name": "大宮"
-        },
-        "11": {
-            "route_block": 1,
             "time": "11分",
-            "line": "東武アーバンパークライン 柏行",
+            "line": "東武アーバンパークライン 春日部行",
             "congestion": "余裕で座れる"
         },
-        "12": {
+        "10": {
             "station_block": 1,
             "station_name": "岩槻"
         }
@@ -43103,6 +43467,62 @@
             "congestion": "余裕で座れる"
         },
         "12": {
+            "station_block": 1,
+            "station_name": "岩槻"
+        }
+    },
+    "山下_岩槻": {
+        "0": {
+            "station_block": 1,
+            "station_name": "山下"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "豪徳寺"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "小田急小田原線各停 綾瀬行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "代々木上原"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "小田急小田原線快速急行 新宿行",
+            "congestion": "圧迫される"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "新宿"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "32分",
+            "line": "ＪＲ埼京線通勤快速 川越行",
+            "congestion": "席はいっぱい"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "東武アーバンパークライン 柏行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
             "station_block": 1,
             "station_name": "岩槻"
         }
@@ -47215,6 +47635,42 @@
             "station_name": "岩槻"
         }
     },
+    "京橋_岩槻": {
+        "0": {
+            "station_block": 1,
+            "station_name": "京橋"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "東京メトロ銀座線 浅草行",
+            "congestion": "席はいっぱい"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "上野"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "26分",
+            "line": "ＪＲ宇都宮線 小金井行",
+            "congestion": "席はいっぱい"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "東武アーバンパークライン 柏行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "岩槻"
+        }
+    },
     "銀座_岩槻": {
         "0": {
             "station_block": 1,
@@ -49687,6 +50143,42 @@
             "congestion": "余裕で座れる"
         },
         "8": {
+            "station_block": 1,
+            "station_name": "岩槻"
+        }
+    },
+    "明治神宮前〈原宿〉_岩槻": {
+        "0": {
+            "station_block": 1,
+            "station_name": "明治神宮前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "東京メトロ副都心線 和光市行",
+            "congestion": "席はいっぱい"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "池袋"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "24分",
+            "line": "ＪＲ湘南新宿ライン 籠原行",
+            "congestion": "席はいっぱい"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "東武アーバンパークライン 柏行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
             "station_block": 1,
             "station_name": "岩槻"
         }
@@ -56048,61 +56540,41 @@
         },
         "1": {
             "route_block": 1,
-            "time": "3分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
+            "time": "4分",
+            "line": "千葉都市モノレール１号線 千葉みなと行",
+            "congestion": "不明"
         },
         "2": {
             "station_block": 1,
-            "station_name": "栄"
+            "station_name": "千葉"
         },
         "3": {
             "route_block": 1,
-            "time": "4分",
-            "line": "名古屋市営東山線 藤が丘（愛知県）行",
-            "congestion": "余裕で座れる"
+            "time": "40分",
+            "line": "ＪＲ総武本線 特急成田エクスプレス2号 大船行",
+            "congestion": "不明"
         },
         "4": {
             "station_block": 1,
-            "station_name": "千種"
+            "station_name": "東京"
         },
         "5": {
             "route_block": 1,
-            "time": "1時間47分",
-            "line": "ＪＲ中央本線 特急ワイドビューしなの5号 長野行",
+            "time": "32分",
+            "line": "ＪＲ宇都宮線 宇都宮行",
             "congestion": "余裕で座れる"
         },
         "6": {
             "station_block": 1,
-            "station_name": "塩尻"
-        },
-        "7": {
-            "route_block": 1,
-            "time": "2時間24分",
-            "line": "ＪＲ中央本線 特急あずさ22号 新宿行",
-            "congestion": "余裕で座れる"
-        },
-        "8": {
-            "station_block": 1,
-            "station_name": "新宿"
-        },
-        "9": {
-            "route_block": 1,
-            "time": "31分",
-            "line": "ＪＲ湘南新宿ライン 籠原行",
-            "congestion": "席はいっぱい"
-        },
-        "10": {
-            "station_block": 1,
             "station_name": "大宮"
         },
-        "11": {
+        "7": {
             "route_block": 1,
             "time": "11分",
             "line": "東武アーバンパークライン 柏行",
             "congestion": "余裕で座れる"
         },
-        "12": {
+        "8": {
             "station_block": 1,
             "station_name": "岩槻"
         }
@@ -58867,6 +59339,72 @@
             "station_name": "岩槻"
         }
     },
+    "久我原_岩槻": {
+        "0": {
+            "station_block": 1,
+            "station_name": "久我原"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "いすみ鉄道 大原（千葉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "城見ヶ丘"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "大多喜〔オリブ〕"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "1時間27分",
+            "line": "高速バス 浜松町・東京-勝浦・御宿・安房小湊 東京駅八重洲口前行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "東京駅八重洲口前"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "32分",
+            "line": "ＪＲ宇都宮線 古河行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "東武アーバンパークライン急行 船橋行",
+            "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "岩槻"
+        }
+    },
     "総元_岩槻": {
         "0": {
             "station_block": 1,
@@ -59879,6 +60417,52 @@
             "time": "32分",
             "line": "ＪＲ宇都宮線 宇都宮行",
             "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "東武アーバンパークライン 柏行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "岩槻"
+        }
+    },
+    "国際展示場正門_岩槻": {
+        "0": {
+            "station_block": 1,
+            "station_name": "東京ビッグサイト"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "23分",
+            "line": "ゆりかもめ 新橋行",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "新橋"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "ＪＲ上野東京ライン 宇都宮〔東京経由〕行",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "32分",
+            "line": "ＪＲ宇都宮線 宇都宮行",
+            "congestion": "不明"
         },
         "6": {
             "station_block": 1,
@@ -63541,6 +64125,32 @@
             "station_name": "岩槻"
         }
     },
+    "伊奈中央_岩槻": {
+        "0": {
+            "station_block": 1,
+            "station_name": "伊奈中央"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "22分",
+            "line": "埼玉新都市交通ニューシャトル 大宮（埼玉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "12分",
+            "line": "東武アーバンパークライン 柏行",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "岩槻"
+        }
+    },
     "羽貫_岩槻": {
         "0": {
             "station_block": 1,
@@ -66363,6 +66973,82 @@
             "station_name": "岩槻"
         }
     },
+    "市役所前_岩槻": {
+        "0": {
+            "station_block": 1,
+            "station_name": "市役所前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "千葉都市モノレール１号線 千葉みなと行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉みなと"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "ＪＲ京葉線 東京行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "海浜幕張"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "ＪＲ京葉線 東所沢行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "南船橋"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "41分",
+            "line": "ＪＲ武蔵野線 東所沢行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "南越谷"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "新越谷"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "東武伊勢崎線[スカイツリーライン]急行 東武動物公園行",
+            "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "春日部"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "東武アーバンパークライン 大宮（埼玉県）行",
+            "congestion": "席はいっぱい"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "岩槻"
+        }
+    },
     "葭川公園_岩槻": {
         "0": {
             "station_block": 1,
@@ -66383,6 +67069,52 @@
             "time": "40分",
             "line": "ＪＲ総武本線 特急成田エクスプレス2号 大船行",
             "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "32分",
+            "line": "ＪＲ宇都宮線 宇都宮行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "東武アーバンパークライン 柏行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "岩槻"
+        }
+    },
+    "県庁前_岩槻": {
+        "0": {
+            "station_block": 1,
+            "station_name": "県庁前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "千葉都市モノレール１号線 千葉みなと行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "40分",
+            "line": "ＪＲ総武本線 特急成田エクスプレス2号 大船行",
+            "congestion": "不明"
         },
         "4": {
             "station_block": 1,
@@ -68085,6 +68817,72 @@
             "congestion": "余裕で座れる"
         },
         "10": {
+            "station_block": 1,
+            "station_name": "岩槻"
+        }
+    },
+    "高松_岩槻": {
+        "0": {
+            "station_block": 1,
+            "station_name": "高松"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "多摩モノレール 多摩センター行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "立川北"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "立川"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "ＪＲ中央線快速 東京行",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "西国分寺"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "31分",
+            "line": "ＪＲ武蔵野線 新習志野行",
+            "congestion": "席はいっぱい"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "南浦和"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "12分",
+            "line": "ＪＲ京浜東北・根岸線 大宮（埼玉県）行",
+            "congestion": "席はいっぱい"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "東武アーバンパークライン 春日部行",
+            "congestion": "余裕で座れる"
+        },
+        "12": {
             "station_block": 1,
             "station_name": "岩槻"
         }
@@ -70669,6 +71467,62 @@
             "time": "6分",
             "line": "徒歩 ",
             "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "新越谷"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "東武伊勢崎線[スカイツリーライン]急行 南栗橋行",
+            "congestion": "席はいっぱい"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "春日部"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "東武アーバンパークライン 大宮（埼玉県）行",
+            "congestion": "席はいっぱい"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "岩槻"
+        }
+    },
+    "大町_岩槻": {
+        "0": {
+            "station_block": 1,
+            "station_name": "大町"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "北総鉄道 羽田空港第１・第２ターミナル（京急）行",
+            "congestion": "席はいっぱい"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "東松戸"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "26分",
+            "line": "ＪＲ武蔵野線 府中本町行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "南越谷"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
         },
         "6": {
             "station_block": 1,

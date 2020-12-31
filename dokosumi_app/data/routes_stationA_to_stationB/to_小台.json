@@ -4809,6 +4809,62 @@
             "station_name": "小台"
         }
     },
+    "扇町_小台": {
+        "0": {
+            "station_block": 1,
+            "station_name": "扇町"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "ＪＲ鶴見線 鶴見行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "鶴見"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "49分",
+            "line": "ＪＲ京浜東北・根岸線 南浦和行",
+            "congestion": "席はいっぱい"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "田端"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "田端駅前"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "都営バス [東４３] 荒川土手行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "小台"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "1分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "小台"
+        }
+    },
     "北府中_小台": {
         "0": {
             "station_block": 1,
@@ -5547,6 +5603,72 @@
             "time": "8分",
             "line": "都電荒川線 早稲田〔都電荒川線〕行",
             "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "小台"
+        }
+    },
+    "吉川_小台": {
+        "0": {
+            "station_block": 1,
+            "station_name": "吉川"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "ＪＲ武蔵野線 府中本町行",
+            "congestion": "普通に立てる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "南越谷"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "新越谷"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "東武伊勢崎線[スカイツリーライン]区間急行 浅草行",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "北千住"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "東京メトロ千代田線 明治神宮前行",
+            "congestion": "普通に立てる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "町屋〔千代田線〕"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "町屋駅前"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "都電荒川線 早稲田〔都電荒川線〕行",
+            "congestion": "不明"
         },
         "12": {
             "station_block": 1,
@@ -23623,6 +23745,92 @@
             "station_name": "小台"
         }
     },
+    "竹岡_小台": {
+        "0": {
+            "station_block": 1,
+            "station_name": "竹岡"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "24分",
+            "line": "ＪＲ内房線 木更津行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "君津"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "44分",
+            "line": "ＪＲ内房線快速 逗子行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "ＪＲ総武本線快速 逗子行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "船橋"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "京成船橋"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "京成本線快特 京成上野行",
+            "congestion": "普通に立てる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "京成高砂"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "京成本線 京成上野行",
+            "congestion": "席はいっぱい"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "町屋〔京成線〕"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "町屋駅前"
+        },
+        "15": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "都電荒川線 早稲田〔都電荒川線〕行",
+            "congestion": "不明"
+        },
+        "16": {
+            "station_block": 1,
+            "station_name": "小台"
+        }
+    },
     "浜金谷_小台": {
         "0": {
             "station_block": 1,
@@ -24421,6 +24629,112 @@
             "time": "7分",
             "line": "都電荒川線 早稲田〔都電荒川線〕行",
             "congestion": "余裕で座れる"
+        },
+        "20": {
+            "station_block": 1,
+            "station_name": "小台"
+        }
+    },
+    "千歳_小台": {
+        "0": {
+            "station_block": 1,
+            "station_name": "千歳"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "ＪＲ内房線 館山行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "館山"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "59分",
+            "line": "ＪＲ内房線 木更津行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "君津"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "47分",
+            "line": "ＪＲ内房線快速 逗子行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "ＪＲ総武本線快速 逗子行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "船橋"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "京成船橋"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "京成本線快速 西馬込行",
+            "congestion": "席はいっぱい"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "京成高砂"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "京成押上線快速 西馬込行",
+            "congestion": "不明"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "青砥"
+        },
+        "15": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "京成本線 京成上野行",
+            "congestion": "席はいっぱい"
+        },
+        "16": {
+            "station_block": 1,
+            "station_name": "町屋〔京成線〕"
+        },
+        "17": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "18": {
+            "station_block": 1,
+            "station_name": "町屋駅前"
+        },
+        "19": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "都電荒川線 早稲田〔都電荒川線〕行",
+            "congestion": "不明"
         },
         "20": {
             "station_block": 1,
@@ -26887,6 +27201,62 @@
             "station_name": "小台"
         }
     },
+    "小林_小台": {
+        "0": {
+            "station_block": 1,
+            "station_name": "小林"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "24分",
+            "line": "ＪＲ成田線 我孫子（千葉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "我孫子"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "21分",
+            "line": "ＪＲ常磐線快速 上野行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "北千住"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "東京メトロ千代田線 成城学園前行",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "町屋〔千代田線〕"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "町屋駅前"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "都電荒川線 早稲田〔都電荒川線〕行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "小台"
+        }
+    },
     "安食_小台": {
         "0": {
             "station_block": 1,
@@ -27071,6 +27441,92 @@
             "congestion": "余裕で座れる"
         },
         "14": {
+            "station_block": 1,
+            "station_name": "小台"
+        }
+    },
+    "祇園_小台": {
+        "0": {
+            "station_block": 1,
+            "station_name": "祇園"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "ＪＲ久留里線 木更津行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "木更津"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "36分",
+            "line": "ＪＲ内房線快速 逗子行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "ＪＲ総武本線快速 逗子行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "船橋"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "京成船橋"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "京成本線快特 京成上野行",
+            "congestion": "普通に立てる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "京成高砂"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "京成本線 京成上野行",
+            "congestion": "席はいっぱい"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "町屋〔京成線〕"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "町屋駅前"
+        },
+        "15": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "都電荒川線 早稲田〔都電荒川線〕行",
+            "congestion": "不明"
+        },
+        "16": {
             "station_block": 1,
             "station_name": "小台"
         }
@@ -33457,6 +33913,62 @@
             "time": "8分",
             "line": "都電荒川線 三ノ輪橋行",
             "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "小台"
+        }
+    },
+    "大和田_小台": {
+        "0": {
+            "station_block": 1,
+            "station_name": "大和田"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "東武アーバンパークライン 大宮（埼玉県）行",
+            "congestion": "圧迫される"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "18分",
+            "line": "ＪＲ高崎線 上野行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "赤羽"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "ＪＲ京浜東北・根岸線 蒲田行",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "王子"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "王子駅前"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "都電荒川線 三ノ輪橋行",
+            "congestion": "不明"
         },
         "10": {
             "station_block": 1,
@@ -40999,6 +41511,72 @@
             "station_name": "小台"
         }
     },
+    "競艇場前_小台": {
+        "0": {
+            "station_block": 1,
+            "station_name": "競艇場前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "12分",
+            "line": "西武多摩川線各停 武蔵境行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "武蔵境"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "26分",
+            "line": "ＪＲ中央線快速 東京行",
+            "congestion": "圧迫される"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "新宿"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "18分",
+            "line": "ＪＲ山手線 池袋,上野方面",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "田端"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "田端駅前"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "都営バス [東４３] 荒川土手行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "小台"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "1分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "小台"
+        }
+    },
     "是政_小台": {
         "0": {
             "station_block": 1,
@@ -43843,6 +44421,72 @@
             "congestion": "余裕で座れる"
         },
         "10": {
+            "station_block": 1,
+            "station_name": "小台"
+        }
+    },
+    "学園前_小台": {
+        "0": {
+            "station_block": 1,
+            "station_name": "学園前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "京成千原線 京成津田沼行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉中央"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "京成千葉線 京成津田沼行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "京成津田沼"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "18分",
+            "line": "京成本線通勤特急 京成上野行",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "京成高砂"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "京成本線 京成上野行",
+            "congestion": "席はいっぱい"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "町屋〔京成線〕"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "町屋駅前"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "都電荒川線 早稲田〔都電荒川線〕行",
+            "congestion": "不明"
+        },
+        "12": {
             "station_block": 1,
             "station_name": "小台"
         }
@@ -46743,6 +47387,72 @@
             "time": "1分",
             "line": "徒歩 ",
             "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "小台"
+        }
+    },
+    "山田_小台": {
+        "0": {
+            "station_block": 1,
+            "station_name": "山田"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "京王高尾線各停 新宿行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "北野"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "47分",
+            "line": "京王線準特急 新宿行",
+            "congestion": "圧迫される"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "新宿"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "18分",
+            "line": "ＪＲ山手線 池袋,上野方面",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "田端"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "田端駅前"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "都営バス [東４３] 荒川土手行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "小台"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "1分",
+            "line": "徒歩 ",
+            "congestion": "不明"
         },
         "12": {
             "station_block": 1,
@@ -51506,81 +52216,71 @@
         },
         "1": {
             "route_block": 1,
-            "time": "8分",
-            "line": "名古屋市営名城線 栄（愛知県）,金山（愛知県）方面",
-            "congestion": "余裕で座れる"
+            "time": "1分",
+            "line": "小田急多摩線各停 新百合ヶ丘行",
+            "congestion": "席はいっぱい"
         },
         "2": {
             "station_block": 1,
-            "station_name": "栄"
+            "station_name": "栗平"
         },
         "3": {
             "route_block": 1,
-            "time": "4分",
-            "line": "名古屋市営東山線 藤が丘（愛知県）行",
-            "congestion": "余裕で座れる"
+            "time": "3分",
+            "line": "小田急多摩線通勤急行 新宿行",
+            "congestion": "普通に立てる"
         },
         "4": {
             "station_block": 1,
-            "station_name": "千種"
+            "station_name": "新百合ヶ丘"
         },
         "5": {
             "route_block": 1,
-            "time": "1時間46分",
-            "line": "ＪＲ中央本線 特急ワイドビューしなの11号 長野行",
-            "congestion": "余裕で座れる"
+            "time": "30分",
+            "line": "小田急小田原線通勤急行 新宿行",
+            "congestion": "不明"
         },
         "6": {
             "station_block": 1,
-            "station_name": "塩尻"
-        },
-        "7": {
-            "route_block": 1,
-            "time": "2時間29分",
-            "line": "ＪＲ中央本線 特急あずさ34号 新宿行",
-            "congestion": "余裕で座れる"
-        },
-        "8": {
-            "station_block": 1,
             "station_name": "新宿"
         },
-        "9": {
+        "7": {
             "route_block": 1,
             "time": "18分",
             "line": "ＪＲ山手線 池袋,上野方面",
             "congestion": "普通に立てる"
         },
-        "10": {
+        "8": {
             "station_block": 1,
             "station_name": "田端"
         },
-        "11": {
+        "9": {
             "route_block": 1,
             "time": "2分",
             "line": "徒歩 ",
-            "congestion": "余裕で座れる"
+            "congestion": "不明"
         },
-        "12": {
+        "10": {
             "station_block": 1,
             "station_name": "田端駅前"
         },
-        "13": {
+        "11": {
             "route_block": 1,
-            "time": "8分",
+            "time": "6分",
             "line": "都営バス [東４３] 荒川土手行",
-            "congestion": "余裕で座れる"
+            "congestion": "不明"
         },
-        "14": {
+        "12": {
             "station_block": 1,
             "station_name": "小台"
         },
-        "15": {
+        "13": {
             "route_block": 1,
             "time": "1分",
             "line": "徒歩 ",
-            "congestion": "余裕で座れる"
+            "congestion": "不明"
         },
-        "16": {
+        "14": {
             "station_block": 1,
             "station_name": "小台"
         }
@@ -56613,6 +57313,72 @@
             "time": "1分",
             "line": "徒歩 ",
             "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "小台"
+        }
+    },
+    "山下_小台": {
+        "0": {
+            "station_block": 1,
+            "station_name": "山下"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "東急世田谷線各停 下高井戸行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "下高井戸"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "京王線各停 新宿行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "新宿"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "18分",
+            "line": "ＪＲ山手線 池袋,上野方面",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "田端"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "田端駅前"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "都営バス [東４３] 豊島五丁目団地行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "小台"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "1分",
+            "line": "徒歩 ",
+            "congestion": "不明"
         },
         "12": {
             "station_block": 1,
@@ -61927,6 +62693,62 @@
             "station_name": "小台"
         }
     },
+    "京橋_小台": {
+        "0": {
+            "station_block": 1,
+            "station_name": "京橋"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "東京メトロ銀座線 浅草行",
+            "congestion": "普通に立てる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "神田"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "ＪＲ京浜東北・根岸線 大宮（埼玉県）行",
+            "congestion": "席はいっぱい"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "田端"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "田端駅前"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "都営バス [東４３] 荒川土手行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "小台"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "1分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "小台"
+        }
+    },
     "銀座_小台": {
         "0": {
             "station_block": 1,
@@ -64917,6 +65739,42 @@
             "time": "8分",
             "line": "都電荒川線 早稲田〔都電荒川線〕行",
             "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "小台"
+        }
+    },
+    "明治神宮前〈原宿〉_小台": {
+        "0": {
+            "station_block": 1,
+            "station_name": "明治神宮前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "29分",
+            "line": "東京メトロ千代田線 我孫子（千葉県）行",
+            "congestion": "席はいっぱい"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "町屋〔千代田線〕"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "町屋駅前"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "都電荒川線 早稲田〔都電荒川線〕行",
+            "congestion": "不明"
         },
         "6": {
             "station_block": 1,
@@ -72074,81 +72932,71 @@
         },
         "1": {
             "route_block": 1,
-            "time": "3分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
+            "time": "4分",
+            "line": "千葉都市モノレール１号線 千葉みなと行",
+            "congestion": "不明"
         },
         "2": {
             "station_block": 1,
-            "station_name": "栄"
+            "station_name": "千葉"
         },
         "3": {
             "route_block": 1,
-            "time": "4分",
-            "line": "名古屋市営東山線 藤が丘（愛知県）行",
-            "congestion": "余裕で座れる"
+            "time": "5分",
+            "line": "徒歩 ",
+            "congestion": "不明"
         },
         "4": {
             "station_block": 1,
-            "station_name": "千種"
+            "station_name": "京成千葉"
         },
         "5": {
             "route_block": 1,
-            "time": "1時間47分",
-            "line": "ＪＲ中央本線 特急ワイドビューしなの5号 長野行",
-            "congestion": "余裕で座れる"
+            "time": "16分",
+            "line": "京成千葉線 京成津田沼行",
+            "congestion": "不明"
         },
         "6": {
             "station_block": 1,
-            "station_name": "塩尻"
+            "station_name": "京成津田沼"
         },
         "7": {
             "route_block": 1,
-            "time": "2時間24分",
-            "line": "ＪＲ中央本線 特急あずさ22号 新宿行",
-            "congestion": "余裕で座れる"
+            "time": "18分",
+            "line": "京成本線通勤特急 京成上野行",
+            "congestion": "普通に立てる"
         },
         "8": {
             "station_block": 1,
-            "station_name": "新宿"
+            "station_name": "京成高砂"
         },
         "9": {
             "route_block": 1,
-            "time": "17分",
-            "line": "ＪＲ山手線 池袋,上野方面",
+            "time": "13分",
+            "line": "京成本線 京成上野行",
             "congestion": "席はいっぱい"
         },
         "10": {
             "station_block": 1,
-            "station_name": "田端"
+            "station_name": "町屋〔京成線〕"
         },
         "11": {
             "route_block": 1,
-            "time": "2分",
+            "time": "5分",
             "line": "徒歩 ",
-            "congestion": "余裕で座れる"
+            "congestion": "不明"
         },
         "12": {
             "station_block": 1,
-            "station_name": "田端駅前"
+            "station_name": "町屋駅前"
         },
         "13": {
             "route_block": 1,
             "time": "7分",
-            "line": "都営バス [東４３] 荒川土手行",
-            "congestion": "余裕で座れる"
+            "line": "都電荒川線 早稲田〔都電荒川線〕行",
+            "congestion": "不明"
         },
         "14": {
-            "station_block": 1,
-            "station_name": "小台"
-        },
-        "15": {
-            "route_block": 1,
-            "time": "1分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
-        },
-        "16": {
             "station_block": 1,
             "station_name": "小台"
         }
@@ -75323,6 +76171,92 @@
             "station_name": "小台"
         }
     },
+    "久我原_小台": {
+        "0": {
+            "station_block": 1,
+            "station_name": "久我原"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "いすみ鉄道 大原（千葉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "城見ヶ丘"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "大多喜〔オリブ〕"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "1時間27分",
+            "line": "高速バス 浜松町・東京-勝浦・御宿・安房小湊 東京駅八重洲口前行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "東京駅八重洲口前"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "ＪＲ山手線 上野,池袋方面",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "田端"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "田端駅前"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "都営バス [東４３] 荒川土手行",
+            "congestion": "不明"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "小台"
+        },
+        "15": {
+            "route_block": 1,
+            "time": "1分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "16": {
+            "station_block": 1,
+            "station_name": "小台"
+        }
+    },
     "総元_小台": {
         "0": {
             "station_block": 1,
@@ -76725,6 +77659,62 @@
             "time": "1分",
             "line": "徒歩 ",
             "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "小台"
+        }
+    },
+    "国際展示場正門_小台": {
+        "0": {
+            "station_block": 1,
+            "station_name": "東京ビッグサイト"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "23分",
+            "line": "ゆりかもめ 新橋行",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "新橋"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "19分",
+            "line": "ＪＲ山手線 東京,上野方面",
+            "congestion": "席はいっぱい"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "田端"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "田端駅前"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "都営バス [東４３] 豊島五丁目団地行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "小台"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "1分",
+            "line": "徒歩 ",
+            "congestion": "不明"
         },
         "10": {
             "station_block": 1,
@@ -81827,6 +82817,62 @@
             "station_name": "小台"
         }
     },
+    "伊奈中央_小台": {
+        "0": {
+            "station_block": 1,
+            "station_name": "伊奈中央"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "22分",
+            "line": "埼玉新都市交通ニューシャトル 大宮（埼玉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "ＪＲ埼京線通勤快速 新木場行",
+            "congestion": "圧迫される"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "赤羽"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "ＪＲ京浜東北・根岸線 大船行",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "王子"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "王子駅前"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "都電荒川線 三ノ輪橋行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "小台"
+        }
+    },
     "羽貫_小台": {
         "0": {
             "station_block": 1,
@@ -84939,6 +85985,82 @@
             "station_name": "小台"
         }
     },
+    "市役所前_小台": {
+        "0": {
+            "station_block": 1,
+            "station_name": "市役所前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "千葉都市モノレール１号線 千城台行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "京成千葉"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "京成千葉線 京成津田沼行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "京成津田沼"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "25分",
+            "line": "京成本線快速 羽田空港第１・第２ターミナル（京急）行",
+            "congestion": "普通に立てる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "京成高砂"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "京成本線 京成上野行",
+            "congestion": "席はいっぱい"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "町屋〔京成線〕"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "町屋駅前"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "都電荒川線 荒川車庫前行",
+            "congestion": "不明"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "小台"
+        }
+    },
     "葭川公園_小台": {
         "0": {
             "station_block": 1,
@@ -85009,6 +86131,82 @@
             "time": "7分",
             "line": "都電荒川線 早稲田〔都電荒川線〕行",
             "congestion": "余裕で座れる"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "小台"
+        }
+    },
+    "県庁前_小台": {
+        "0": {
+            "station_block": 1,
+            "station_name": "県庁前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "千葉都市モノレール１号線 千葉みなと行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "京成千葉"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "京成千葉線 京成津田沼行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "京成津田沼"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "18分",
+            "line": "京成本線通勤特急 京成上野行",
+            "congestion": "普通に立てる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "京成高砂"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "京成本線 京成上野行",
+            "congestion": "席はいっぱい"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "町屋〔京成線〕"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "町屋駅前"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "都電荒川線 早稲田〔都電荒川線〕行",
+            "congestion": "不明"
         },
         "14": {
             "station_block": 1,
@@ -86901,6 +88099,82 @@
             "congestion": "余裕で座れる"
         },
         "12": {
+            "station_block": 1,
+            "station_name": "小台"
+        }
+    },
+    "高松_小台": {
+        "0": {
+            "station_block": 1,
+            "station_name": "高松"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "多摩モノレール 多摩センター行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "立川南"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "立川"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "36分",
+            "line": "ＪＲ中央線通勤特別快速 東京行",
+            "congestion": "圧迫される"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "新宿"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "18分",
+            "line": "ＪＲ山手線 池袋,上野方面",
+            "congestion": "普通に立てる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "田端"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "田端駅前"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "都営バス [東４３] 荒川土手行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "小台"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "1分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "14": {
             "station_block": 1,
             "station_name": "小台"
         }
@@ -90075,6 +91349,52 @@
             "time": "8分",
             "line": "都電荒川線 早稲田〔都電荒川線〕行",
             "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "小台"
+        }
+    },
+    "大町_小台": {
+        "0": {
+            "station_block": 1,
+            "station_name": "大町"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "北総鉄道 羽田空港第１・第２ターミナル（京急）行",
+            "congestion": "席はいっぱい"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "京成高砂"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "18分",
+            "line": "京成本線 京成上野行",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "町屋〔京成線〕"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "町屋駅前"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "都電荒川線 早稲田〔都電荒川線〕行",
+            "congestion": "不明"
         },
         "8": {
             "station_block": 1,

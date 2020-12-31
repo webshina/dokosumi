@@ -3289,6 +3289,42 @@
             "station_name": "六町"
         }
     },
+    "扇町_六町": {
+        "0": {
+            "station_block": 1,
+            "station_name": "扇町"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "ＪＲ鶴見線 鶴見行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "鶴見"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "37分",
+            "line": "ＪＲ京浜東北・根岸線 南浦和行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "秋葉原"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "つくばエクスプレス 守谷行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "六町"
+        }
+    },
     "北府中_六町": {
         "0": {
             "station_block": 1,
@@ -16781,6 +16817,62 @@
             "station_name": "六町"
         }
     },
+    "竹岡_六町": {
+        "0": {
+            "station_block": 1,
+            "station_name": "竹岡"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "24分",
+            "line": "ＪＲ内房線 木更津行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "君津"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "44分",
+            "line": "ＪＲ内房線快速 逗子行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "33分",
+            "line": "ＪＲ総武本線快速 逗子行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "錦糸町"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "ＪＲ中央総武線各停 中野（東京都）行",
+            "congestion": "普通に立てる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "秋葉原"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "つくばエクスプレス 守谷行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "六町"
+        }
+    },
     "浜金谷_六町": {
         "0": {
             "station_block": 1,
@@ -17269,6 +17361,72 @@
             "time": "38分",
             "line": "ＪＲ内房線快速 逗子行",
             "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "蘇我"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "ＪＲ京葉線快速 東京行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "南船橋"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "24分",
+            "line": "ＪＲ武蔵野線 府中本町行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "南流山"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "12分",
+            "line": "つくばエクスプレス 秋葉原行",
+            "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "六町"
+        }
+    },
+    "千歳_六町": {
+        "0": {
+            "station_block": 1,
+            "station_name": "千歳"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "ＪＲ内房線 館山行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "館山"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "59分",
+            "line": "ＪＲ内房線 木更津行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "君津"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "38分",
+            "line": "ＪＲ内房線快速 逗子行",
+            "congestion": "不明"
         },
         "6": {
             "station_block": 1,
@@ -19205,6 +19363,42 @@
             "station_name": "六町"
         }
     },
+    "小林_六町": {
+        "0": {
+            "station_block": 1,
+            "station_name": "小林"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "24分",
+            "line": "ＪＲ成田線 我孫子（千葉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "我孫子"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "21分",
+            "line": "ＪＲ常磐線快速 上野行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "北千住"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "つくばエクスプレス 守谷行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "六町"
+        }
+    },
     "安食_六町": {
         "0": {
             "station_block": 1,
@@ -19325,6 +19519,62 @@
         "9": {
             "route_block": 1,
             "time": "5分",
+            "line": "つくばエクスプレス 守谷行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "六町"
+        }
+    },
+    "祇園_六町": {
+        "0": {
+            "station_block": 1,
+            "station_name": "祇園"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "ＪＲ久留里線 木更津行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "木更津"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "36分",
+            "line": "ＪＲ内房線快速 逗子行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "33分",
+            "line": "ＪＲ総武本線快速 逗子行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "錦糸町"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "ＪＲ中央総武線各停 中野（東京都）行",
+            "congestion": "普通に立てる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "秋葉原"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "16分",
             "line": "つくばエクスプレス 守谷行",
             "congestion": "余裕で座れる"
         },
@@ -23875,6 +24125,42 @@
             "time": "18分",
             "line": "東武アーバンパークライン 春日部行",
             "congestion": "普通に立てる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "春日部"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "31分",
+            "line": "東武伊勢崎線[スカイツリーライン]区間急行 浅草行",
+            "congestion": "席はいっぱい"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "北千住"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "つくばエクスプレス 守谷行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "六町"
+        }
+    },
+    "大和田_六町": {
+        "0": {
+            "station_block": 1,
+            "station_name": "大和田"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "東武アーバンパークライン 春日部行",
+            "congestion": "席はいっぱい"
         },
         "2": {
             "station_block": 1,
@@ -29653,6 +29939,52 @@
             "station_name": "六町"
         }
     },
+    "競艇場前_六町": {
+        "0": {
+            "station_block": 1,
+            "station_name": "競艇場前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "12分",
+            "line": "西武多摩川線各停 武蔵境行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "武蔵境"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "35分",
+            "line": "ＪＲ中央線快速 東京行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "御茶ノ水"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "ＪＲ中央総武線各停 千葉行",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "秋葉原"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "つくばエクスプレス 守谷行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "六町"
+        }
+    },
     "是政_六町": {
         "0": {
             "station_block": 1,
@@ -32811,6 +33143,72 @@
             "station_name": "六町"
         }
     },
+    "学園前_六町": {
+        "0": {
+            "station_block": 1,
+            "station_name": "学園前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "京成千原線 京成津田沼行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉中央"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "京成千葉線 京成津田沼行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "京成幕張本郷"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "幕張本郷"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "ＪＲ中央総武線各停 三鷹行",
+            "congestion": "普通に立てる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "西船橋"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "18分",
+            "line": "ＪＲ武蔵野線 東所沢行",
+            "congestion": "席はいっぱい"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "南流山"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "つくばエクスプレス 秋葉原行",
+            "congestion": "席はいっぱい"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "六町"
+        }
+    },
     "おゆみ野_六町": {
         "0": {
             "station_block": 1,
@@ -35413,6 +35811,62 @@
             "time": "3分",
             "line": "京王高尾線各停 新宿行",
             "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "北野"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "47分",
+            "line": "京王線準特急 新宿行",
+            "congestion": "圧迫される"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "新宿"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "ＪＲ中央線快速 東京行",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "御茶ノ水"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "ＪＲ中央総武線各停 津田沼行",
+            "congestion": "席はいっぱい"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "秋葉原"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "つくばエクスプレス 守谷行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "六町"
+        }
+    },
+    "山田_六町": {
+        "0": {
+            "station_block": 1,
+            "station_name": "山田"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "京王高尾線各停 新宿行",
+            "congestion": "不明"
         },
         "2": {
             "station_block": 1,
@@ -39126,48 +39580,48 @@
         },
         "1": {
             "route_block": 1,
-            "time": "8分",
-            "line": "名古屋市営名城線 栄（愛知県）,金山（愛知県）方面",
-            "congestion": "余裕で座れる"
+            "time": "1分",
+            "line": "小田急多摩線各停 新百合ヶ丘行",
+            "congestion": "席はいっぱい"
         },
         "2": {
             "station_block": 1,
-            "station_name": "栄"
+            "station_name": "栗平"
         },
         "3": {
             "route_block": 1,
-            "time": "4分",
-            "line": "名古屋市営東山線 藤が丘（愛知県）行",
-            "congestion": "余裕で座れる"
+            "time": "3分",
+            "line": "小田急多摩線通勤急行 新宿行",
+            "congestion": "普通に立てる"
         },
         "4": {
             "station_block": 1,
-            "station_name": "千種"
+            "station_name": "新百合ヶ丘"
         },
         "5": {
             "route_block": 1,
-            "time": "1時間46分",
-            "line": "ＪＲ中央本線 特急ワイドビューしなの11号 長野行",
-            "congestion": "余裕で座れる"
+            "time": "30分",
+            "line": "小田急小田原線通勤急行 新宿行",
+            "congestion": "不明"
         },
         "6": {
             "station_block": 1,
-            "station_name": "塩尻"
+            "station_name": "新宿"
         },
         "7": {
             "route_block": 1,
-            "time": "2時間29分",
-            "line": "ＪＲ中央本線 特急あずさ34号 新宿行",
-            "congestion": "余裕で座れる"
+            "time": "9分",
+            "line": "ＪＲ中央線快速 東京行",
+            "congestion": "普通に立てる"
         },
         "8": {
             "station_block": 1,
-            "station_name": "新宿"
+            "station_name": "御茶ノ水"
         },
         "9": {
             "route_block": 1,
-            "time": "18分",
-            "line": "ＪＲ中央総武線各停 津田沼行",
+            "time": "2分",
+            "line": "ＪＲ中央総武線各停 千葉行",
             "congestion": "普通に立てる"
         },
         "10": {
@@ -43185,6 +43639,52 @@
             "station_name": "六町"
         }
     },
+    "山下_六町": {
+        "0": {
+            "station_block": 1,
+            "station_name": "山下"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "豪徳寺"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "小田急小田原線各停 綾瀬行",
+            "congestion": "席はいっぱい"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "代々木上原"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "38分",
+            "line": "東京メトロ千代田線 綾瀬行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "北千住"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "つくばエクスプレス 守谷行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "六町"
+        }
+    },
     "松原_六町": {
         "0": {
             "station_block": 1,
@@ -46959,6 +47459,52 @@
             "station_name": "六町"
         }
     },
+    "京橋_六町": {
+        "0": {
+            "station_block": 1,
+            "station_name": "京橋"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "東京メトロ銀座線 浅草行",
+            "congestion": "席はいっぱい"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "上野広小路"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "徒歩（地下鉄） ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "上野御徒町"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "1分",
+            "line": "都営大江戸線 両国〔大江戸線〕,大門（東京都）方面",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "新御徒町"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "つくばエクスプレス 守谷行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "六町"
+        }
+    },
     "銀座_六町": {
         "0": {
             "station_block": 1,
@@ -49134,6 +49680,32 @@
             "route_block": 1,
             "time": "4分",
             "line": "つくばエクスプレス 守谷行",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "六町"
+        }
+    },
+    "明治神宮前〈原宿〉_六町": {
+        "0": {
+            "station_block": 1,
+            "station_name": "明治神宮前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "33分",
+            "line": "東京メトロ千代田線 我孫子（千葉県）行",
+            "congestion": "席はいっぱい"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "北千住"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "つくばエクスプレス 八潮行",
             "congestion": "余裕で座れる"
         },
         "4": {
@@ -54464,71 +55036,41 @@
         },
         "1": {
             "route_block": 1,
-            "time": "3分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
+            "time": "4分",
+            "line": "千葉都市モノレール１号線 千葉みなと行",
+            "congestion": "不明"
         },
         "2": {
             "station_block": 1,
-            "station_name": "栄"
+            "station_name": "千葉"
         },
         "3": {
             "route_block": 1,
-            "time": "6分",
-            "line": "名古屋市営東山線 高畑行",
+            "time": "26分",
+            "line": "ＪＲ中央総武線各停 三鷹行",
             "congestion": "余裕で座れる"
         },
         "4": {
             "station_block": 1,
-            "station_name": "名古屋"
+            "station_name": "西船橋"
         },
         "5": {
             "route_block": 1,
-            "time": "14分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
+            "time": "18分",
+            "line": "ＪＲ武蔵野線 東所沢行",
+            "congestion": "席はいっぱい"
         },
         "6": {
             "station_block": 1,
-            "station_name": "名古屋駅〔新幹線口〕"
+            "station_name": "南流山"
         },
         "7": {
             "route_block": 1,
-            "time": "4時間50分",
-            "line": "JR高速バス 東名ハイウェイバス 東京駅〔日本橋口〕行",
-            "congestion": "余裕で座れる"
-        },
-        "8": {
-            "station_block": 1,
-            "station_name": "霞が関〔高速バス〕"
-        },
-        "9": {
-            "route_block": 1,
-            "time": "7分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
-        },
-        "10": {
-            "station_block": 1,
-            "station_name": "霞ヶ関"
-        },
-        "11": {
-            "route_block": 1,
-            "time": "21分",
-            "line": "東京メトロ千代田線 北綾瀬行",
-            "congestion": "余裕で座れる"
-        },
-        "12": {
-            "station_block": 1,
-            "station_name": "北千住"
-        },
-        "13": {
-            "route_block": 1,
-            "time": "5分",
-            "line": "つくばエクスプレス つくば行",
+            "time": "10分",
+            "line": "つくばエクスプレス 秋葉原行",
             "congestion": "席はいっぱい"
         },
-        "14": {
+        "8": {
             "station_block": 1,
             "station_name": "六町"
         }
@@ -57683,6 +58225,72 @@
             "station_name": "六町"
         }
     },
+    "久我原_六町": {
+        "0": {
+            "station_block": 1,
+            "station_name": "久我原"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "いすみ鉄道 大原（千葉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "城見ヶ丘"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "大多喜〔オリブ〕"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "1時間27分",
+            "line": "高速バス 浜松町・東京-勝浦・御宿・安房小湊 東京駅八重洲口前行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "東京駅八重洲口前"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "18分",
+            "line": "ＪＲ常磐線 土浦行",
+            "congestion": "席はいっぱい"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "北千住"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "つくばエクスプレス つくば行",
+            "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "六町"
+        }
+    },
     "総元_六町": {
         "0": {
             "station_block": 1,
@@ -58538,6 +59146,52 @@
             "route_block": 1,
             "time": "13分",
             "line": "つくばエクスプレス 守谷行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "六町"
+        }
+    },
+    "国際展示場正門_六町": {
+        "0": {
+            "station_block": 1,
+            "station_name": "東京ビッグサイト"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "ゆりかもめ 豊洲行",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "豊洲"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "東京メトロ有楽町線 和光市行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "月島"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "都営大江戸線 両国〔大江戸線〕,飯田橋方面",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "新御徒町"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "つくばエクスプレス つくば行",
             "congestion": "余裕で座れる"
         },
         "8": {
@@ -62611,6 +63265,52 @@
             "station_name": "六町"
         }
     },
+    "伊奈中央_六町": {
+        "0": {
+            "station_block": 1,
+            "station_name": "伊奈中央"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "22分",
+            "line": "埼玉新都市交通ニューシャトル 大宮（埼玉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "28分",
+            "line": "ＪＲ上野東京ライン 熱海〔上野経由〕行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "上野"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "ＪＲ常磐線 勝田行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "北千住"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "つくばエクスプレス 守谷行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "六町"
+        }
+    },
     "羽貫_六町": {
         "0": {
             "station_block": 1,
@@ -64983,6 +65683,82 @@
             "station_name": "六町"
         }
     },
+    "市役所前_六町": {
+        "0": {
+            "station_block": 1,
+            "station_name": "市役所前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "千葉都市モノレール１号線 千葉みなと行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉みなと"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "ＪＲ京葉線 東京行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "新習志野"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "ＪＲ京葉線 西船橋行",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "南船橋"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "ＪＲ武蔵野線 西船橋行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "西船橋"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "ＪＲ武蔵野線 府中本町行",
+            "congestion": "席はいっぱい"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "南流山"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "つくばエクスプレス区間快速 秋葉原行",
+            "congestion": "普通に立てる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "八潮"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "つくばエクスプレス 秋葉原行",
+            "congestion": "余裕で座れる"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "六町"
+        }
+    },
     "葭川公園_六町": {
         "0": {
             "station_block": 1,
@@ -64993,6 +65769,52 @@
             "time": "6分",
             "line": "千葉都市モノレール１号線 千葉みなと行",
             "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "26分",
+            "line": "ＪＲ中央総武線各停 三鷹行",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "西船橋"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "18分",
+            "line": "ＪＲ武蔵野線 東所沢行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "南流山"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "つくばエクスプレス 秋葉原行",
+            "congestion": "席はいっぱい"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "六町"
+        }
+    },
+    "県庁前_六町": {
+        "0": {
+            "station_block": 1,
+            "station_name": "県庁前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "千葉都市モノレール１号線 千葉みなと行",
+            "congestion": "不明"
         },
         "2": {
             "station_block": 1,
@@ -66525,6 +67347,62 @@
             "congestion": "余裕で座れる"
         },
         "8": {
+            "station_block": 1,
+            "station_name": "六町"
+        }
+    },
+    "高松_六町": {
+        "0": {
+            "station_block": 1,
+            "station_name": "高松"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "多摩モノレール 多摩センター行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "立川北"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "立川"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "54分",
+            "line": "ＪＲ中央線快速 東京行",
+            "congestion": "圧迫される"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "御茶ノ水"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "ＪＲ中央総武線各停 千葉行",
+            "congestion": "普通に立てる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "秋葉原"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "つくばエクスプレス 守谷行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
             "station_block": 1,
             "station_name": "六町"
         }
@@ -68973,6 +69851,42 @@
         "1": {
             "route_block": 1,
             "time": "1分",
+            "line": "北総鉄道 羽田空港第１・第２ターミナル（京急）行",
+            "congestion": "席はいっぱい"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "東松戸"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "ＪＲ武蔵野線 府中本町行",
+            "congestion": "席はいっぱい"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "南流山"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "つくばエクスプレス 秋葉原行",
+            "congestion": "圧迫される"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "六町"
+        }
+    },
+    "大町_六町": {
+        "0": {
+            "station_block": 1,
+            "station_name": "大町"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "3分",
             "line": "北総鉄道 羽田空港第１・第２ターミナル（京急）行",
             "congestion": "席はいっぱい"
         },

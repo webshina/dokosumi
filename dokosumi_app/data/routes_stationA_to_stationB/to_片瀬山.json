@@ -3589,6 +3589,52 @@
             "station_name": "片瀬山"
         }
     },
+    "扇町_片瀬山": {
+        "0": {
+            "station_block": 1,
+            "station_name": "扇町"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "ＪＲ鶴見線 鶴見行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "鶴見"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "ＪＲ京浜東北・根岸線 南浦和行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "川崎"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "24分",
+            "line": "ＪＲ東海道本線 熱海行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "大船"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "湘南モノレール 湘南江の島行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "片瀬山"
+        }
+    },
     "北府中_片瀬山": {
         "0": {
             "station_block": 1,
@@ -4317,6 +4363,82 @@
             "time": "11分",
             "line": "湘南モノレール 湘南江の島行",
             "congestion": "余裕で座れる"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "片瀬山"
+        }
+    },
+    "吉川_片瀬山": {
+        "0": {
+            "station_block": 1,
+            "station_name": "吉川"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "ＪＲ武蔵野線 府中本町行",
+            "congestion": "普通に立てる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "南越谷"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "新越谷"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "東武伊勢崎線[スカイツリーライン]区間急行 浅草行",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "北千住"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "東京メトロ日比谷線 中目黒行",
+            "congestion": "圧迫される"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "上野"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "ＪＲ上野東京ライン 小田原〔上野経由〕行",
+            "congestion": "席はいっぱい"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "42分",
+            "line": "ＪＲ東海道本線 小田原行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "大船"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "湘南モノレール 湘南江の島行",
+            "congestion": "不明"
         },
         "14": {
             "station_block": 1,
@@ -19343,6 +19465,72 @@
             "station_name": "片瀬山"
         }
     },
+    "竹岡_片瀬山": {
+        "0": {
+            "station_block": 1,
+            "station_name": "竹岡"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "38分",
+            "line": "ＪＲ内房線 木更津行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "木更津"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "木更津駅東口"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "1時間2分",
+            "line": "京急バス [高速] 横浜駅東口行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "横浜駅東口"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "横浜"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "ＪＲ東海道本線 熱海行",
+            "congestion": "席はいっぱい"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "大船"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "湘南モノレール 湘南江の島行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "片瀬山"
+        }
+    },
     "浜金谷_片瀬山": {
         "0": {
             "station_block": 1,
@@ -19921,6 +20109,72 @@
             "time": "11分",
             "line": "湘南モノレール 湘南江の島行",
             "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "片瀬山"
+        }
+    },
+    "千歳_片瀬山": {
+        "0": {
+            "station_block": 1,
+            "station_name": "千歳"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "ＪＲ内房線 館山行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "館山"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "館山駅前"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "2時間5分",
+            "line": "京急バス [高速] 横浜駅東口行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "横浜駅東口"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "横浜"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "ＪＲ東海道本線 熱海行",
+            "congestion": "席はいっぱい"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "大船"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "湘南モノレール 湘南江の島行",
+            "congestion": "不明"
         },
         "12": {
             "station_block": 1,
@@ -21927,6 +22181,62 @@
             "station_name": "片瀬山"
         }
     },
+    "小林_片瀬山": {
+        "0": {
+            "station_block": 1,
+            "station_name": "小林"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "24分",
+            "line": "ＪＲ成田線 我孫子（千葉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "我孫子"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "32分",
+            "line": "ＪＲ常磐線快速 上野行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "上野"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "ＪＲ上野東京ライン 熱海〔上野経由〕行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "45分",
+            "line": "ＪＲ東海道本線 熱海行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "大船"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "湘南モノレール 湘南江の島行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "片瀬山"
+        }
+    },
     "安食_片瀬山": {
         "0": {
             "station_block": 1,
@@ -22112,131 +22422,71 @@
         },
         "1": {
             "route_block": 1,
-            "time": "2分",
-            "line": "福岡市営空港線 福岡空港行",
-            "congestion": "余裕で座れる"
+            "time": "4分",
+            "line": "徒歩 ",
+            "congestion": "不明"
         },
         "2": {
             "station_block": 1,
-            "station_name": "博多"
+            "station_name": "祇園"
         },
         "3": {
             "route_block": 1,
-            "time": "1時間21分",
-            "line": "ＪＲ鹿児島本線区間快速 小倉（福岡県）行",
-            "congestion": "余裕で座れる"
+            "time": "11分",
+            "line": "日東交通 馬来田線 木更津駅東口行",
+            "congestion": "不明"
         },
         "4": {
             "station_block": 1,
-            "station_name": "小倉"
+            "station_name": "木更津駅東口"
         },
         "5": {
             "route_block": 1,
-            "time": "6分",
-            "line": "ＪＲ鹿児島本線 下関行",
-            "congestion": "余裕で座れる"
+            "time": "4分",
+            "line": "徒歩 ",
+            "congestion": "不明"
         },
         "6": {
             "station_block": 1,
-            "station_name": "門司"
+            "station_name": "木更津駅東口"
         },
         "7": {
             "route_block": 1,
-            "time": "6分",
-            "line": "ＪＲ山陽本線 下関行",
-            "congestion": "余裕で座れる"
+            "time": "55分",
+            "line": "京急バス [高速] 横浜駅東口行",
+            "congestion": "不明"
         },
         "8": {
             "station_block": 1,
-            "station_name": "下関"
+            "station_name": "横浜駅東口"
         },
         "9": {
             "route_block": 1,
-            "time": "3時間7分",
-            "line": "ＪＲ山陽本線 岩国行",
-            "congestion": "余裕で座れる"
+            "time": "10分",
+            "line": "徒歩 ",
+            "congestion": "不明"
         },
         "10": {
             "station_block": 1,
-            "station_name": "岩国"
+            "station_name": "横浜"
         },
         "11": {
             "route_block": 1,
-            "time": "47分",
-            "line": "ＪＲ山陽本線 西条（広島県）行",
-            "congestion": "余裕で座れる"
+            "time": "16分",
+            "line": "ＪＲ東海道本線 熱海行",
+            "congestion": "席はいっぱい"
         },
         "12": {
             "station_block": 1,
-            "station_name": "新白島"
+            "station_name": "大船"
         },
         "13": {
             "route_block": 1,
-            "time": "5分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
-        },
-        "14": {
-            "station_block": 1,
-            "station_name": "新白島駅"
-        },
-        "15": {
-            "route_block": 1,
-            "time": "2時間39分",
-            "line": "JR高速バス サンサンライナー 岡山駅〔西口〕行",
-            "congestion": "余裕で座れる"
-        },
-        "16": {
-            "station_block": 1,
-            "station_name": "岡山駅〔西口〕"
-        },
-        "17": {
-            "route_block": 1,
-            "time": "4分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
-        },
-        "18": {
-            "station_block": 1,
-            "station_name": "岡山駅〔西口〕"
-        },
-        "19": {
-            "route_block": 1,
-            "time": "8時間30分",
-            "line": "ジャムジャムライナー ＪＡＭＪＡＭライナー 東京駅鍛冶橋駐車場行",
-            "congestion": "余裕で座れる"
-        },
-        "20": {
-            "station_block": 1,
-            "station_name": "横浜駅東口／ＹＣＡＴ"
-        },
-        "21": {
-            "route_block": 1,
-            "time": "11分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
-        },
-        "22": {
-            "station_block": 1,
-            "station_name": "横浜"
-        },
-        "23": {
-            "route_block": 1,
-            "time": "15分",
-            "line": "ＪＲ東海道本線 沼津行",
-            "congestion": "席はいっぱい"
-        },
-        "24": {
-            "station_block": 1,
-            "station_name": "大船"
-        },
-        "25": {
-            "route_block": 1,
             "time": "11分",
             "line": "湘南モノレール 湘南江の島行",
-            "congestion": "余裕で座れる"
+            "congestion": "不明"
         },
-        "26": {
+        "14": {
             "station_block": 1,
             "station_name": "片瀬山"
         }
@@ -27733,6 +27983,52 @@
             "time": "11分",
             "line": "湘南モノレール 湘南江の島行",
             "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "片瀬山"
+        }
+    },
+    "大和田_片瀬山": {
+        "0": {
+            "station_block": 1,
+            "station_name": "大和田"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "東武アーバンパークライン 大宮（埼玉県）行",
+            "congestion": "圧迫される"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "38分",
+            "line": "ＪＲ上野東京ライン 小田原〔上野経由〕行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "42分",
+            "line": "ＪＲ東海道本線 小田原行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "大船"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "湘南モノレール 湘南江の島行",
+            "congestion": "不明"
         },
         "8": {
             "station_block": 1,
@@ -34535,6 +34831,62 @@
             "station_name": "片瀬山"
         }
     },
+    "競艇場前_片瀬山": {
+        "0": {
+            "station_block": 1,
+            "station_name": "競艇場前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "12分",
+            "line": "西武多摩川線各停 武蔵境行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "武蔵境"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "26分",
+            "line": "ＪＲ中央線快速 東京行",
+            "congestion": "圧迫される"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "新宿"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "46分",
+            "line": "ＪＲ湘南新宿ライン快速 国府津行",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "戸塚"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "ＪＲ東海道本線 国府津行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "大船"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "湘南モノレール 湘南江の島行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "片瀬山"
+        }
+    },
     "是政_片瀬山": {
         "0": {
             "station_block": 1,
@@ -37957,6 +38309,72 @@
             "time": "11分",
             "line": "湘南モノレール 湘南江の島行",
             "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "片瀬山"
+        }
+    },
+    "学園前_片瀬山": {
+        "0": {
+            "station_block": 1,
+            "station_name": "学園前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "京成千原線 京成津田沼行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉中央"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "1分",
+            "line": "京成千葉線 京成津田沼行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "京成千葉"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "42分",
+            "line": "ＪＲ総武本線快速 大船行",
+            "congestion": "席はいっぱい"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "48分",
+            "line": "ＪＲ横須賀線 大船行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "大船"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "湘南モノレール 湘南江の島行",
+            "congestion": "不明"
         },
         "12": {
             "station_block": 1,
@@ -41459,6 +41877,72 @@
             "time": "11分",
             "line": "湘南モノレール 湘南江の島行",
             "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "片瀬山"
+        }
+    },
+    "山田_片瀬山": {
+        "0": {
+            "station_block": 1,
+            "station_name": "山田"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "京王高尾線各停 新宿行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "北野"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "京王線準特急 新宿行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "分倍河原"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "32分",
+            "line": "ＪＲ南武線 川崎行",
+            "congestion": "圧迫される"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "武蔵小杉"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "23分",
+            "line": "ＪＲ湘南新宿ライン快速 国府津行",
+            "congestion": "席はいっぱい"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "戸塚"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "ＪＲ東海道本線 国府津行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "大船"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "湘南モノレール 湘南江の島行",
+            "congestion": "不明"
         },
         "12": {
             "station_block": 1,
@@ -46092,111 +46576,71 @@
         },
         "1": {
             "route_block": 1,
-            "time": "19分",
-            "line": "名古屋市営名城線 大曽根,本山（愛知県）方面",
-            "congestion": "余裕で座れる"
+            "time": "6分",
+            "line": "小田急多摩線各停 新百合ヶ丘行",
+            "congestion": "席はいっぱい"
         },
         "2": {
             "station_block": 1,
-            "station_name": "本山"
+            "station_name": "新百合ヶ丘"
         },
         "3": {
             "route_block": 1,
-            "time": "4分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
+            "time": "11分",
+            "line": "小田急小田原線急行 藤沢行",
+            "congestion": "普通に立てる"
         },
         "4": {
             "station_block": 1,
-            "station_name": "本山"
+            "station_name": "相模大野"
         },
         "5": {
             "route_block": 1,
-            "time": "2時間28分",
-            "line": "JR高速バス 東名ハイウェイバス 東京駅〔日本橋口〕行",
-            "congestion": "余裕で座れる"
+            "time": "24分",
+            "line": "小田急江ノ島線急行 藤沢行",
+            "congestion": "不明"
         },
         "6": {
             "station_block": 1,
-            "station_name": "東名焼津西〔高速バス〕"
+            "station_name": "藤沢"
         },
         "7": {
             "route_block": 1,
-            "time": "8分",
+            "time": "4分",
             "line": "徒歩 ",
-            "congestion": "余裕で座れる"
+            "congestion": "不明"
         },
         "8": {
             "station_block": 1,
-            "station_name": "西焼津"
+            "station_name": "藤沢駅南口"
         },
         "9": {
             "route_block": 1,
-            "time": "16分",
-            "line": "ＪＲ東海道本線 静岡行",
-            "congestion": "余裕で座れる"
+            "time": "9分",
+            "line": "江ノ電バス [F3]新屋敷経由 江ノ島（神奈川県）行",
+            "congestion": "不明"
         },
         "10": {
             "station_block": 1,
-            "station_name": "静岡"
+            "station_name": "江ノ島駅前"
         },
         "11": {
             "route_block": 1,
-            "time": "1時間14分",
-            "line": "ＪＲ東海道本線 熱海行",
-            "congestion": "余裕で座れる"
+            "time": "5分",
+            "line": "徒歩 ",
+            "congestion": "不明"
         },
         "12": {
             "station_block": 1,
-            "station_name": "熱海"
+            "station_name": "湘南江の島"
         },
         "13": {
             "route_block": 1,
-            "time": "48分",
-            "line": "ＪＲ上野東京ライン快速〔アクティー〕 小金井〔東京経由〕行",
-            "congestion": "余裕で座れる"
-        },
-        "14": {
-            "station_block": 1,
-            "station_name": "藤沢"
-        },
-        "15": {
-            "route_block": 1,
-            "time": "4分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
-        },
-        "16": {
-            "station_block": 1,
-            "station_name": "藤沢駅南口"
-        },
-        "17": {
-            "route_block": 1,
-            "time": "9分",
-            "line": "江ノ電バス [F3]新屋敷経由 江ノ島（神奈川県）行",
-            "congestion": "余裕で座れる"
-        },
-        "18": {
-            "station_block": 1,
-            "station_name": "江ノ島駅前"
-        },
-        "19": {
-            "route_block": 1,
-            "time": "5分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
-        },
-        "20": {
-            "station_block": 1,
-            "station_name": "湘南江の島"
-        },
-        "21": {
-            "route_block": 1,
             "time": "3分",
             "line": "湘南モノレール 大船行",
-            "congestion": "余裕で座れる"
+            "congestion": "不明"
         },
-        "22": {
+        "14": {
             "station_block": 1,
             "station_name": "片瀬山"
         }
@@ -50515,6 +50959,102 @@
             "station_name": "片瀬山"
         }
     },
+    "山下_片瀬山": {
+        "0": {
+            "station_block": 1,
+            "station_name": "山下"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "豪徳寺"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "小田急小田原線各停 相模大野行",
+            "congestion": "席はいっぱい"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "経堂"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "小田急小田原線急行 小田原行",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "登戸"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "小田急小田原線快速急行 藤沢行",
+            "congestion": "普通に立てる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "相模大野"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "22分",
+            "line": "小田急江ノ島線快速急行 藤沢行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "藤沢"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "藤沢駅南口"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "江ノ電バス [F21]片瀬山経由 西鎌倉・津村行",
+            "congestion": "不明"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "藤ヶ谷"
+        },
+        "15": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "江ノ電バス [F21]片瀬山経由 西鎌倉・津村行",
+            "congestion": "不明"
+        },
+        "16": {
+            "station_block": 1,
+            "station_name": "片瀬山入口"
+        },
+        "17": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "18": {
+            "station_block": 1,
+            "station_name": "片瀬山"
+        }
+    },
     "松原_片瀬山": {
         "0": {
             "station_block": 1,
@@ -54133,6 +54673,42 @@
             "station_name": "片瀬山"
         }
     },
+    "京橋_片瀬山": {
+        "0": {
+            "station_block": 1,
+            "station_name": "京橋"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "東京メトロ銀座線 渋谷行",
+            "congestion": "圧迫される"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "新橋"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "39分",
+            "line": "ＪＲ東海道本線 大船行",
+            "congestion": "席はいっぱい"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "大船"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "湘南モノレール 湘南江の島行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "片瀬山"
+        }
+    },
     "銀座_片瀬山": {
         "0": {
             "station_block": 1,
@@ -57025,6 +57601,52 @@
             "congestion": "余裕で座れる"
         },
         "14": {
+            "station_block": 1,
+            "station_name": "片瀬山"
+        }
+    },
+    "明治神宮前〈原宿〉_片瀬山": {
+        "0": {
+            "station_block": 1,
+            "station_name": "明治神宮前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "東京メトロ副都心線 元町・中華街行",
+            "congestion": "席はいっぱい"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "渋谷"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "41分",
+            "line": "ＪＲ湘南新宿ライン快速 国府津行",
+            "congestion": "席はいっぱい"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "戸塚"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "ＪＲ東海道本線 国府津行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "大船"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "湘南モノレール 湘南江の島行",
+            "congestion": "不明"
+        },
+        "8": {
             "station_block": 1,
             "station_name": "片瀬山"
         }
@@ -63826,121 +64448,41 @@
         },
         "1": {
             "route_block": 1,
-            "time": "3分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
+            "time": "4分",
+            "line": "千葉都市モノレール１号線 千葉みなと行",
+            "congestion": "不明"
         },
         "2": {
             "station_block": 1,
-            "station_name": "栄"
+            "station_name": "千葉"
         },
         "3": {
             "route_block": 1,
-            "time": "21分",
-            "line": "名古屋市営東山線 藤が丘（愛知県）行",
-            "congestion": "余裕で座れる"
+            "time": "49分",
+            "line": "ＪＲ総武本線 特急成田エクスプレス2号 大船行",
+            "congestion": "不明"
         },
         "4": {
             "station_block": 1,
-            "station_name": "本郷"
+            "station_name": "品川"
         },
         "5": {
             "route_block": 1,
-            "time": "5分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
+            "time": "32分",
+            "line": "ＪＲ東海道本線快速〔アクティー〕 熱海行",
+            "congestion": "普通に立てる"
         },
         "6": {
             "station_block": 1,
-            "station_name": "名古屋インター"
+            "station_name": "大船"
         },
         "7": {
             "route_block": 1,
-            "time": "2時間12分",
-            "line": "JR高速バス 東名ハイウェイバス 東京駅〔日本橋口〕行",
-            "congestion": "余裕で座れる"
+            "time": "11分",
+            "line": "湘南モノレール 湘南江の島行",
+            "congestion": "不明"
         },
         "8": {
-            "station_block": 1,
-            "station_name": "東名焼津西〔高速バス〕"
-        },
-        "9": {
-            "route_block": 1,
-            "time": "8分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
-        },
-        "10": {
-            "station_block": 1,
-            "station_name": "西焼津"
-        },
-        "11": {
-            "route_block": 1,
-            "time": "16分",
-            "line": "ＪＲ東海道本線 静岡行",
-            "congestion": "余裕で座れる"
-        },
-        "12": {
-            "station_block": 1,
-            "station_name": "静岡"
-        },
-        "13": {
-            "route_block": 1,
-            "time": "1時間14分",
-            "line": "ＪＲ東海道本線 熱海行",
-            "congestion": "余裕で座れる"
-        },
-        "14": {
-            "station_block": 1,
-            "station_name": "熱海"
-        },
-        "15": {
-            "route_block": 1,
-            "time": "48分",
-            "line": "ＪＲ上野東京ライン快速〔アクティー〕 小金井〔東京経由〕行",
-            "congestion": "余裕で座れる"
-        },
-        "16": {
-            "station_block": 1,
-            "station_name": "藤沢"
-        },
-        "17": {
-            "route_block": 1,
-            "time": "4分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
-        },
-        "18": {
-            "station_block": 1,
-            "station_name": "藤沢駅南口"
-        },
-        "19": {
-            "route_block": 1,
-            "time": "9分",
-            "line": "江ノ電バス [F3]新屋敷経由 江ノ島（神奈川県）行",
-            "congestion": "余裕で座れる"
-        },
-        "20": {
-            "station_block": 1,
-            "station_name": "江ノ島駅前"
-        },
-        "21": {
-            "route_block": 1,
-            "time": "5分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
-        },
-        "22": {
-            "station_block": 1,
-            "station_name": "湘南江の島"
-        },
-        "23": {
-            "route_block": 1,
-            "time": "3分",
-            "line": "湘南モノレール 大船行",
-            "congestion": "余裕で座れる"
-        },
-        "24": {
             "station_block": 1,
             "station_name": "片瀬山"
         }
@@ -67205,6 +67747,72 @@
             "station_name": "片瀬山"
         }
     },
+    "久我原_片瀬山": {
+        "0": {
+            "station_block": 1,
+            "station_name": "久我原"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "いすみ鉄道 大原（千葉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "城見ヶ丘"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "大多喜〔オリブ〕"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "1時間27分",
+            "line": "高速バス 浜松町・東京-勝浦・御宿・安房小湊 東京駅八重洲口前行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "東京駅八重洲口前"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "45分",
+            "line": "ＪＲ東海道本線 小田原行",
+            "congestion": "席はいっぱい"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "大船"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "湘南モノレール 湘南江の島行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "片瀬山"
+        }
+    },
     "総元_片瀬山": {
         "0": {
             "station_block": 1,
@@ -68287,6 +68895,42 @@
             "time": "11分",
             "line": "湘南モノレール 湘南江の島行",
             "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "片瀬山"
+        }
+    },
+    "国際展示場正門_片瀬山": {
+        "0": {
+            "station_block": 1,
+            "station_name": "東京ビッグサイト"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "23分",
+            "line": "ゆりかもめ 新橋行",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "新橋"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "39分",
+            "line": "ＪＲ東海道本線 国府津行",
+            "congestion": "席はいっぱい"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "大船"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "湘南モノレール 湘南江の島行",
+            "congestion": "不明"
         },
         "6": {
             "station_block": 1,
@@ -71499,6 +72143,52 @@
             "station_name": "片瀬山"
         }
     },
+    "伊奈中央_片瀬山": {
+        "0": {
+            "station_block": 1,
+            "station_name": "伊奈中央"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "22分",
+            "line": "埼玉新都市交通ニューシャトル 大宮（埼玉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "34分",
+            "line": "ＪＲ上野東京ライン 熱海〔上野経由〕行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "45分",
+            "line": "ＪＲ東海道本線 熱海行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "大船"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "湘南モノレール 湘南江の島行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "片瀬山"
+        }
+    },
     "羽貫_片瀬山": {
         "0": {
             "station_block": 1,
@@ -73935,6 +74625,52 @@
             "station_name": "片瀬山"
         }
     },
+    "市役所前_片瀬山": {
+        "0": {
+            "station_block": 1,
+            "station_name": "市役所前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "千葉都市モノレール１号線 千城台行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "49分",
+            "line": "ＪＲ総武本線 特急成田エクスプレス2号 大船行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "品川"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "32分",
+            "line": "ＪＲ東海道本線快速〔アクティー〕 熱海行",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "大船"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "湘南モノレール 湘南江の島行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "片瀬山"
+        }
+    },
     "葭川公園_片瀬山": {
         "0": {
             "station_block": 1,
@@ -73975,6 +74711,52 @@
             "time": "11分",
             "line": "湘南モノレール 湘南江の島行",
             "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "片瀬山"
+        }
+    },
+    "県庁前_片瀬山": {
+        "0": {
+            "station_block": 1,
+            "station_name": "県庁前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "千葉都市モノレール１号線 千葉みなと行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "49分",
+            "line": "ＪＲ総武本線 特急成田エクスプレス2号 大船行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "品川"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "32分",
+            "line": "ＪＲ東海道本線快速〔アクティー〕 熱海行",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "大船"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "湘南モノレール 湘南江の島行",
+            "congestion": "不明"
         },
         "8": {
             "station_block": 1,
@@ -75767,6 +76549,112 @@
             "congestion": "余裕で座れる"
         },
         "18": {
+            "station_block": 1,
+            "station_name": "片瀬山"
+        }
+    },
+    "高松_片瀬山": {
+        "0": {
+            "station_block": 1,
+            "station_name": "高松"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "多摩モノレール 多摩センター行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "立川北"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "立川"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "12分",
+            "line": "ＪＲ中央線快速 高尾（東京都）行",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "八王子"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "25分",
+            "line": "ＪＲ横浜線 桜木町行",
+            "congestion": "普通に立てる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "町田"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "小田急小田原線快速急行 藤沢行",
+            "congestion": "普通に立てる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "相模大野"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "22分",
+            "line": "小田急江ノ島線快速急行 藤沢行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "藤沢"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "藤沢駅南口"
+        },
+        "15": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "江ノ電バス 藤ヶ谷経由片瀬山循環 藤沢駅南口行",
+            "congestion": "不明"
+        },
+        "16": {
+            "station_block": 1,
+            "station_name": "藤ヶ谷"
+        },
+        "17": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "江ノ電バス 西鎌倉・手広経由 藤沢駅南口行",
+            "congestion": "不明"
+        },
+        "18": {
+            "station_block": 1,
+            "station_name": "片瀬山入口"
+        },
+        "19": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "20": {
             "station_block": 1,
             "station_name": "片瀬山"
         }
@@ -78411,6 +79299,62 @@
             "time": "11分",
             "line": "湘南モノレール 湘南江の島行",
             "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "片瀬山"
+        }
+    },
+    "大町_片瀬山": {
+        "0": {
+            "station_block": 1,
+            "station_name": "大町"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "北総鉄道 西馬込行",
+            "congestion": "席はいっぱい"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "京成高砂"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "京成押上線アクセス特急 羽田空港第１・第２ターミナル（京急）行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "押上[スカイツリー前]"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "都営浅草線急行 羽田空港第１・第２ターミナル（京急）行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "新橋"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "39分",
+            "line": "ＪＲ東海道本線 小田原行",
+            "congestion": "席はいっぱい"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "大船"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "湘南モノレール 湘南江の島行",
+            "congestion": "不明"
         },
         "10": {
             "station_block": 1,

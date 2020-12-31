@@ -4139,6 +4139,62 @@
             "station_name": "千葉公園"
         }
     },
+    "扇町_千葉公園": {
+        "0": {
+            "station_block": 1,
+            "station_name": "扇町"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "ＪＲ鶴見線 鶴見行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "鶴見"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "19分",
+            "line": "ＪＲ京浜東北・根岸線 南浦和行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "品川"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "ＪＲ横須賀線 千葉行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "39分",
+            "line": "ＪＲ総武本線快速 千葉行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "千葉都市モノレール２号線 千城台行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "千葉公園"
+        }
+    },
     "北府中_千葉公園": {
         "0": {
             "station_block": 1,
@@ -4747,6 +4803,62 @@
             "time": "2分",
             "line": "千葉都市モノレール２号線 千城台行",
             "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "千葉公園"
+        }
+    },
+    "吉川_千葉公園": {
+        "0": {
+            "station_block": 1,
+            "station_name": "吉川"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "40分",
+            "line": "ＪＲ武蔵野線 海浜幕張行",
+            "congestion": "普通に立てる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "南船橋"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "ＪＲ京葉線 海浜幕張行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "海浜幕張"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "ＪＲ京葉線 蘇我行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "千葉みなと"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "千葉都市モノレール１号線 千城台行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "千葉都市モノレール２号線 千城台行",
+            "congestion": "不明"
         },
         "10": {
             "station_block": 1,
@@ -18033,6 +18145,42 @@
             "station_name": "千葉公園"
         }
     },
+    "竹岡_千葉公園": {
+        "0": {
+            "station_block": 1,
+            "station_name": "竹岡"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "24分",
+            "line": "ＪＲ内房線 木更津行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "君津"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "44分",
+            "line": "ＪＲ内房線快速 逗子行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "千葉都市モノレール２号線 千城台行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "千葉公園"
+        }
+    },
     "浜金谷_千葉公園": {
         "0": {
             "station_block": 1,
@@ -18371,6 +18519,52 @@
             "time": "2分",
             "line": "千葉都市モノレール２号線 千城台行",
             "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "千葉公園"
+        }
+    },
+    "千歳_千葉公園": {
+        "0": {
+            "station_block": 1,
+            "station_name": "千歳"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "ＪＲ内房線 館山行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "館山"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "59分",
+            "line": "ＪＲ内房線 木更津行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "君津"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "47分",
+            "line": "ＪＲ内房線快速 逗子行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "千葉都市モノレール２号線 千城台行",
+            "congestion": "不明"
         },
         "8": {
             "station_block": 1,
@@ -19907,6 +20101,52 @@
             "station_name": "千葉公園"
         }
     },
+    "小林_千葉公園": {
+        "0": {
+            "station_block": 1,
+            "station_name": "小林"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "ＪＲ成田線 成田行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "成田"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "ＪＲ成田線 千葉行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "佐倉"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "ＪＲ総武本線 千葉行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "千葉都市モノレール２号線 千城台行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "千葉公園"
+        }
+    },
     "安食_千葉公園": {
         "0": {
             "station_block": 1,
@@ -20062,131 +20302,31 @@
         },
         "1": {
             "route_block": 1,
-            "time": "2分",
-            "line": "福岡市営空港線 福岡空港行",
-            "congestion": "余裕で座れる"
+            "time": "4分",
+            "line": "ＪＲ久留里線 木更津行",
+            "congestion": "不明"
         },
         "2": {
             "station_block": 1,
-            "station_name": "博多"
+            "station_name": "木更津"
         },
         "3": {
             "route_block": 1,
-            "time": "8分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
+            "time": "36分",
+            "line": "ＪＲ内房線快速 逗子行",
+            "congestion": "不明"
         },
         "4": {
             "station_block": 1,
-            "station_name": "博多バスターミナル〔博多駅〕"
+            "station_name": "千葉"
         },
         "5": {
             "route_block": 1,
-            "time": "4時間32分",
-            "line": "JR高速バス 広福ライナー 広島駅〔南口〕行",
-            "congestion": "余裕で座れる"
-        },
-        "6": {
-            "station_block": 1,
-            "station_name": "広島バスセンター"
-        },
-        "7": {
-            "route_block": 1,
-            "time": "4分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
-        },
-        "8": {
-            "station_block": 1,
-            "station_name": "広島バスセンター"
-        },
-        "9": {
-            "route_block": 1,
-            "time": "4時間6分",
-            "line": "高速バス ハーバーライナー 神姫バス三ノ宮バスターミナル行",
-            "congestion": "余裕で座れる"
-        },
-        "10": {
-            "station_block": 1,
-            "station_name": "神姫バス三ノ宮バスターミナル"
-        },
-        "11": {
-            "route_block": 1,
-            "time": "7分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
-        },
-        "12": {
-            "station_block": 1,
-            "station_name": "三ノ宮"
-        },
-        "13": {
-            "route_block": 1,
-            "time": "37分",
-            "line": "ＪＲ東海道山陽本線各停 京都行",
-            "congestion": "余裕で座れる"
-        },
-        "14": {
-            "station_block": 1,
-            "station_name": "大阪"
-        },
-        "15": {
-            "route_block": 1,
-            "time": "4分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
-        },
-        "16": {
-            "station_block": 1,
-            "station_name": "大阪駅前〔桜橋口ＪＲ線高架下〕"
-        },
-        "17": {
-            "route_block": 1,
-            "time": "7時間35分",
-            "line": "高速バス ニュースター号 王子駅〔南口〕行",
-            "congestion": "余裕で座れる"
-        },
-        "18": {
-            "station_block": 1,
-            "station_name": "東京駅八重洲口前"
-        },
-        "19": {
-            "route_block": 1,
-            "time": "23分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
-        },
-        "20": {
-            "station_block": 1,
-            "station_name": "東京"
-        },
-        "21": {
-            "route_block": 1,
-            "time": "45分",
-            "line": "ＪＲ京葉線 蘇我行",
-            "congestion": "余裕で座れる"
-        },
-        "22": {
-            "station_block": 1,
-            "station_name": "千葉みなと"
-        },
-        "23": {
-            "route_block": 1,
-            "time": "4分",
-            "line": "千葉都市モノレール１号線 千城台行",
-            "congestion": "余裕で座れる"
-        },
-        "24": {
-            "station_block": 1,
-            "station_name": "千葉"
-        },
-        "25": {
-            "route_block": 1,
             "time": "2分",
             "line": "千葉都市モノレール２号線 千城台行",
-            "congestion": "余裕で座れる"
+            "congestion": "不明"
         },
-        "26": {
+        "6": {
             "station_block": 1,
             "station_name": "千葉公園"
         }
@@ -25803,6 +25943,52 @@
             "time": "2分",
             "line": "千葉都市モノレール２号線 千城台行",
             "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "千葉公園"
+        }
+    },
+    "大和田_千葉公園": {
+        "0": {
+            "station_block": 1,
+            "station_name": "大和田"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "東武アーバンパークライン 大宮（埼玉県）行",
+            "congestion": "圧迫される"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "38分",
+            "line": "ＪＲ上野東京ライン 小田原〔上野経由〕行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "39分",
+            "line": "ＪＲ総武本線快速 千葉行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "千葉都市モノレール２号線 千城台行",
+            "congestion": "不明"
         },
         "8": {
             "station_block": 1,
@@ -32495,6 +32681,62 @@
             "station_name": "千葉公園"
         }
     },
+    "競艇場前_千葉公園": {
+        "0": {
+            "station_block": 1,
+            "station_name": "競艇場前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "12分",
+            "line": "西武多摩川線各停 武蔵境行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "武蔵境"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "35分",
+            "line": "ＪＲ中央線快速 東京行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "御茶ノ水"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "ＪＲ中央総武線各停 千葉行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "錦糸町"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "30分",
+            "line": "ＪＲ総武本線快速 千葉行",
+            "congestion": "席はいっぱい"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "千葉都市モノレール２号線 千城台行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "千葉公園"
+        }
+    },
     "是政_千葉公園": {
         "0": {
             "station_block": 1,
@@ -35277,6 +35519,52 @@
             "time": "2分",
             "line": "千葉都市モノレール２号線 動物公園行",
             "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "千葉公園"
+        }
+    },
+    "学園前_千葉公園": {
+        "0": {
+            "station_block": 1,
+            "station_name": "学園前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "京成千原線 京成津田沼行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉中央"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "1分",
+            "line": "京成千葉線 京成津田沼行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "京成千葉"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "千葉都市モノレール２号線 千城台行",
+            "congestion": "不明"
         },
         "8": {
             "station_block": 1,
@@ -38359,6 +38647,72 @@
             "time": "2分",
             "line": "千葉都市モノレール２号線 千城台行",
             "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "千葉公園"
+        }
+    },
+    "山田_千葉公園": {
+        "0": {
+            "station_block": 1,
+            "station_name": "山田"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "京王高尾線各停 新宿行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "北野"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "47分",
+            "line": "京王線準特急 新宿行",
+            "congestion": "圧迫される"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "新宿"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "ＪＲ中央線快速 東京行",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "御茶ノ水"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "ＪＲ中央総武線各停 津田沼行",
+            "congestion": "席はいっぱい"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "錦糸町"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "31分",
+            "line": "ＪＲ総武本線快速 成田空港（成田第１ターミナル）行",
+            "congestion": "席はいっぱい"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "千葉都市モノレール２号線 千城台行",
+            "congestion": "不明"
         },
         "12": {
             "station_block": 1,
@@ -43122,81 +43476,61 @@
         },
         "1": {
             "route_block": 1,
-            "time": "9分",
-            "line": "名古屋市営名城線 栄（愛知県）,金山（愛知県）方面",
-            "congestion": "余裕で座れる"
+            "time": "6分",
+            "line": "小田急多摩線各停 新百合ヶ丘行",
+            "congestion": "席はいっぱい"
         },
         "2": {
             "station_block": 1,
-            "station_name": "栄"
+            "station_name": "新百合ヶ丘"
         },
         "3": {
             "route_block": 1,
-            "time": "4分",
-            "line": "名古屋市営東山線 藤が丘（愛知県）行",
-            "congestion": "余裕で座れる"
+            "time": "29分",
+            "line": "小田急小田原線快速急行 新宿行",
+            "congestion": "普通に立てる"
         },
         "4": {
             "station_block": 1,
-            "station_name": "千種"
+            "station_name": "新宿"
         },
         "5": {
             "route_block": 1,
-            "time": "1時間48分",
-            "line": "ＪＲ中央本線 特急ワイドビューしなの7号 長野行",
-            "congestion": "余裕で座れる"
+            "time": "9分",
+            "line": "ＪＲ中央線快速 東京行",
+            "congestion": "普通に立てる"
         },
         "6": {
             "station_block": 1,
-            "station_name": "塩尻"
+            "station_name": "御茶ノ水"
         },
         "7": {
             "route_block": 1,
-            "time": "2時間23分",
-            "line": "ＪＲ中央本線 特急あずさ26号 新宿行",
-            "congestion": "余裕で座れる"
+            "time": "8分",
+            "line": "ＪＲ中央総武線各停 千葉行",
+            "congestion": "席はいっぱい"
         },
         "8": {
             "station_block": 1,
-            "station_name": "新宿"
+            "station_name": "錦糸町"
         },
         "9": {
             "route_block": 1,
-            "time": "9分",
-            "line": "ＪＲ中央線快速 東京行",
+            "time": "30分",
+            "line": "ＪＲ総武本線快速 千葉行",
             "congestion": "席はいっぱい"
         },
         "10": {
             "station_block": 1,
-            "station_name": "御茶ノ水"
+            "station_name": "千葉"
         },
         "11": {
             "route_block": 1,
-            "time": "21分",
-            "line": "ＪＲ中央総武線各停 千葉行",
-            "congestion": "席はいっぱい"
-        },
-        "12": {
-            "station_block": 1,
-            "station_name": "市川"
-        },
-        "13": {
-            "route_block": 1,
-            "time": "21分",
-            "line": "ＪＲ総武本線快速 千葉行",
-            "congestion": "席はいっぱい"
-        },
-        "14": {
-            "station_block": 1,
-            "station_name": "千葉"
-        },
-        "15": {
-            "route_block": 1,
             "time": "2分",
             "line": "千葉都市モノレール２号線 千城台行",
-            "congestion": "余裕で座れる"
+            "congestion": "不明"
         },
-        "16": {
+        "12": {
             "station_block": 1,
             "station_name": "千葉公園"
         }
@@ -48365,6 +48699,82 @@
             "station_name": "千葉公園"
         }
     },
+    "山下_千葉公園": {
+        "0": {
+            "station_block": 1,
+            "station_name": "山下"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "豪徳寺"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "小田急小田原線各停 我孫子（千葉県）行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "代々木上原"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "小田急小田原線快速急行 新宿行",
+            "congestion": "圧迫される"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "新宿"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "ＪＲ中央線快速 東京行",
+            "congestion": "普通に立てる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "御茶ノ水"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "21分",
+            "line": "ＪＲ中央総武線各停 津田沼行",
+            "congestion": "席はいっぱい"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "市川"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "20分",
+            "line": "ＪＲ総武本線快速 君津行",
+            "congestion": "席はいっぱい"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "千葉都市モノレール２号線 千城台行",
+            "congestion": "不明"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "千葉公園"
+        }
+    },
     "松原_千葉公園": {
         "0": {
             "station_block": 1,
@@ -52653,6 +53063,52 @@
             "station_name": "千葉公園"
         }
     },
+    "京橋_千葉公園": {
+        "0": {
+            "station_block": 1,
+            "station_name": "京橋"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "東京メトロ銀座線 浅草行",
+            "congestion": "普通に立てる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "三越前"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "新日本橋"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "36分",
+            "line": "ＪＲ総武本線快速 成田空港（成田第１ターミナル）行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "千葉都市モノレール２号線 千城台行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "千葉公園"
+        }
+    },
     "銀座_千葉公園": {
         "0": {
             "station_block": 1,
@@ -55573,6 +56029,52 @@
             "time": "2分",
             "line": "千葉都市モノレール２号線 千城台行",
             "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "千葉公園"
+        }
+    },
+    "明治神宮前〈原宿〉_千葉公園": {
+        "0": {
+            "station_block": 1,
+            "station_name": "明治神宮前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "東京メトロ千代田線 綾瀬行",
+            "congestion": "普通に立てる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "二重橋前"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "38分",
+            "line": "ＪＲ総武本線快速 千葉行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "千葉都市モノレール２号線 千城台行",
+            "congestion": "不明"
         },
         "8": {
             "station_block": 1,
@@ -62546,71 +63048,21 @@
         },
         "1": {
             "route_block": 1,
-            "time": "3分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
+            "time": "4分",
+            "line": "千葉都市モノレール１号線 千葉みなと行",
+            "congestion": "不明"
         },
         "2": {
             "station_block": 1,
-            "station_name": "栄"
+            "station_name": "千葉"
         },
         "3": {
             "route_block": 1,
-            "time": "4分",
-            "line": "名古屋市営東山線 藤が丘（愛知県）行",
-            "congestion": "余裕で座れる"
+            "time": "2分",
+            "line": "千葉都市モノレール２号線 動物公園行",
+            "congestion": "不明"
         },
         "4": {
-            "station_block": 1,
-            "station_name": "千種"
-        },
-        "5": {
-            "route_block": 1,
-            "time": "1時間47分",
-            "line": "ＪＲ中央本線 特急ワイドビューしなの5号 長野行",
-            "congestion": "余裕で座れる"
-        },
-        "6": {
-            "station_block": 1,
-            "station_name": "塩尻"
-        },
-        "7": {
-            "route_block": 1,
-            "time": "2時間1分",
-            "line": "ＪＲ中央本線 特急あずさ22号 新宿行",
-            "congestion": "余裕で座れる"
-        },
-        "8": {
-            "station_block": 1,
-            "station_name": "立川"
-        },
-        "9": {
-            "route_block": 1,
-            "time": "36分",
-            "line": "ＪＲ中央線青梅特快 東京行",
-            "congestion": "普通に立てる"
-        },
-        "10": {
-            "station_block": 1,
-            "station_name": "御茶ノ水"
-        },
-        "11": {
-            "route_block": 1,
-            "time": "52分",
-            "line": "ＪＲ中央総武線各停 千葉行",
-            "congestion": "席はいっぱい"
-        },
-        "12": {
-            "station_block": 1,
-            "station_name": "千葉"
-        },
-        "13": {
-            "route_block": 1,
-            "time": "2分",
-            "line": "千葉都市モノレール２号線 千城台行",
-            "congestion": "余裕で座れる"
-        },
-        "14": {
             "station_block": 1,
             "station_name": "千葉公園"
         }
@@ -66285,6 +66737,42 @@
             "station_name": "千葉公園"
         }
     },
+    "久我原_千葉公園": {
+        "0": {
+            "station_block": 1,
+            "station_name": "久我原"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "40分",
+            "line": "いすみ鉄道 大原（千葉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "大原"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "1時間5分",
+            "line": "ＪＲ外房線 千葉行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "千葉都市モノレール２号線 千城台行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "千葉公園"
+        }
+    },
     "総元_千葉公園": {
         "0": {
             "station_block": 1,
@@ -67437,6 +67925,72 @@
             "time": "2分",
             "line": "千葉都市モノレール２号線 千城台行",
             "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "千葉公園"
+        }
+    },
+    "国際展示場正門_千葉公園": {
+        "0": {
+            "station_block": 1,
+            "station_name": "東京ビッグサイト"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "ゆりかもめ 豊洲行",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "有明"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "国際展示場"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "りんかい線通勤快速 新木場行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "新木場"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "36分",
+            "line": "ＪＲ京葉線 蘇我行",
+            "congestion": "席はいっぱい"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "千葉みなと"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "千葉都市モノレール１号線 千城台行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "千葉都市モノレール２号線 千城台行",
+            "congestion": "不明"
         },
         "12": {
             "station_block": 1,
@@ -71509,6 +72063,52 @@
             "station_name": "千葉公園"
         }
     },
+    "伊奈中央_千葉公園": {
+        "0": {
+            "station_block": 1,
+            "station_name": "伊奈中央"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "22分",
+            "line": "埼玉新都市交通ニューシャトル 大宮（埼玉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "34分",
+            "line": "ＪＲ上野東京ライン 熱海〔上野経由〕行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "40分",
+            "line": "ＪＲ総武本線快速 千葉行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "千葉都市モノレール２号線 千城台行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "千葉公園"
+        }
+    },
     "羽貫_千葉公園": {
         "0": {
             "station_block": 1,
@@ -73641,6 +74241,32 @@
             "station_name": "千葉公園"
         }
     },
+    "市役所前_千葉公園": {
+        "0": {
+            "station_block": 1,
+            "station_name": "市役所前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "千葉都市モノレール１号線 千城台行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "千葉都市モノレール２号線 千城台行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "千葉公園"
+        }
+    },
     "葭川公園_千葉公園": {
         "0": {
             "station_block": 1,
@@ -73661,6 +74287,32 @@
             "time": "2分",
             "line": "千葉都市モノレール２号線 動物公園行",
             "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "千葉公園"
+        }
+    },
+    "県庁前_千葉公園": {
+        "0": {
+            "station_block": 1,
+            "station_name": "県庁前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "千葉都市モノレール１号線 千葉みなと行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "千葉都市モノレール２号線 動物公園行",
+            "congestion": "不明"
         },
         "4": {
             "station_block": 1,
@@ -74777,6 +75429,72 @@
             "congestion": "余裕で座れる"
         },
         "10": {
+            "station_block": 1,
+            "station_name": "千葉公園"
+        }
+    },
+    "高松_千葉公園": {
+        "0": {
+            "station_block": 1,
+            "station_name": "高松"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "多摩モノレール 多摩センター行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "立川北"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "立川"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "54分",
+            "line": "ＪＲ中央線快速 東京行",
+            "congestion": "圧迫される"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "御茶ノ水"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "ＪＲ中央総武線各停 千葉行",
+            "congestion": "席はいっぱい"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "錦糸町"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "30分",
+            "line": "ＪＲ総武本線快速 千葉行",
+            "congestion": "席はいっぱい"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "千葉都市モノレール２号線 千城台行",
+            "congestion": "不明"
+        },
+        "12": {
             "station_block": 1,
             "station_name": "千葉公園"
         }
@@ -77241,6 +77959,72 @@
             "time": "2分",
             "line": "千葉都市モノレール２号線 千城台行",
             "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "千葉公園"
+        }
+    },
+    "大町_千葉公園": {
+        "0": {
+            "station_block": 1,
+            "station_name": "大町"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "北総鉄道 羽田空港第１・第２ターミナル（京急）行",
+            "congestion": "席はいっぱい"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "東松戸"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "ＪＲ武蔵野線 海浜幕張行",
+            "congestion": "圧迫される"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "南船橋"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "ＪＲ京葉線 海浜幕張行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "海浜幕張"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "ＪＲ京葉線 蘇我行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "千葉みなと"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "千葉都市モノレール１号線 千城台行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "千葉都市モノレール２号線 千城台行",
+            "congestion": "不明"
         },
         "12": {
             "station_block": 1,

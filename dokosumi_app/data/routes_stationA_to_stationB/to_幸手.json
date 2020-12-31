@@ -4719,6 +4719,82 @@
             "station_name": "幸手"
         }
     },
+    "扇町_幸手": {
+        "0": {
+            "station_block": 1,
+            "station_name": "扇町"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "ＪＲ鶴見線 鶴見行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "鶴見"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "ＪＲ京浜東北・根岸線 南浦和行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "川崎"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "22分",
+            "line": "ＪＲ上野東京ライン 小金井〔東京経由〕行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "32分",
+            "line": "ＪＲ宇都宮線 小金井行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "東武アーバンパークライン急行 船橋行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "春日部"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "東武伊勢崎線[スカイツリーライン]区間準急 南栗橋行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "東武動物公園"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "東武日光線区間準急 南栗橋行",
+            "congestion": "不明"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "幸手"
+        }
+    },
     "北府中_幸手": {
         "0": {
             "station_block": 1,
@@ -5347,6 +5423,52 @@
             "time": "7分",
             "line": "東武日光線急行 南栗橋行",
             "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "幸手"
+        }
+    },
+    "吉川_幸手": {
+        "0": {
+            "station_block": 1,
+            "station_name": "吉川"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "ＪＲ武蔵野線 東所沢行",
+            "congestion": "普通に立てる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "南越谷"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "新越谷"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "21分",
+            "line": "東武伊勢崎線[スカイツリーライン]急行 南栗橋行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "東武動物公園"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "東武日光線急行 南栗橋行",
+            "congestion": "不明"
         },
         "8": {
             "station_block": 1,
@@ -22023,6 +22145,72 @@
             "station_name": "幸手"
         }
     },
+    "竹岡_幸手": {
+        "0": {
+            "station_block": 1,
+            "station_name": "竹岡"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "24分",
+            "line": "ＪＲ内房線 木更津行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "君津"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "44分",
+            "line": "ＪＲ内房線快速 逗子行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "33分",
+            "line": "ＪＲ総武本線快速 逗子行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "錦糸町"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "東京メトロ半蔵門線急行 南栗橋行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "押上[スカイツリー前]"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "44分",
+            "line": "東武伊勢崎線[スカイツリーライン]急行 南栗橋行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "東武動物公園"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "東武日光線急行 南栗橋行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "幸手"
+        }
+    },
     "浜金谷_幸手": {
         "0": {
             "station_block": 1,
@@ -22631,6 +22819,82 @@
             "time": "6分",
             "line": "東武日光線急行 南栗橋行",
             "congestion": "余裕で座れる"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "幸手"
+        }
+    },
+    "千歳_幸手": {
+        "0": {
+            "station_block": 1,
+            "station_name": "千歳"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "ＪＲ内房線 館山行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "館山"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "59分",
+            "line": "ＪＲ内房線 木更津行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "君津"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "47分",
+            "line": "ＪＲ内房線快速 逗子行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "34分",
+            "line": "ＪＲ総武本線快速 逗子行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "錦糸町"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "東京メトロ半蔵門線急行 南栗橋行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "押上[スカイツリー前]"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "44分",
+            "line": "東武伊勢崎線[スカイツリーライン]急行 南栗橋行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "東武動物公園"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "東武日光線急行 南栗橋行",
+            "congestion": "不明"
         },
         "14": {
             "station_block": 1,
@@ -25127,6 +25391,52 @@
             "station_name": "幸手"
         }
     },
+    "小林_幸手": {
+        "0": {
+            "station_block": 1,
+            "station_name": "小林"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "24分",
+            "line": "ＪＲ成田線 我孫子（千葉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "我孫子"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "21分",
+            "line": "ＪＲ常磐線快速 上野行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "北千住"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "35分",
+            "line": "東武伊勢崎線[スカイツリーライン]急行 南栗橋行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "東武動物公園"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "東武日光線急行 南栗橋行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "幸手"
+        }
+    },
     "安食_幸手": {
         "0": {
             "station_block": 1,
@@ -25292,121 +25602,61 @@
         },
         "1": {
             "route_block": 1,
-            "time": "2分",
-            "line": "福岡市営空港線 福岡空港行",
-            "congestion": "余裕で座れる"
+            "time": "4分",
+            "line": "ＪＲ久留里線 木更津行",
+            "congestion": "不明"
         },
         "2": {
             "station_block": 1,
-            "station_name": "博多"
+            "station_name": "木更津"
         },
         "3": {
             "route_block": 1,
-            "time": "8分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
+            "time": "36分",
+            "line": "ＪＲ内房線快速 逗子行",
+            "congestion": "不明"
         },
         "4": {
             "station_block": 1,
-            "station_name": "博多バスターミナル〔博多駅〕"
+            "station_name": "千葉"
         },
         "5": {
             "route_block": 1,
-            "time": "4時間32分",
-            "line": "JR高速バス 広福ライナー 広島駅〔南口〕行",
-            "congestion": "余裕で座れる"
+            "time": "33分",
+            "line": "ＪＲ総武本線快速 逗子行",
+            "congestion": "不明"
         },
         "6": {
             "station_block": 1,
-            "station_name": "広島バスセンター"
+            "station_name": "錦糸町"
         },
         "7": {
             "route_block": 1,
-            "time": "4分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
+            "time": "2分",
+            "line": "東京メトロ半蔵門線急行 南栗橋行",
+            "congestion": "不明"
         },
         "8": {
             "station_block": 1,
-            "station_name": "広島バスセンター"
+            "station_name": "押上[スカイツリー前]"
         },
         "9": {
             "route_block": 1,
-            "time": "4時間6分",
-            "line": "高速バス ハーバーライナー 神姫バス三ノ宮バスターミナル行",
-            "congestion": "余裕で座れる"
+            "time": "44分",
+            "line": "東武伊勢崎線[スカイツリーライン]急行 南栗橋行",
+            "congestion": "不明"
         },
         "10": {
             "station_block": 1,
-            "station_name": "神姫バス三ノ宮バスターミナル"
+            "station_name": "東武動物公園"
         },
         "11": {
             "route_block": 1,
-            "time": "7分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
+            "time": "6分",
+            "line": "東武日光線急行 南栗橋行",
+            "congestion": "不明"
         },
         "12": {
-            "station_block": 1,
-            "station_name": "三ノ宮"
-        },
-        "13": {
-            "route_block": 1,
-            "time": "52分",
-            "line": "ＪＲ東海道山陽本線新快速 米原行",
-            "congestion": "余裕で座れる"
-        },
-        "14": {
-            "station_block": 1,
-            "station_name": "京都"
-        },
-        "15": {
-            "route_block": 1,
-            "time": "7分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
-        },
-        "16": {
-            "station_block": 1,
-            "station_name": "京都駅八条口〔近鉄改札前〕"
-        },
-        "17": {
-            "route_block": 1,
-            "time": "7時間4分",
-            "line": "高速バス とちの木号 柳田車庫行",
-            "congestion": "余裕で座れる"
-        },
-        "18": {
-            "station_block": 1,
-            "station_name": "久喜駅西口"
-        },
-        "19": {
-            "route_block": 1,
-            "time": "6分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
-        },
-        "20": {
-            "station_block": 1,
-            "station_name": "久喜"
-        },
-        "21": {
-            "route_block": 1,
-            "time": "7分",
-            "line": "東武伊勢崎線 浅草行",
-            "congestion": "余裕で座れる"
-        },
-        "22": {
-            "station_block": 1,
-            "station_name": "東武動物公園"
-        },
-        "23": {
-            "route_block": 1,
-            "time": "7分",
-            "line": "東武日光線区間急行 南栗橋行",
-            "congestion": "余裕で座れる"
-        },
-        "24": {
             "station_block": 1,
             "station_name": "幸手"
         }
@@ -30827,6 +31077,42 @@
             "time": "7分",
             "line": "東武日光線急行 南栗橋行",
             "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "幸手"
+        }
+    },
+    "大和田_幸手": {
+        "0": {
+            "station_block": 1,
+            "station_name": "大和田"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "東武アーバンパークライン 春日部行",
+            "congestion": "席はいっぱい"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "春日部"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "東武伊勢崎線[スカイツリーライン]急行 南栗橋行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "東武動物公園"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "東武日光線急行 南栗橋行",
+            "congestion": "不明"
         },
         "6": {
             "station_block": 1,
@@ -38339,6 +38625,72 @@
             "station_name": "幸手"
         }
     },
+    "競艇場前_幸手": {
+        "0": {
+            "station_block": 1,
+            "station_name": "競艇場前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "12分",
+            "line": "西武多摩川線各停 武蔵境行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "武蔵境"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "ＪＲ中央線快速 豊田（東京都）行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "西国分寺"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "40分",
+            "line": "ＪＲ武蔵野線 東京行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "南越谷"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "新越谷"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "19分",
+            "line": "東武伊勢崎線[スカイツリーライン]急行 東武動物公園行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "東武動物公園"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "東武日光線区間準急 南栗橋行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "幸手"
+        }
+    },
     "是政_幸手": {
         "0": {
             "station_block": 1,
@@ -42117,6 +42469,92 @@
             "station_name": "幸手"
         }
     },
+    "学園前_幸手": {
+        "0": {
+            "station_block": 1,
+            "station_name": "学園前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "京成千原線 京成津田沼行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉中央"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "京成千葉線 京成津田沼行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "京成幕張本郷"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "幕張本郷"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "ＪＲ中央総武線各停 三鷹行",
+            "congestion": "普通に立てる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "西船橋"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "33分",
+            "line": "ＪＲ武蔵野線 府中本町行",
+            "congestion": "席はいっぱい"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "南越谷"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "新越谷"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "19分",
+            "line": "東武伊勢崎線[スカイツリーライン]急行 東武動物公園行",
+            "congestion": "不明"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "東武動物公園"
+        },
+        "15": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "東武日光線区間準急 南栗橋行",
+            "congestion": "不明"
+        },
+        "16": {
+            "station_block": 1,
+            "station_name": "幸手"
+        }
+    },
     "おゆみ野_幸手": {
         "0": {
             "station_block": 1,
@@ -45435,6 +45873,72 @@
             "congestion": "余裕で座れる"
         },
         "14": {
+            "station_block": 1,
+            "station_name": "幸手"
+        }
+    },
+    "山田_幸手": {
+        "0": {
+            "station_block": 1,
+            "station_name": "山田"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "京王高尾線各停 高尾山口行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "高尾"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "30分",
+            "line": "ＪＲ中央線快速 東京行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "西国分寺"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "40分",
+            "line": "ＪＲ武蔵野線 東京行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "南越谷"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "新越谷"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "19分",
+            "line": "東武伊勢崎線[スカイツリーライン]急行 東武動物公園行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "東武動物公園"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "東武日光線区間準急 南栗橋行",
+            "congestion": "不明"
+        },
+        "12": {
             "station_block": 1,
             "station_name": "幸手"
         }
@@ -49736,91 +50240,51 @@
         },
         "1": {
             "route_block": 1,
-            "time": "8分",
-            "line": "名古屋市営名城線 栄（愛知県）,金山（愛知県）方面",
-            "congestion": "余裕で座れる"
+            "time": "6分",
+            "line": "小田急多摩線各停 新百合ヶ丘行",
+            "congestion": "席はいっぱい"
         },
         "2": {
             "station_block": 1,
-            "station_name": "栄"
+            "station_name": "新百合ヶ丘"
         },
         "3": {
             "route_block": 1,
-            "time": "4分",
-            "line": "名古屋市営東山線 藤が丘（愛知県）行",
-            "congestion": "余裕で座れる"
+            "time": "21分",
+            "line": "小田急小田原線快速急行 新宿行",
+            "congestion": "圧迫される"
         },
         "4": {
             "station_block": 1,
-            "station_name": "千種"
+            "station_name": "代々木上原"
         },
         "5": {
             "route_block": 1,
-            "time": "1時間47分",
-            "line": "ＪＲ中央本線 特急ワイドビューしなの5号 長野行",
-            "congestion": "余裕で座れる"
+            "time": "37分",
+            "line": "東京メトロ千代田線 松戸行",
+            "congestion": "席はいっぱい"
         },
         "6": {
             "station_block": 1,
-            "station_name": "塩尻"
+            "station_name": "北千住"
         },
         "7": {
             "route_block": 1,
-            "time": "2時間1分",
-            "line": "ＪＲ中央本線 特急あずさ22号 新宿行",
-            "congestion": "余裕で座れる"
+            "time": "34分",
+            "line": "東武伊勢崎線[スカイツリーライン]急行 東武動物公園行",
+            "congestion": "不明"
         },
         "8": {
             "station_block": 1,
-            "station_name": "立川"
+            "station_name": "東武動物公園"
         },
         "9": {
             "route_block": 1,
-            "time": "5分",
-            "line": "ＪＲ中央線快速 東京行",
-            "congestion": "席はいっぱい"
+            "time": "13分",
+            "line": "東武日光線区間準急 南栗橋行",
+            "congestion": "不明"
         },
         "10": {
-            "station_block": 1,
-            "station_name": "西国分寺"
-        },
-        "11": {
-            "route_block": 1,
-            "time": "40分",
-            "line": "ＪＲ武蔵野線 南船橋行",
-            "congestion": "席はいっぱい"
-        },
-        "12": {
-            "station_block": 1,
-            "station_name": "南越谷"
-        },
-        "13": {
-            "route_block": 1,
-            "time": "6分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
-        },
-        "14": {
-            "station_block": 1,
-            "station_name": "新越谷"
-        },
-        "15": {
-            "route_block": 1,
-            "time": "19分",
-            "line": "東武伊勢崎線[スカイツリーライン]急行 南栗橋行",
-            "congestion": "余裕で座れる"
-        },
-        "16": {
-            "station_block": 1,
-            "station_name": "東武動物公園"
-        },
-        "17": {
-            "route_block": 1,
-            "time": "6分",
-            "line": "東武日光線急行 南栗橋行",
-            "congestion": "余裕で座れる"
-        },
-        "18": {
             "station_block": 1,
             "station_name": "幸手"
         }
@@ -55085,6 +55549,72 @@
             "congestion": "余裕で座れる"
         },
         "14": {
+            "station_block": 1,
+            "station_name": "幸手"
+        }
+    },
+    "山下_幸手": {
+        "0": {
+            "station_block": 1,
+            "station_name": "山下"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "豪徳寺"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "小田急小田原線各停 我孫子（千葉県）行",
+            "congestion": "席はいっぱい"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "代々木上原"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "38分",
+            "line": "東京メトロ千代田線 我孫子（千葉県）行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "北千住"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "20分",
+            "line": "東武伊勢崎線 特急リバティけごん11号 東武日光行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "春日部"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "東武伊勢崎線[スカイツリーライン]急行 南栗橋行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "東武動物公園"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "東武日光線急行 南栗橋行",
+            "congestion": "不明"
+        },
+        "12": {
             "station_block": 1,
             "station_name": "幸手"
         }
@@ -60577,6 +61107,62 @@
             "station_name": "幸手"
         }
     },
+    "京橋_幸手": {
+        "0": {
+            "station_block": 1,
+            "station_name": "京橋"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "東京メトロ銀座線 浅草行",
+            "congestion": "席はいっぱい"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "上野"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "東京メトロ日比谷線 竹ノ塚行",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "北千住"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "東武伊勢崎線[スカイツリーライン] 竹ノ塚行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "西新井"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "30分",
+            "line": "東武伊勢崎線[スカイツリーライン]急行 南栗橋行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "東武動物公園"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "東武日光線急行 南栗橋行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "幸手"
+        }
+    },
     "銀座_幸手": {
         "0": {
             "station_block": 1,
@@ -63537,6 +64123,42 @@
             "time": "6分",
             "line": "東武日光線急行 南栗橋行",
             "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "幸手"
+        }
+    },
+    "明治神宮前〈原宿〉_幸手": {
+        "0": {
+            "station_block": 1,
+            "station_name": "明治神宮前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "33分",
+            "line": "東京メトロ千代田線 綾瀬行",
+            "congestion": "席はいっぱい"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "北千住"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "35分",
+            "line": "東武伊勢崎線[スカイツリーライン]急行 南栗橋行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "東武動物公園"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "東武日光線急行 南栗橋行",
+            "congestion": "不明"
         },
         "6": {
             "station_block": 1,
@@ -70841,90 +71463,50 @@
         "1": {
             "route_block": 1,
             "time": "3分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
+            "line": "千葉都市モノレール１号線 千葉みなと行",
+            "congestion": "不明"
         },
         "2": {
             "station_block": 1,
-            "station_name": "栄"
+            "station_name": "千葉"
         },
         "3": {
             "route_block": 1,
-            "time": "4分",
-            "line": "名古屋市営東山線 藤が丘（愛知県）行",
-            "congestion": "余裕で座れる"
+            "time": "33分",
+            "line": "ＪＲ総武本線快速 大船行",
+            "congestion": "普通に立てる"
         },
         "4": {
             "station_block": 1,
-            "station_name": "千種"
+            "station_name": "錦糸町"
         },
         "5": {
             "route_block": 1,
-            "time": "1時間47分",
-            "line": "ＪＲ中央本線 特急ワイドビューしなの5号 長野行",
-            "congestion": "余裕で座れる"
+            "time": "3分",
+            "line": "東京メトロ半蔵門線急行 南栗橋行",
+            "congestion": "不明"
         },
         "6": {
             "station_block": 1,
-            "station_name": "塩尻"
+            "station_name": "押上[スカイツリー前]"
         },
         "7": {
             "route_block": 1,
-            "time": "2時間1分",
-            "line": "ＪＲ中央本線 特急あずさ22号 新宿行",
-            "congestion": "余裕で座れる"
+            "time": "50分",
+            "line": "東武伊勢崎線[スカイツリーライン]急行 南栗橋行",
+            "congestion": "不明"
         },
         "8": {
             "station_block": 1,
-            "station_name": "立川"
+            "station_name": "東武動物公園"
         },
         "9": {
             "route_block": 1,
-            "time": "5分",
-            "line": "ＪＲ中央線快速 東京行",
-            "congestion": "席はいっぱい"
+            "time": "7分",
+            "line": "東武日光線急行 南栗橋行",
+            "congestion": "不明"
         },
         "10": {
-            "station_block": 1,
-            "station_name": "西国分寺"
-        },
-        "11": {
-            "route_block": 1,
-            "time": "40分",
-            "line": "ＪＲ武蔵野線 南船橋行",
-            "congestion": "席はいっぱい"
-        },
-        "12": {
-            "station_block": 1,
-            "station_name": "南越谷"
-        },
-        "13": {
-            "route_block": 1,
-            "time": "6分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
-        },
-        "14": {
-            "station_block": 1,
-            "station_name": "新越谷"
-        },
-        "15": {
-            "route_block": 1,
-            "time": "19分",
-            "line": "東武伊勢崎線[スカイツリーライン]急行 南栗橋行",
-            "congestion": "余裕で座れる"
-        },
-        "16": {
-            "station_block": 1,
-            "station_name": "東武動物公園"
-        },
-        "17": {
-            "route_block": 1,
-            "time": "6分",
-            "line": "東武日光線急行 南栗橋行",
-            "congestion": "余裕で座れる"
-        },
-        "18": {
             "station_block": 1,
             "station_name": "幸手"
         }
@@ -74109,6 +74691,82 @@
             "station_name": "幸手"
         }
     },
+    "久我原_幸手": {
+        "0": {
+            "station_block": 1,
+            "station_name": "久我原"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "いすみ鉄道 大原（千葉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "城見ヶ丘"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "大多喜〔オリブ〕"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "1時間27分",
+            "line": "高速バス 浜松町・東京-勝浦・御宿・安房小湊 東京駅八重洲口前行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "東京駅八重洲口前"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "18分",
+            "line": "ＪＲ常磐線 土浦行",
+            "congestion": "席はいっぱい"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "北千住"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "35分",
+            "line": "東武伊勢崎線[スカイツリーライン]急行 久喜行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "東武動物公園"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "東武日光線 南栗橋行",
+            "congestion": "不明"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "幸手"
+        }
+    },
     "総元_幸手": {
         "0": {
             "station_block": 1,
@@ -75503,6 +76161,82 @@
             "congestion": "余裕で座れる"
         },
         "12": {
+            "station_block": 1,
+            "station_name": "幸手"
+        }
+    },
+    "国際展示場正門_幸手": {
+        "0": {
+            "station_block": 1,
+            "station_name": "東京ビッグサイト"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "ゆりかもめ 豊洲行",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "豊洲"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "東京メトロ有楽町線 和光市行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "新富町"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "徒歩（地下鉄） ",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "築地"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "22分",
+            "line": "東京メトロ日比谷線 北千住行",
+            "congestion": "席はいっぱい"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "北千住"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "20分",
+            "line": "東武伊勢崎線 特急リバティけごん11号 東武日光行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "春日部"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "東武伊勢崎線[スカイツリーライン]急行 南栗橋行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "東武動物公園"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "東武日光線急行 南栗橋行",
+            "congestion": "不明"
+        },
+        "14": {
             "station_block": 1,
             "station_name": "幸手"
         }
@@ -80383,6 +81117,52 @@
             "station_name": "幸手"
         }
     },
+    "伊奈中央_幸手": {
+        "0": {
+            "station_block": 1,
+            "station_name": "伊奈中央"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "22分",
+            "line": "埼玉新都市交通ニューシャトル 大宮（埼玉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "22分",
+            "line": "東武アーバンパークライン 柏行",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "春日部"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "東武伊勢崎線[スカイツリーライン]準急 南栗橋行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "東武動物公園"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "東武日光線準急 南栗橋行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "幸手"
+        }
+    },
     "羽貫_幸手": {
         "0": {
             "station_block": 1,
@@ -83435,6 +84215,82 @@
             "station_name": "幸手"
         }
     },
+    "市役所前_幸手": {
+        "0": {
+            "station_block": 1,
+            "station_name": "市役所前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "千葉都市モノレール１号線 千葉みなと行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉みなと"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "23分",
+            "line": "ＪＲ京葉線 東京行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "市川塩浜"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "ＪＲ武蔵野線 府中本町行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "西船橋"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "33分",
+            "line": "ＪＲ武蔵野線 府中本町行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "南越谷"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "新越谷"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "19分",
+            "line": "東武伊勢崎線[スカイツリーライン]急行 南栗橋行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "東武動物公園"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "東武日光線急行 南栗橋行",
+            "congestion": "不明"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "幸手"
+        }
+    },
     "葭川公園_幸手": {
         "0": {
             "station_block": 1,
@@ -83517,6 +84373,62 @@
             "congestion": "余裕で座れる"
         },
         "16": {
+            "station_block": 1,
+            "station_name": "幸手"
+        }
+    },
+    "県庁前_幸手": {
+        "0": {
+            "station_block": 1,
+            "station_name": "県庁前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "千葉都市モノレール１号線 千葉みなと行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "33分",
+            "line": "ＪＲ総武本線快速 大船行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "錦糸町"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "東京メトロ半蔵門線急行 南栗橋行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "押上[スカイツリー前]"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "50分",
+            "line": "東武伊勢崎線[スカイツリーライン]急行 南栗橋行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "東武動物公園"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "東武日光線急行 南栗橋行",
+            "congestion": "不明"
+        },
+        "10": {
             "station_block": 1,
             "station_name": "幸手"
         }
@@ -85517,6 +86429,82 @@
             "congestion": "余裕で座れる"
         },
         "12": {
+            "station_block": 1,
+            "station_name": "幸手"
+        }
+    },
+    "高松_幸手": {
+        "0": {
+            "station_block": 1,
+            "station_name": "高松"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "多摩モノレール 多摩センター行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "立川南"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "立川"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "ＪＲ中央線快速 東京行",
+            "congestion": "圧迫される"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "西国分寺"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "42分",
+            "line": "ＪＲ武蔵野線 東京行",
+            "congestion": "普通に立てる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "南越谷"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "新越谷"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "19分",
+            "line": "東武伊勢崎線[スカイツリーライン]急行 南栗橋行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "東武動物公園"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "東武日光線急行 南栗橋行",
+            "congestion": "不明"
+        },
+        "14": {
             "station_block": 1,
             "station_name": "幸手"
         }
@@ -88491,6 +89479,62 @@
             "time": "6分",
             "line": "東武日光線区間準急 南栗橋行",
             "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "幸手"
+        }
+    },
+    "大町_幸手": {
+        "0": {
+            "station_block": 1,
+            "station_name": "大町"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "北総鉄道 西馬込行",
+            "congestion": "席はいっぱい"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "京成高砂"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "京成本線 京成上野行",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "京成関屋"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "牛田"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "37分",
+            "line": "東武伊勢崎線[スカイツリーライン]区間急行 館林行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "東武動物公園"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "東武日光線区間準急 南栗橋行",
+            "congestion": "不明"
         },
         "10": {
             "station_block": 1,

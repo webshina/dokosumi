@@ -4419,6 +4419,62 @@
             "station_name": "北国分"
         }
     },
+    "扇町_北国分": {
+        "0": {
+            "station_block": 1,
+            "station_name": "扇町"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "ＪＲ鶴見線 鶴見行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "鶴見"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "29分",
+            "line": "ＪＲ京浜東北・根岸線 南浦和行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "新橋"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "都営浅草線 印旛日本医大行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "押上[スカイツリー前]"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "12分",
+            "line": "京成押上線 印旛日本医大行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "京成高砂"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "北総鉄道 印旛日本医大行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "北国分"
+        }
+    },
     "北府中_北国分": {
         "0": {
             "station_block": 1,
@@ -20585,6 +20641,72 @@
             "station_name": "北国分"
         }
     },
+    "竹岡_北国分": {
+        "0": {
+            "station_block": 1,
+            "station_name": "竹岡"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "24分",
+            "line": "ＪＲ内房線 木更津行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "君津"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "44分",
+            "line": "ＪＲ内房線快速 逗子行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "ＪＲ総武本線快速 逗子行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "船橋"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "京成船橋"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "京成本線快特 京成上野行",
+            "congestion": "普通に立てる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "京成高砂"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "北総鉄道 印旛日本医大行",
+            "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "北国分"
+        }
+    },
     "浜金谷_北国分": {
         "0": {
             "station_block": 1,
@@ -21143,6 +21265,72 @@
             "time": "38分",
             "line": "ＪＲ内房線快速 逗子行",
             "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "蘇我"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "ＪＲ京葉線快速 東京行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "南船橋"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "ＪＲ武蔵野線 府中本町行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "東松戸"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "北総鉄道 羽田空港第１・第２ターミナル（京急）行",
+            "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "北国分"
+        }
+    },
+    "千歳_北国分": {
+        "0": {
+            "station_block": 1,
+            "station_name": "千歳"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "ＪＲ内房線 館山行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "館山"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "59分",
+            "line": "ＪＲ内房線 木更津行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "君津"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "38分",
+            "line": "ＪＲ内房線快速 逗子行",
+            "congestion": "不明"
         },
         "6": {
             "station_block": 1,
@@ -23069,6 +23257,62 @@
             "station_name": "北国分"
         }
     },
+    "小林_北国分": {
+        "0": {
+            "station_block": 1,
+            "station_name": "小林"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "ＪＲ成田線 我孫子（千葉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "木下"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "木下駅"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "19分",
+            "line": "ちばレインボーバス 神崎線 八千代緑が丘駅行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "千葉ニュータウン中央駅"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "千葉ニュータウン中央"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "26分",
+            "line": "北総鉄道 羽田空港第１・第２ターミナル（京急）行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "北国分"
+        }
+    },
     "安食_北国分": {
         "0": {
             "station_block": 1,
@@ -23244,141 +23488,61 @@
         },
         "1": {
             "route_block": 1,
-            "time": "2分",
-            "line": "福岡市営空港線 福岡空港行",
-            "congestion": "余裕で座れる"
+            "time": "4分",
+            "line": "ＪＲ久留里線 木更津行",
+            "congestion": "不明"
         },
         "2": {
             "station_block": 1,
-            "station_name": "博多"
+            "station_name": "木更津"
         },
         "3": {
             "route_block": 1,
-            "time": "8分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
+            "time": "36分",
+            "line": "ＪＲ内房線快速 逗子行",
+            "congestion": "不明"
         },
         "4": {
             "station_block": 1,
-            "station_name": "博多バスターミナル〔博多駅〕"
+            "station_name": "千葉"
         },
         "5": {
             "route_block": 1,
-            "time": "4時間32分",
-            "line": "JR高速バス 広福ライナー 広島駅〔南口〕行",
-            "congestion": "余裕で座れる"
+            "time": "14分",
+            "line": "ＪＲ総武本線快速 逗子行",
+            "congestion": "不明"
         },
         "6": {
             "station_block": 1,
-            "station_name": "広島バスセンター"
+            "station_name": "船橋"
         },
         "7": {
             "route_block": 1,
-            "time": "4分",
+            "time": "6分",
             "line": "徒歩 ",
-            "congestion": "余裕で座れる"
+            "congestion": "不明"
         },
         "8": {
             "station_block": 1,
-            "station_name": "広島バスセンター"
+            "station_name": "京成船橋"
         },
         "9": {
             "route_block": 1,
-            "time": "4時間6分",
-            "line": "高速バス ハーバーライナー 神姫バス三ノ宮バスターミナル行",
-            "congestion": "余裕で座れる"
+            "time": "13分",
+            "line": "京成本線快特 京成上野行",
+            "congestion": "普通に立てる"
         },
         "10": {
             "station_block": 1,
-            "station_name": "神姫バス三ノ宮バスターミナル"
+            "station_name": "京成高砂"
         },
         "11": {
             "route_block": 1,
-            "time": "7分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
-        },
-        "12": {
-            "station_block": 1,
-            "station_name": "三ノ宮"
-        },
-        "13": {
-            "route_block": 1,
-            "time": "1時間13分",
-            "line": "ＪＲ東海道山陽本線快速 米原行",
-            "congestion": "余裕で座れる"
-        },
-        "14": {
-            "station_block": 1,
-            "station_name": "京都"
-        },
-        "15": {
-            "route_block": 1,
-            "time": "11分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
-        },
-        "16": {
-            "station_block": 1,
-            "station_name": "ＶＩＰラウンジ京都駅八条口"
-        },
-        "17": {
-            "route_block": 1,
-            "time": "7時間10分",
-            "line": "VIPライナー ＶＩＰライナー１便 志木駅入口行",
-            "congestion": "余裕で座れる"
-        },
-        "18": {
-            "station_block": 1,
-            "station_name": "秋葉原駅前"
-        },
-        "19": {
-            "route_block": 1,
-            "time": "8分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
-        },
-        "20": {
-            "station_block": 1,
-            "station_name": "秋葉原"
-        },
-        "21": {
-            "route_block": 1,
-            "time": "2分",
-            "line": "ＪＲ中央総武線各停 千葉行",
-            "congestion": "席はいっぱい"
-        },
-        "22": {
-            "station_block": 1,
-            "station_name": "浅草橋"
-        },
-        "23": {
-            "route_block": 1,
             "time": "6分",
-            "line": "都営浅草線 印旛日本医大行",
-            "congestion": "余裕で座れる"
-        },
-        "24": {
-            "station_block": 1,
-            "station_name": "押上[スカイツリー前]"
-        },
-        "25": {
-            "route_block": 1,
-            "time": "11分",
-            "line": "京成押上線 印旛日本医大行",
-            "congestion": "余裕で座れる"
-        },
-        "26": {
-            "station_block": 1,
-            "station_name": "京成高砂"
-        },
-        "27": {
-            "route_block": 1,
-            "time": "7分",
             "line": "北総鉄道 印旛日本医大行",
             "congestion": "余裕で座れる"
         },
-        "28": {
+        "12": {
             "station_block": 1,
             "station_name": "北国分"
         }
@@ -29117,6 +29281,72 @@
             "congestion": "余裕で座れる"
         },
         "8": {
+            "station_block": 1,
+            "station_name": "北国分"
+        }
+    },
+    "大和田_北国分": {
+        "0": {
+            "station_block": 1,
+            "station_name": "大和田"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "東武アーバンパークライン 春日部行",
+            "congestion": "席はいっぱい"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "春日部"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "34分",
+            "line": "東武伊勢崎線[スカイツリーライン]区間急行 浅草行",
+            "congestion": "席はいっぱい"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "牛田"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "京成関屋"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "京成本線 ちはら台行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "青砥"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "京成押上線 印西牧の原行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "京成高砂"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "北総鉄道 印西牧の原行",
+            "congestion": "不明"
+        },
+        "12": {
             "station_block": 1,
             "station_name": "北国分"
         }
@@ -35693,6 +35923,72 @@
             "station_name": "北国分"
         }
     },
+    "競艇場前_北国分": {
+        "0": {
+            "station_block": 1,
+            "station_name": "競艇場前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "12分",
+            "line": "西武多摩川線各停 武蔵境行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "武蔵境"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "35分",
+            "line": "ＪＲ中央線快速 東京行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "御茶ノ水"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "ＪＲ中央総武線各停 千葉行",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "浅草橋"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "都営浅草線 印旛日本医大行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "押上[スカイツリー前]"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "12分",
+            "line": "京成押上線 印旛日本医大行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "京成高砂"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "北総鉄道 印旛日本医大行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "北国分"
+        }
+    },
     "是政_北国分": {
         "0": {
             "station_block": 1,
@@ -37495,6 +37791,52 @@
             "time": "17分",
             "line": "京成千葉線 京成津田沼行",
             "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "京成津田沼"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "18分",
+            "line": "京成本線通勤特急 京成上野行",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "京成高砂"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "北総鉄道 印旛日本医大行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "北国分"
+        }
+    },
+    "学園前_北国分": {
+        "0": {
+            "station_block": 1,
+            "station_name": "学園前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "京成千原線 京成津田沼行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉中央"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "京成千葉線 京成津田沼行",
+            "congestion": "不明"
         },
         "4": {
             "station_block": 1,
@@ -40913,6 +41255,82 @@
             "time": "6分",
             "line": "北総鉄道 印西牧の原行",
             "congestion": "余裕で座れる"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "北国分"
+        }
+    },
+    "山田_北国分": {
+        "0": {
+            "station_block": 1,
+            "station_name": "山田"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "京王高尾線各停 新宿行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "北野"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "47分",
+            "line": "京王線準特急 新宿行",
+            "congestion": "圧迫される"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "新宿"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "ＪＲ中央線快速 東京行",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "御茶ノ水"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "ＪＲ中央総武線各停 津田沼行",
+            "congestion": "席はいっぱい"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "浅草橋"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "都営浅草線 印西牧の原行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "押上[スカイツリー前]"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "12分",
+            "line": "京成押上線 印西牧の原行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "京成高砂"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "北総鉄道 印西牧の原行",
+            "congestion": "不明"
         },
         "14": {
             "station_block": 1,
@@ -46036,71 +46454,81 @@
         },
         "1": {
             "route_block": 1,
-            "time": "8分",
-            "line": "名古屋市営名城線 栄（愛知県）,金山（愛知県）方面",
-            "congestion": "余裕で座れる"
+            "time": "2分",
+            "line": "小田急多摩線各停 新百合ヶ丘行",
+            "congestion": "席はいっぱい"
         },
         "2": {
             "station_block": 1,
-            "station_name": "栄"
+            "station_name": "栗平"
         },
         "3": {
             "route_block": 1,
-            "time": "4分",
-            "line": "名古屋市営東山線 藤が丘（愛知県）行",
-            "congestion": "余裕で座れる"
+            "time": "3分",
+            "line": "小田急多摩線通勤急行 新宿行",
+            "congestion": "普通に立てる"
         },
         "4": {
             "station_block": 1,
-            "station_name": "千種"
+            "station_name": "新百合ヶ丘"
         },
         "5": {
             "route_block": 1,
-            "time": "1時間47分",
-            "line": "ＪＲ中央本線 特急ワイドビューしなの5号 長野行",
-            "congestion": "余裕で座れる"
+            "time": "29分",
+            "line": "小田急小田原線通勤急行 新宿行",
+            "congestion": "不明"
         },
         "6": {
             "station_block": 1,
-            "station_name": "塩尻"
+            "station_name": "新宿"
         },
         "7": {
             "route_block": 1,
-            "time": "2時間1分",
-            "line": "ＪＲ中央本線 特急あずさ22号 新宿行",
-            "congestion": "余裕で座れる"
+            "time": "9分",
+            "line": "ＪＲ中央線通勤特別快速 東京行",
+            "congestion": "普通に立てる"
         },
         "8": {
             "station_block": 1,
-            "station_name": "立川"
+            "station_name": "御茶ノ水"
         },
         "9": {
             "route_block": 1,
-            "time": "5分",
-            "line": "ＪＲ中央線快速 東京行",
+            "time": "4分",
+            "line": "ＪＲ中央総武線各停 津田沼行",
             "congestion": "席はいっぱい"
         },
         "10": {
             "station_block": 1,
-            "station_name": "西国分寺"
+            "station_name": "浅草橋"
         },
         "11": {
             "route_block": 1,
-            "time": "1時間4分",
-            "line": "ＪＲ武蔵野線 南船橋行",
-            "congestion": "席はいっぱい"
+            "time": "6分",
+            "line": "都営浅草線 印旛日本医大行",
+            "congestion": "余裕で座れる"
         },
         "12": {
             "station_block": 1,
-            "station_name": "東松戸"
+            "station_name": "押上[スカイツリー前]"
         },
         "13": {
             "route_block": 1,
-            "time": "3分",
-            "line": "北総鉄道 羽田空港第１・第２ターミナル（京急）行",
-            "congestion": "余裕で座れる"
+            "time": "12分",
+            "line": "京成押上線 印旛日本医大行",
+            "congestion": "不明"
         },
         "14": {
+            "station_block": 1,
+            "station_name": "京成高砂"
+        },
+        "15": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "北総鉄道 印旛日本医大行",
+            "congestion": "不明"
+        },
+        "16": {
             "station_block": 1,
             "station_name": "北国分"
         }
@@ -50579,6 +51007,92 @@
             "station_name": "北国分"
         }
     },
+    "山下_北国分": {
+        "0": {
+            "station_block": 1,
+            "station_name": "山下"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "豪徳寺"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "小田急小田原線各停 綾瀬行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "代々木上原"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "小田急小田原線快速急行 新宿行",
+            "congestion": "圧迫される"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "新宿"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "ＪＲ中央線快速 東京行",
+            "congestion": "普通に立てる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "御茶ノ水"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "ＪＲ中央総武線各停 千葉行",
+            "congestion": "普通に立てる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "浅草橋"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "都営浅草線 印旛日本医大行",
+            "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "押上[スカイツリー前]"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "京成押上線 印旛日本医大行",
+            "congestion": "不明"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "京成高砂"
+        },
+        "15": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "北総鉄道 印旛日本医大行",
+            "congestion": "不明"
+        },
+        "16": {
+            "station_block": 1,
+            "station_name": "北国分"
+        }
+    },
     "松原_北国分": {
         "0": {
             "station_block": 1,
@@ -55007,6 +55521,52 @@
             "station_name": "北国分"
         }
     },
+    "京橋_北国分": {
+        "0": {
+            "station_block": 1,
+            "station_name": "京橋"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "東京メトロ銀座線 浅草行",
+            "congestion": "普通に立てる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "日本橋"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "12分",
+            "line": "都営浅草線 印旛日本医大行",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "押上[スカイツリー前]"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "京成押上線 印旛日本医大行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "京成高砂"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "北総鉄道 印旛日本医大行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "北国分"
+        }
+    },
     "銀座_北国分": {
         "0": {
             "station_block": 1,
@@ -58085,6 +58645,62 @@
             "congestion": "余裕で座れる"
         },
         "8": {
+            "station_block": 1,
+            "station_name": "北国分"
+        }
+    },
+    "明治神宮前〈原宿〉_北国分": {
+        "0": {
+            "station_block": 1,
+            "station_name": "明治神宮前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "12分",
+            "line": "東京メトロ千代田線 我孫子（千葉県）行",
+            "congestion": "普通に立てる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "日比谷"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "東京メトロ日比谷線 北越谷行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "東銀座"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "都営浅草線 印西牧の原行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "押上[スカイツリー前]"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "12分",
+            "line": "京成押上線 印西牧の原行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "京成高砂"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "北総鉄道 印西牧の原行",
+            "congestion": "不明"
+        },
+        "10": {
             "station_block": 1,
             "station_name": "北国分"
         }
@@ -64816,71 +65432,51 @@
         },
         "1": {
             "route_block": 1,
-            "time": "3分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
+            "time": "4分",
+            "line": "千葉都市モノレール１号線 千葉みなと行",
+            "congestion": "不明"
         },
         "2": {
             "station_block": 1,
-            "station_name": "栄"
+            "station_name": "千葉"
         },
         "3": {
             "route_block": 1,
-            "time": "4分",
-            "line": "名古屋市営東山線 藤が丘（愛知県）行",
-            "congestion": "余裕で座れる"
+            "time": "5分",
+            "line": "徒歩 ",
+            "congestion": "不明"
         },
         "4": {
             "station_block": 1,
-            "station_name": "千種"
+            "station_name": "京成千葉"
         },
         "5": {
             "route_block": 1,
-            "time": "1時間47分",
-            "line": "ＪＲ中央本線 特急ワイドビューしなの5号 長野行",
-            "congestion": "余裕で座れる"
+            "time": "16分",
+            "line": "京成千葉線 京成津田沼行",
+            "congestion": "不明"
         },
         "6": {
             "station_block": 1,
-            "station_name": "塩尻"
+            "station_name": "京成津田沼"
         },
         "7": {
             "route_block": 1,
-            "time": "2時間1分",
-            "line": "ＪＲ中央本線 特急あずさ22号 新宿行",
-            "congestion": "余裕で座れる"
+            "time": "18分",
+            "line": "京成本線通勤特急 京成上野行",
+            "congestion": "普通に立てる"
         },
         "8": {
             "station_block": 1,
-            "station_name": "立川"
+            "station_name": "京成高砂"
         },
         "9": {
             "route_block": 1,
-            "time": "5分",
-            "line": "ＪＲ中央線快速 東京行",
-            "congestion": "席はいっぱい"
-        },
-        "10": {
-            "station_block": 1,
-            "station_name": "西国分寺"
-        },
-        "11": {
-            "route_block": 1,
-            "time": "1時間4分",
-            "line": "ＪＲ武蔵野線 南船橋行",
-            "congestion": "席はいっぱい"
-        },
-        "12": {
-            "station_block": 1,
-            "station_name": "東松戸"
-        },
-        "13": {
-            "route_block": 1,
-            "time": "3分",
-            "line": "北総鉄道 羽田空港第１・第２ターミナル（京急）行",
+            "time": "7分",
+            "line": "北総鉄道 印旛日本医大行",
             "congestion": "余裕で座れる"
         },
-        "14": {
+        "10": {
             "station_block": 1,
             "station_name": "北国分"
         }
@@ -68445,6 +69041,72 @@
             "station_name": "北国分"
         }
     },
+    "久我原_北国分": {
+        "0": {
+            "station_block": 1,
+            "station_name": "久我原"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "40分",
+            "line": "いすみ鉄道 大原（千葉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "大原"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "1時間5分",
+            "line": "ＪＲ外房線 千葉行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "ＪＲ総武本線快速 逗子行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "船橋"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "京成船橋"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "京成本線快特 京成上野行",
+            "congestion": "席はいっぱい"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "京成高砂"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "北総鉄道 印旛日本医大行",
+            "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "北国分"
+        }
+    },
     "総元_北国分": {
         "0": {
             "station_block": 1,
@@ -69627,6 +70289,72 @@
             "time": "4分",
             "line": "北総鉄道 羽田空港第１・第２ターミナル（京急）行",
             "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "北国分"
+        }
+    },
+    "国際展示場正門_北国分": {
+        "0": {
+            "station_block": 1,
+            "station_name": "東京ビッグサイト"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "ゆりかもめ 豊洲行",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "有明"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "国際展示場"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "りんかい線通勤快速 新木場行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "新木場"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "19分",
+            "line": "ＪＲ武蔵野線 府中本町行",
+            "congestion": "席はいっぱい"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "西船橋"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "ＪＲ武蔵野線 府中本町行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "東松戸"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "北総鉄道 西馬込行",
+            "congestion": "席はいっぱい"
         },
         "12": {
             "station_block": 1,
@@ -74109,6 +74837,52 @@
             "station_name": "北国分"
         }
     },
+    "伊奈中央_北国分": {
+        "0": {
+            "station_block": 1,
+            "station_name": "伊奈中央"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "22分",
+            "line": "埼玉新都市交通ニューシャトル 大宮（埼玉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "ＪＲ埼京線通勤快速 新木場行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "武蔵浦和"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "40分",
+            "line": "ＪＲ武蔵野線 新習志野行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "東松戸"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "北総鉄道 西馬込行",
+            "congestion": "席はいっぱい"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "北国分"
+        }
+    },
     "羽貫_北国分": {
         "0": {
             "station_block": 1,
@@ -76271,6 +77045,72 @@
             "station_name": "北国分"
         }
     },
+    "市役所前_北国分": {
+        "0": {
+            "station_block": 1,
+            "station_name": "市役所前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "千葉都市モノレール１号線 千葉みなと行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉みなと"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "ＪＲ京葉線 東京行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "新習志野"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "ＪＲ京葉線 西船橋行",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "南船橋"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "ＪＲ武蔵野線 西船橋行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "西船橋"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "ＪＲ武蔵野線 府中本町行",
+            "congestion": "席はいっぱい"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "東松戸"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "北総鉄道 西馬込行",
+            "congestion": "席はいっぱい"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "北国分"
+        }
+    },
     "葭川公園_北国分": {
         "0": {
             "station_block": 1,
@@ -76301,6 +77141,62 @@
             "time": "16分",
             "line": "京成千葉線 京成津田沼行",
             "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "京成津田沼"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "18分",
+            "line": "京成本線通勤特急 京成上野行",
+            "congestion": "普通に立てる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "京成高砂"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "北総鉄道 印旛日本医大行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "北国分"
+        }
+    },
+    "県庁前_北国分": {
+        "0": {
+            "station_block": 1,
+            "station_name": "県庁前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "千葉都市モノレール１号線 千葉みなと行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "京成千葉"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "京成千葉線 京成津田沼行",
+            "congestion": "不明"
         },
         "6": {
             "station_block": 1,
@@ -78033,6 +78929,82 @@
             "congestion": "余裕で座れる"
         },
         "12": {
+            "station_block": 1,
+            "station_name": "北国分"
+        }
+    },
+    "高松_北国分": {
+        "0": {
+            "station_block": 1,
+            "station_name": "高松"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "多摩モノレール 多摩センター行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "立川南"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "立川"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "45分",
+            "line": "ＪＲ中央線通勤特別快速 東京行",
+            "congestion": "圧迫される"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "御茶ノ水"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "ＪＲ中央総武線各停 津田沼行",
+            "congestion": "席はいっぱい"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "浅草橋"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "都営浅草線 印旛日本医大行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "押上[スカイツリー前]"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "12分",
+            "line": "京成押上線 印旛日本医大行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "京成高砂"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "北総鉄道 印旛日本医大行",
+            "congestion": "不明"
+        },
+        "14": {
             "station_block": 1,
             "station_name": "北国分"
         }
@@ -80429,6 +81401,22 @@
         "1": {
             "route_block": 1,
             "time": "5分",
+            "line": "北総鉄道 羽田空港第１・第２ターミナル（京急）行",
+            "congestion": "席はいっぱい"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "北国分"
+        }
+    },
+    "大町_北国分": {
+        "0": {
+            "station_block": 1,
+            "station_name": "大町"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "7分",
             "line": "北総鉄道 羽田空港第１・第２ターミナル（京急）行",
             "congestion": "席はいっぱい"
         },

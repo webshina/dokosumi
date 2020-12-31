@@ -4009,6 +4009,72 @@
             "station_name": "住吉"
         }
     },
+    "扇町_住吉": {
+        "0": {
+            "station_block": 1,
+            "station_name": "扇町"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "ＪＲ鶴見線 鶴見行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "鶴見"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "ＪＲ京浜東北・根岸線 南浦和行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "川崎"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "ＪＲ上野東京ライン 小金井〔東京経由〕行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "品川"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "ＪＲ横須賀線 津田沼行",
+            "congestion": "普通に立てる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "ＪＲ総武本線快速 津田沼行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "錦糸町"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "1分",
+            "line": "東京メトロ半蔵門線急行 長津田行",
+            "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "住吉"
+        }
+    },
     "北府中_住吉": {
         "0": {
             "station_block": 1,
@@ -4627,6 +4693,52 @@
             "time": "4分",
             "line": "東京メトロ半蔵門線 中央林間行",
             "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "住吉"
+        }
+    },
+    "吉川_住吉": {
+        "0": {
+            "station_block": 1,
+            "station_name": "吉川"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "ＪＲ武蔵野線 府中本町行",
+            "congestion": "普通に立てる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "南越谷"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "新越谷"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "30分",
+            "line": "東武伊勢崎線[スカイツリーライン]準急 中央林間行",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "押上[スカイツリー前]"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "東京メトロ半蔵門線 中央林間行",
+            "congestion": "不明"
         },
         "8": {
             "station_block": 1,
@@ -16635,6 +16747,52 @@
             "station_name": "住吉"
         }
     },
+    "竹岡_住吉": {
+        "0": {
+            "station_block": 1,
+            "station_name": "竹岡"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "24分",
+            "line": "ＪＲ内房線 木更津行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "君津"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "44分",
+            "line": "ＪＲ内房線快速 逗子行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "33分",
+            "line": "ＪＲ総武本線快速 逗子行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "錦糸町"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "1分",
+            "line": "東京メトロ半蔵門線 中央林間行",
+            "congestion": "席はいっぱい"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "住吉"
+        }
+    },
     "浜金谷_住吉": {
         "0": {
             "station_block": 1,
@@ -17053,6 +17211,62 @@
             "time": "34分",
             "line": "ＪＲ総武本線快速 逗子行",
             "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "錦糸町"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "1分",
+            "line": "東京メトロ半蔵門線準急 中央林間行",
+            "congestion": "席はいっぱい"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "住吉"
+        }
+    },
+    "千歳_住吉": {
+        "0": {
+            "station_block": 1,
+            "station_name": "千歳"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "ＪＲ内房線 館山行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "館山"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "59分",
+            "line": "ＪＲ内房線 木更津行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "君津"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "47分",
+            "line": "ＪＲ内房線快速 逗子行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "34分",
+            "line": "ＪＲ総武本線快速 逗子行",
+            "congestion": "不明"
         },
         "8": {
             "station_block": 1,
@@ -18989,6 +19203,82 @@
             "station_name": "住吉"
         }
     },
+    "小林_住吉": {
+        "0": {
+            "station_block": 1,
+            "station_name": "小林"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "ＪＲ成田線 我孫子（千葉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "木下"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "木下駅"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "19分",
+            "line": "ちばレインボーバス 神崎線 八千代緑が丘駅行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "千葉ニュータウン中央駅"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "千葉ニュータウン中央"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "20分",
+            "line": "京成成田空港線アクセス特急 羽田空港第１・第２ターミナル（京急）行",
+            "congestion": "普通に立てる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "京成高砂"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "京成押上線アクセス特急 羽田空港第１・第２ターミナル（京急）行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "押上[スカイツリー前]"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "東京メトロ半蔵門線 中央林間行",
+            "congestion": "余裕で座れる"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "住吉"
+        }
+    },
     "安食_住吉": {
         "0": {
             "station_block": 1,
@@ -19173,6 +19463,52 @@
             "congestion": "席はいっぱい"
         },
         "10": {
+            "station_block": 1,
+            "station_name": "住吉"
+        }
+    },
+    "祇園_住吉": {
+        "0": {
+            "station_block": 1,
+            "station_name": "祇園"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "ＪＲ久留里線 木更津行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "木更津"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "36分",
+            "line": "ＪＲ内房線快速 逗子行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "33分",
+            "line": "ＪＲ総武本線快速 逗子行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "錦糸町"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "1分",
+            "line": "東京メトロ半蔵門線 中央林間行",
+            "congestion": "席はいっぱい"
+        },
+        "8": {
             "station_block": 1,
             "station_name": "住吉"
         }
@@ -23899,6 +24235,42 @@
             "time": "4分",
             "line": "東京メトロ半蔵門線 長津田行",
             "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "住吉"
+        }
+    },
+    "大和田_住吉": {
+        "0": {
+            "station_block": 1,
+            "station_name": "大和田"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "東武アーバンパークライン 柏行",
+            "congestion": "席はいっぱい"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "春日部"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "46分",
+            "line": "東武伊勢崎線[スカイツリーライン]急行 長津田行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "押上[スカイツリー前]"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "東京メトロ半蔵門線 長津田行",
+            "congestion": "不明"
         },
         "6": {
             "station_block": 1,
@@ -29431,6 +29803,52 @@
             "station_name": "住吉"
         }
     },
+    "競艇場前_住吉": {
+        "0": {
+            "station_block": 1,
+            "station_name": "競艇場前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "12分",
+            "line": "西武多摩川線各停 武蔵境行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "武蔵境"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "35分",
+            "line": "ＪＲ中央線快速 東京行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "御茶ノ水"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "ＪＲ中央総武線各停 千葉行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "錦糸町"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "東京メトロ半蔵門線 中央林間行",
+            "congestion": "席はいっぱい"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "住吉"
+        }
+    },
     "是政_住吉": {
         "0": {
             "station_block": 1,
@@ -31779,6 +32197,62 @@
             "station_name": "住吉"
         }
     },
+    "学園前_住吉": {
+        "0": {
+            "station_block": 1,
+            "station_name": "学園前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "京成千原線 京成津田沼行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉中央"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "1分",
+            "line": "京成千葉線 京成津田沼行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "京成千葉"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "33分",
+            "line": "ＪＲ総武本線快速 大船行",
+            "congestion": "普通に立てる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "錦糸町"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "1分",
+            "line": "東京メトロ半蔵門線急行 長津田行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "住吉"
+        }
+    },
     "おゆみ野_住吉": {
         "0": {
             "station_block": 1,
@@ -33735,6 +34209,52 @@
             "time": "24分",
             "line": "都営新宿線 本八幡〔新宿線〕行",
             "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "住吉"
+        }
+    },
+    "山田_住吉": {
+        "0": {
+            "station_block": 1,
+            "station_name": "山田"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "京王高尾線各停 新宿行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "北野"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "40分",
+            "line": "京王線準特急 新宿行",
+            "congestion": "圧迫される"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "笹塚"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "京王新線各停 本八幡〔新宿線〕行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "新宿"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "24分",
+            "line": "都営新宿線 本八幡〔新宿線〕行",
+            "congestion": "不明"
         },
         "8": {
             "station_block": 1,
@@ -37138,49 +37658,49 @@
         },
         "1": {
             "route_block": 1,
-            "time": "8分",
-            "line": "名古屋市営名城線 栄（愛知県）,金山（愛知県）方面",
-            "congestion": "余裕で座れる"
+            "time": "1分",
+            "line": "小田急多摩線各停 新百合ヶ丘行",
+            "congestion": "席はいっぱい"
         },
         "2": {
             "station_block": 1,
-            "station_name": "栄"
+            "station_name": "栗平"
         },
         "3": {
             "route_block": 1,
-            "time": "4分",
-            "line": "名古屋市営東山線 藤が丘（愛知県）行",
-            "congestion": "余裕で座れる"
+            "time": "3分",
+            "line": "小田急多摩線通勤急行 新宿行",
+            "congestion": "普通に立てる"
         },
         "4": {
             "station_block": 1,
-            "station_name": "千種"
+            "station_name": "新百合ヶ丘"
         },
         "5": {
             "route_block": 1,
-            "time": "1時間46分",
-            "line": "ＪＲ中央本線 特急ワイドビューしなの11号 長野行",
-            "congestion": "余裕で座れる"
+            "time": "24分",
+            "line": "小田急小田原線通勤急行 新宿行",
+            "congestion": "不明"
         },
         "6": {
             "station_block": 1,
-            "station_name": "塩尻"
+            "station_name": "代々木上原"
         },
         "7": {
             "route_block": 1,
-            "time": "2時間29分",
-            "line": "ＪＲ中央本線 特急あずさ34号 新宿行",
-            "congestion": "余裕で座れる"
+            "time": "21分",
+            "line": "東京メトロ千代田線 綾瀬行",
+            "congestion": "普通に立てる"
         },
         "8": {
             "station_block": 1,
-            "station_name": "新宿"
+            "station_name": "大手町"
         },
         "9": {
             "route_block": 1,
-            "time": "22分",
-            "line": "都営新宿線 本八幡〔新宿線〕行",
-            "congestion": "席はいっぱい"
+            "time": "11分",
+            "line": "東京メトロ半蔵門線 押上[スカイツリー前]行",
+            "congestion": "余裕で座れる"
         },
         "10": {
             "station_block": 1,
@@ -40765,6 +41285,52 @@
             "time": "23分",
             "line": "都営新宿線 本八幡〔新宿線〕行",
             "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "住吉"
+        }
+    },
+    "山下_住吉": {
+        "0": {
+            "station_block": 1,
+            "station_name": "山下"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "豪徳寺"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "小田急小田原線各停 綾瀬行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "代々木上原"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "東京メトロ千代田線 綾瀬行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "表参道"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "26分",
+            "line": "東京メトロ半蔵門線 押上[スカイツリー前]行",
+            "congestion": "席はいっぱい"
         },
         "8": {
             "station_block": 1,
@@ -45359,6 +45925,32 @@
             "station_name": "住吉"
         }
     },
+    "京橋_住吉": {
+        "0": {
+            "station_block": 1,
+            "station_name": "京橋"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "東京メトロ銀座線 浅草行",
+            "congestion": "普通に立てる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "三越前"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "東京メトロ半蔵門線急行 南栗橋行",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "住吉"
+        }
+    },
     "銀座_住吉": {
         "0": {
             "station_block": 1,
@@ -47224,6 +47816,32 @@
             "route_block": 1,
             "time": "11分",
             "line": "東京メトロ半蔵門線 押上[スカイツリー前]行",
+            "congestion": "席はいっぱい"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "住吉"
+        }
+    },
+    "明治神宮前〈原宿〉_住吉": {
+        "0": {
+            "station_block": 1,
+            "station_name": "明治神宮前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "1分",
+            "line": "東京メトロ千代田線 松戸行",
+            "congestion": "普通に立てる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "表参道"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "26分",
+            "line": "東京メトロ半蔵門線準急 久喜行",
             "congestion": "席はいっぱい"
         },
         "4": {
@@ -51948,51 +52566,31 @@
         },
         "1": {
             "route_block": 1,
-            "time": "3分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
+            "time": "4分",
+            "line": "千葉都市モノレール１号線 千葉みなと行",
+            "congestion": "不明"
         },
         "2": {
             "station_block": 1,
-            "station_name": "栄"
+            "station_name": "千葉"
         },
         "3": {
             "route_block": 1,
-            "time": "4分",
-            "line": "名古屋市営東山線 藤が丘（愛知県）行",
-            "congestion": "余裕で座れる"
+            "time": "34分",
+            "line": "ＪＲ総武本線快速 東京行",
+            "congestion": "普通に立てる"
         },
         "4": {
             "station_block": 1,
-            "station_name": "千種"
+            "station_name": "錦糸町"
         },
         "5": {
             "route_block": 1,
-            "time": "1時間47分",
-            "line": "ＪＲ中央本線 特急ワイドビューしなの5号 長野行",
-            "congestion": "余裕で座れる"
+            "time": "1分",
+            "line": "東京メトロ半蔵門線 中央林間行",
+            "congestion": "席はいっぱい"
         },
         "6": {
-            "station_block": 1,
-            "station_name": "塩尻"
-        },
-        "7": {
-            "route_block": 1,
-            "time": "2時間24分",
-            "line": "ＪＲ中央本線 特急あずさ22号 新宿行",
-            "congestion": "余裕で座れる"
-        },
-        "8": {
-            "station_block": 1,
-            "station_name": "新宿"
-        },
-        "9": {
-            "route_block": 1,
-            "time": "26分",
-            "line": "都営新宿線 本八幡〔新宿線〕行",
-            "congestion": "余裕で座れる"
-        },
-        "10": {
             "station_block": 1,
             "station_name": "住吉"
         }
@@ -55257,6 +55855,82 @@
             "station_name": "住吉"
         }
     },
+    "久我原_住吉": {
+        "0": {
+            "station_block": 1,
+            "station_name": "久我原"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "いすみ鉄道 大原（千葉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "城見ヶ丘"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "大多喜〔オリブ〕"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "1時間27分",
+            "line": "高速バス 浜松町・東京-勝浦・御宿・安房小湊 東京駅八重洲口前行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "東京駅八重洲口前"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "東京駅八重洲口"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "日の丸自動車 メトロリンク日本橋Eライン 浜町２丁目明治座前,人形町１丁目方面",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "地下鉄三越前駅"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "三越前"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "東京メトロ半蔵門線急行 久喜行",
+            "congestion": "余裕で座れる"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "住吉"
+        }
+    },
     "総元_住吉": {
         "0": {
             "station_block": 1,
@@ -56298,6 +56972,52 @@
             "route_block": 1,
             "time": "2分",
             "line": "東京メトロ半蔵門線 押上[スカイツリー前]行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "住吉"
+        }
+    },
+    "国際展示場正門_住吉": {
+        "0": {
+            "station_block": 1,
+            "station_name": "東京ビッグサイト"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "ゆりかもめ 豊洲行",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "豊洲"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "東京メトロ有楽町線 和光市行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "月島"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "都営大江戸線 両国〔大江戸線〕,飯田橋方面",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "清澄白河"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "東京メトロ半蔵門線準急 久喜行",
             "congestion": "余裕で座れる"
         },
         "8": {
@@ -60481,6 +61201,62 @@
             "station_name": "住吉"
         }
     },
+    "伊奈中央_住吉": {
+        "0": {
+            "station_block": 1,
+            "station_name": "伊奈中央"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "22分",
+            "line": "埼玉新都市交通ニューシャトル 大宮（埼玉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "28分",
+            "line": "ＪＲ上野東京ライン 熱海〔上野経由〕行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "上野"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "ＪＲ山手線 東京,品川方面",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "秋葉原"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "岩本町"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "都営新宿線 本八幡〔新宿線〕行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "住吉"
+        }
+    },
     "羽貫_住吉": {
         "0": {
             "station_block": 1,
@@ -62713,6 +63489,42 @@
             "station_name": "住吉"
         }
     },
+    "市役所前_住吉": {
+        "0": {
+            "station_block": 1,
+            "station_name": "市役所前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "千葉都市モノレール１号線 動物公園行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "34分",
+            "line": "ＪＲ総武本線快速 東京行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "錦糸町"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "1分",
+            "line": "東京メトロ半蔵門線 中央林間行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "住吉"
+        }
+    },
     "葭川公園_住吉": {
         "0": {
             "station_block": 1,
@@ -62723,6 +63535,42 @@
             "time": "6分",
             "line": "千葉都市モノレール１号線 千葉みなと行",
             "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "34分",
+            "line": "ＪＲ総武本線快速 東京行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "錦糸町"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "1分",
+            "line": "東京メトロ半蔵門線 中央林間行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "住吉"
+        }
+    },
+    "県庁前_住吉": {
+        "0": {
+            "station_block": 1,
+            "station_name": "県庁前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "千葉都市モノレール１号線 千葉みなと行",
+            "congestion": "不明"
         },
         "2": {
             "station_block": 1,
@@ -63972,6 +64820,52 @@
             "route_block": 1,
             "time": "1分",
             "line": "東京メトロ半蔵門線急行 中央林間行",
+            "congestion": "席はいっぱい"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "住吉"
+        }
+    },
+    "高松_住吉": {
+        "0": {
+            "station_block": 1,
+            "station_name": "高松"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "多摩モノレール 多摩センター行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "立川南"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "立川"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "36分",
+            "line": "ＪＲ中央線通勤特別快速 東京行",
+            "congestion": "圧迫される"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "新宿"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "24分",
+            "line": "都営新宿線 本八幡〔新宿線〕行",
             "congestion": "席はいっぱい"
         },
         "8": {
@@ -66263,6 +67157,42 @@
         "1": {
             "route_block": 1,
             "time": "12分",
+            "line": "北総鉄道 羽田空港第１・第２ターミナル（京急）行",
+            "congestion": "席はいっぱい"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "京成高砂"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "京成押上線特急 西馬込行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "押上[スカイツリー前]"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "東京メトロ半蔵門線 長津田行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "住吉"
+        }
+    },
+    "大町_住吉": {
+        "0": {
+            "station_block": 1,
+            "station_name": "大町"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "14分",
             "line": "北総鉄道 羽田空港第１・第２ターミナル（京急）行",
             "congestion": "席はいっぱい"
         },

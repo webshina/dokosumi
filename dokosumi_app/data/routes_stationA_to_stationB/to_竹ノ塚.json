@@ -4089,6 +4089,72 @@
             "station_name": "竹ノ塚"
         }
     },
+    "扇町_竹ノ塚": {
+        "0": {
+            "station_block": 1,
+            "station_name": "扇町"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "ＪＲ鶴見線 鶴見行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "鶴見"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "ＪＲ京浜東北・根岸線 南浦和行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "川崎"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "22分",
+            "line": "ＪＲ上野東京ライン 小金井〔東京経由〕行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "ＪＲ宇都宮線 小金井行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "上野"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "東京メトロ日比谷線 南栗橋行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "北千住"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "東武伊勢崎線[スカイツリーライン] 南栗橋行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "竹ノ塚"
+        }
+    },
     "北府中_竹ノ塚": {
         "0": {
             "station_block": 1,
@@ -4635,6 +4701,52 @@
         "7": {
             "route_block": 1,
             "time": "5分",
+            "line": "東武伊勢崎線[スカイツリーライン] 中目黒行",
+            "congestion": "席はいっぱい"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "竹ノ塚"
+        }
+    },
+    "吉川_竹ノ塚": {
+        "0": {
+            "station_block": 1,
+            "station_name": "吉川"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "ＪＲ武蔵野線 府中本町行",
+            "congestion": "普通に立てる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "南越谷"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "新越谷"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "東武伊勢崎線[スカイツリーライン]区間急行 浅草行",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "草加"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "6分",
             "line": "東武伊勢崎線[スカイツリーライン] 中目黒行",
             "congestion": "席はいっぱい"
         },
@@ -20149,6 +20261,72 @@
             "station_name": "竹ノ塚"
         }
     },
+    "竹岡_竹ノ塚": {
+        "0": {
+            "station_block": 1,
+            "station_name": "竹岡"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "24分",
+            "line": "ＪＲ内房線 木更津行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "君津"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "44分",
+            "line": "ＪＲ内房線快速 逗子行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "33分",
+            "line": "ＪＲ総武本線快速 逗子行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "錦糸町"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "東京メトロ半蔵門線急行 南栗橋行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "押上[スカイツリー前]"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "東武伊勢崎線[スカイツリーライン]急行 南栗橋行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "西新井"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "東武伊勢崎線[スカイツリーライン] 竹ノ塚行",
+            "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "竹ノ塚"
+        }
+    },
     "浜金谷_竹ノ塚": {
         "0": {
             "station_block": 1,
@@ -20747,6 +20925,82 @@
             "time": "14分",
             "line": "東武伊勢崎線[スカイツリーライン]急行 久喜行",
             "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "西新井"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "東武伊勢崎線[スカイツリーライン] 東武動物公園行",
+            "congestion": "余裕で座れる"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "竹ノ塚"
+        }
+    },
+    "千歳_竹ノ塚": {
+        "0": {
+            "station_block": 1,
+            "station_name": "千歳"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "ＪＲ内房線 館山行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "館山"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "59分",
+            "line": "ＪＲ内房線 木更津行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "君津"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "47分",
+            "line": "ＪＲ内房線快速 逗子行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "34分",
+            "line": "ＪＲ総武本線快速 逗子行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "錦糸町"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "東京メトロ半蔵門線急行 久喜行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "押上[スカイツリー前]"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "東武伊勢崎線[スカイツリーライン]急行 久喜行",
+            "congestion": "不明"
         },
         "12": {
             "station_block": 1,
@@ -22663,6 +22917,42 @@
             "station_name": "竹ノ塚"
         }
     },
+    "小林_竹ノ塚": {
+        "0": {
+            "station_block": 1,
+            "station_name": "小林"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "24分",
+            "line": "ＪＲ成田線 我孫子（千葉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "我孫子"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "21分",
+            "line": "ＪＲ常磐線快速 上野行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "北千住"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "12分",
+            "line": "東武伊勢崎線[スカイツリーライン] 東武動物公園行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "竹ノ塚"
+        }
+    },
     "安食_竹ノ塚": {
         "0": {
             "station_block": 1,
@@ -22787,6 +23077,72 @@
             "congestion": "余裕で座れる"
         },
         "10": {
+            "station_block": 1,
+            "station_name": "竹ノ塚"
+        }
+    },
+    "祇園_竹ノ塚": {
+        "0": {
+            "station_block": 1,
+            "station_name": "祇園"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "ＪＲ久留里線 木更津行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "木更津"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "36分",
+            "line": "ＪＲ内房線快速 逗子行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "33分",
+            "line": "ＪＲ総武本線快速 逗子行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "錦糸町"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "東京メトロ半蔵門線急行 南栗橋行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "押上[スカイツリー前]"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "東武伊勢崎線[スカイツリーライン]急行 南栗橋行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "西新井"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "東武伊勢崎線[スカイツリーライン] 竹ノ塚行",
+            "congestion": "余裕で座れる"
+        },
+        "12": {
             "station_block": 1,
             "station_name": "竹ノ塚"
         }
@@ -27757,6 +28113,42 @@
             "time": "18分",
             "line": "東武アーバンパークライン 春日部行",
             "congestion": "普通に立てる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "春日部"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "19分",
+            "line": "東武伊勢崎線[スカイツリーライン]区間急行 浅草行",
+            "congestion": "席はいっぱい"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "草加"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "東武伊勢崎線[スカイツリーライン] 中目黒行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "竹ノ塚"
+        }
+    },
+    "大和田_竹ノ塚": {
+        "0": {
+            "station_block": 1,
+            "station_name": "大和田"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "東武アーバンパークライン 春日部行",
+            "congestion": "席はいっぱい"
         },
         "2": {
             "station_block": 1,
@@ -34665,6 +35057,62 @@
             "station_name": "竹ノ塚"
         }
     },
+    "競艇場前_竹ノ塚": {
+        "0": {
+            "station_block": 1,
+            "station_name": "競艇場前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "12分",
+            "line": "西武多摩川線各停 武蔵境行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "武蔵境"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "35分",
+            "line": "ＪＲ中央線快速 東京行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "御茶ノ水"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "ＪＲ中央総武線各停 千葉行",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "秋葉原"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "東京メトロ日比谷線 北越谷行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "北千住"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "東武伊勢崎線[スカイツリーライン] 北越谷行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "竹ノ塚"
+        }
+    },
     "是政_竹ノ塚": {
         "0": {
             "station_block": 1,
@@ -37993,6 +38441,82 @@
             "station_name": "竹ノ塚"
         }
     },
+    "学園前_竹ノ塚": {
+        "0": {
+            "station_block": 1,
+            "station_name": "学園前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "京成千原線 京成津田沼行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉中央"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "京成千葉線 京成津田沼行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "京成津田沼"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "18分",
+            "line": "京成本線通勤特急 京成上野行",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "京成高砂"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "京成本線 京成上野行",
+            "congestion": "席はいっぱい"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "京成関屋"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "牛田"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "東武伊勢崎線[スカイツリーライン]区間急行 館林行",
+            "congestion": "席はいっぱい"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "西新井"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "東武伊勢崎線[スカイツリーライン] 南栗橋行",
+            "congestion": "余裕で座れる"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "竹ノ塚"
+        }
+    },
     "おゆみ野_竹ノ塚": {
         "0": {
             "station_block": 1,
@@ -41235,6 +41759,82 @@
             "time": "12分",
             "line": "東武伊勢崎線[スカイツリーライン] 東武動物公園行",
             "congestion": "余裕で座れる"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "竹ノ塚"
+        }
+    },
+    "山田_竹ノ塚": {
+        "0": {
+            "station_block": 1,
+            "station_name": "山田"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "京王高尾線各停 新宿行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "北野"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "40分",
+            "line": "京王線準特急 新宿行",
+            "congestion": "圧迫される"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "笹塚"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "京王新線各停 本八幡〔新宿線〕行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "新宿"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "都営新宿線 本八幡〔新宿線〕行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "岩本町"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "秋葉原"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "東京メトロ日比谷線 東武動物公園行",
+            "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "北千住"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "12分",
+            "line": "東武伊勢崎線[スカイツリーライン] 東武動物公園行",
+            "congestion": "不明"
         },
         "14": {
             "station_block": 1,
@@ -45388,91 +45988,51 @@
         },
         "1": {
             "route_block": 1,
-            "time": "8分",
-            "line": "名古屋市営名城線 栄（愛知県）,金山（愛知県）方面",
-            "congestion": "余裕で座れる"
+            "time": "6分",
+            "line": "小田急多摩線各停 新百合ヶ丘行",
+            "congestion": "席はいっぱい"
         },
         "2": {
             "station_block": 1,
-            "station_name": "栄"
+            "station_name": "新百合ヶ丘"
         },
         "3": {
             "route_block": 1,
-            "time": "4分",
-            "line": "名古屋市営東山線 藤が丘（愛知県）行",
-            "congestion": "余裕で座れる"
+            "time": "21分",
+            "line": "小田急小田原線快速急行 新宿行",
+            "congestion": "圧迫される"
         },
         "4": {
             "station_block": 1,
-            "station_name": "千種"
+            "station_name": "代々木上原"
         },
         "5": {
             "route_block": 1,
-            "time": "1時間47分",
-            "line": "ＪＲ中央本線 特急ワイドビューしなの5号 長野行",
-            "congestion": "余裕で座れる"
+            "time": "37分",
+            "line": "東京メトロ千代田線 松戸行",
+            "congestion": "席はいっぱい"
         },
         "6": {
             "station_block": 1,
-            "station_name": "塩尻"
+            "station_name": "北千住"
         },
         "7": {
             "route_block": 1,
-            "time": "2時間1分",
-            "line": "ＪＲ中央本線 特急あずさ22号 新宿行",
+            "time": "4分",
+            "line": "東武伊勢崎線[スカイツリーライン]急行 東武動物公園行",
             "congestion": "余裕で座れる"
         },
         "8": {
             "station_block": 1,
-            "station_name": "立川"
+            "station_name": "西新井"
         },
         "9": {
             "route_block": 1,
-            "time": "5分",
-            "line": "ＪＲ中央線快速 東京行",
-            "congestion": "席はいっぱい"
+            "time": "3分",
+            "line": "東武伊勢崎線[スカイツリーライン] 北越谷行",
+            "congestion": "余裕で座れる"
         },
         "10": {
-            "station_block": 1,
-            "station_name": "西国分寺"
-        },
-        "11": {
-            "route_block": 1,
-            "time": "40分",
-            "line": "ＪＲ武蔵野線 南船橋行",
-            "congestion": "席はいっぱい"
-        },
-        "12": {
-            "station_block": 1,
-            "station_name": "南越谷"
-        },
-        "13": {
-            "route_block": 1,
-            "time": "6分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
-        },
-        "14": {
-            "station_block": 1,
-            "station_name": "新越谷"
-        },
-        "15": {
-            "route_block": 1,
-            "time": "5分",
-            "line": "東武伊勢崎線[スカイツリーライン]急行 中央林間行",
-            "congestion": "余裕で座れる"
-        },
-        "16": {
-            "station_block": 1,
-            "station_name": "草加"
-        },
-        "17": {
-            "route_block": 1,
-            "time": "5分",
-            "line": "東武伊勢崎線[スカイツリーライン] 中目黒行",
-            "congestion": "余裕で座れる"
-        },
-        "18": {
             "station_block": 1,
             "station_name": "竹ノ塚"
         }
@@ -50327,6 +50887,62 @@
             "station_name": "竹ノ塚"
         }
     },
+    "山下_竹ノ塚": {
+        "0": {
+            "station_block": 1,
+            "station_name": "山下"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "豪徳寺"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "小田急小田原線各停 綾瀬行",
+            "congestion": "席はいっぱい"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "代々木上原"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "38分",
+            "line": "東京メトロ千代田線 綾瀬行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "北千住"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "東武伊勢崎線[スカイツリーライン]区間準急 北春日部行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "西新井"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "東武伊勢崎線[スカイツリーライン] 竹ノ塚行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "竹ノ塚"
+        }
+    },
     "松原_竹ノ塚": {
         "0": {
             "station_block": 1,
@@ -54815,6 +55431,42 @@
             "station_name": "竹ノ塚"
         }
     },
+    "京橋_竹ノ塚": {
+        "0": {
+            "station_block": 1,
+            "station_name": "京橋"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "東京メトロ銀座線 浅草行",
+            "congestion": "席はいっぱい"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "上野"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "東京メトロ日比谷線 北越谷行",
+            "congestion": "席はいっぱい"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "北千住"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "東武伊勢崎線[スカイツリーライン] 北越谷行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "竹ノ塚"
+        }
+    },
     "銀座_竹ノ塚": {
         "0": {
             "station_block": 1,
@@ -57307,6 +57959,42 @@
             "congestion": "余裕で座れる"
         },
         "4": {
+            "station_block": 1,
+            "station_name": "竹ノ塚"
+        }
+    },
+    "明治神宮前〈原宿〉_竹ノ塚": {
+        "0": {
+            "station_block": 1,
+            "station_name": "明治神宮前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "33分",
+            "line": "東京メトロ千代田線 松戸行",
+            "congestion": "席はいっぱい"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "北千住"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "東武伊勢崎線[スカイツリーライン]準急 南栗橋行",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "西新井"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "東武伊勢崎線[スカイツリーライン] 北越谷行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
             "station_block": 1,
             "station_name": "竹ノ塚"
         }
@@ -63778,91 +64466,51 @@
         },
         "1": {
             "route_block": 1,
-            "time": "3分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
+            "time": "4分",
+            "line": "千葉都市モノレール１号線 千葉みなと行",
+            "congestion": "不明"
         },
         "2": {
             "station_block": 1,
-            "station_name": "栄"
+            "station_name": "千葉"
         },
         "3": {
             "route_block": 1,
-            "time": "4分",
-            "line": "名古屋市営東山線 藤が丘（愛知県）行",
-            "congestion": "余裕で座れる"
+            "time": "34分",
+            "line": "ＪＲ総武本線快速 東京行",
+            "congestion": "普通に立てる"
         },
         "4": {
             "station_block": 1,
-            "station_name": "千種"
+            "station_name": "錦糸町"
         },
         "5": {
             "route_block": 1,
-            "time": "1時間47分",
-            "line": "ＪＲ中央本線 特急ワイドビューしなの5号 長野行",
+            "time": "2分",
+            "line": "東京メトロ半蔵門線急行 東武動物公園行",
             "congestion": "余裕で座れる"
         },
         "6": {
             "station_block": 1,
-            "station_name": "塩尻"
+            "station_name": "押上[スカイツリー前]"
         },
         "7": {
             "route_block": 1,
-            "time": "2時間1分",
-            "line": "ＪＲ中央本線 特急あずさ22号 新宿行",
-            "congestion": "余裕で座れる"
+            "time": "20分",
+            "line": "東武伊勢崎線[スカイツリーライン]急行 東武動物公園行",
+            "congestion": "不明"
         },
         "8": {
             "station_block": 1,
-            "station_name": "立川"
+            "station_name": "西新井"
         },
         "9": {
             "route_block": 1,
-            "time": "5分",
-            "line": "ＪＲ中央線快速 東京行",
-            "congestion": "席はいっぱい"
+            "time": "3分",
+            "line": "東武伊勢崎線[スカイツリーライン] 北越谷行",
+            "congestion": "余裕で座れる"
         },
         "10": {
-            "station_block": 1,
-            "station_name": "西国分寺"
-        },
-        "11": {
-            "route_block": 1,
-            "time": "40分",
-            "line": "ＪＲ武蔵野線 南船橋行",
-            "congestion": "席はいっぱい"
-        },
-        "12": {
-            "station_block": 1,
-            "station_name": "南越谷"
-        },
-        "13": {
-            "route_block": 1,
-            "time": "6分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
-        },
-        "14": {
-            "station_block": 1,
-            "station_name": "新越谷"
-        },
-        "15": {
-            "route_block": 1,
-            "time": "5分",
-            "line": "東武伊勢崎線[スカイツリーライン]急行 中央林間行",
-            "congestion": "余裕で座れる"
-        },
-        "16": {
-            "station_block": 1,
-            "station_name": "草加"
-        },
-        "17": {
-            "route_block": 1,
-            "time": "5分",
-            "line": "東武伊勢崎線[スカイツリーライン] 中目黒行",
-            "congestion": "余裕で座れる"
-        },
-        "18": {
             "station_block": 1,
             "station_name": "竹ノ塚"
         }
@@ -67677,6 +68325,82 @@
             "station_name": "竹ノ塚"
         }
     },
+    "久我原_竹ノ塚": {
+        "0": {
+            "station_block": 1,
+            "station_name": "久我原"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "いすみ鉄道 大原（千葉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "城見ヶ丘"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "大多喜〔オリブ〕"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "1時間27分",
+            "line": "高速バス 浜松町・東京-勝浦・御宿・安房小湊 東京駅八重洲口前行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "東京駅八重洲口前"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "ＪＲ常磐線 土浦行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "上野"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "東京メトロ日比谷線 東武動物公園行",
+            "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "北千住"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "東武伊勢崎線[スカイツリーライン] 東武動物公園行",
+            "congestion": "不明"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "竹ノ塚"
+        }
+    },
     "総元_竹ノ塚": {
         "0": {
             "station_block": 1,
@@ -68789,6 +69513,62 @@
             "time": "11分",
             "line": "東武伊勢崎線[スカイツリーライン] 北越谷行",
             "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "竹ノ塚"
+        }
+    },
+    "国際展示場正門_竹ノ塚": {
+        "0": {
+            "station_block": 1,
+            "station_name": "東京ビッグサイト"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "ゆりかもめ 豊洲行",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "豊洲"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "東京メトロ有楽町線 和光市行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "新富町"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "徒歩（地下鉄） ",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "築地"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "23分",
+            "line": "東京メトロ日比谷線 竹ノ塚行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "北千住"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "東武伊勢崎線[スカイツリーライン] 竹ノ塚行",
+            "congestion": "不明"
         },
         "10": {
             "station_block": 1,
@@ -73321,6 +74101,62 @@
             "station_name": "竹ノ塚"
         }
     },
+    "伊奈中央_竹ノ塚": {
+        "0": {
+            "station_block": 1,
+            "station_name": "伊奈中央"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "22分",
+            "line": "埼玉新都市交通ニューシャトル 大宮（埼玉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "ＪＲ京浜東北・根岸線 蒲田行",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "南浦和"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "ＪＲ武蔵野線 東京行",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "南越谷"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "新越谷"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "東武伊勢崎線[スカイツリーライン] 中目黒行",
+            "congestion": "席はいっぱい"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "竹ノ塚"
+        }
+    },
     "羽貫_竹ノ塚": {
         "0": {
             "station_block": 1,
@@ -76033,6 +76869,62 @@
             "station_name": "竹ノ塚"
         }
     },
+    "市役所前_竹ノ塚": {
+        "0": {
+            "station_block": 1,
+            "station_name": "市役所前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "千葉都市モノレール１号線 動物公園行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "34分",
+            "line": "ＪＲ総武本線快速 東京行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "錦糸町"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "東京メトロ半蔵門線急行 東武動物公園行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "押上[スカイツリー前]"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "20分",
+            "line": "東武伊勢崎線[スカイツリーライン]急行 東武動物公園行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "西新井"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "東武伊勢崎線[スカイツリーライン] 北越谷行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "竹ノ塚"
+        }
+    },
     "葭川公園_竹ノ塚": {
         "0": {
             "station_block": 1,
@@ -76073,6 +76965,62 @@
             "time": "20分",
             "line": "東武伊勢崎線[スカイツリーライン]急行 東武動物公園行",
             "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "西新井"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "東武伊勢崎線[スカイツリーライン] 北越谷行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "竹ノ塚"
+        }
+    },
+    "県庁前_竹ノ塚": {
+        "0": {
+            "station_block": 1,
+            "station_name": "県庁前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "千葉都市モノレール１号線 千葉みなと行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "34分",
+            "line": "ＪＲ総武本線快速 東京行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "錦糸町"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "東京メトロ半蔵門線急行 東武動物公園行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "押上[スカイツリー前]"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "20分",
+            "line": "東武伊勢崎線[スカイツリーライン]急行 東武動物公園行",
+            "congestion": "不明"
         },
         "8": {
             "station_block": 1,
@@ -77905,6 +78853,72 @@
             "congestion": "席はいっぱい"
         },
         "10": {
+            "station_block": 1,
+            "station_name": "竹ノ塚"
+        }
+    },
+    "高松_竹ノ塚": {
+        "0": {
+            "station_block": 1,
+            "station_name": "高松"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "多摩モノレール 多摩センター行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "立川南"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "立川"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "ＪＲ中央線快速 東京行",
+            "congestion": "圧迫される"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "西国分寺"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "42分",
+            "line": "ＪＲ武蔵野線 東京行",
+            "congestion": "普通に立てる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "南越谷"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "新越谷"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "東武伊勢崎線[スカイツリーライン] 中目黒行",
+            "congestion": "席はいっぱい"
+        },
+        "12": {
             "station_block": 1,
             "station_name": "竹ノ塚"
         }
@@ -80689,6 +81703,62 @@
             "time": "4分",
             "line": "徒歩 ",
             "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "牛田"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "東武伊勢崎線[スカイツリーライン]区間準急 南栗橋行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "西新井"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "東武伊勢崎線[スカイツリーライン] 竹ノ塚行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "竹ノ塚"
+        }
+    },
+    "大町_竹ノ塚": {
+        "0": {
+            "station_block": 1,
+            "station_name": "大町"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "北総鉄道 羽田空港第１・第２ターミナル（京急）行",
+            "congestion": "席はいっぱい"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "京成高砂"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "京成本線 京成上野行",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "京成関屋"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "徒歩 ",
+            "congestion": "不明"
         },
         "6": {
             "station_block": 1,

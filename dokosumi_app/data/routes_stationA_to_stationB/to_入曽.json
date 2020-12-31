@@ -4159,6 +4159,72 @@
             "station_name": "入曽"
         }
     },
+    "扇町_入曽": {
+        "0": {
+            "station_block": 1,
+            "station_name": "扇町"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "ＪＲ鶴見線 鶴見行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "鶴見"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "ＪＲ京浜東北・根岸線 南浦和行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "大井町"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "りんかい線 大宮（埼玉県）行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "大崎"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "19分",
+            "line": "ＪＲ埼京線 大宮（埼玉県）行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "池袋"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "22分",
+            "line": "西武池袋線 特急ちちぶ9号 西武秩父行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "所沢"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "西武新宿線急行 本川越行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "入曽"
+        }
+    },
     "北府中_入曽": {
         "0": {
             "station_block": 1,
@@ -4777,6 +4843,52 @@
             "time": "8分",
             "line": "西武新宿線急行 本川越行",
             "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "入曽"
+        }
+    },
+    "吉川_入曽": {
+        "0": {
+            "station_block": 1,
+            "station_name": "吉川"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "41分",
+            "line": "ＪＲ武蔵野線 府中本町行",
+            "congestion": "普通に立てる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "新秋津"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "秋津"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "西武池袋・秩父線準急 小手指行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "所沢"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "西武新宿線急行 本川越行",
+            "congestion": "不明"
         },
         "8": {
             "station_block": 1,
@@ -19453,6 +19565,72 @@
             "station_name": "入曽"
         }
     },
+    "竹岡_入曽": {
+        "0": {
+            "station_block": 1,
+            "station_name": "竹岡"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "24分",
+            "line": "ＪＲ内房線 木更津行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "君津"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "44分",
+            "line": "ＪＲ内房線快速 逗子行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "33分",
+            "line": "ＪＲ総武本線快速 逗子行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "錦糸町"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "26分",
+            "line": "ＪＲ中央総武線各停 中野（東京都）行",
+            "congestion": "普通に立てる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "新宿"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "ＪＲ山手線 池袋,上野方面",
+            "congestion": "席はいっぱい"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "高田馬場"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "45分",
+            "line": "西武新宿線急行 本川越行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "入曽"
+        }
+    },
     "浜金谷_入曽": {
         "0": {
             "station_block": 1,
@@ -20061,6 +20239,82 @@
             "time": "8分",
             "line": "西武新宿線各停 本川越行",
             "congestion": "余裕で座れる"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "入曽"
+        }
+    },
+    "千歳_入曽": {
+        "0": {
+            "station_block": 1,
+            "station_name": "千歳"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "ＪＲ内房線 館山行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "館山"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "59分",
+            "line": "ＪＲ内房線 木更津行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "君津"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "47分",
+            "line": "ＪＲ内房線快速 逗子行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "42分",
+            "line": "ＪＲ総武本線快速 逗子行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "東京メトロ丸ノ内線 池袋行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "池袋"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "22分",
+            "line": "西武池袋・秩父線急行 飯能行",
+            "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "所沢"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "西武新宿線各停 本川越行",
+            "congestion": "不明"
         },
         "14": {
             "station_block": 1,
@@ -22607,6 +22861,82 @@
             "station_name": "入曽"
         }
     },
+    "小林_入曽": {
+        "0": {
+            "station_block": 1,
+            "station_name": "小林"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "24分",
+            "line": "ＪＲ成田線 我孫子（千葉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "我孫子"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "29分",
+            "line": "ＪＲ常磐線快速 上野行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "日暮里"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "ＪＲ山手線 池袋,新宿方面",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "池袋"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "東京メトロ有楽町線 飯能行",
+            "congestion": "席はいっぱい"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "小竹向原"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "西武有楽町線快速急行 飯能行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "練馬"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "18分",
+            "line": "西武池袋・秩父線快速急行 飯能行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "所沢"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "西武新宿線急行 本川越行",
+            "congestion": "不明"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "入曽"
+        }
+    },
     "安食_入曽": {
         "0": {
             "station_block": 1,
@@ -22842,131 +23172,91 @@
         },
         "1": {
             "route_block": 1,
-            "time": "2分",
-            "line": "福岡市営空港線 福岡空港行",
-            "congestion": "余裕で座れる"
+            "time": "4分",
+            "line": "徒歩 ",
+            "congestion": "不明"
         },
         "2": {
             "station_block": 1,
-            "station_name": "博多"
+            "station_name": "祇園"
         },
         "3": {
             "route_block": 1,
-            "time": "8分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
+            "time": "11分",
+            "line": "日東交通 馬来田線 木更津駅東口行",
+            "congestion": "不明"
         },
         "4": {
             "station_block": 1,
-            "station_name": "博多バスターミナル〔博多駅〕"
+            "station_name": "木更津駅東口"
         },
         "5": {
             "route_block": 1,
-            "time": "4時間32分",
-            "line": "JR高速バス 広福ライナー 広島駅〔南口〕行",
-            "congestion": "余裕で座れる"
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
         },
         "6": {
             "station_block": 1,
-            "station_name": "広島バスセンター"
+            "station_name": "木更津"
         },
         "7": {
             "route_block": 1,
-            "time": "4分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
+            "time": "33分",
+            "line": "ＪＲ内房線 千葉行",
+            "congestion": "不明"
         },
         "8": {
             "station_block": 1,
-            "station_name": "広島バスセンター"
+            "station_name": "蘇我"
         },
         "9": {
             "route_block": 1,
-            "time": "4時間6分",
-            "line": "高速バス ハーバーライナー 神姫バス三ノ宮バスターミナル行",
-            "congestion": "余裕で座れる"
+            "time": "32分",
+            "line": "ＪＲ京葉線 特急わかしお6号 東京行",
+            "congestion": "不明"
         },
         "10": {
             "station_block": 1,
-            "station_name": "神姫バス三ノ宮バスターミナル"
+            "station_name": "東京"
         },
         "11": {
             "route_block": 1,
-            "time": "7分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
+            "time": "17分",
+            "line": "東京メトロ丸ノ内線 池袋行",
+            "congestion": "席はいっぱい"
         },
         "12": {
             "station_block": 1,
-            "station_name": "三ノ宮"
+            "station_name": "池袋"
         },
         "13": {
             "route_block": 1,
-            "time": "1時間33分",
-            "line": "ＪＲ東海道山陽本線各停 京都行",
+            "time": "6分",
+            "line": "西武池袋・秩父線準急 飯能行",
             "congestion": "余裕で座れる"
         },
         "14": {
             "station_block": 1,
-            "station_name": "京都"
+            "station_name": "練馬"
         },
         "15": {
             "route_block": 1,
-            "time": "8分",
-            "line": "徒歩 ",
+            "time": "17分",
+            "line": "西武池袋・秩父線快速急行 小手指行",
             "congestion": "余裕で座れる"
         },
         "16": {
             "station_block": 1,
-            "station_name": "京都駅八条口"
+            "station_name": "所沢"
         },
         "17": {
             "route_block": 1,
-            "time": "6時間15分",
-            "line": "高速バス サンシャインエクスプレス 東京駅鍛冶橋駐車場行",
-            "congestion": "余裕で座れる"
+            "time": "8分",
+            "line": "西武新宿線各停 本川越行",
+            "congestion": "不明"
         },
         "18": {
-            "station_block": 1,
-            "station_name": "バスタ新宿〔新宿駅新南口〕"
-        },
-        "19": {
-            "route_block": 1,
-            "time": "8分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
-        },
-        "20": {
-            "station_block": 1,
-            "station_name": "新宿"
-        },
-        "21": {
-            "route_block": 1,
-            "time": "5分",
-            "line": "ＪＲ山手線 池袋,上野方面",
-            "congestion": "席はいっぱい"
-        },
-        "22": {
-            "station_block": 1,
-            "station_name": "高田馬場"
-        },
-        "23": {
-            "route_block": 1,
-            "time": "48分",
-            "line": "西武新宿線各停 新所沢行",
-            "congestion": "余裕で座れる"
-        },
-        "24": {
-            "station_block": 1,
-            "station_name": "新所沢"
-        },
-        "25": {
-            "route_block": 1,
-            "time": "3分",
-            "line": "西武新宿線各停 本川越行",
-            "congestion": "余裕で座れる"
-        },
-        "26": {
             "station_block": 1,
             "station_name": "入曽"
         }
@@ -29059,6 +29349,52 @@
             "station_name": "入曽"
         }
     },
+    "大和田_入曽": {
+        "0": {
+            "station_block": 1,
+            "station_name": "大和田"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "東武アーバンパークライン 大宮（埼玉県）行",
+            "congestion": "圧迫される"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "25分",
+            "line": "ＪＲ川越線通勤快速 川越行",
+            "congestion": "席はいっぱい"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "川越"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "本川越"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "12分",
+            "line": "西武新宿線急行 西武新宿行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "入曽"
+        }
+    },
     "七里_入曽": {
         "0": {
             "station_block": 1,
@@ -33569,6 +33905,62 @@
             "station_name": "入曽"
         }
     },
+    "競艇場前_入曽": {
+        "0": {
+            "station_block": 1,
+            "station_name": "競艇場前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "12分",
+            "line": "西武多摩川線各停 武蔵境行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "武蔵境"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "武蔵境駅"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "西武バス [境04]ひばりが丘団地経由 ひばりヶ丘駅（東京都）行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "田無駅"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "田無"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "24分",
+            "line": "西武新宿線急行 本川越行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "入曽"
+        }
+    },
     "是政_入曽": {
         "0": {
             "station_block": 1,
@@ -36707,6 +37099,82 @@
             "station_name": "入曽"
         }
     },
+    "学園前_入曽": {
+        "0": {
+            "station_block": 1,
+            "station_name": "学園前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "京成千原線 京成津田沼行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉中央"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "京成千葉線 京成津田沼行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "京成津田沼"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "34分",
+            "line": "京成本線通勤特急 京成上野行",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "日暮里"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "ＪＲ山手線 池袋,新宿方面",
+            "congestion": "普通に立てる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "池袋"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "西武池袋・秩父線準急 所沢行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "練馬"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "18分",
+            "line": "西武池袋・秩父線快速急行 飯能行",
+            "congestion": "席はいっぱい"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "所沢"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "西武新宿線急行 本川越行",
+            "congestion": "不明"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "入曽"
+        }
+    },
     "おゆみ野_入曽": {
         "0": {
             "station_block": 1,
@@ -39743,6 +40211,52 @@
             "time": "13分",
             "line": "西武新宿線各停 本川越行",
             "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "入曽"
+        }
+    },
+    "山田_入曽": {
+        "0": {
+            "station_block": 1,
+            "station_name": "山田"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "京王高尾線各停 高尾山口行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "高尾"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "23分",
+            "line": "ＪＲ中央線通勤特別快速 東京行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "国分寺"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "12分",
+            "line": "西武国分寺線各停 東村山行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "東村山"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "西武新宿線各停 本川越行",
+            "congestion": "不明"
         },
         "8": {
             "station_block": 1,
@@ -44446,71 +44960,61 @@
         },
         "1": {
             "route_block": 1,
-            "time": "8分",
-            "line": "名古屋市営名城線 栄（愛知県）,金山（愛知県）方面",
-            "congestion": "余裕で座れる"
+            "time": "7分",
+            "line": "小田急多摩線各停 唐木田行",
+            "congestion": "普通に立てる"
         },
         "2": {
             "station_block": 1,
-            "station_name": "栄"
+            "station_name": "小田急多摩センター"
         },
         "3": {
             "route_block": 1,
-            "time": "4分",
-            "line": "名古屋市営東山線 藤が丘（愛知県）行",
-            "congestion": "余裕で座れる"
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
         },
         "4": {
             "station_block": 1,
-            "station_name": "千種"
+            "station_name": "多摩センター"
         },
         "5": {
             "route_block": 1,
-            "time": "1時間47分",
-            "line": "ＪＲ中央本線 特急ワイドビューしなの5号 長野行",
-            "congestion": "余裕で座れる"
+            "time": "33分",
+            "line": "多摩モノレール 上北台行",
+            "congestion": "不明"
         },
         "6": {
             "station_block": 1,
-            "station_name": "塩尻"
+            "station_name": "玉川上水"
         },
         "7": {
             "route_block": 1,
-            "time": "2時間1分",
-            "line": "ＪＲ中央本線 特急あずさ22号 新宿行",
-            "congestion": "余裕で座れる"
+            "time": "5分",
+            "line": "西武拝島線急行 西武新宿行",
+            "congestion": "不明"
         },
         "8": {
             "station_block": 1,
-            "station_name": "立川"
+            "station_name": "小川"
         },
         "9": {
             "route_block": 1,
-            "time": "7分",
-            "line": "ＪＲ中央線快速 東京行",
-            "congestion": "席はいっぱい"
+            "time": "3分",
+            "line": "西武国分寺線各停 東村山行",
+            "congestion": "不明"
         },
         "10": {
             "station_block": 1,
-            "station_name": "国分寺"
+            "station_name": "東村山"
         },
         "11": {
             "route_block": 1,
-            "time": "11分",
-            "line": "西武国分寺線各停 東村山行",
-            "congestion": "余裕で座れる"
+            "time": "13分",
+            "line": "西武新宿線各停 本川越行",
+            "congestion": "不明"
         },
         "12": {
-            "station_block": 1,
-            "station_name": "東村山"
-        },
-        "13": {
-            "route_block": 1,
-            "time": "14分",
-            "line": "西武新宿線急行 本川越行",
-            "congestion": "余裕で座れる"
-        },
-        "14": {
             "station_block": 1,
             "station_name": "入曽"
         }
@@ -49589,6 +50093,62 @@
             "station_name": "入曽"
         }
     },
+    "山下_入曽": {
+        "0": {
+            "station_block": 1,
+            "station_name": "山下"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "東急世田谷線各停 下高井戸行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "下高井戸"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "京王線各停 新宿行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "新宿"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "ＪＲ山手線 池袋,上野方面",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "高田馬場"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "31分",
+            "line": "西武新宿線急行 新所沢行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "久米川"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "西武新宿線各停 本川越行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "入曽"
+        }
+    },
     "松原_入曽": {
         "0": {
             "station_block": 1,
@@ -54517,6 +55077,42 @@
             "station_name": "入曽"
         }
     },
+    "京橋_入曽": {
+        "0": {
+            "station_block": 1,
+            "station_name": "京橋"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "東京メトロ銀座線 浅草行",
+            "congestion": "普通に立てる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "日本橋"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "東京メトロ東西線 中野（東京都）行",
+            "congestion": "席はいっぱい"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "高田馬場"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "46分",
+            "line": "西武新宿線急行 本川越行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "入曽"
+        }
+    },
     "銀座_入曽": {
         "0": {
             "station_block": 1,
@@ -56837,6 +57433,52 @@
             "time": "46分",
             "line": "西武新宿線急行 本川越行",
             "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "入曽"
+        }
+    },
+    "明治神宮前〈原宿〉_入曽": {
+        "0": {
+            "station_block": 1,
+            "station_name": "明治神宮前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "東京メトロ副都心線 池袋行",
+            "congestion": "席はいっぱい"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "新宿三丁目"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "東京メトロ副都心線通勤急行 和光市行",
+            "congestion": "席はいっぱい"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "池袋"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "25分",
+            "line": "西武池袋・秩父線急行 飯能行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "所沢"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "西武新宿線急行 本川越行",
+            "congestion": "不明"
         },
         "8": {
             "station_block": 1,
@@ -63630,69 +64272,69 @@
         },
         "1": {
             "route_block": 1,
-            "time": "3分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
+            "time": "4分",
+            "line": "千葉都市モノレール１号線 千葉みなと行",
+            "congestion": "不明"
         },
         "2": {
             "station_block": 1,
-            "station_name": "栄"
+            "station_name": "千葉"
         },
         "3": {
             "route_block": 1,
-            "time": "4分",
-            "line": "名古屋市営東山線 藤が丘（愛知県）行",
-            "congestion": "余裕で座れる"
+            "time": "34分",
+            "line": "ＪＲ総武本線快速 東京行",
+            "congestion": "普通に立てる"
         },
         "4": {
             "station_block": 1,
-            "station_name": "千種"
+            "station_name": "錦糸町"
         },
         "5": {
             "route_block": 1,
-            "time": "1時間47分",
-            "line": "ＪＲ中央本線 特急ワイドビューしなの5号 長野行",
-            "congestion": "余裕で座れる"
+            "time": "15分",
+            "line": "ＪＲ中央総武線各停 三鷹行",
+            "congestion": "圧迫される"
         },
         "6": {
             "station_block": 1,
-            "station_name": "塩尻"
+            "station_name": "飯田橋"
         },
         "7": {
             "route_block": 1,
-            "time": "2時間1分",
-            "line": "ＪＲ中央本線 特急あずさ22号 新宿行",
+            "time": "17分",
+            "line": "東京メトロ有楽町線 飯能行",
             "congestion": "余裕で座れる"
         },
         "8": {
             "station_block": 1,
-            "station_name": "立川"
+            "station_name": "小竹向原"
         },
         "9": {
             "route_block": 1,
-            "time": "7分",
-            "line": "ＪＲ中央線快速 東京行",
-            "congestion": "席はいっぱい"
+            "time": "3分",
+            "line": "西武有楽町線快速急行 飯能行",
+            "congestion": "不明"
         },
         "10": {
             "station_block": 1,
-            "station_name": "国分寺"
+            "station_name": "練馬"
         },
         "11": {
             "route_block": 1,
-            "time": "11分",
-            "line": "西武国分寺線各停 東村山行",
-            "congestion": "余裕で座れる"
+            "time": "18分",
+            "line": "西武池袋・秩父線快速急行 飯能行",
+            "congestion": "不明"
         },
         "12": {
             "station_block": 1,
-            "station_name": "東村山"
+            "station_name": "所沢"
         },
         "13": {
             "route_block": 1,
-            "time": "14分",
+            "time": "8分",
             "line": "西武新宿線急行 本川越行",
-            "congestion": "余裕で座れる"
+            "congestion": "不明"
         },
         "14": {
             "station_block": 1,
@@ -67229,6 +67871,82 @@
             "station_name": "入曽"
         }
     },
+    "久我原_入曽": {
+        "0": {
+            "station_block": 1,
+            "station_name": "久我原"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "いすみ鉄道 大原（千葉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "城見ヶ丘"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "大多喜〔オリブ〕"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "1時間27分",
+            "line": "高速バス 浜松町・東京-勝浦・御宿・安房小湊 東京駅八重洲口前行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "東京駅八重洲口前"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "24分",
+            "line": "ＪＲ山手線 上野,池袋方面",
+            "congestion": "席はいっぱい"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "池袋"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "22分",
+            "line": "西武池袋・秩父線急行 飯能行",
+            "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "所沢"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "西武新宿線急行 本川越行",
+            "congestion": "不明"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "入曽"
+        }
+    },
     "総元_入曽": {
         "0": {
             "station_block": 1,
@@ -68651,6 +69369,62 @@
             "time": "8分",
             "line": "西武新宿線急行 本川越行",
             "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "入曽"
+        }
+    },
+    "国際展示場正門_入曽": {
+        "0": {
+            "station_block": 1,
+            "station_name": "東京ビッグサイト"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "ゆりかもめ 豊洲行",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "豊洲"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "35分",
+            "line": "東京メトロ有楽町線 小手指行",
+            "congestion": "席はいっぱい"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "小竹向原"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "西武有楽町線快速急行 小手指行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "練馬"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "西武池袋・秩父線快速急行 小手指行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "所沢"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "西武新宿線急行 本川越行",
+            "congestion": "不明"
         },
         "10": {
             "station_block": 1,
@@ -73603,6 +74377,52 @@
             "station_name": "入曽"
         }
     },
+    "伊奈中央_入曽": {
+        "0": {
+            "station_block": 1,
+            "station_name": "伊奈中央"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "22分",
+            "line": "埼玉新都市交通ニューシャトル 大宮（埼玉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "21分",
+            "line": "ＪＲ川越線通勤快速 川越行",
+            "congestion": "席はいっぱい"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "川越"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "本川越"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "12分",
+            "line": "西武新宿線各停 西武新宿行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "入曽"
+        }
+    },
     "羽貫_入曽": {
         "0": {
             "station_block": 1,
@@ -76715,6 +77535,72 @@
             "station_name": "入曽"
         }
     },
+    "市役所前_入曽": {
+        "0": {
+            "station_block": 1,
+            "station_name": "市役所前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "千葉都市モノレール１号線 千葉みなと行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉みなと"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "40分",
+            "line": "ＪＲ京葉線 東京行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "新木場"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "40分",
+            "line": "東京メトロ有楽町線 飯能行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "小竹向原"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "西武有楽町線快速急行 飯能行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "練馬"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "18分",
+            "line": "西武池袋・秩父線快速急行 飯能行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "所沢"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "西武新宿線急行 本川越行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "入曽"
+        }
+    },
     "葭川公園_入曽": {
         "0": {
             "station_block": 1,
@@ -76785,6 +77671,82 @@
             "time": "8分",
             "line": "西武新宿線急行 本川越行",
             "congestion": "余裕で座れる"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "入曽"
+        }
+    },
+    "県庁前_入曽": {
+        "0": {
+            "station_block": 1,
+            "station_name": "県庁前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "千葉都市モノレール１号線 千葉みなと行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "34分",
+            "line": "ＪＲ総武本線快速 東京行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "錦糸町"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "ＪＲ中央総武線各停 三鷹行",
+            "congestion": "圧迫される"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "飯田橋"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "東京メトロ有楽町線 飯能行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "小竹向原"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "西武有楽町線快速急行 飯能行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "練馬"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "18分",
+            "line": "西武池袋・秩父線快速急行 飯能行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "所沢"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "西武新宿線急行 本川越行",
+            "congestion": "不明"
         },
         "14": {
             "station_block": 1,
@@ -78305,6 +79267,42 @@
             "time": "16分",
             "line": "西武新宿線急行 本川越行",
             "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "入曽"
+        }
+    },
+    "高松_入曽": {
+        "0": {
+            "station_block": 1,
+            "station_name": "高松"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "多摩モノレール 上北台行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "玉川上水"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "西武拝島線急行 西武新宿行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "小平"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "西武新宿線急行 本川越行",
+            "congestion": "不明"
         },
         "6": {
             "station_block": 1,
@@ -81041,6 +82039,62 @@
             "time": "11分",
             "line": "西武新宿線準急 本川越行",
             "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "入曽"
+        }
+    },
+    "大町_入曽": {
+        "0": {
+            "station_block": 1,
+            "station_name": "大町"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "北総鉄道 羽田空港第１・第２ターミナル（京急）行",
+            "congestion": "席はいっぱい"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "東松戸"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "1時間0分",
+            "line": "ＪＲ武蔵野線 府中本町行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "新秋津"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "秋津"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "西武池袋・秩父線準急 所沢行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "所沢"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "西武新宿線準急 本川越行",
+            "congestion": "不明"
         },
         "10": {
             "station_block": 1,

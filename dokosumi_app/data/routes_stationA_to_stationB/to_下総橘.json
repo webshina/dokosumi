@@ -5199,6 +5199,82 @@
             "station_name": "下総橘"
         }
     },
+    "扇町_下総橘": {
+        "0": {
+            "station_block": 1,
+            "station_name": "扇町"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "ＪＲ鶴見線 鶴見行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "鶴見"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "ＪＲ京浜東北・根岸線 南浦和行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "川崎"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "18分",
+            "line": "ＪＲ上野東京ライン 古河〔東京経由〕行",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "東京駅〔八重洲南口〕"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "1時間20分",
+            "line": "高速バス 東京-鉾田 鉾田駅行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "佐原駅南口"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "佐原"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "28分",
+            "line": "ＪＲ成田線 銚子行",
+            "congestion": "不明"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "下総橘"
+        }
+    },
     "北府中_下総橘": {
         "0": {
             "station_block": 1,
@@ -5837,6 +5913,52 @@
             "time": "58分",
             "line": "ＪＲ成田線 銚子行",
             "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "下総橘"
+        }
+    },
+    "吉川_下総橘": {
+        "0": {
+            "station_block": 1,
+            "station_name": "吉川"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "12分",
+            "line": "ＪＲ武蔵野線 東京行",
+            "congestion": "席はいっぱい"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "新松戸"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "ＪＲ常磐線各停 我孫子（千葉県）行",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "我孫子"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "41分",
+            "line": "ＪＲ成田線 成田行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "成田"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "58分",
+            "line": "ＪＲ成田線 銚子行",
+            "congestion": "不明"
         },
         "8": {
             "station_block": 1,
@@ -21903,6 +22025,62 @@
             "station_name": "下総橘"
         }
     },
+    "竹岡_下総橘": {
+        "0": {
+            "station_block": 1,
+            "station_name": "竹岡"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "24分",
+            "line": "ＪＲ内房線 木更津行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "君津"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "44分",
+            "line": "ＪＲ内房線快速 逗子行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "ＪＲ総武本線快速 成田空港（成田第１ターミナル）行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "佐倉"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "ＪＲ成田線快速 成田空港（成田第１ターミナル）行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "成田"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "58分",
+            "line": "ＪＲ成田線 銚子行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "下総橘"
+        }
+    },
     "浜金谷_下総橘": {
         "0": {
             "station_block": 1,
@@ -22423,6 +22601,62 @@
             "congestion": "余裕で座れる"
         },
         "12": {
+            "station_block": 1,
+            "station_name": "下総橘"
+        }
+    },
+    "千歳_下総橘": {
+        "0": {
+            "station_block": 1,
+            "station_name": "千歳"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "27分",
+            "line": "ＪＲ内房線 安房鴨川行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "安房鴨川"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "1時間29分",
+            "line": "ＪＲ外房線 千葉行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "大網"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "18分",
+            "line": "ＪＲ東金線 成東行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "成東"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "1時間0分",
+            "line": "ＪＲ総武本線 銚子行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "松岸"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "ＪＲ成田線 千葉行",
+            "congestion": "不明"
+        },
+        "10": {
             "station_block": 1,
             "station_name": "下総橘"
         }
@@ -23981,6 +24215,32 @@
             "station_name": "下総橘"
         }
     },
+    "小林_下総橘": {
+        "0": {
+            "station_block": 1,
+            "station_name": "小林"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "ＪＲ成田線 成田行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "成田"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "55分",
+            "line": "ＪＲ成田線 銚子行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "下総橘"
+        }
+    },
     "安食_下総橘": {
         "0": {
             "station_block": 1,
@@ -24066,121 +24326,51 @@
         },
         "1": {
             "route_block": 1,
-            "time": "2分",
-            "line": "福岡市営空港線 福岡空港行",
-            "congestion": "余裕で座れる"
+            "time": "4分",
+            "line": "ＪＲ久留里線 木更津行",
+            "congestion": "不明"
         },
         "2": {
             "station_block": 1,
-            "station_name": "博多"
+            "station_name": "木更津"
         },
         "3": {
             "route_block": 1,
-            "time": "8分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
+            "time": "56分",
+            "line": "ＪＲ内房線 千葉行",
+            "congestion": "不明"
         },
         "4": {
             "station_block": 1,
-            "station_name": "博多バスターミナル〔博多駅〕"
+            "station_name": "千葉"
         },
         "5": {
             "route_block": 1,
-            "time": "4時間32分",
-            "line": "JR高速バス 広福ライナー 広島駅〔南口〕行",
-            "congestion": "余裕で座れる"
+            "time": "16分",
+            "line": "ＪＲ総武本線快速 成田空港（成田第１ターミナル）行",
+            "congestion": "不明"
         },
         "6": {
             "station_block": 1,
-            "station_name": "広島バスセンター"
+            "station_name": "佐倉"
         },
         "7": {
             "route_block": 1,
-            "time": "4分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
+            "time": "13分",
+            "line": "ＪＲ成田線快速 成田空港（成田第１ターミナル）行",
+            "congestion": "不明"
         },
         "8": {
             "station_block": 1,
-            "station_name": "広島バスセンター"
+            "station_name": "成田"
         },
         "9": {
             "route_block": 1,
-            "time": "4時間6分",
-            "line": "高速バス ハーバーライナー 神姫バス三ノ宮バスターミナル行",
-            "congestion": "余裕で座れる"
+            "time": "58分",
+            "line": "ＪＲ成田線 銚子行",
+            "congestion": "不明"
         },
         "10": {
-            "station_block": 1,
-            "station_name": "神姫バス三ノ宮バスターミナル"
-        },
-        "11": {
-            "route_block": 1,
-            "time": "7分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
-        },
-        "12": {
-            "station_block": 1,
-            "station_name": "三ノ宮"
-        },
-        "13": {
-            "route_block": 1,
-            "time": "1時間30分",
-            "line": "ＪＲ東海道山陽本線各停 京都行",
-            "congestion": "余裕で座れる"
-        },
-        "14": {
-            "station_block": 1,
-            "station_name": "京都"
-        },
-        "15": {
-            "route_block": 1,
-            "time": "8分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
-        },
-        "16": {
-            "station_block": 1,
-            "station_name": "京都駅八条口"
-        },
-        "17": {
-            "route_block": 1,
-            "time": "6時間30分",
-            "line": "高速バス ニュースター号 王子駅〔南口〕行",
-            "congestion": "余裕で座れる"
-        },
-        "18": {
-            "station_block": 1,
-            "station_name": "東京駅八重洲口前"
-        },
-        "19": {
-            "route_block": 1,
-            "time": "23分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
-        },
-        "20": {
-            "station_block": 1,
-            "station_name": "東京"
-        },
-        "21": {
-            "route_block": 1,
-            "time": "56分",
-            "line": "ＪＲ総武本線快速 佐倉行",
-            "congestion": "余裕で座れる"
-        },
-        "22": {
-            "station_block": 1,
-            "station_name": "佐倉"
-        },
-        "23": {
-            "route_block": 1,
-            "time": "1時間26分",
-            "line": "ＪＲ成田線 銚子行",
-            "congestion": "余裕で座れる"
-        },
-        "24": {
             "station_block": 1,
             "station_name": "下総橘"
         }
@@ -30557,6 +30747,72 @@
             "time": "28分",
             "line": "ＪＲ成田線 銚子行",
             "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "下総橘"
+        }
+    },
+    "大和田_下総橘": {
+        "0": {
+            "station_block": 1,
+            "station_name": "大和田"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "東武アーバンパークライン 大宮（埼玉県）行",
+            "congestion": "圧迫される"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "35分",
+            "line": "ＪＲ上野東京ライン 熱海〔上野経由〕行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "東京駅〔八重洲南口〕"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "1時間20分",
+            "line": "高速バス 東京-鉾田 鉾田駅行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "佐原駅南口"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "佐原"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "28分",
+            "line": "ＪＲ成田線 銚子行",
+            "congestion": "不明"
         },
         "12": {
             "station_block": 1,
@@ -38169,6 +38425,72 @@
             "station_name": "下総橘"
         }
     },
+    "競艇場前_下総橘": {
+        "0": {
+            "station_block": 1,
+            "station_name": "競艇場前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "12分",
+            "line": "西武多摩川線各停 武蔵境行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "武蔵境"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "42分",
+            "line": "ＪＲ中央線快速 東京行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "東京駅〔八重洲南口〕"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "1時間20分",
+            "line": "高速バス 東京-鉾田 鉾田駅行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "佐原駅南口"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "佐原"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "28分",
+            "line": "ＪＲ成田線 銚子行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "下総橘"
+        }
+    },
     "是政_下総橘": {
         "0": {
             "station_block": 1,
@@ -40581,6 +40903,72 @@
             "time": "55分",
             "line": "ＪＲ成田線 銚子行",
             "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "下総橘"
+        }
+    },
+    "学園前_下総橘": {
+        "0": {
+            "station_block": 1,
+            "station_name": "学園前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "京成千原線 京成津田沼行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉中央"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "1分",
+            "line": "京成千葉線 京成津田沼行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "京成千葉"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "ＪＲ総武本線快速 成田空港（成田第１ターミナル）行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "佐倉"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "ＪＲ成田線快速 成田空港（成田第１ターミナル）行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "成田"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "55分",
+            "line": "ＪＲ成田線 銚子行",
+            "congestion": "不明"
         },
         "12": {
             "station_block": 1,
@@ -43923,6 +44311,82 @@
             "time": "58分",
             "line": "ＪＲ成田線 銚子行",
             "congestion": "余裕で座れる"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "下総橘"
+        }
+    },
+    "山田_下総橘": {
+        "0": {
+            "station_block": 1,
+            "station_name": "山田"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "京王高尾線各停 新宿行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "北野"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "47分",
+            "line": "京王線準特急 新宿行",
+            "congestion": "圧迫される"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "新宿"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "ＪＲ中央線快速 東京行",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "御茶ノ水"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "ＪＲ中央総武線各停 津田沼行",
+            "congestion": "席はいっぱい"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "錦糸町"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "51分",
+            "line": "ＪＲ総武本線快速 成田空港（成田第１ターミナル）行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "佐倉"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "ＪＲ成田線快速 成田空港（成田第１ターミナル）行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "成田"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "58分",
+            "line": "ＪＲ成田線 銚子行",
+            "congestion": "不明"
         },
         "14": {
             "station_block": 1,
@@ -49236,81 +49700,71 @@
         },
         "1": {
             "route_block": 1,
-            "time": "8分",
-            "line": "名古屋市営名城線 栄（愛知県）,金山（愛知県）方面",
-            "congestion": "余裕で座れる"
+            "time": "2分",
+            "line": "小田急多摩線各停 新百合ヶ丘行",
+            "congestion": "席はいっぱい"
         },
         "2": {
             "station_block": 1,
-            "station_name": "栄"
+            "station_name": "栗平"
         },
         "3": {
             "route_block": 1,
-            "time": "4分",
-            "line": "名古屋市営東山線 藤が丘（愛知県）行",
-            "congestion": "余裕で座れる"
+            "time": "3分",
+            "line": "小田急多摩線通勤急行 新宿行",
+            "congestion": "普通に立てる"
         },
         "4": {
             "station_block": 1,
-            "station_name": "千種"
+            "station_name": "新百合ヶ丘"
         },
         "5": {
             "route_block": 1,
-            "time": "1時間47分",
-            "line": "ＪＲ中央本線 特急ワイドビューしなの5号 長野行",
-            "congestion": "余裕で座れる"
+            "time": "29分",
+            "line": "小田急小田原線通勤急行 新宿行",
+            "congestion": "不明"
         },
         "6": {
             "station_block": 1,
-            "station_name": "塩尻"
+            "station_name": "新宿"
         },
         "7": {
             "route_block": 1,
-            "time": "2時間1分",
-            "line": "ＪＲ中央本線 特急あずさ22号 新宿行",
-            "congestion": "余裕で座れる"
+            "time": "26分",
+            "line": "ＪＲ中央総武線各停 津田沼行",
+            "congestion": "席はいっぱい"
         },
         "8": {
             "station_block": 1,
-            "station_name": "立川"
+            "station_name": "錦糸町"
         },
         "9": {
             "route_block": 1,
-            "time": "40分",
-            "line": "ＪＲ中央線青梅特快 東京行",
-            "congestion": "普通に立てる"
+            "time": "51分",
+            "line": "ＪＲ総武本線快速 成田空港（成田第１ターミナル）行",
+            "congestion": "不明"
         },
         "10": {
             "station_block": 1,
-            "station_name": "東京"
+            "station_name": "佐倉"
         },
         "11": {
             "route_block": 1,
-            "time": "1時間2分",
-            "line": "ＪＲ総武本線快速 成田空港（成田第１ターミナル）行",
-            "congestion": "余裕で座れる"
+            "time": "13分",
+            "line": "ＪＲ成田線快速 成田空港（成田第１ターミナル）行",
+            "congestion": "不明"
         },
         "12": {
             "station_block": 1,
-            "station_name": "佐倉"
+            "station_name": "成田"
         },
         "13": {
             "route_block": 1,
-            "time": "13分",
-            "line": "ＪＲ成田線快速 成田空港（成田第１ターミナル）行",
-            "congestion": "余裕で座れる"
+            "time": "58分",
+            "line": "ＪＲ成田線 銚子行",
+            "congestion": "不明"
         },
         "14": {
-            "station_block": 1,
-            "station_name": "成田"
-        },
-        "15": {
-            "route_block": 1,
-            "time": "1時間0分",
-            "line": "ＪＲ成田線 銚子行",
-            "congestion": "余裕で座れる"
-        },
-        "16": {
             "station_block": 1,
             "station_name": "下総橘"
         }
@@ -55699,6 +56153,82 @@
             "station_name": "下総橘"
         }
     },
+    "山下_下総橘": {
+        "0": {
+            "station_block": 1,
+            "station_name": "山下"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "豪徳寺"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "小田急小田原線各停 新宿行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "新宿"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "ＪＲ中央線快速 東京行",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "東京駅〔八重洲南口〕"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "1時間20分",
+            "line": "高速バス 東京-鉾田 鉾田駅行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "佐原駅南口"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "佐原"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "28分",
+            "line": "ＪＲ成田線 銚子行",
+            "congestion": "不明"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "下総橘"
+        }
+    },
     "松原_下総橘": {
         "0": {
             "station_block": 1,
@@ -61397,6 +61927,82 @@
             "station_name": "下総橘"
         }
     },
+    "京橋_下総橘": {
+        "0": {
+            "station_block": 1,
+            "station_name": "京橋"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "東京メトロ銀座線 浅草行",
+            "congestion": "普通に立てる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "三越前"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "新日本橋"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "22分",
+            "line": "ＪＲ総武本線快速 千葉行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "船橋"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "京成船橋"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "44分",
+            "line": "京成本線 京成成田行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "京成成田"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "成田"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "55分",
+            "line": "ＪＲ成田線 銚子行",
+            "congestion": "不明"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "下総橘"
+        }
+    },
     "銀座_下総橘": {
         "0": {
             "station_block": 1,
@@ -65489,6 +66095,82 @@
             "congestion": "余裕で座れる"
         },
         "12": {
+            "station_block": 1,
+            "station_name": "下総橘"
+        }
+    },
+    "明治神宮前〈原宿〉_下総橘": {
+        "0": {
+            "station_block": 1,
+            "station_name": "明治神宮前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "1分",
+            "line": "東京メトロ千代田線 綾瀬行",
+            "congestion": "席はいっぱい"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "表参道"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "21分",
+            "line": "東京メトロ銀座線 浅草行",
+            "congestion": "圧迫される"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "神田"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "ＪＲ山手線 東京,品川方面",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "東京駅〔八重洲南口〕"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "1時間20分",
+            "line": "高速バス 東京-鉾田 鉾田駅行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "佐原駅南口"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "佐原"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "28分",
+            "line": "ＪＲ成田線 銚子行",
+            "congestion": "不明"
+        },
+        "14": {
             "station_block": 1,
             "station_name": "下総橘"
         }
@@ -74760,81 +75442,41 @@
         },
         "1": {
             "route_block": 1,
-            "time": "3分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
+            "time": "2分",
+            "line": "千葉都市モノレール１号線 千葉みなと行",
+            "congestion": "不明"
         },
         "2": {
             "station_block": 1,
-            "station_name": "栄"
+            "station_name": "千葉"
         },
         "3": {
             "route_block": 1,
-            "time": "4分",
-            "line": "名古屋市営東山線 藤が丘（愛知県）行",
-            "congestion": "余裕で座れる"
+            "time": "16分",
+            "line": "ＪＲ総武本線快速 成田空港（成田第１ターミナル）行",
+            "congestion": "不明"
         },
         "4": {
             "station_block": 1,
-            "station_name": "千種"
+            "station_name": "佐倉"
         },
         "5": {
             "route_block": 1,
-            "time": "1時間47分",
-            "line": "ＪＲ中央本線 特急ワイドビューしなの5号 長野行",
-            "congestion": "余裕で座れる"
+            "time": "13分",
+            "line": "ＪＲ成田線快速 成田空港（成田第１ターミナル）行",
+            "congestion": "不明"
         },
         "6": {
             "station_block": 1,
-            "station_name": "塩尻"
+            "station_name": "成田"
         },
         "7": {
             "route_block": 1,
-            "time": "2時間1分",
-            "line": "ＪＲ中央本線 特急あずさ22号 新宿行",
-            "congestion": "余裕で座れる"
+            "time": "55分",
+            "line": "ＪＲ成田線 銚子行",
+            "congestion": "不明"
         },
         "8": {
-            "station_block": 1,
-            "station_name": "立川"
-        },
-        "9": {
-            "route_block": 1,
-            "time": "40分",
-            "line": "ＪＲ中央線青梅特快 東京行",
-            "congestion": "普通に立てる"
-        },
-        "10": {
-            "station_block": 1,
-            "station_name": "東京"
-        },
-        "11": {
-            "route_block": 1,
-            "time": "1時間2分",
-            "line": "ＪＲ総武本線快速 成田空港（成田第１ターミナル）行",
-            "congestion": "余裕で座れる"
-        },
-        "12": {
-            "station_block": 1,
-            "station_name": "佐倉"
-        },
-        "13": {
-            "route_block": 1,
-            "time": "13分",
-            "line": "ＪＲ成田線快速 成田空港（成田第１ターミナル）行",
-            "congestion": "余裕で座れる"
-        },
-        "14": {
-            "station_block": 1,
-            "station_name": "成田"
-        },
-        "15": {
-            "route_block": 1,
-            "time": "1時間0分",
-            "line": "ＪＲ成田線 銚子行",
-            "congestion": "余裕で座れる"
-        },
-        "16": {
             "station_block": 1,
             "station_name": "下総橘"
         }
@@ -79259,6 +79901,62 @@
             "station_name": "下総橘"
         }
     },
+    "久我原_下総橘": {
+        "0": {
+            "station_block": 1,
+            "station_name": "久我原"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "40分",
+            "line": "いすみ鉄道 大原（千葉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "大原"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "39分",
+            "line": "ＪＲ外房線 千葉行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "大網"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "ＪＲ東金線 成東行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "成東"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "57分",
+            "line": "ＪＲ総武本線 銚子行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "松岸"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "ＪＲ成田線 成田行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "下総橘"
+        }
+    },
     "総元_下総橘": {
         "0": {
             "station_block": 1,
@@ -80663,6 +81361,62 @@
             "congestion": "余裕で座れる"
         },
         "12": {
+            "station_block": 1,
+            "station_name": "下総橘"
+        }
+    },
+    "国際展示場正門_下総橘": {
+        "0": {
+            "station_block": 1,
+            "station_name": "東京ビッグサイト"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "22分",
+            "line": "ゆりかもめ 新橋行",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "新橋"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "ＪＲ横須賀線 成田空港（成田第１ターミナル）行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "59分",
+            "line": "ＪＲ総武本線快速 成田空港（成田第１ターミナル）行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "佐倉"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "ＪＲ成田線快速 成田空港（成田第１ターミナル）行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "成田"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "58分",
+            "line": "ＪＲ成田線 銚子行",
+            "congestion": "不明"
+        },
+        "10": {
             "station_block": 1,
             "station_name": "下総橘"
         }
@@ -85573,6 +86327,72 @@
             "station_name": "下総橘"
         }
     },
+    "伊奈中央_下総橘": {
+        "0": {
+            "station_block": 1,
+            "station_name": "伊奈中央"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "22分",
+            "line": "埼玉新都市交通ニューシャトル 大宮（埼玉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "35分",
+            "line": "ＪＲ上野東京ライン 熱海〔上野経由〕行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "東京駅〔八重洲南口〕"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "1時間20分",
+            "line": "高速バス 東京-鉾田 鉾田駅行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "佐原駅南口"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "佐原"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "28分",
+            "line": "ＪＲ成田線 銚子行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "下総橘"
+        }
+    },
     "羽貫_下総橘": {
         "0": {
             "station_block": 1,
@@ -88085,6 +88905,52 @@
             "station_name": "下総橘"
         }
     },
+    "市役所前_下総橘": {
+        "0": {
+            "station_block": 1,
+            "station_name": "市役所前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "千葉都市モノレール１号線 県庁前（千葉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "ＪＲ総武本線快速 成田空港（成田第１ターミナル）行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "佐倉"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "ＪＲ成田線快速 成田空港（成田第１ターミナル）行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "成田"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "55分",
+            "line": "ＪＲ成田線 銚子行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "下総橘"
+        }
+    },
     "葭川公園_下総橘": {
         "0": {
             "station_block": 1,
@@ -88125,6 +88991,52 @@
             "time": "55分",
             "line": "ＪＲ成田線 銚子行",
             "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "下総橘"
+        }
+    },
+    "県庁前_下総橘": {
+        "0": {
+            "station_block": 1,
+            "station_name": "県庁前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "千葉都市モノレール１号線 千葉みなと行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "ＪＲ総武本線快速 成田空港（成田第１ターミナル）行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "佐倉"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "ＪＲ成田線快速 成田空港（成田第１ターミナル）行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "成田"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "55分",
+            "line": "ＪＲ成田線 銚子行",
+            "congestion": "不明"
         },
         "8": {
             "station_block": 1,
@@ -89577,6 +90489,82 @@
             "congestion": "余裕で座れる"
         },
         "12": {
+            "station_block": 1,
+            "station_name": "下総橘"
+        }
+    },
+    "高松_下総橘": {
+        "0": {
+            "station_block": 1,
+            "station_name": "高松"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "多摩モノレール 多摩センター行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "立川北"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "立川"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "44分",
+            "line": "ＪＲ中央本線 特急あずさ4号 東京行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "東京駅〔八重洲南口〕"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "1時間20分",
+            "line": "高速バス 東京-鉾田 鉾田駅行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "佐原駅南口"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "佐原"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "28分",
+            "line": "ＪＲ成田線 銚子行",
+            "congestion": "不明"
+        },
+        "14": {
             "station_block": 1,
             "station_name": "下総橘"
         }
@@ -92241,6 +93229,52 @@
             "time": "55分",
             "line": "ＪＲ成田線 銚子行",
             "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "下総橘"
+        }
+    },
+    "大町_下総橘": {
+        "0": {
+            "station_block": 1,
+            "station_name": "大町"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "北総鉄道 印西牧の原行",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "新鎌ヶ谷"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "27分",
+            "line": "京成成田空港線アクセス特急 成田空港（成田第１ターミナル）行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "空港第２ビル"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "ＪＲ成田線快速 逗子行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "成田"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "55分",
+            "line": "ＪＲ成田線 銚子行",
+            "congestion": "不明"
         },
         "8": {
             "station_block": 1,

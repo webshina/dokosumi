@@ -3489,6 +3489,62 @@
             "station_name": "北朝霞"
         }
     },
+    "扇町_北朝霞": {
+        "0": {
+            "station_block": 1,
+            "station_name": "扇町"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "ＪＲ鶴見線 鶴見行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "鶴見"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "19分",
+            "line": "ＪＲ京浜東北・根岸線 南浦和行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "品川"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "30分",
+            "line": "ＪＲ山手線 渋谷,新宿方面",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "池袋"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "東武東上線急行 小川町（埼玉県）行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "朝霞台"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "北朝霞"
+        }
+    },
     "北府中_北朝霞": {
         "0": {
             "station_block": 1,
@@ -15059,6 +15115,62 @@
             "station_name": "北朝霞"
         }
     },
+    "竹岡_北朝霞": {
+        "0": {
+            "station_block": 1,
+            "station_name": "竹岡"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "24分",
+            "line": "ＪＲ内房線 木更津行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "君津"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "44分",
+            "line": "ＪＲ内房線快速 逗子行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "ＪＲ総武本線快速 逗子行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "船橋"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "ＪＲ中央総武線各停 中野（東京都）行",
+            "congestion": "席はいっぱい"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "西船橋"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "54分",
+            "line": "ＪＲ武蔵野線 府中本町行",
+            "congestion": "席はいっぱい"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "北朝霞"
+        }
+    },
     "浜金谷_北朝霞": {
         "0": {
             "station_block": 1,
@@ -15547,6 +15659,62 @@
             "time": "38分",
             "line": "ＪＲ内房線快速 逗子行",
             "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "蘇我"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "ＪＲ京葉線快速 東京行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "南船橋"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "1時間0分",
+            "line": "ＪＲ武蔵野線 府中本町行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "北朝霞"
+        }
+    },
+    "千歳_北朝霞": {
+        "0": {
+            "station_block": 1,
+            "station_name": "千歳"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "ＪＲ内房線 館山行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "館山"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "59分",
+            "line": "ＪＲ内房線 木更津行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "君津"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "38分",
+            "line": "ＪＲ内房線快速 逗子行",
+            "congestion": "不明"
         },
         "6": {
             "station_block": 1,
@@ -17283,6 +17451,42 @@
             "station_name": "北朝霞"
         }
     },
+    "小林_北朝霞": {
+        "0": {
+            "station_block": 1,
+            "station_name": "小林"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "24分",
+            "line": "ＪＲ成田線 我孫子（千葉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "我孫子"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "ＪＲ常磐線各停 代々木上原行",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "新松戸"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "39分",
+            "line": "ＪＲ武蔵野線 府中本町行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "北朝霞"
+        }
+    },
     "安食_北朝霞": {
         "0": {
             "station_block": 1,
@@ -17418,121 +17622,51 @@
         },
         "1": {
             "route_block": 1,
-            "time": "2分",
-            "line": "福岡市営空港線 福岡空港行",
-            "congestion": "余裕で座れる"
+            "time": "4分",
+            "line": "ＪＲ久留里線 木更津行",
+            "congestion": "不明"
         },
         "2": {
             "station_block": 1,
-            "station_name": "博多"
+            "station_name": "木更津"
         },
         "3": {
             "route_block": 1,
-            "time": "8分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
+            "time": "36分",
+            "line": "ＪＲ内房線快速 逗子行",
+            "congestion": "不明"
         },
         "4": {
             "station_block": 1,
-            "station_name": "博多バスターミナル〔博多駅〕"
+            "station_name": "千葉"
         },
         "5": {
             "route_block": 1,
-            "time": "4時間32分",
-            "line": "JR高速バス 広福ライナー 広島駅〔南口〕行",
-            "congestion": "余裕で座れる"
+            "time": "11分",
+            "line": "ＪＲ総武本線快速 逗子行",
+            "congestion": "不明"
         },
         "6": {
             "station_block": 1,
-            "station_name": "広島バスセンター"
+            "station_name": "津田沼"
         },
         "7": {
             "route_block": 1,
-            "time": "4分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
+            "time": "9分",
+            "line": "ＪＲ中央総武線各停 中野（東京都）行",
+            "congestion": "席はいっぱい"
         },
         "8": {
             "station_block": 1,
-            "station_name": "広島バスセンター"
+            "station_name": "西船橋"
         },
         "9": {
             "route_block": 1,
-            "time": "4時間6分",
-            "line": "高速バス ハーバーライナー 神姫バス三ノ宮バスターミナル行",
-            "congestion": "余裕で座れる"
-        },
-        "10": {
-            "station_block": 1,
-            "station_name": "神姫バス三ノ宮バスターミナル"
-        },
-        "11": {
-            "route_block": 1,
-            "time": "7分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
-        },
-        "12": {
-            "station_block": 1,
-            "station_name": "三ノ宮"
-        },
-        "13": {
-            "route_block": 1,
-            "time": "1時間36分",
-            "line": "ＪＲ東海道山陽本線各停 京都行",
-            "congestion": "余裕で座れる"
-        },
-        "14": {
-            "station_block": 1,
-            "station_name": "京都"
-        },
-        "15": {
-            "route_block": 1,
-            "time": "8分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
-        },
-        "16": {
-            "station_block": 1,
-            "station_name": "京都駅八条口"
-        },
-        "17": {
-            "route_block": 1,
-            "time": "6時間11分",
-            "line": "高速バス サンシャインエクスプレス 東京駅鍛冶橋駐車場行",
-            "congestion": "余裕で座れる"
-        },
-        "18": {
-            "station_block": 1,
-            "station_name": "バスタ新宿〔新宿駅新南口〕"
-        },
-        "19": {
-            "route_block": 1,
-            "time": "8分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
-        },
-        "20": {
-            "station_block": 1,
-            "station_name": "新宿"
-        },
-        "21": {
-            "route_block": 1,
-            "time": "29分",
-            "line": "ＪＲ埼京線 大宮（埼玉県）行",
-            "congestion": "余裕で座れる"
-        },
-        "22": {
-            "station_block": 1,
-            "station_name": "武蔵浦和"
-        },
-        "23": {
-            "route_block": 1,
-            "time": "7分",
+            "time": "54分",
             "line": "ＪＲ武蔵野線 府中本町行",
             "congestion": "席はいっぱい"
         },
-        "24": {
+        "10": {
             "station_block": 1,
             "station_name": "北朝霞"
         }
@@ -21659,6 +21793,32 @@
             "time": "13分",
             "line": "むさしの号 八王子行",
             "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "北朝霞"
+        }
+    },
+    "大和田_北朝霞": {
+        "0": {
+            "station_block": 1,
+            "station_name": "大和田"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "東武アーバンパークライン 大宮（埼玉県）行",
+            "congestion": "圧迫される"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "むさしの号 八王子行",
+            "congestion": "不明"
         },
         "4": {
             "station_block": 1,
@@ -26817,6 +26977,42 @@
             "station_name": "北朝霞"
         }
     },
+    "競艇場前_北朝霞": {
+        "0": {
+            "station_block": 1,
+            "station_name": "競艇場前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "12分",
+            "line": "西武多摩川線各停 武蔵境行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "武蔵境"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "ＪＲ中央線快速 高尾（東京都）行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "西国分寺"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "18分",
+            "line": "ＪＲ武蔵野線 南船橋行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "北朝霞"
+        }
+    },
     "是政_北朝霞": {
         "0": {
             "station_block": 1,
@@ -29545,6 +29741,62 @@
             "station_name": "北朝霞"
         }
     },
+    "学園前_北朝霞": {
+        "0": {
+            "station_block": 1,
+            "station_name": "学園前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "京成千原線 京成津田沼行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉中央"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "京成千葉線 京成津田沼行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "京成幕張本郷"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "幕張本郷"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "ＪＲ中央総武線各停 三鷹行",
+            "congestion": "普通に立てる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "西船橋"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "55分",
+            "line": "ＪＲ武蔵野線 東所沢行",
+            "congestion": "席はいっぱい"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "北朝霞"
+        }
+    },
     "おゆみ野_北朝霞": {
         "0": {
             "station_block": 1,
@@ -31703,6 +31955,42 @@
             "congestion": "余裕で座れる"
         },
         "10": {
+            "station_block": 1,
+            "station_name": "北朝霞"
+        }
+    },
+    "山田_北朝霞": {
+        "0": {
+            "station_block": 1,
+            "station_name": "山田"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "京王高尾線各停 高尾山口行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "高尾"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "30分",
+            "line": "ＪＲ中央線快速 東京行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "西国分寺"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "18分",
+            "line": "ＪＲ武蔵野線 東京行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
             "station_block": 1,
             "station_name": "北朝霞"
         }
@@ -35224,61 +35512,41 @@
         },
         "1": {
             "route_block": 1,
-            "time": "8分",
-            "line": "名古屋市営名城線 栄（愛知県）,金山（愛知県）方面",
-            "congestion": "余裕で座れる"
+            "time": "6分",
+            "line": "小田急多摩線各停 新百合ヶ丘行",
+            "congestion": "席はいっぱい"
         },
         "2": {
             "station_block": 1,
-            "station_name": "栄"
+            "station_name": "新百合ヶ丘"
         },
         "3": {
             "route_block": 1,
-            "time": "4分",
-            "line": "名古屋市営東山線 藤が丘（愛知県）行",
-            "congestion": "余裕で座れる"
+            "time": "11分",
+            "line": "小田急小田原線通勤準急 松戸行",
+            "congestion": "普通に立てる"
         },
         "4": {
             "station_block": 1,
-            "station_name": "千種"
+            "station_name": "登戸"
         },
         "5": {
             "route_block": 1,
-            "time": "1時間46分",
-            "line": "ＪＲ中央本線 特急ワイドビューしなの11号 長野行",
-            "congestion": "余裕で座れる"
+            "time": "15分",
+            "line": "ＪＲ南武線 立川行",
+            "congestion": "圧迫される"
         },
         "6": {
             "station_block": 1,
-            "station_name": "塩尻"
+            "station_name": "府中本町"
         },
         "7": {
             "route_block": 1,
-            "time": "2時間2分",
-            "line": "ＪＲ中央本線 特急あずさ34号 新宿行",
+            "time": "23分",
+            "line": "ＪＲ武蔵野線 東京行",
             "congestion": "余裕で座れる"
         },
         "8": {
-            "station_block": 1,
-            "station_name": "立川"
-        },
-        "9": {
-            "route_block": 1,
-            "time": "5分",
-            "line": "ＪＲ中央線快速 東京行",
-            "congestion": "席はいっぱい"
-        },
-        "10": {
-            "station_block": 1,
-            "station_name": "西国分寺"
-        },
-        "11": {
-            "route_block": 1,
-            "time": "18分",
-            "line": "ＪＲ武蔵野線 東京行",
-            "congestion": "席はいっぱい"
-        },
-        "12": {
             "station_block": 1,
             "station_name": "北朝霞"
         }
@@ -39621,6 +39889,62 @@
             "time": "3分",
             "line": "徒歩 ",
             "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "北朝霞"
+        }
+    },
+    "山下_北朝霞": {
+        "0": {
+            "station_block": 1,
+            "station_name": "山下"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "東急世田谷線各停 下高井戸行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "下高井戸"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "京王線各停 新宿行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "新宿"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "ＪＲ山手線 池袋,上野方面",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "池袋"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "東武東上線急行 小川町（埼玉県）行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "朝霞台"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "徒歩 ",
+            "congestion": "不明"
         },
         "10": {
             "station_block": 1,
@@ -44315,6 +44639,52 @@
             "station_name": "北朝霞"
         }
     },
+    "京橋_北朝霞": {
+        "0": {
+            "station_block": 1,
+            "station_name": "京橋"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "東京メトロ銀座線 渋谷行",
+            "congestion": "普通に立てる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "銀座"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "20分",
+            "line": "東京メトロ丸ノ内線 池袋行",
+            "congestion": "席はいっぱい"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "池袋"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "19分",
+            "line": "東武東上線準急 川越市行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "朝霞台"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "北朝霞"
+        }
+    },
     "銀座_北朝霞": {
         "0": {
             "station_block": 1,
@@ -47061,6 +47431,52 @@
             "time": "3分",
             "line": "徒歩 ",
             "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "北朝霞"
+        }
+    },
+    "明治神宮前〈原宿〉_北朝霞": {
+        "0": {
+            "station_block": 1,
+            "station_name": "明治神宮前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "東京メトロ副都心線 池袋行",
+            "congestion": "席はいっぱい"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "新宿三丁目"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "25分",
+            "line": "東京メトロ副都心線通勤急行 和光市行",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "和光市"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "東武東上線準急 川越市行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "朝霞台"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "徒歩 ",
+            "congestion": "不明"
         },
         "8": {
             "station_block": 1,
@@ -54094,61 +54510,31 @@
         },
         "1": {
             "route_block": 1,
-            "time": "3分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
+            "time": "4分",
+            "line": "千葉都市モノレール１号線 千葉みなと行",
+            "congestion": "不明"
         },
         "2": {
             "station_block": 1,
-            "station_name": "栄"
+            "station_name": "千葉"
         },
         "3": {
             "route_block": 1,
-            "time": "4分",
-            "line": "名古屋市営東山線 藤が丘（愛知県）行",
+            "time": "26分",
+            "line": "ＪＲ中央総武線各停 三鷹行",
             "congestion": "余裕で座れる"
         },
         "4": {
             "station_block": 1,
-            "station_name": "千種"
+            "station_name": "西船橋"
         },
         "5": {
             "route_block": 1,
-            "time": "1時間46分",
-            "line": "ＪＲ中央本線 特急ワイドビューしなの11号 長野行",
-            "congestion": "余裕で座れる"
+            "time": "55分",
+            "line": "ＪＲ武蔵野線 東所沢行",
+            "congestion": "席はいっぱい"
         },
         "6": {
-            "station_block": 1,
-            "station_name": "塩尻"
-        },
-        "7": {
-            "route_block": 1,
-            "time": "2時間2分",
-            "line": "ＪＲ中央本線 特急あずさ34号 新宿行",
-            "congestion": "余裕で座れる"
-        },
-        "8": {
-            "station_block": 1,
-            "station_name": "立川"
-        },
-        "9": {
-            "route_block": 1,
-            "time": "5分",
-            "line": "ＪＲ中央線快速 東京行",
-            "congestion": "席はいっぱい"
-        },
-        "10": {
-            "station_block": 1,
-            "station_name": "西国分寺"
-        },
-        "11": {
-            "route_block": 1,
-            "time": "18分",
-            "line": "ＪＲ武蔵野線 東京行",
-            "congestion": "席はいっぱい"
-        },
-        "12": {
             "station_block": 1,
             "station_name": "北朝霞"
         }
@@ -57133,6 +57519,92 @@
             "station_name": "北朝霞"
         }
     },
+    "久我原_北朝霞": {
+        "0": {
+            "station_block": 1,
+            "station_name": "久我原"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "いすみ鉄道 大原（千葉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "城見ヶ丘"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "大多喜〔オリブ〕"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "1時間27分",
+            "line": "高速バス 浜松町・東京-勝浦・御宿・安房小湊 東京駅八重洲口前行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "東京駅八重洲口前"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "ＪＲ中央線快速 青梅行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "御茶ノ水"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "12分",
+            "line": "東京メトロ丸ノ内線 池袋行",
+            "congestion": "席はいっぱい"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "池袋"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "東武東上線急行 小川町（埼玉県）行",
+            "congestion": "余裕で座れる"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "朝霞台"
+        },
+        "15": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "16": {
+            "station_block": 1,
+            "station_name": "北朝霞"
+        }
+    },
     "総元_北朝霞": {
         "0": {
             "station_block": 1,
@@ -58325,6 +58797,52 @@
             "time": "3分",
             "line": "徒歩 ",
             "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "北朝霞"
+        }
+    },
+    "国際展示場正門_北朝霞": {
+        "0": {
+            "station_block": 1,
+            "station_name": "東京ビッグサイト"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "ゆりかもめ 豊洲行",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "豊洲"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "28分",
+            "line": "東京メトロ有楽町線 和光市行",
+            "congestion": "席はいっぱい"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "池袋"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "18分",
+            "line": "東武東上線準急 川越市行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "朝霞台"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "徒歩 ",
+            "congestion": "不明"
         },
         "8": {
             "station_block": 1,
@@ -62467,6 +62985,32 @@
             "station_name": "北朝霞"
         }
     },
+    "伊奈中央_北朝霞": {
+        "0": {
+            "station_block": 1,
+            "station_name": "伊奈中央"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "22分",
+            "line": "埼玉新都市交通ニューシャトル 大宮（埼玉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "むさしの号 八王子行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "北朝霞"
+        }
+    },
     "羽貫_北朝霞": {
         "0": {
             "station_block": 1,
@@ -64559,6 +65103,62 @@
             "station_name": "北朝霞"
         }
     },
+    "市役所前_北朝霞": {
+        "0": {
+            "station_block": 1,
+            "station_name": "市役所前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "千葉都市モノレール１号線 千葉みなと行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉みなと"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "ＪＲ京葉線 東京行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "新習志野"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "ＪＲ京葉線 西船橋行",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "南船橋"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "ＪＲ武蔵野線 西船橋行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "西船橋"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "53分",
+            "line": "ＪＲ武蔵野線 府中本町行",
+            "congestion": "席はいっぱい"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "北朝霞"
+        }
+    },
     "葭川公園_北朝霞": {
         "0": {
             "station_block": 1,
@@ -64569,6 +65169,42 @@
             "time": "6分",
             "line": "千葉都市モノレール１号線 千葉みなと行",
             "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "26分",
+            "line": "ＪＲ中央総武線各停 三鷹行",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "西船橋"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "55分",
+            "line": "ＪＲ武蔵野線 東所沢行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "北朝霞"
+        }
+    },
+    "県庁前_北朝霞": {
+        "0": {
+            "station_block": 1,
+            "station_name": "県庁前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "千葉都市モノレール１号線 千葉みなと行",
+            "congestion": "不明"
         },
         "2": {
             "station_block": 1,
@@ -65811,6 +66447,52 @@
             "congestion": "席はいっぱい"
         },
         "6": {
+            "station_block": 1,
+            "station_name": "北朝霞"
+        }
+    },
+    "高松_北朝霞": {
+        "0": {
+            "station_block": 1,
+            "station_name": "高松"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "多摩モノレール 多摩センター行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "立川南"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "立川"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "ＪＲ中央線快速 東京行",
+            "congestion": "圧迫される"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "西国分寺"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "19分",
+            "line": "ＪＲ武蔵野線 東京行",
+            "congestion": "席はいっぱい"
+        },
+        "8": {
             "station_block": 1,
             "station_name": "北朝霞"
         }
@@ -68063,6 +68745,32 @@
         "1": {
             "route_block": 1,
             "time": "1分",
+            "line": "北総鉄道 羽田空港第１・第２ターミナル（京急）行",
+            "congestion": "席はいっぱい"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "東松戸"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "49分",
+            "line": "ＪＲ武蔵野線 府中本町行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "北朝霞"
+        }
+    },
+    "大町_北朝霞": {
+        "0": {
+            "station_block": 1,
+            "station_name": "大町"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "3分",
             "line": "北総鉄道 羽田空港第１・第２ターミナル（京急）行",
             "congestion": "席はいっぱい"
         },

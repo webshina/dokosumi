@@ -2599,6 +2599,52 @@
             "station_name": "日吉"
         }
     },
+    "扇町_日吉": {
+        "0": {
+            "station_block": 1,
+            "station_name": "扇町"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "ＪＲ鶴見線 鶴見行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "浜川崎"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "ＪＲ南武線 尻手行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "尻手"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "ＪＲ南武線 武蔵中原行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "武蔵小杉"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "東急東横線各停 元町・中華街行",
+            "congestion": "席はいっぱい"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "日吉"
+        }
+    },
     "北府中_日吉": {
         "0": {
             "station_block": 1,
@@ -15011,6 +15057,62 @@
             "station_name": "日吉"
         }
     },
+    "竹岡_日吉": {
+        "0": {
+            "station_block": 1,
+            "station_name": "竹岡"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "38分",
+            "line": "ＪＲ内房線 木更津行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "木更津"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "木更津駅東口"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "1時間2分",
+            "line": "京急バス [高速] 横浜駅東口行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "横浜駅東口"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "横浜"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "19分",
+            "line": "東急東横線各停 渋谷行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "日吉"
+        }
+    },
     "浜金谷_日吉": {
         "0": {
             "station_block": 1,
@@ -15489,6 +15591,62 @@
             "time": "13分",
             "line": "徒歩 ",
             "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "横浜"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "東急東横線急行 和光市行",
+            "congestion": "席はいっぱい"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "日吉"
+        }
+    },
+    "千歳_日吉": {
+        "0": {
+            "station_block": 1,
+            "station_name": "千歳"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "ＪＲ内房線 館山行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "館山"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "館山駅前"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "2時間5分",
+            "line": "京急バス [高速] 横浜駅東口行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "横浜駅東口"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "徒歩 ",
+            "congestion": "不明"
         },
         "8": {
             "station_block": 1,
@@ -17495,6 +17653,72 @@
             "station_name": "日吉"
         }
     },
+    "小林_日吉": {
+        "0": {
+            "station_block": 1,
+            "station_name": "小林"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "24分",
+            "line": "ＪＲ成田線 我孫子（千葉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "我孫子"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "ＪＲ常磐線快速 上野行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "松戸"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "ＪＲ常磐線各停 成城学園前行",
+            "congestion": "圧迫される"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "綾瀬"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "21分",
+            "line": "東京メトロ千代田線 成城学園前行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "大手町"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "都営三田線急行 日吉（神奈川県）行",
+            "congestion": "席はいっぱい"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "目黒"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "東急目黒線急行 日吉（神奈川県）行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "日吉"
+        }
+    },
     "安食_日吉": {
         "0": {
             "station_block": 1,
@@ -17710,121 +17934,61 @@
         },
         "1": {
             "route_block": 1,
-            "time": "2分",
-            "line": "福岡市営空港線 福岡空港行",
-            "congestion": "余裕で座れる"
+            "time": "4分",
+            "line": "徒歩 ",
+            "congestion": "不明"
         },
         "2": {
             "station_block": 1,
-            "station_name": "博多"
+            "station_name": "祇園"
         },
         "3": {
             "route_block": 1,
-            "time": "1時間21分",
-            "line": "ＪＲ鹿児島本線区間快速 小倉（福岡県）行",
-            "congestion": "余裕で座れる"
+            "time": "11分",
+            "line": "日東交通 馬来田線 木更津駅東口行",
+            "congestion": "不明"
         },
         "4": {
             "station_block": 1,
-            "station_name": "小倉"
+            "station_name": "木更津駅東口"
         },
         "5": {
             "route_block": 1,
-            "time": "6分",
-            "line": "ＪＲ鹿児島本線 下関行",
-            "congestion": "余裕で座れる"
+            "time": "4分",
+            "line": "徒歩 ",
+            "congestion": "不明"
         },
         "6": {
             "station_block": 1,
-            "station_name": "門司"
+            "station_name": "木更津駅東口"
         },
         "7": {
             "route_block": 1,
-            "time": "6分",
-            "line": "ＪＲ山陽本線 下関行",
-            "congestion": "余裕で座れる"
+            "time": "55分",
+            "line": "京急バス [高速] 横浜駅東口行",
+            "congestion": "不明"
         },
         "8": {
             "station_block": 1,
-            "station_name": "下関"
+            "station_name": "横浜駅東口"
         },
         "9": {
             "route_block": 1,
-            "time": "3時間7分",
-            "line": "ＪＲ山陽本線 岩国行",
-            "congestion": "余裕で座れる"
+            "time": "13分",
+            "line": "徒歩 ",
+            "congestion": "不明"
         },
         "10": {
             "station_block": 1,
-            "station_name": "岩国"
+            "station_name": "横浜"
         },
         "11": {
             "route_block": 1,
-            "time": "47分",
-            "line": "ＪＲ山陽本線 西条（広島県）行",
-            "congestion": "余裕で座れる"
-        },
-        "12": {
-            "station_block": 1,
-            "station_name": "新白島"
-        },
-        "13": {
-            "route_block": 1,
-            "time": "5分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
-        },
-        "14": {
-            "station_block": 1,
-            "station_name": "新白島駅"
-        },
-        "15": {
-            "route_block": 1,
-            "time": "2時間39分",
-            "line": "JR高速バス サンサンライナー 岡山駅〔西口〕行",
-            "congestion": "余裕で座れる"
-        },
-        "16": {
-            "station_block": 1,
-            "station_name": "岡山駅〔西口〕"
-        },
-        "17": {
-            "route_block": 1,
-            "time": "4分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
-        },
-        "18": {
-            "station_block": 1,
-            "station_name": "岡山駅〔西口〕"
-        },
-        "19": {
-            "route_block": 1,
-            "time": "8時間30分",
-            "line": "ジャムジャムライナー ＪＡＭＪＡＭライナー 東京駅鍛冶橋駐車場行",
-            "congestion": "余裕で座れる"
-        },
-        "20": {
-            "station_block": 1,
-            "station_name": "横浜駅東口／ＹＣＡＴ"
-        },
-        "21": {
-            "route_block": 1,
-            "time": "14分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
-        },
-        "22": {
-            "station_block": 1,
-            "station_name": "横浜"
-        },
-        "23": {
-            "route_block": 1,
-            "time": "16分",
-            "line": "東急東横線各停 渋谷行",
+            "time": "13分",
+            "line": "東急東横線急行 和光市行",
             "congestion": "席はいっぱい"
         },
-        "24": {
+        "12": {
             "station_block": 1,
             "station_name": "日吉"
         }
@@ -23409,6 +23573,52 @@
         "1": {
             "route_block": 1,
             "time": "5分",
+            "line": "東武アーバンパークライン 大宮（埼玉県）行",
+            "congestion": "圧迫される"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "18分",
+            "line": "ＪＲ高崎線 上野行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "赤羽"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "21分",
+            "line": "ＪＲ埼京線 海老名（小田急・相鉄）行",
+            "congestion": "圧迫される"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "渋谷"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "19分",
+            "line": "東急東横線急行 元町・中華街行",
+            "congestion": "席はいっぱい"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "日吉"
+        }
+    },
+    "大和田_日吉": {
+        "0": {
+            "station_block": 1,
+            "station_name": "大和田"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "7分",
             "line": "東武アーバンパークライン 大宮（埼玉県）行",
             "congestion": "圧迫される"
         },
@@ -29443,6 +29653,62 @@
             "station_name": "日吉"
         }
     },
+    "競艇場前_日吉": {
+        "0": {
+            "station_block": 1,
+            "station_name": "競艇場前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "西武多摩川線各停 武蔵境行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "白糸台"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "武蔵野台"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "京王線各停 京王八王子行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "分倍河原"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "32分",
+            "line": "ＪＲ南武線 川崎行",
+            "congestion": "圧迫される"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "武蔵小杉"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "東急東横線各停 元町・中華街行",
+            "congestion": "席はいっぱい"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "日吉"
+        }
+    },
     "是政_日吉": {
         "0": {
             "station_block": 1,
@@ -32821,6 +33087,72 @@
             "station_name": "日吉"
         }
     },
+    "学園前_日吉": {
+        "0": {
+            "station_block": 1,
+            "station_name": "学園前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "京成千原線 京成津田沼行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉中央"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "1分",
+            "line": "京成千葉線 京成津田沼行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "京成千葉"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "42分",
+            "line": "ＪＲ総武本線快速 大船行",
+            "congestion": "普通に立てる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "18分",
+            "line": "ＪＲ横須賀線 大船行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "武蔵小杉"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "東急目黒線各停 日吉（神奈川県）行",
+            "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "日吉"
+        }
+    },
     "おゆみ野_日吉": {
         "0": {
             "station_block": 1,
@@ -34907,6 +35239,62 @@
             "time": "8分",
             "line": "京王線各停 新宿行",
             "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "高幡不動"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "京王線急行 新宿行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "分倍河原"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "35分",
+            "line": "ＪＲ南武線 川崎行",
+            "congestion": "圧迫される"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "武蔵小杉"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "東急目黒線各停 日吉（神奈川県）行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "日吉"
+        }
+    },
+    "山田_日吉": {
+        "0": {
+            "station_block": 1,
+            "station_name": "山田"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "京王高尾線各停 新宿行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "北野"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "京王線各停 新宿行",
+            "congestion": "不明"
         },
         "4": {
             "station_block": 1,
@@ -37780,61 +38168,41 @@
         },
         "1": {
             "route_block": 1,
-            "time": "8分",
-            "line": "名古屋市営名城線 栄（愛知県）,金山（愛知県）方面",
-            "congestion": "余裕で座れる"
+            "time": "6分",
+            "line": "小田急多摩線各停 新百合ヶ丘行",
+            "congestion": "席はいっぱい"
         },
         "2": {
             "station_block": 1,
-            "station_name": "栄"
+            "station_name": "新百合ヶ丘"
         },
         "3": {
             "route_block": 1,
-            "time": "4分",
-            "line": "名古屋市営東山線 藤が丘（愛知県）行",
-            "congestion": "余裕で座れる"
+            "time": "8分",
+            "line": "小田急小田原線快速急行 新宿行",
+            "congestion": "普通に立てる"
         },
         "4": {
             "station_block": 1,
-            "station_name": "千種"
+            "station_name": "登戸"
         },
         "5": {
             "route_block": 1,
-            "time": "1時間47分",
-            "line": "ＪＲ中央本線 特急ワイドビューしなの5号 長野行",
-            "congestion": "余裕で座れる"
+            "time": "17分",
+            "line": "ＪＲ南武線 川崎行",
+            "congestion": "圧迫される"
         },
         "6": {
             "station_block": 1,
-            "station_name": "塩尻"
+            "station_name": "武蔵小杉"
         },
         "7": {
             "route_block": 1,
-            "time": "2時間1分",
-            "line": "ＪＲ中央本線 特急あずさ22号 新宿行",
-            "congestion": "余裕で座れる"
-        },
-        "8": {
-            "station_block": 1,
-            "station_name": "立川"
-        },
-        "9": {
-            "route_block": 1,
-            "time": "32分",
-            "line": "ＪＲ南武線快速 川崎行",
+            "time": "3分",
+            "line": "東急東横線急行 元町・中華街行",
             "congestion": "普通に立てる"
         },
-        "10": {
-            "station_block": 1,
-            "station_name": "武蔵小杉"
-        },
-        "11": {
-            "route_block": 1,
-            "time": "3分",
-            "line": "東急目黒線急行 日吉（神奈川県）行",
-            "congestion": "余裕で座れる"
-        },
-        "12": {
+        "8": {
             "station_block": 1,
             "station_name": "日吉"
         }
@@ -40377,6 +40745,42 @@
             "time": "12分",
             "line": "東急世田谷線各停 三軒茶屋行",
             "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "三軒茶屋"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "東急田園都市線準急 清澄白河行",
+            "congestion": "圧迫される"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "渋谷"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "18分",
+            "line": "東急東横線通勤特急 元町・中華街行",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "日吉"
+        }
+    },
+    "山下_日吉": {
+        "0": {
+            "station_block": 1,
+            "station_name": "山下"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "東急世田谷線各停 三軒茶屋行",
+            "congestion": "不明"
         },
         "2": {
             "station_block": 1,
@@ -43417,6 +43821,42 @@
             "station_name": "日吉"
         }
     },
+    "京橋_日吉": {
+        "0": {
+            "station_block": 1,
+            "station_name": "京橋"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "東京メトロ銀座線 渋谷行",
+            "congestion": "普通に立てる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "銀座"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "20分",
+            "line": "東京メトロ日比谷線 中目黒行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "中目黒"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "東急東横線通勤特急 元町・中華街行",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "日吉"
+        }
+    },
     "銀座_日吉": {
         "0": {
             "station_block": 1,
@@ -45592,6 +46032,42 @@
             "route_block": 1,
             "time": "19分",
             "line": "東急東横線急行 元町・中華街行",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "日吉"
+        }
+    },
+    "明治神宮前〈原宿〉_日吉": {
+        "0": {
+            "station_block": 1,
+            "station_name": "明治神宮前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "東京メトロ副都心線 元町・中華街行",
+            "congestion": "席はいっぱい"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "渋谷"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "東急東横線各停 元町・中華街行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "自由が丘"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "東急東横線通勤特急 元町・中華街行",
             "congestion": "普通に立てる"
         },
         "6": {
@@ -50596,61 +51072,31 @@
         },
         "1": {
             "route_block": 1,
-            "time": "3分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
+            "time": "4分",
+            "line": "千葉都市モノレール１号線 千葉みなと行",
+            "congestion": "不明"
         },
         "2": {
             "station_block": 1,
-            "station_name": "栄"
+            "station_name": "千葉"
         },
         "3": {
             "route_block": 1,
-            "time": "4分",
-            "line": "名古屋市営東山線 藤が丘（愛知県）行",
-            "congestion": "余裕で座れる"
+            "time": "58分",
+            "line": "ＪＲ総武本線 特急成田エクスプレス2号 大船行",
+            "congestion": "不明"
         },
         "4": {
             "station_block": 1,
-            "station_name": "千種"
+            "station_name": "武蔵小杉"
         },
         "5": {
             "route_block": 1,
-            "time": "1時間47分",
-            "line": "ＪＲ中央本線 特急ワイドビューしなの5号 長野行",
+            "time": "5分",
+            "line": "東急目黒線各停 日吉（神奈川県）行",
             "congestion": "余裕で座れる"
         },
         "6": {
-            "station_block": 1,
-            "station_name": "塩尻"
-        },
-        "7": {
-            "route_block": 1,
-            "time": "2時間1分",
-            "line": "ＪＲ中央本線 特急あずさ22号 新宿行",
-            "congestion": "余裕で座れる"
-        },
-        "8": {
-            "station_block": 1,
-            "station_name": "立川"
-        },
-        "9": {
-            "route_block": 1,
-            "time": "32分",
-            "line": "ＪＲ南武線快速 川崎行",
-            "congestion": "普通に立てる"
-        },
-        "10": {
-            "station_block": 1,
-            "station_name": "武蔵小杉"
-        },
-        "11": {
-            "route_block": 1,
-            "time": "3分",
-            "line": "東急目黒線急行 日吉（神奈川県）行",
-            "congestion": "余裕で座れる"
-        },
-        "12": {
             "station_block": 1,
             "station_name": "日吉"
         }
@@ -54005,6 +54451,72 @@
             "station_name": "日吉"
         }
     },
+    "久我原_日吉": {
+        "0": {
+            "station_block": 1,
+            "station_name": "久我原"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "いすみ鉄道 大原（千葉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "城見ヶ丘"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "大多喜〔オリブ〕"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "1時間27分",
+            "line": "高速バス 浜松町・東京-勝浦・御宿・安房小湊 東京駅八重洲口前行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "東京駅八重洲口前"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "25分",
+            "line": "ＪＲ東海道本線 小田原行",
+            "congestion": "席はいっぱい"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "横浜"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "東急東横線急行 和光市行",
+            "congestion": "席はいっぱい"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "日吉"
+        }
+    },
     "総元_日吉": {
         "0": {
             "station_block": 1,
@@ -55047,6 +55559,62 @@
             "time": "6分",
             "line": "徒歩 ",
             "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "国際展示場"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "りんかい線 大宮（埼玉県）行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "大井町"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "東急大井町線急行 溝の口〔東急線〕行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "大岡山"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "東急目黒線急行 日吉（神奈川県）行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "日吉"
+        }
+    },
+    "国際展示場正門_日吉": {
+        "0": {
+            "station_block": 1,
+            "station_name": "東京ビッグサイト"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "ゆりかもめ 豊洲行",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "有明"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
         },
         "4": {
             "station_block": 1,
@@ -57979,6 +58547,42 @@
             "station_name": "日吉"
         }
     },
+    "伊奈中央_日吉": {
+        "0": {
+            "station_block": 1,
+            "station_name": "伊奈中央"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "22分",
+            "line": "埼玉新都市交通ニューシャトル 大宮（埼玉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "38分",
+            "line": "ＪＲ埼京線通勤快速 新木場行",
+            "congestion": "圧迫される"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "渋谷"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "19分",
+            "line": "東急東横線急行 元町・中華街行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "日吉"
+        }
+    },
     "羽貫_日吉": {
         "0": {
             "station_block": 1,
@@ -60441,6 +61045,42 @@
             "station_name": "日吉"
         }
     },
+    "市役所前_日吉": {
+        "0": {
+            "station_block": 1,
+            "station_name": "市役所前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "千葉都市モノレール１号線 千城台行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "58分",
+            "line": "ＪＲ総武本線 特急成田エクスプレス2号 大船行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "武蔵小杉"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "東急目黒線各停 日吉（神奈川県）行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "日吉"
+        }
+    },
     "葭川公園_日吉": {
         "0": {
             "station_block": 1,
@@ -60461,6 +61101,42 @@
             "time": "58分",
             "line": "ＪＲ総武本線 特急成田エクスプレス2号 大船行",
             "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "武蔵小杉"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "東急目黒線各停 日吉（神奈川県）行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "日吉"
+        }
+    },
+    "県庁前_日吉": {
+        "0": {
+            "station_block": 1,
+            "station_name": "県庁前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "千葉都市モノレール１号線 千葉みなと行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "58分",
+            "line": "ＪＲ総武本線 特急成田エクスプレス2号 大船行",
+            "congestion": "不明"
         },
         "4": {
             "station_block": 1,
@@ -61811,6 +62487,52 @@
             "time": "7分",
             "line": "徒歩 ",
             "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "立川"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "46分",
+            "line": "ＪＲ南武線 川崎行",
+            "congestion": "圧迫される"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "武蔵小杉"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "東急目黒線各停 日吉（神奈川県）行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "日吉"
+        }
+    },
+    "高松_日吉": {
+        "0": {
+            "station_block": 1,
+            "station_name": "高松"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "多摩モノレール 多摩センター行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "立川南"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
         },
         "4": {
             "station_block": 1,
@@ -64303,6 +65025,72 @@
             "time": "10分",
             "line": "東急目黒線急行 武蔵小杉行",
             "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "田園調布"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "東急東横線急行 元町・中華街行",
+            "congestion": "席はいっぱい"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "日吉"
+        }
+    },
+    "大町_日吉": {
+        "0": {
+            "station_block": 1,
+            "station_name": "大町"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "北総鉄道 羽田空港第１・第２ターミナル（京急）行",
+            "congestion": "普通に立てる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "京成高砂"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "京成押上線 羽田空港第１・第２ターミナル（京急）行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "押上[スカイツリー前]"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "22分",
+            "line": "都営浅草線急行 羽田空港第１・第２ターミナル（京急）行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "三田"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "都営三田線急行 武蔵小杉行",
+            "congestion": "席はいっぱい"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "目黒"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "東急目黒線急行 武蔵小杉行",
+            "congestion": "不明"
         },
         "10": {
             "station_block": 1,

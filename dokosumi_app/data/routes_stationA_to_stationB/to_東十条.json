@@ -2799,6 +2799,32 @@
             "station_name": "東十条"
         }
     },
+    "扇町_東十条": {
+        "0": {
+            "station_block": 1,
+            "station_name": "扇町"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "ＪＲ鶴見線 鶴見行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "鶴見"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "56分",
+            "line": "ＪＲ京浜東北・根岸線 南浦和行",
+            "congestion": "席はいっぱい"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "東十条"
+        }
+    },
     "北府中_東十条": {
         "0": {
             "station_block": 1,
@@ -14551,6 +14577,62 @@
             "station_name": "東十条"
         }
     },
+    "竹岡_東十条": {
+        "0": {
+            "station_block": 1,
+            "station_name": "竹岡"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "24分",
+            "line": "ＪＲ内房線 木更津行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "君津"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "44分",
+            "line": "ＪＲ内房線快速 逗子行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "33分",
+            "line": "ＪＲ総武本線快速 逗子行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "錦糸町"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "ＪＲ中央総武線各停 中野（東京都）行",
+            "congestion": "普通に立てる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "秋葉原"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "19分",
+            "line": "ＪＲ京浜東北・根岸線 南浦和行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "東十条"
+        }
+    },
     "浜金谷_東十条": {
         "0": {
             "station_block": 1,
@@ -15059,6 +15141,72 @@
             "time": "34分",
             "line": "ＪＲ総武本線快速 逗子行",
             "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "錦糸町"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "ＪＲ中央総武線各停 中野（東京都）行",
+            "congestion": "普通に立てる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "秋葉原"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "ＪＲ京浜東北・根岸線快速 南浦和行",
+            "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "東十条"
+        }
+    },
+    "千歳_東十条": {
+        "0": {
+            "station_block": 1,
+            "station_name": "千歳"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "ＪＲ内房線 館山行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "館山"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "59分",
+            "line": "ＪＲ内房線 木更津行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "君津"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "47分",
+            "line": "ＪＲ内房線快速 逗子行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "34分",
+            "line": "ＪＲ総武本線快速 逗子行",
+            "congestion": "不明"
         },
         "8": {
             "station_block": 1,
@@ -16725,6 +16873,42 @@
             "station_name": "東十条"
         }
     },
+    "小林_東十条": {
+        "0": {
+            "station_block": 1,
+            "station_name": "小林"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "24分",
+            "line": "ＪＲ成田線 我孫子（千葉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "我孫子"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "29分",
+            "line": "ＪＲ常磐線快速 上野行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "日暮里"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "ＪＲ京浜東北・根岸線 大宮（埼玉県）行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "東十条"
+        }
+    },
     "安食_東十条": {
         "0": {
             "station_block": 1,
@@ -16845,6 +17029,62 @@
         "9": {
             "route_block": 1,
             "time": "11分",
+            "line": "ＪＲ京浜東北・根岸線 南浦和行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "東十条"
+        }
+    },
+    "祇園_東十条": {
+        "0": {
+            "station_block": 1,
+            "station_name": "祇園"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "ＪＲ久留里線 木更津行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "木更津"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "36分",
+            "line": "ＪＲ内房線快速 逗子行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "33分",
+            "line": "ＪＲ総武本線快速 逗子行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "錦糸町"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "ＪＲ中央総武線各停 中野（東京都）行",
+            "congestion": "普通に立てる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "秋葉原"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "19分",
             "line": "ＪＲ京浜東北・根岸線 南浦和行",
             "congestion": "余裕で座れる"
         },
@@ -21327,6 +21567,42 @@
         "1": {
             "route_block": 1,
             "time": "5分",
+            "line": "東武アーバンパークライン 大宮（埼玉県）行",
+            "congestion": "圧迫される"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "18分",
+            "line": "ＪＲ高崎線 上野行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "赤羽"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "ＪＲ京浜東北・根岸線 蒲田行",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "東十条"
+        }
+    },
+    "大和田_東十条": {
+        "0": {
+            "station_block": 1,
+            "station_name": "大和田"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "7分",
             "line": "東武アーバンパークライン 大宮（埼玉県）行",
             "congestion": "圧迫される"
         },
@@ -26707,6 +26983,52 @@
             "station_name": "東十条"
         }
     },
+    "競艇場前_東十条": {
+        "0": {
+            "station_block": 1,
+            "station_name": "競艇場前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "12分",
+            "line": "西武多摩川線各停 武蔵境行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "武蔵境"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "26分",
+            "line": "ＪＲ中央線快速 東京行",
+            "congestion": "圧迫される"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "新宿"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "ＪＲ埼京線 大宮（埼玉県）行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "赤羽"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "ＪＲ京浜東北・根岸線 磯子行",
+            "congestion": "普通に立てる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "東十条"
+        }
+    },
     "是政_東十条": {
         "0": {
             "station_block": 1,
@@ -28649,6 +28971,52 @@
             "time": "17分",
             "line": "京成千葉線 京成津田沼行",
             "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "京成津田沼"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "34分",
+            "line": "京成本線通勤特急 京成上野行",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "日暮里"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "ＪＲ京浜東北・根岸線 赤羽行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "東十条"
+        }
+    },
+    "学園前_東十条": {
+        "0": {
+            "station_block": 1,
+            "station_name": "学園前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "京成千原線 京成津田沼行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉中央"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "京成千葉線 京成津田沼行",
+            "congestion": "不明"
         },
         "4": {
             "station_block": 1,
@@ -30727,6 +31095,52 @@
             "time": "3分",
             "line": "京王高尾線各停 新宿行",
             "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "北野"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "47分",
+            "line": "京王線準特急 新宿行",
+            "congestion": "圧迫される"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "新宿"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "ＪＲ埼京線通勤快速 川越行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "赤羽"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "ＪＲ京浜東北・根岸線 蒲田行",
+            "congestion": "普通に立てる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "東十条"
+        }
+    },
+    "山田_東十条": {
+        "0": {
+            "station_block": 1,
+            "station_name": "山田"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "京王高尾線各停 新宿行",
+            "congestion": "不明"
         },
         "2": {
             "station_block": 1,
@@ -34060,61 +34474,51 @@
         },
         "1": {
             "route_block": 1,
-            "time": "8分",
-            "line": "名古屋市営名城線 栄（愛知県）,金山（愛知県）方面",
-            "congestion": "余裕で座れる"
+            "time": "1分",
+            "line": "小田急多摩線各停 新百合ヶ丘行",
+            "congestion": "席はいっぱい"
         },
         "2": {
             "station_block": 1,
-            "station_name": "栄"
+            "station_name": "栗平"
         },
         "3": {
             "route_block": 1,
-            "time": "4分",
-            "line": "名古屋市営東山線 藤が丘（愛知県）行",
-            "congestion": "余裕で座れる"
+            "time": "3分",
+            "line": "小田急多摩線通勤急行 新宿行",
+            "congestion": "普通に立てる"
         },
         "4": {
             "station_block": 1,
-            "station_name": "千種"
+            "station_name": "新百合ヶ丘"
         },
         "5": {
             "route_block": 1,
-            "time": "1時間47分",
-            "line": "ＪＲ中央本線 特急ワイドビューしなの5号 長野行",
-            "congestion": "余裕で座れる"
+            "time": "30分",
+            "line": "小田急小田原線通勤急行 新宿行",
+            "congestion": "不明"
         },
         "6": {
             "station_block": 1,
-            "station_name": "塩尻"
+            "station_name": "新宿"
         },
         "7": {
             "route_block": 1,
-            "time": "2時間24分",
-            "line": "ＪＲ中央本線 特急あずさ22号 新宿行",
-            "congestion": "余裕で座れる"
+            "time": "14分",
+            "line": "ＪＲ埼京線通勤快速 川越行",
+            "congestion": "普通に立てる"
         },
         "8": {
             "station_block": 1,
-            "station_name": "新宿"
+            "station_name": "赤羽"
         },
         "9": {
             "route_block": 1,
-            "time": "15分",
-            "line": "ＪＲ湘南新宿ライン 籠原行",
-            "congestion": "席はいっぱい"
+            "time": "3分",
+            "line": "ＪＲ京浜東北・根岸線 大船行",
+            "congestion": "普通に立てる"
         },
         "10": {
-            "station_block": 1,
-            "station_name": "赤羽"
-        },
-        "11": {
-            "route_block": 1,
-            "time": "3分",
-            "line": "ＪＲ京浜東北・根岸線快速 磯子行",
-            "congestion": "余裕で座れる"
-        },
-        "12": {
             "station_block": 1,
             "station_name": "東十条"
         }
@@ -37505,6 +37909,62 @@
             "congestion": "普通に立てる"
         },
         "8": {
+            "station_block": 1,
+            "station_name": "東十条"
+        }
+    },
+    "山下_東十条": {
+        "0": {
+            "station_block": 1,
+            "station_name": "山下"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "豪徳寺"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "小田急小田原線各停 綾瀬行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "代々木上原"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "小田急小田原線快速急行 新宿行",
+            "congestion": "圧迫される"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "新宿"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "ＪＲ埼京線通勤快速 川越行",
+            "congestion": "普通に立てる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "赤羽"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "ＪＲ京浜東北・根岸線 蒲田行",
+            "congestion": "普通に立てる"
+        },
+        "10": {
             "station_block": 1,
             "station_name": "東十条"
         }
@@ -41007,6 +41467,32 @@
             "station_name": "東十条"
         }
     },
+    "京橋_東十条": {
+        "0": {
+            "station_block": 1,
+            "station_name": "京橋"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "東京メトロ銀座線 浅草行",
+            "congestion": "普通に立てる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "神田"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "21分",
+            "line": "ＪＲ京浜東北・根岸線 大宮（埼玉県）行",
+            "congestion": "席はいっぱい"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "東十条"
+        }
+    },
     "銀座_東十条": {
         "0": {
             "station_block": 1,
@@ -43082,6 +43568,32 @@
             "route_block": 1,
             "time": "9分",
             "line": "ＪＲ京浜東北・根岸線 南浦和行",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "東十条"
+        }
+    },
+    "明治神宮前〈原宿〉_東十条": {
+        "0": {
+            "station_block": 1,
+            "station_name": "明治神宮前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "27分",
+            "line": "東京メトロ千代田線 我孫子（千葉県）行",
+            "congestion": "席はいっぱい"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "西日暮里"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "ＪＲ京浜東北・根岸線 大宮（埼玉県）行",
             "congestion": "余裕で座れる"
         },
         "4": {
@@ -48392,61 +48904,41 @@
         },
         "1": {
             "route_block": 1,
-            "time": "3分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
+            "time": "4分",
+            "line": "千葉都市モノレール１号線 千葉みなと行",
+            "congestion": "不明"
         },
         "2": {
             "station_block": 1,
-            "station_name": "栄"
+            "station_name": "千葉"
         },
         "3": {
             "route_block": 1,
-            "time": "4分",
-            "line": "名古屋市営東山線 藤が丘（愛知県）行",
-            "congestion": "余裕で座れる"
+            "time": "34分",
+            "line": "ＪＲ総武本線快速 東京行",
+            "congestion": "普通に立てる"
         },
         "4": {
             "station_block": 1,
-            "station_name": "千種"
+            "station_name": "錦糸町"
         },
         "5": {
             "route_block": 1,
-            "time": "1時間47分",
-            "line": "ＪＲ中央本線 特急ワイドビューしなの5号 長野行",
-            "congestion": "余裕で座れる"
+            "time": "8分",
+            "line": "ＪＲ中央総武線各停 三鷹行",
+            "congestion": "圧迫される"
         },
         "6": {
             "station_block": 1,
-            "station_name": "塩尻"
+            "station_name": "秋葉原"
         },
         "7": {
             "route_block": 1,
-            "time": "2時間24分",
-            "line": "ＪＲ中央本線 特急あずさ22号 新宿行",
+            "time": "19分",
+            "line": "ＪＲ京浜東北・根岸線 赤羽行",
             "congestion": "余裕で座れる"
         },
         "8": {
-            "station_block": 1,
-            "station_name": "新宿"
-        },
-        "9": {
-            "route_block": 1,
-            "time": "15分",
-            "line": "ＪＲ湘南新宿ライン 籠原行",
-            "congestion": "席はいっぱい"
-        },
-        "10": {
-            "station_block": 1,
-            "station_name": "赤羽"
-        },
-        "11": {
-            "route_block": 1,
-            "time": "3分",
-            "line": "ＪＲ京浜東北・根岸線快速 磯子行",
-            "congestion": "余裕で座れる"
-        },
-        "12": {
             "station_block": 1,
             "station_name": "東十条"
         }
@@ -50881,6 +51373,62 @@
             "station_name": "東十条"
         }
     },
+    "久我原_東十条": {
+        "0": {
+            "station_block": 1,
+            "station_name": "久我原"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "いすみ鉄道 大原（千葉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "城見ヶ丘"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "大多喜〔オリブ〕"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "1時間27分",
+            "line": "高速バス 浜松町・東京-勝浦・御宿・安房小湊 東京駅八重洲口前行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "東京駅八重洲口前"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "23分",
+            "line": "ＪＲ京浜東北・根岸線 南浦和行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "東十条"
+        }
+    },
     "総元_東十条": {
         "0": {
             "station_block": 1,
@@ -51751,6 +52299,32 @@
         "1": {
             "route_block": 1,
             "time": "21分",
+            "line": "ゆりかもめ 新橋行",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "新橋"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "27分",
+            "line": "ＪＲ京浜東北・根岸線 南浦和行",
+            "congestion": "席はいっぱい"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "東十条"
+        }
+    },
+    "国際展示場正門_東十条": {
+        "0": {
+            "station_block": 1,
+            "station_name": "東京ビッグサイト"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "23分",
             "line": "ゆりかもめ 新橋行",
             "congestion": "余裕で座れる"
         },
@@ -55105,6 +55679,42 @@
             "station_name": "東十条"
         }
     },
+    "伊奈中央_東十条": {
+        "0": {
+            "station_block": 1,
+            "station_name": "伊奈中央"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "22分",
+            "line": "埼玉新都市交通ニューシャトル 大宮（埼玉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "ＪＲ上野東京ライン 熱海〔上野経由〕行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "赤羽"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "ＪＲ京浜東北・根岸線 蒲田行",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "東十条"
+        }
+    },
     "羽貫_東十条": {
         "0": {
             "station_block": 1,
@@ -57127,6 +57737,52 @@
             "station_name": "東十条"
         }
     },
+    "市役所前_東十条": {
+        "0": {
+            "station_block": 1,
+            "station_name": "市役所前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "千葉都市モノレール１号線 動物公園行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "34分",
+            "line": "ＪＲ総武本線快速 東京行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "錦糸町"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "ＪＲ中央総武線各停 三鷹行",
+            "congestion": "圧迫される"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "秋葉原"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "19分",
+            "line": "ＪＲ京浜東北・根岸線 赤羽行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "東十条"
+        }
+    },
     "葭川公園_東十条": {
         "0": {
             "station_block": 1,
@@ -57137,6 +57793,52 @@
             "time": "6分",
             "line": "千葉都市モノレール１号線 千葉みなと行",
             "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "34分",
+            "line": "ＪＲ総武本線快速 東京行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "錦糸町"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "ＪＲ中央総武線各停 三鷹行",
+            "congestion": "圧迫される"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "秋葉原"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "19分",
+            "line": "ＪＲ京浜東北・根岸線 赤羽行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "東十条"
+        }
+    },
+    "県庁前_東十条": {
+        "0": {
+            "station_block": 1,
+            "station_name": "県庁前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "千葉都市モノレール１号線 千葉みなと行",
+            "congestion": "不明"
         },
         "2": {
             "station_block": 1,
@@ -58489,6 +59191,62 @@
             "congestion": "普通に立てる"
         },
         "8": {
+            "station_block": 1,
+            "station_name": "東十条"
+        }
+    },
+    "高松_東十条": {
+        "0": {
+            "station_block": 1,
+            "station_name": "高松"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "多摩モノレール 多摩センター行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "立川南"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "立川"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "ＪＲ中央線快速 東京行",
+            "congestion": "圧迫される"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "西国分寺"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "31分",
+            "line": "ＪＲ武蔵野線 東京行",
+            "congestion": "普通に立てる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "南浦和"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "ＪＲ京浜東北・根岸線 蒲田行",
+            "congestion": "普通に立てる"
+        },
+        "10": {
             "station_block": 1,
             "station_name": "東十条"
         }
@@ -60471,6 +61229,42 @@
         "1": {
             "route_block": 1,
             "time": "12分",
+            "line": "北総鉄道 羽田空港第１・第２ターミナル（京急）行",
+            "congestion": "席はいっぱい"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "京成高砂"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "京成本線通勤特急 京成上野行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "日暮里"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "ＪＲ京浜東北・根岸線 大宮（埼玉県）行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "東十条"
+        }
+    },
+    "大町_東十条": {
+        "0": {
+            "station_block": 1,
+            "station_name": "大町"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "14分",
             "line": "北総鉄道 羽田空港第１・第２ターミナル（京急）行",
             "congestion": "席はいっぱい"
         },

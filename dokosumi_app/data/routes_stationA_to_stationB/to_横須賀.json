@@ -3379,6 +3379,62 @@
             "station_name": "横須賀"
         }
     },
+    "扇町_横須賀": {
+        "0": {
+            "station_block": 1,
+            "station_name": "扇町"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "ＪＲ鶴見線 鶴見行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "鶴見"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "ＪＲ京浜東北・根岸線 大船行",
+            "congestion": "席はいっぱい"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "横浜"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "ＪＲ湘南新宿ライン 逗子行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "戸塚"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "ＪＲ横須賀線 逗子行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "逗子"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "ＪＲ横須賀線 久里浜行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "横須賀"
+        }
+    },
     "北府中_横須賀": {
         "0": {
             "station_block": 1,
@@ -4087,6 +4143,92 @@
             "time": "14分",
             "line": "徒歩 ",
             "congestion": "余裕で座れる"
+        },
+        "16": {
+            "station_block": 1,
+            "station_name": "横須賀"
+        }
+    },
+    "吉川_横須賀": {
+        "0": {
+            "station_block": 1,
+            "station_name": "吉川"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "ＪＲ武蔵野線 府中本町行",
+            "congestion": "普通に立てる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "南越谷"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "新越谷"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "東武伊勢崎線[スカイツリーライン]区間急行 浅草行",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "北千住"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "東京メトロ日比谷線 中目黒行",
+            "congestion": "圧迫される"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "上野"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "ＪＲ上野東京ライン 小田原〔上野経由〕行",
+            "congestion": "普通に立てる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "26分",
+            "line": "ＪＲ東海道本線 小田原行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "横浜"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "29分",
+            "line": "京急本線特急 三崎口行",
+            "congestion": "不明"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "汐入"
+        },
+        "15": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "徒歩 ",
+            "congestion": "不明"
         },
         "16": {
             "station_block": 1,
@@ -18817,6 +18959,92 @@
             "station_name": "横須賀"
         }
     },
+    "竹岡_横須賀": {
+        "0": {
+            "station_block": 1,
+            "station_name": "竹岡"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "38分",
+            "line": "ＪＲ内房線 木更津行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "木更津"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "木更津駅東口"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "1時間2分",
+            "line": "京急バス [高速] 横浜駅東口行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "横浜駅東口"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "横浜"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "26分",
+            "line": "京急本線快特 三崎口行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "横須賀中央"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "横須賀中央駅"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "京急バス [須8] 横須賀駅行",
+            "congestion": "不明"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "横須賀駅"
+        },
+        "15": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "16": {
+            "station_block": 1,
+            "station_name": "横須賀"
+        }
+    },
     "浜金谷_横須賀": {
         "0": {
             "station_block": 1,
@@ -19595,6 +19823,102 @@
             "time": "3分",
             "line": "徒歩 ",
             "congestion": "余裕で座れる"
+        },
+        "18": {
+            "station_block": 1,
+            "station_name": "横須賀"
+        }
+    },
+    "千歳_横須賀": {
+        "0": {
+            "station_block": 1,
+            "station_name": "千歳"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "ＪＲ内房線 館山行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "館山"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "館山駅前"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "1時間30分",
+            "line": "京急バス [高速] 横浜駅東口行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "羽田空港第１ターミナル"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "羽田空港第１・第２ターミナル"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "京急空港線快特 印旛日本医大行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "京急蒲田"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "37分",
+            "line": "京急本線快特 三崎口行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "横須賀中央"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "横須賀中央駅"
+        },
+        "15": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "京急バス [須18]総合体育館経由 横須賀駅行",
+            "congestion": "不明"
+        },
+        "16": {
+            "station_block": 1,
+            "station_name": "横須賀駅"
+        },
+        "17": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "徒歩 ",
+            "congestion": "不明"
         },
         "18": {
             "station_block": 1,
@@ -21771,6 +22095,72 @@
             "station_name": "横須賀"
         }
     },
+    "小林_横須賀": {
+        "0": {
+            "station_block": 1,
+            "station_name": "小林"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "24分",
+            "line": "ＪＲ成田線 我孫子（千葉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "我孫子"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "54分",
+            "line": "ＪＲ上野東京ライン 品川行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "品川"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "51分",
+            "line": "京急本線快特 三崎口行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "横須賀中央"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "横須賀中央駅"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "京急バス [八31] 内川橋（神奈川県）行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "横須賀駅"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "横須賀"
+        }
+    },
     "安食_横須賀": {
         "0": {
             "station_block": 1,
@@ -22006,121 +22396,61 @@
         },
         "1": {
             "route_block": 1,
-            "time": "2分",
-            "line": "福岡市営空港線 福岡空港行",
-            "congestion": "余裕で座れる"
+            "time": "4分",
+            "line": "徒歩 ",
+            "congestion": "不明"
         },
         "2": {
             "station_block": 1,
-            "station_name": "博多"
+            "station_name": "祇園"
         },
         "3": {
             "route_block": 1,
-            "time": "1時間21分",
-            "line": "ＪＲ鹿児島本線区間快速 小倉（福岡県）行",
-            "congestion": "余裕で座れる"
+            "time": "11分",
+            "line": "日東交通 馬来田線 木更津駅東口行",
+            "congestion": "不明"
         },
         "4": {
             "station_block": 1,
-            "station_name": "小倉"
+            "station_name": "木更津駅東口"
         },
         "5": {
             "route_block": 1,
-            "time": "6分",
-            "line": "ＪＲ鹿児島本線 下関行",
-            "congestion": "余裕で座れる"
+            "time": "4分",
+            "line": "徒歩 ",
+            "congestion": "不明"
         },
         "6": {
             "station_block": 1,
-            "station_name": "門司"
+            "station_name": "木更津駅東口"
         },
         "7": {
             "route_block": 1,
-            "time": "6分",
-            "line": "ＪＲ山陽本線 下関行",
-            "congestion": "余裕で座れる"
+            "time": "55分",
+            "line": "京急バス [高速] 横浜駅東口行",
+            "congestion": "不明"
         },
         "8": {
             "station_block": 1,
-            "station_name": "下関"
+            "station_name": "横浜駅東口"
         },
         "9": {
             "route_block": 1,
-            "time": "3時間7分",
-            "line": "ＪＲ山陽本線 岩国行",
-            "congestion": "余裕で座れる"
+            "time": "10分",
+            "line": "徒歩 ",
+            "congestion": "不明"
         },
         "10": {
             "station_block": 1,
-            "station_name": "岩国"
+            "station_name": "横浜"
         },
         "11": {
             "route_block": 1,
-            "time": "47分",
-            "line": "ＪＲ山陽本線 西条（広島県）行",
-            "congestion": "余裕で座れる"
+            "time": "43分",
+            "line": "ＪＲ横須賀線 久里浜行",
+            "congestion": "不明"
         },
         "12": {
-            "station_block": 1,
-            "station_name": "新白島"
-        },
-        "13": {
-            "route_block": 1,
-            "time": "5分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
-        },
-        "14": {
-            "station_block": 1,
-            "station_name": "新白島駅"
-        },
-        "15": {
-            "route_block": 1,
-            "time": "2時間39分",
-            "line": "JR高速バス サンサンライナー 岡山駅〔西口〕行",
-            "congestion": "余裕で座れる"
-        },
-        "16": {
-            "station_block": 1,
-            "station_name": "岡山駅〔西口〕"
-        },
-        "17": {
-            "route_block": 1,
-            "time": "4分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
-        },
-        "18": {
-            "station_block": 1,
-            "station_name": "岡山駅〔西口〕"
-        },
-        "19": {
-            "route_block": 1,
-            "time": "8時間30分",
-            "line": "ジャムジャムライナー ＪＡＭＪＡＭライナー 東京駅鍛冶橋駐車場行",
-            "congestion": "余裕で座れる"
-        },
-        "20": {
-            "station_block": 1,
-            "station_name": "横浜駅東口／ＹＣＡＴ"
-        },
-        "21": {
-            "route_block": 1,
-            "time": "11分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
-        },
-        "22": {
-            "station_block": 1,
-            "station_name": "横浜"
-        },
-        "23": {
-            "route_block": 1,
-            "time": "45分",
-            "line": "ＪＲ横須賀線 横須賀行",
-            "congestion": "余裕で座れる"
-        },
-        "24": {
             "station_block": 1,
             "station_name": "横須賀"
         }
@@ -28297,6 +28627,52 @@
             "time": "31分",
             "line": "ＪＲ横須賀線 久里浜行",
             "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "横須賀"
+        }
+    },
+    "大和田_横須賀": {
+        "0": {
+            "station_block": 1,
+            "station_name": "大和田"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "東武アーバンパークライン 大宮（埼玉県）行",
+            "congestion": "圧迫される"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "34分",
+            "line": "ＪＲ上野東京ライン 熱海〔上野経由〕行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "39分",
+            "line": "ＪＲ東海道本線 熱海行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "戸塚"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "31分",
+            "line": "ＪＲ横須賀線 久里浜行",
+            "congestion": "不明"
         },
         "8": {
             "station_block": 1,
@@ -35169,6 +35545,72 @@
             "station_name": "横須賀"
         }
     },
+    "競艇場前_横須賀": {
+        "0": {
+            "station_block": 1,
+            "station_name": "競艇場前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "西武多摩川線各停 武蔵境行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "白糸台"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "武蔵野台"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "京王線各停 高尾山口行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "府中"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "京王線特急 京王八王子行",
+            "congestion": "席はいっぱい"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "分倍河原"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "32分",
+            "line": "ＪＲ南武線 川崎行",
+            "congestion": "圧迫される"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "武蔵小杉"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "55分",
+            "line": "ＪＲ横須賀線 久里浜行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "横須賀"
+        }
+    },
     "是政_横須賀": {
         "0": {
             "station_block": 1,
@@ -38427,6 +38869,82 @@
             "station_name": "横須賀"
         }
     },
+    "学園前_横須賀": {
+        "0": {
+            "station_block": 1,
+            "station_name": "学園前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "京成千原線 京成津田沼行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉中央"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "1分",
+            "line": "京成千葉線 京成津田沼行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "京成千葉"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "42分",
+            "line": "ＪＲ総武本線快速 大船行",
+            "congestion": "席はいっぱい"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "30分",
+            "line": "ＪＲ横須賀線 大船行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "横浜"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "28分",
+            "line": "京急本線特急 三崎口行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "汐入"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "横須賀"
+        }
+    },
     "おゆみ野_横須賀": {
         "0": {
             "station_block": 1,
@@ -41333,6 +41851,52 @@
             "time": "55分",
             "line": "ＪＲ横須賀線 久里浜行",
             "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "横須賀"
+        }
+    },
+    "山田_横須賀": {
+        "0": {
+            "station_block": 1,
+            "station_name": "山田"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "京王高尾線各停 新宿行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "北野"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "23分",
+            "line": "京王線各停 新宿行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "分倍河原"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "32分",
+            "line": "ＪＲ南武線 川崎行",
+            "congestion": "圧迫される"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "武蔵小杉"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "55分",
+            "line": "ＪＲ横須賀線 久里浜行",
+            "congestion": "不明"
         },
         "8": {
             "station_block": 1,
@@ -45246,81 +45810,61 @@
         },
         "1": {
             "route_block": 1,
-            "time": "16分",
-            "line": "名古屋市営名城線 栄（愛知県）,金山（愛知県）方面",
-            "congestion": "余裕で座れる"
+            "time": "6分",
+            "line": "小田急多摩線各停 新百合ヶ丘行",
+            "congestion": "席はいっぱい"
         },
         "2": {
             "station_block": 1,
-            "station_name": "金山"
+            "station_name": "新百合ヶ丘"
         },
         "3": {
             "route_block": 1,
-            "time": "47分",
-            "line": "名鉄名古屋本線特急 豊橋行",
-            "congestion": "余裕で座れる"
+            "time": "11分",
+            "line": "小田急小田原線急行 藤沢行",
+            "congestion": "普通に立てる"
         },
         "4": {
             "station_block": 1,
-            "station_name": "豊橋"
+            "station_name": "相模大野"
         },
         "5": {
             "route_block": 1,
-            "time": "35分",
-            "line": "ＪＲ東海道本線 浜松行",
-            "congestion": "余裕で座れる"
+            "time": "24分",
+            "line": "小田急江ノ島線急行 藤沢行",
+            "congestion": "不明"
         },
         "6": {
             "station_block": 1,
-            "station_name": "浜松"
+            "station_name": "藤沢"
         },
         "7": {
             "route_block": 1,
-            "time": "1時間29分",
-            "line": "ＪＲ東海道本線 興津行",
-            "congestion": "余裕で座れる"
+            "time": "4分",
+            "line": "ＪＲ上野東京ライン 高崎〔東京経由〕行",
+            "congestion": "普通に立てる"
         },
         "8": {
             "station_block": 1,
-            "station_name": "興津"
+            "station_name": "大船"
         },
         "9": {
             "route_block": 1,
-            "time": "57分",
-            "line": "ＪＲ東海道本線 熱海行",
-            "congestion": "余裕で座れる"
+            "time": "11分",
+            "line": "ＪＲ横須賀線 逗子行",
+            "congestion": "席はいっぱい"
         },
         "10": {
             "station_block": 1,
-            "station_name": "熱海"
+            "station_name": "逗子"
         },
         "11": {
             "route_block": 1,
-            "time": "41分",
-            "line": "ＪＲ東海道本線 特急踊り子8号 東京行",
-            "congestion": "余裕で座れる"
+            "time": "11分",
+            "line": "ＪＲ横須賀線 久里浜行",
+            "congestion": "不明"
         },
         "12": {
-            "station_block": 1,
-            "station_name": "大船"
-        },
-        "13": {
-            "route_block": 1,
-            "time": "12分",
-            "line": "ＪＲ横須賀線 逗子行",
-            "congestion": "余裕で座れる"
-        },
-        "14": {
-            "station_block": 1,
-            "station_name": "逗子"
-        },
-        "15": {
-            "route_block": 1,
-            "time": "10分",
-            "line": "ＪＲ横須賀線 久里浜行",
-            "congestion": "余裕で座れる"
-        },
-        "16": {
             "station_block": 1,
             "station_name": "横須賀"
         }
@@ -49899,6 +50443,92 @@
             "station_name": "横須賀"
         }
     },
+    "山下_横須賀": {
+        "0": {
+            "station_block": 1,
+            "station_name": "山下"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "豪徳寺"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "小田急小田原線各停 成城学園前行",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "経堂"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "小田急小田原線急行 小田原行",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "登戸"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "18分",
+            "line": "小田急小田原線快速急行 藤沢行",
+            "congestion": "普通に立てる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "相模大野"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "22分",
+            "line": "小田急江ノ島線快速急行 藤沢行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "藤沢"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "ＪＲ上野東京ライン 小金井〔東京経由〕行",
+            "congestion": "普通に立てる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "大船"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "ＪＲ横須賀線 逗子行",
+            "congestion": "席はいっぱい"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "逗子"
+        },
+        "15": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "ＪＲ横須賀線 久里浜行",
+            "congestion": "不明"
+        },
+        "16": {
+            "station_block": 1,
+            "station_name": "横須賀"
+        }
+    },
     "松原_横須賀": {
         "0": {
             "station_block": 1,
@@ -53051,6 +53681,52 @@
             "time": "14分",
             "line": "徒歩 ",
             "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "横須賀"
+        }
+    },
+    "京橋_横須賀": {
+        "0": {
+            "station_block": 1,
+            "station_name": "京橋"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "東京メトロ銀座線 渋谷行",
+            "congestion": "普通に立てる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "新橋"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "35分",
+            "line": "ＪＲ東海道本線 平塚行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "戸塚"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "ＪＲ横須賀線 逗子行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "逗子"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "ＪＲ横須賀線 久里浜行",
+            "congestion": "不明"
         },
         "8": {
             "station_block": 1,
@@ -56279,6 +56955,52 @@
             "congestion": "余裕で座れる"
         },
         "10": {
+            "station_block": 1,
+            "station_name": "横須賀"
+        }
+    },
+    "明治神宮前〈原宿〉_横須賀": {
+        "0": {
+            "station_block": 1,
+            "station_name": "明治神宮前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "東京メトロ副都心線 元町・中華街行",
+            "congestion": "普通に立てる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "渋谷"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "41分",
+            "line": "ＪＲ湘南新宿ライン 逗子行",
+            "congestion": "席はいっぱい"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "戸塚"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "ＪＲ横須賀線 逗子行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "逗子"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "ＪＲ横須賀線 久里浜行",
+            "congestion": "不明"
+        },
+        "8": {
             "station_block": 1,
             "station_name": "横須賀"
         }
@@ -63341,90 +64063,40 @@
         "1": {
             "route_block": 1,
             "time": "4分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
+            "line": "千葉都市モノレール１号線 千葉みなと行",
+            "congestion": "不明"
         },
         "2": {
             "station_block": 1,
-            "station_name": "栄"
+            "station_name": "千葉"
         },
         "3": {
             "route_block": 1,
-            "time": "8分",
-            "line": "名古屋市営名城線 金山（愛知県）,新瑞橋方面",
-            "congestion": "余裕で座れる"
+            "time": "40分",
+            "line": "ＪＲ総武本線快速 東京行",
+            "congestion": "普通に立てる"
         },
         "4": {
             "station_block": 1,
-            "station_name": "金山"
+            "station_name": "新日本橋"
         },
         "5": {
             "route_block": 1,
-            "time": "47分",
-            "line": "名鉄名古屋本線特急 豊橋行",
-            "congestion": "余裕で座れる"
+            "time": "2分",
+            "line": "ＪＲ総武本線快速 久里浜行",
+            "congestion": "不明"
         },
         "6": {
             "station_block": 1,
-            "station_name": "豊橋"
+            "station_name": "東京"
         },
         "7": {
             "route_block": 1,
-            "time": "35分",
-            "line": "ＪＲ東海道本線 浜松行",
-            "congestion": "余裕で座れる"
+            "time": "1時間15分",
+            "line": "ＪＲ横須賀線 久里浜行",
+            "congestion": "不明"
         },
         "8": {
-            "station_block": 1,
-            "station_name": "浜松"
-        },
-        "9": {
-            "route_block": 1,
-            "time": "1時間29分",
-            "line": "ＪＲ東海道本線 興津行",
-            "congestion": "余裕で座れる"
-        },
-        "10": {
-            "station_block": 1,
-            "station_name": "興津"
-        },
-        "11": {
-            "route_block": 1,
-            "time": "57分",
-            "line": "ＪＲ東海道本線 熱海行",
-            "congestion": "余裕で座れる"
-        },
-        "12": {
-            "station_block": 1,
-            "station_name": "熱海"
-        },
-        "13": {
-            "route_block": 1,
-            "time": "41分",
-            "line": "ＪＲ東海道本線 特急踊り子8号 東京行",
-            "congestion": "余裕で座れる"
-        },
-        "14": {
-            "station_block": 1,
-            "station_name": "大船"
-        },
-        "15": {
-            "route_block": 1,
-            "time": "12分",
-            "line": "ＪＲ横須賀線 逗子行",
-            "congestion": "余裕で座れる"
-        },
-        "16": {
-            "station_block": 1,
-            "station_name": "逗子"
-        },
-        "17": {
-            "route_block": 1,
-            "time": "10分",
-            "line": "ＪＲ横須賀線 久里浜行",
-            "congestion": "余裕で座れる"
-        },
-        "18": {
             "station_block": 1,
             "station_name": "横須賀"
         }
@@ -67419,6 +68091,102 @@
             "station_name": "横須賀"
         }
     },
+    "久我原_横須賀": {
+        "0": {
+            "station_block": 1,
+            "station_name": "久我原"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "いすみ鉄道 大原（千葉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "城見ヶ丘"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "大多喜〔オリブ〕"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "1時間27分",
+            "line": "高速バス 浜松町・東京-勝浦・御宿・安房小湊 東京駅八重洲口前行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "東京駅八重洲口前"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "ＪＲ東海道本線 小田原行",
+            "congestion": "席はいっぱい"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "品川"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "47分",
+            "line": "京急本線快特 三崎口行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "横須賀中央"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "横須賀中央駅"
+        },
+        "15": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "京急バス [須1]聖徳寺坂上経由 横須賀駅行",
+            "congestion": "不明"
+        },
+        "16": {
+            "station_block": 1,
+            "station_name": "横須賀駅"
+        },
+        "17": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "18": {
+            "station_block": 1,
+            "station_name": "横須賀"
+        }
+    },
     "総元_横須賀": {
         "0": {
             "station_block": 1,
@@ -68641,6 +69409,72 @@
             "time": "11分",
             "line": "ＪＲ横須賀線 久里浜行",
             "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "横須賀"
+        }
+    },
+    "国際展示場正門_横須賀": {
+        "0": {
+            "station_block": 1,
+            "station_name": "東京ビッグサイト"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "ゆりかもめ 豊洲行",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "有明"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "国際展示場"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "りんかい線 大宮（埼玉県）行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "大崎"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "34分",
+            "line": "ＪＲ湘南新宿ライン 逗子行",
+            "congestion": "席はいっぱい"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "戸塚"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "ＪＲ横須賀線 逗子行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "逗子"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "ＪＲ横須賀線 久里浜行",
+            "congestion": "不明"
         },
         "12": {
             "station_block": 1,
@@ -71763,6 +72597,52 @@
             "station_name": "横須賀"
         }
     },
+    "伊奈中央_横須賀": {
+        "0": {
+            "station_block": 1,
+            "station_name": "伊奈中央"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "22分",
+            "line": "埼玉新都市交通ニューシャトル 大宮（埼玉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "1時間17分",
+            "line": "ＪＲ湘南新宿ライン 逗子[新宿経由]行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "戸塚"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "18分",
+            "line": "ＪＲ横須賀線 逗子行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "逗子"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "ＪＲ横須賀線 久里浜行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "横須賀"
+        }
+    },
     "羽貫_横須賀": {
         "0": {
             "station_block": 1,
@@ -74185,6 +75065,42 @@
             "station_name": "横須賀"
         }
     },
+    "市役所前_横須賀": {
+        "0": {
+            "station_block": 1,
+            "station_name": "市役所前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "千葉都市モノレール１号線 動物公園行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "42分",
+            "line": "ＪＲ総武本線快速 東京行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "1時間15分",
+            "line": "ＪＲ横須賀線 久里浜行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "横須賀"
+        }
+    },
     "葭川公園_横須賀": {
         "0": {
             "station_block": 1,
@@ -74225,6 +75141,52 @@
             "time": "1時間15分",
             "line": "ＪＲ横須賀線 久里浜行",
             "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "横須賀"
+        }
+    },
+    "県庁前_横須賀": {
+        "0": {
+            "station_block": 1,
+            "station_name": "県庁前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "千葉都市モノレール１号線 千葉みなと行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "40分",
+            "line": "ＪＲ総武本線快速 東京行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "新日本橋"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "ＪＲ総武本線快速 久里浜行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "1時間15分",
+            "line": "ＪＲ横須賀線 久里浜行",
+            "congestion": "不明"
         },
         "8": {
             "station_block": 1,
@@ -75727,6 +76689,52 @@
             "congestion": "余裕で座れる"
         },
         "10": {
+            "station_block": 1,
+            "station_name": "横須賀"
+        }
+    },
+    "高松_横須賀": {
+        "0": {
+            "station_block": 1,
+            "station_name": "高松"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "多摩モノレール 多摩センター行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "立川北"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "立川"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "42分",
+            "line": "ＪＲ南武線 川崎行",
+            "congestion": "圧迫される"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "武蔵小杉"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "55分",
+            "line": "ＪＲ横須賀線 久里浜行",
+            "congestion": "不明"
+        },
+        "8": {
             "station_block": 1,
             "station_name": "横須賀"
         }
@@ -78361,6 +79369,62 @@
             "time": "31分",
             "line": "ＪＲ横須賀線 久里浜行",
             "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "横須賀"
+        }
+    },
+    "大町_横須賀": {
+        "0": {
+            "station_block": 1,
+            "station_name": "大町"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "北総鉄道 西馬込行",
+            "congestion": "席はいっぱい"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "京成高砂"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "京成押上線 西馬込行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "押上[スカイツリー前]"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "18分",
+            "line": "都営浅草線 西馬込行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "新橋"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "35分",
+            "line": "ＪＲ東海道本線 熱海行",
+            "congestion": "席はいっぱい"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "戸塚"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "31分",
+            "line": "ＪＲ横須賀線 久里浜行",
+            "congestion": "不明"
         },
         "10": {
             "station_block": 1,

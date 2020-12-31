@@ -5689,6 +5689,62 @@
             "station_name": "三峰口"
         }
     },
+    "扇町_三峰口": {
+        "0": {
+            "station_block": 1,
+            "station_name": "扇町"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "ＪＲ鶴見線 鶴見行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "鶴見"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "ＪＲ京浜東北・根岸線 赤羽行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "川崎"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "21分",
+            "line": "ＪＲ上野東京ライン 高崎〔東京経由〕行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "1時間0分",
+            "line": "ＪＲ高崎線快速〔アーバン〕 高崎行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "熊谷"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "1時間35分",
+            "line": "秩父鉄道 三峰口行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "三峰口"
+        }
+    },
     "北府中_三峰口": {
         "0": {
             "station_block": 1,
@@ -6739,6 +6795,52 @@
             "congestion": "余裕で座れる"
         },
         "14": {
+            "station_block": 1,
+            "station_name": "三峰口"
+        }
+    },
+    "吉川_三峰口": {
+        "0": {
+            "station_block": 1,
+            "station_name": "吉川"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "19分",
+            "line": "ＪＲ武蔵野線 東所沢行",
+            "congestion": "普通に立てる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "南浦和"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "12分",
+            "line": "ＪＲ京浜東北・根岸線 大宮（埼玉県）行",
+            "congestion": "席はいっぱい"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "28分",
+            "line": "ＪＲ高崎線快速〔アーバン〕 高崎行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "熊谷"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "1時間33分",
+            "line": "秩父鉄道 三峰口行",
+            "congestion": "不明"
+        },
+        "8": {
             "station_block": 1,
             "station_name": "三峰口"
         }
@@ -24933,6 +25035,82 @@
             "station_name": "三峰口"
         }
     },
+    "竹岡_三峰口": {
+        "0": {
+            "station_block": 1,
+            "station_name": "竹岡"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "24分",
+            "line": "ＪＲ内房線 木更津行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "君津"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "44分",
+            "line": "ＪＲ内房線快速 逗子行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "41分",
+            "line": "ＪＲ総武本線快速 逗子行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "東京メトロ丸ノ内線 池袋行",
+            "congestion": "席はいっぱい"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "池袋"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "1時間17分",
+            "line": "西武池袋線 特急ちちぶ13号 西武秩父行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "西武秩父"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "御花畑"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "21分",
+            "line": "秩父鉄道 三峰口行",
+            "congestion": "不明"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "三峰口"
+        }
+    },
     "浜金谷_三峰口": {
         "0": {
             "station_block": 1,
@@ -25691,6 +25869,102 @@
             "time": "17分",
             "line": "秩父鉄道 三峰口行",
             "congestion": "余裕で座れる"
+        },
+        "18": {
+            "station_block": 1,
+            "station_name": "三峰口"
+        }
+    },
+    "千歳_三峰口": {
+        "0": {
+            "station_block": 1,
+            "station_name": "千歳"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "ＪＲ内房線 館山行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "館山"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "館山駅前"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "1時間49分",
+            "line": "東京-千葉/新宿なのはな号[高速バス] 高速バス 新宿なのはな号 バスタ新宿〔新宿駅新南口〕行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "バスタ新宿〔新宿駅新南口〕"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "新宿"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "ＪＲ埼京線快速 川越行",
+            "congestion": "席はいっぱい"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "池袋"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "1時間17分",
+            "line": "西武池袋線 特急ちちぶ15号 西武秩父行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "西武秩父"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "御花畑"
+        },
+        "15": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "秩父鉄道 影森行",
+            "congestion": "不明"
+        },
+        "16": {
+            "station_block": 1,
+            "station_name": "影森"
+        },
+        "17": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "秩父鉄道 三峰口行",
+            "congestion": "不明"
         },
         "18": {
             "station_block": 1,
@@ -28277,6 +28551,52 @@
             "station_name": "三峰口"
         }
     },
+    "小林_三峰口": {
+        "0": {
+            "station_block": 1,
+            "station_name": "小林"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "24分",
+            "line": "ＪＲ成田線 我孫子（千葉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "我孫子"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "32分",
+            "line": "ＪＲ常磐線快速 上野行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "上野"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "54分",
+            "line": "ＪＲ高崎線快速〔アーバン〕 高崎行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "熊谷"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "1時間35分",
+            "line": "秩父鉄道 三峰口行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "三峰口"
+        }
+    },
     "安食_三峰口": {
         "0": {
             "station_block": 1,
@@ -28462,191 +28782,71 @@
         },
         "1": {
             "route_block": 1,
-            "time": "2分",
-            "line": "福岡市営空港線 福岡空港行",
-            "congestion": "余裕で座れる"
+            "time": "4分",
+            "line": "ＪＲ久留里線 木更津行",
+            "congestion": "不明"
         },
         "2": {
             "station_block": 1,
-            "station_name": "博多"
+            "station_name": "木更津"
         },
         "3": {
             "route_block": 1,
-            "time": "53分",
-            "line": "ＪＲ鹿児島本線 特急ソニック7号 大分行",
-            "congestion": "余裕で座れる"
+            "time": "36分",
+            "line": "ＪＲ内房線快速 逗子行",
+            "congestion": "不明"
         },
         "4": {
             "station_block": 1,
-            "station_name": "小倉"
+            "station_name": "千葉"
         },
         "5": {
             "route_block": 1,
-            "time": "5分",
-            "line": "ＪＲ鹿児島本線 下関行",
-            "congestion": "余裕で座れる"
+            "time": "41分",
+            "line": "ＪＲ総武本線快速 逗子行",
+            "congestion": "不明"
         },
         "6": {
             "station_block": 1,
-            "station_name": "門司"
+            "station_name": "東京"
         },
         "7": {
             "route_block": 1,
-            "time": "6分",
-            "line": "ＪＲ山陽本線 下関行",
-            "congestion": "余裕で座れる"
+            "time": "17分",
+            "line": "東京メトロ丸ノ内線 池袋行",
+            "congestion": "席はいっぱい"
         },
         "8": {
             "station_block": 1,
-            "station_name": "下関"
+            "station_name": "池袋"
         },
         "9": {
             "route_block": 1,
-            "time": "1時間50分",
-            "line": "ＪＲ山陽本線 岩国行",
-            "congestion": "余裕で座れる"
+            "time": "1時間17分",
+            "line": "西武池袋線 特急ちちぶ13号 西武秩父行",
+            "congestion": "不明"
         },
         "10": {
             "station_block": 1,
-            "station_name": "徳山"
+            "station_name": "西武秩父"
         },
         "11": {
             "route_block": 1,
-            "time": "5分",
+            "time": "7分",
             "line": "徒歩 ",
-            "congestion": "余裕で座れる"
+            "congestion": "不明"
         },
         "12": {
             "station_block": 1,
-            "station_name": "徳山駅前"
+            "station_name": "御花畑"
         },
         "13": {
             "route_block": 1,
-            "time": "1時間33分",
-            "line": "高速バス 広島-徳山 広島バスセンター行",
-            "congestion": "余裕で座れる"
+            "time": "21分",
+            "line": "秩父鉄道 三峰口行",
+            "congestion": "不明"
         },
         "14": {
-            "station_block": 1,
-            "station_name": "広島バスセンター"
-        },
-        "15": {
-            "route_block": 1,
-            "time": "4時間50分",
-            "line": "大阪-広島/グラン昼特急広島号[高速バス] グラン昼特急高速バス グラン昼特急大阪号 湊町バスターミナル〔ＯＣＡＴ〕行",
-            "congestion": "余裕で座れる"
-        },
-        "16": {
-            "station_block": 1,
-            "station_name": "大阪駅ＪＲ高速バスターミナル"
-        },
-        "17": {
-            "route_block": 1,
-            "time": "11分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
-        },
-        "18": {
-            "station_block": 1,
-            "station_name": "大阪"
-        },
-        "19": {
-            "route_block": 1,
-            "time": "16分",
-            "line": "ＪＲ大阪環状線 京橋（大阪府）,鶴橋方面",
-            "congestion": "余裕で座れる"
-        },
-        "20": {
-            "station_block": 1,
-            "station_name": "鶴橋"
-        },
-        "21": {
-            "route_block": 1,
-            "time": "2時間18分",
-            "line": "近鉄名阪特急 近鉄名古屋行",
-            "congestion": "余裕で座れる"
-        },
-        "22": {
-            "station_block": 1,
-            "station_name": "近鉄名古屋"
-        },
-        "23": {
-            "route_block": 1,
-            "time": "9分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
-        },
-        "24": {
-            "station_block": 1,
-            "station_name": "名古屋駅〔ゆりの噴水前〕"
-        },
-        "25": {
-            "route_block": 1,
-            "time": "5時間25分",
-            "line": "高速バス グレースライナー バスタ新宿〔新宿駅新南口〕行",
-            "congestion": "余裕で座れる"
-        },
-        "26": {
-            "station_block": 1,
-            "station_name": "高尾駅南口"
-        },
-        "27": {
-            "route_block": 1,
-            "time": "6分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
-        },
-        "28": {
-            "station_block": 1,
-            "station_name": "高尾"
-        },
-        "29": {
-            "route_block": 1,
-            "time": "6分",
-            "line": "ＪＲ中央線快速 東京行",
-            "congestion": "余裕で座れる"
-        },
-        "30": {
-            "station_block": 1,
-            "station_name": "八王子"
-        },
-        "31": {
-            "route_block": 1,
-            "time": "33分",
-            "line": "ＪＲ八高線 川越行",
-            "congestion": "余裕で座れる"
-        },
-        "32": {
-            "station_block": 1,
-            "station_name": "東飯能"
-        },
-        "33": {
-            "route_block": 1,
-            "time": "47分",
-            "line": "西武池袋・秩父線各停 西武秩父行",
-            "congestion": "余裕で座れる"
-        },
-        "34": {
-            "station_block": 1,
-            "station_name": "西武秩父"
-        },
-        "35": {
-            "route_block": 1,
-            "time": "7分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
-        },
-        "36": {
-            "station_block": 1,
-            "station_name": "御花畑"
-        },
-        "37": {
-            "route_block": 1,
-            "time": "20分",
-            "line": "秩父鉄道 三峰口行",
-            "congestion": "余裕で座れる"
-        },
-        "38": {
             "station_block": 1,
             "station_name": "三峰口"
         }
@@ -35253,6 +35453,42 @@
             "time": "1時間33分",
             "line": "秩父鉄道 三峰口行",
             "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "三峰口"
+        }
+    },
+    "大和田_三峰口": {
+        "0": {
+            "station_block": 1,
+            "station_name": "大和田"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "東武アーバンパークライン 大宮（埼玉県）行",
+            "congestion": "圧迫される"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "28分",
+            "line": "ＪＲ高崎線快速〔アーバン〕 高崎行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "熊谷"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "1時間33分",
+            "line": "秩父鉄道 三峰口行",
+            "congestion": "不明"
         },
         "6": {
             "station_block": 1,
@@ -42495,6 +42731,92 @@
             "station_name": "三峰口"
         }
     },
+    "競艇場前_三峰口": {
+        "0": {
+            "station_block": 1,
+            "station_name": "競艇場前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "12分",
+            "line": "西武多摩川線各停 武蔵境行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "武蔵境"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "ＪＲ中央線快速 豊田（東京都）行",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "国分寺"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "西武国分寺線各停 東村山行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "東村山"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "西武新宿線急行 本川越行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "所沢"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "24分",
+            "line": "西武池袋・秩父線急行 飯能行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "飯能"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "49分",
+            "line": "西武池袋・秩父線各停 西武秩父行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "西武秩父"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "御花畑"
+        },
+        "15": {
+            "route_block": 1,
+            "time": "21分",
+            "line": "秩父鉄道 三峰口行",
+            "congestion": "不明"
+        },
+        "16": {
+            "station_block": 1,
+            "station_name": "三峰口"
+        }
+    },
     "是政_三峰口": {
         "0": {
             "station_block": 1,
@@ -46293,6 +46615,92 @@
             "station_name": "三峰口"
         }
     },
+    "学園前_三峰口": {
+        "0": {
+            "station_block": 1,
+            "station_name": "学園前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "京成千原線 京成津田沼行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉中央"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "京成千葉線 京成津田沼行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "京成津田沼"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "34分",
+            "line": "京成本線通勤特急 京成上野行",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "日暮里"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "ＪＲ山手線 池袋,新宿方面",
+            "congestion": "普通に立てる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "池袋"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "48分",
+            "line": "西武池袋・秩父線急行 飯能行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "飯能"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "49分",
+            "line": "西武池袋・秩父線各停 西武秩父行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "西武秩父"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "御花畑"
+        },
+        "15": {
+            "route_block": 1,
+            "time": "21分",
+            "line": "秩父鉄道 三峰口行",
+            "congestion": "不明"
+        },
+        "16": {
+            "station_block": 1,
+            "station_name": "三峰口"
+        }
+    },
     "おゆみ野_三峰口": {
         "0": {
             "station_block": 1,
@@ -49751,6 +50159,82 @@
             "congestion": "余裕で座れる"
         },
         "12": {
+            "station_block": 1,
+            "station_name": "三峰口"
+        }
+    },
+    "山田_三峰口": {
+        "0": {
+            "station_block": 1,
+            "station_name": "山田"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "京王高尾線各停 新宿行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "北野"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "京王線特急 京王八王子行",
+            "congestion": "席はいっぱい"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "京王八王子"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "八王子"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "37分",
+            "line": "ＪＲ八高線 川越行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "東飯能"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "50分",
+            "line": "西武池袋・秩父線各停 西武秩父行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "西武秩父"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "御花畑"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "21分",
+            "line": "秩父鉄道 三峰口行",
+            "congestion": "不明"
+        },
+        "14": {
             "station_block": 1,
             "station_name": "三峰口"
         }
@@ -55402,91 +55886,111 @@
         },
         "1": {
             "route_block": 1,
-            "time": "8分",
-            "line": "名古屋市営名城線 栄（愛知県）,金山（愛知県）方面",
+            "time": "1分",
+            "line": "小田急多摩線各停 新百合ヶ丘行",
             "congestion": "余裕で座れる"
         },
         "2": {
             "station_block": 1,
-            "station_name": "栄"
+            "station_name": "栗平"
         },
         "3": {
             "route_block": 1,
-            "time": "4分",
-            "line": "名古屋市営東山線 藤が丘（愛知県）行",
-            "congestion": "余裕で座れる"
+            "time": "3分",
+            "line": "小田急多摩線急行 新宿行",
+            "congestion": "席はいっぱい"
         },
         "4": {
             "station_block": 1,
-            "station_name": "千種"
+            "station_name": "新百合ヶ丘"
         },
         "5": {
             "route_block": 1,
-            "time": "1時間47分",
-            "line": "ＪＲ中央本線 特急ワイドビューしなの5号 長野行",
-            "congestion": "余裕で座れる"
+            "time": "7分",
+            "line": "小田急小田原線急行 新宿行",
+            "congestion": "不明"
         },
         "6": {
             "station_block": 1,
-            "station_name": "塩尻"
+            "station_name": "登戸"
         },
         "7": {
             "route_block": 1,
-            "time": "1時間53分",
-            "line": "ＪＲ中央本線 特急あずさ22号 新宿行",
-            "congestion": "余裕で座れる"
+            "time": "17分",
+            "line": "ＪＲ南武線 立川行",
+            "congestion": "普通に立てる"
         },
         "8": {
             "station_block": 1,
-            "station_name": "八王子"
+            "station_name": "府中本町"
         },
         "9": {
             "route_block": 1,
-            "time": "32分",
-            "line": "ＪＲ八高線 川越行",
+            "time": "13分",
+            "line": "ＪＲ武蔵野線 東京行",
             "congestion": "余裕で座れる"
         },
         "10": {
             "station_block": 1,
-            "station_name": "東飯能"
+            "station_name": "新秋津"
         },
         "11": {
             "route_block": 1,
-            "time": "45分",
-            "line": "西武池袋・秩父線各停 西武秩父行",
-            "congestion": "余裕で座れる"
+            "time": "9分",
+            "line": "徒歩 ",
+            "congestion": "不明"
         },
         "12": {
             "station_block": 1,
-            "station_name": "西武秩父"
+            "station_name": "秋津"
         },
         "13": {
             "route_block": 1,
-            "time": "7分",
-            "line": "徒歩 ",
+            "time": "3分",
+            "line": "西武池袋・秩父線各停 小手指行",
             "congestion": "余裕で座れる"
         },
         "14": {
             "station_block": 1,
-            "station_name": "御花畑"
+            "station_name": "所沢"
         },
         "15": {
             "route_block": 1,
-            "time": "3分",
-            "line": "秩父鉄道 影森行",
-            "congestion": "余裕で座れる"
+            "time": "24分",
+            "line": "西武池袋・秩父線急行 飯能行",
+            "congestion": "不明"
         },
         "16": {
             "station_block": 1,
-            "station_name": "影森"
+            "station_name": "飯能"
         },
         "17": {
             "route_block": 1,
-            "time": "16分",
-            "line": "秩父鉄道 三峰口行",
-            "congestion": "余裕で座れる"
+            "time": "49分",
+            "line": "西武池袋・秩父線各停 西武秩父行",
+            "congestion": "不明"
         },
         "18": {
+            "station_block": 1,
+            "station_name": "西武秩父"
+        },
+        "19": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "20": {
+            "station_block": 1,
+            "station_name": "御花畑"
+        },
+        "21": {
+            "route_block": 1,
+            "time": "21分",
+            "line": "秩父鉄道 三峰口行",
+            "congestion": "不明"
+        },
+        "22": {
             "station_block": 1,
             "station_name": "三峰口"
         }
@@ -61505,6 +62009,82 @@
             "station_name": "三峰口"
         }
     },
+    "山下_三峰口": {
+        "0": {
+            "station_block": 1,
+            "station_name": "山下"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "豪徳寺"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "小田急小田原線各停 新宿行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "新宿"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "ＪＲ山手線 池袋,上野方面",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "池袋"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "48分",
+            "line": "西武池袋・秩父線急行 飯能行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "飯能"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "49分",
+            "line": "西武池袋・秩父線各停 西武秩父行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "西武秩父"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "御花畑"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "21分",
+            "line": "秩父鉄道 三峰口行",
+            "congestion": "不明"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "三峰口"
+        }
+    },
     "松原_三峰口": {
         "0": {
             "station_block": 1,
@@ -67063,6 +67643,42 @@
             "station_name": "三峰口"
         }
     },
+    "京橋_三峰口": {
+        "0": {
+            "station_block": 1,
+            "station_name": "京橋"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "東京メトロ銀座線 浅草行",
+            "congestion": "席はいっぱい"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "上野"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "57分",
+            "line": "ＪＲ高崎線快速〔アーバン〕 高崎行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "熊谷"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "1時間33分",
+            "line": "秩父鉄道 三峰口行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "三峰口"
+        }
+    },
     "銀座_三峰口": {
         "0": {
             "station_block": 1,
@@ -70575,6 +71191,72 @@
             "congestion": "余裕で座れる"
         },
         "14": {
+            "station_block": 1,
+            "station_name": "三峰口"
+        }
+    },
+    "明治神宮前〈原宿〉_三峰口": {
+        "0": {
+            "station_block": 1,
+            "station_name": "明治神宮前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "東京メトロ副都心線 池袋行",
+            "congestion": "席はいっぱい"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "新宿三丁目"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "東京メトロ副都心線通勤急行 和光市行",
+            "congestion": "席はいっぱい"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "池袋"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "1時間21分",
+            "line": "西武池袋線 特急ちちぶ7号 西武秩父行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "西武秩父"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "西武秩父駅"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "25分",
+            "line": "西武観光バス [M4急行] 三峯神社行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "三峰口駅"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "12": {
             "station_block": 1,
             "station_name": "三峰口"
         }
@@ -79367,90 +80049,70 @@
         "1": {
             "route_block": 1,
             "time": "3分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
+            "line": "千葉都市モノレール１号線 千葉みなと行",
+            "congestion": "不明"
         },
         "2": {
             "station_block": 1,
-            "station_name": "栄"
+            "station_name": "千葉"
         },
         "3": {
             "route_block": 1,
-            "time": "4分",
-            "line": "名古屋市営東山線 藤が丘（愛知県）行",
-            "congestion": "余裕で座れる"
+            "time": "42分",
+            "line": "ＪＲ総武本線快速 大船行",
+            "congestion": "普通に立てる"
         },
         "4": {
             "station_block": 1,
-            "station_name": "千種"
+            "station_name": "東京"
         },
         "5": {
             "route_block": 1,
-            "time": "1時間47分",
-            "line": "ＪＲ中央本線 特急ワイドビューしなの5号 長野行",
-            "congestion": "余裕で座れる"
+            "time": "17分",
+            "line": "東京メトロ丸ノ内線 池袋行",
+            "congestion": "席はいっぱい"
         },
         "6": {
             "station_block": 1,
-            "station_name": "塩尻"
+            "station_name": "池袋"
         },
         "7": {
             "route_block": 1,
-            "time": "1時間53分",
-            "line": "ＪＲ中央本線 特急あずさ22号 新宿行",
-            "congestion": "余裕で座れる"
+            "time": "48分",
+            "line": "西武池袋・秩父線急行 飯能行",
+            "congestion": "不明"
         },
         "8": {
             "station_block": 1,
-            "station_name": "八王子"
+            "station_name": "飯能"
         },
         "9": {
             "route_block": 1,
-            "time": "32分",
-            "line": "ＪＲ八高線 川越行",
-            "congestion": "余裕で座れる"
+            "time": "49分",
+            "line": "西武池袋・秩父線各停 西武秩父行",
+            "congestion": "不明"
         },
         "10": {
             "station_block": 1,
-            "station_name": "東飯能"
+            "station_name": "西武秩父"
         },
         "11": {
             "route_block": 1,
-            "time": "45分",
-            "line": "西武池袋・秩父線各停 西武秩父行",
-            "congestion": "余裕で座れる"
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
         },
         "12": {
             "station_block": 1,
-            "station_name": "西武秩父"
+            "station_name": "御花畑"
         },
         "13": {
             "route_block": 1,
-            "time": "7分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
+            "time": "21分",
+            "line": "秩父鉄道 三峰口行",
+            "congestion": "不明"
         },
         "14": {
-            "station_block": 1,
-            "station_name": "御花畑"
-        },
-        "15": {
-            "route_block": 1,
-            "time": "3分",
-            "line": "秩父鉄道 影森行",
-            "congestion": "余裕で座れる"
-        },
-        "16": {
-            "station_block": 1,
-            "station_name": "影森"
-        },
-        "17": {
-            "route_block": 1,
-            "time": "16分",
-            "line": "秩父鉄道 三峰口行",
-            "congestion": "余裕で座れる"
-        },
-        "18": {
             "station_block": 1,
             "station_name": "三峰口"
         }
@@ -81999,6 +82661,92 @@
             "station_name": "三峰口"
         }
     },
+    "久我原_三峰口": {
+        "0": {
+            "station_block": 1,
+            "station_name": "久我原"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "いすみ鉄道 大原（千葉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "城見ヶ丘"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "大多喜〔オリブ〕"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "1時間27分",
+            "line": "高速バス 浜松町・東京-勝浦・御宿・安房小湊 東京駅八重洲口前行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "東京駅八重洲口前"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "23分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "東京メトロ丸ノ内線 池袋行",
+            "congestion": "席はいっぱい"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "池袋"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "1時間17分",
+            "line": "西武池袋線 特急ちちぶ13号 西武秩父行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "西武秩父"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "御花畑"
+        },
+        "15": {
+            "route_block": 1,
+            "time": "21分",
+            "line": "秩父鉄道 三峰口行",
+            "congestion": "不明"
+        },
+        "16": {
+            "station_block": 1,
+            "station_name": "三峰口"
+        }
+    },
     "総元_三峰口": {
         "0": {
             "station_block": 1,
@@ -83611,6 +84359,92 @@
             "time": "21分",
             "line": "秩父鉄道 三峰口行",
             "congestion": "余裕で座れる"
+        },
+        "16": {
+            "station_block": 1,
+            "station_name": "三峰口"
+        }
+    },
+    "国際展示場正門_三峰口": {
+        "0": {
+            "station_block": 1,
+            "station_name": "東京ビッグサイト"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "ゆりかもめ 有明（東京都）行",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "有明"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "国際展示場"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "りんかい線 池袋行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "大崎"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "ＪＲ埼京線 池袋行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "池袋"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "48分",
+            "line": "西武池袋・秩父線急行 飯能行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "飯能"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "49分",
+            "line": "西武池袋・秩父線各停 西武秩父行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "西武秩父"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "御花畑"
+        },
+        "15": {
+            "route_block": 1,
+            "time": "21分",
+            "line": "秩父鉄道 三峰口行",
+            "congestion": "不明"
         },
         "16": {
             "station_block": 1,
@@ -89033,6 +89867,102 @@
             "station_name": "三峰口"
         }
     },
+    "伊奈中央_三峰口": {
+        "0": {
+            "station_block": 1,
+            "station_name": "伊奈中央"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "埼玉新都市交通ニューシャトル 内宿行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "内宿"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "内宿駅"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "丸建自動車 桶川駅東口-伊奈学園 桶川駅東口行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "桶川駅入口"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "桶川"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "23分",
+            "line": "ＪＲ高崎線 高崎行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "熊谷"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "56分",
+            "line": "秩父鉄道線 急行秩父路3号 影森行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "御花畑"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "西武秩父駅"
+        },
+        "15": {
+            "route_block": 1,
+            "time": "25分",
+            "line": "西武観光バス [M4急行] 三峯神社行",
+            "congestion": "不明"
+        },
+        "16": {
+            "station_block": 1,
+            "station_name": "三峰口駅"
+        },
+        "17": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "18": {
+            "station_block": 1,
+            "station_name": "三峰口"
+        }
+    },
     "羽貫_三峰口": {
         "0": {
             "station_block": 1,
@@ -92045,6 +92975,82 @@
             "station_name": "三峰口"
         }
     },
+    "市役所前_三峰口": {
+        "0": {
+            "station_block": 1,
+            "station_name": "市役所前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "千葉都市モノレール１号線 県庁前（千葉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "42分",
+            "line": "ＪＲ総武本線快速 大船行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "東京メトロ丸ノ内線 池袋行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "池袋"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "48分",
+            "line": "西武池袋・秩父線急行 飯能行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "飯能"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "49分",
+            "line": "西武池袋・秩父線各停 西武秩父行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "西武秩父"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "御花畑"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "21分",
+            "line": "秩父鉄道 三峰口行",
+            "congestion": "不明"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "三峰口"
+        }
+    },
     "葭川公園_三峰口": {
         "0": {
             "station_block": 1,
@@ -92115,6 +93121,82 @@
             "time": "21分",
             "line": "秩父鉄道 三峰口行",
             "congestion": "余裕で座れる"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "三峰口"
+        }
+    },
+    "県庁前_三峰口": {
+        "0": {
+            "station_block": 1,
+            "station_name": "県庁前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "千葉都市モノレール１号線 千葉みなと行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "42分",
+            "line": "ＪＲ総武本線快速 大船行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "東京メトロ丸ノ内線 池袋行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "池袋"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "48分",
+            "line": "西武池袋・秩父線急行 飯能行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "飯能"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "49分",
+            "line": "西武池袋・秩父線各停 西武秩父行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "西武秩父"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "御花畑"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "21分",
+            "line": "秩父鉄道 三峰口行",
+            "congestion": "不明"
         },
         "14": {
             "station_block": 1,
@@ -94055,6 +95137,82 @@
             "time": "2分",
             "line": "徒歩 ",
             "congestion": "余裕で座れる"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "三峰口"
+        }
+    },
+    "高松_三峰口": {
+        "0": {
+            "station_block": 1,
+            "station_name": "高松"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "多摩モノレール 上北台行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "玉川上水"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "西武拝島線準急 西武新宿行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "小平"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "西武新宿線急行 新所沢行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "所沢"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "57分",
+            "line": "西武池袋線 特急ちちぶ7号 西武秩父行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "西武秩父"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "西武秩父駅"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "25分",
+            "line": "西武観光バス [M4急行] 三峯神社行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "三峰口駅"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "徒歩 ",
+            "congestion": "不明"
         },
         "14": {
             "station_block": 1,
@@ -97761,6 +98919,72 @@
             "time": "1時間35分",
             "line": "秩父鉄道 三峰口行",
             "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "三峰口"
+        }
+    },
+    "大町_三峰口": {
+        "0": {
+            "station_block": 1,
+            "station_name": "大町"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "18分",
+            "line": "北総鉄道 羽田空港第１・第２ターミナル（京急）行",
+            "congestion": "席はいっぱい"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "京成高砂"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "京成押上線 羽田空港第１・第２ターミナル（京急）行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "青砥"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "12分",
+            "line": "京成本線通勤特急 京成上野行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "日暮里"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "ＪＲ京浜東北・根岸線 赤羽行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "赤羽"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "44分",
+            "line": "ＪＲ高崎線快速〔アーバン〕 高崎行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "熊谷"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "1時間35分",
+            "line": "秩父鉄道 三峰口行",
+            "congestion": "不明"
         },
         "12": {
             "station_block": 1,

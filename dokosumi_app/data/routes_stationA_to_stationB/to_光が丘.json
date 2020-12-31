@@ -3999,6 +3999,62 @@
             "station_name": "光が丘"
         }
     },
+    "扇町_光が丘": {
+        "0": {
+            "station_block": 1,
+            "station_name": "扇町"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "ＪＲ鶴見線 鶴見行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "鶴見"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "19分",
+            "line": "ＪＲ京浜東北・根岸線 南浦和行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "品川"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "18分",
+            "line": "ＪＲ山手線 渋谷,新宿方面",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "代々木"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "都営大江戸線 都庁前,光が丘方面",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "都庁前"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "22分",
+            "line": "都営大江戸線 光が丘行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "光が丘"
+        }
+    },
     "北府中_光が丘": {
         "0": {
             "station_block": 1,
@@ -4817,6 +4873,72 @@
             "time": "3分",
             "line": "徒歩 ",
             "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "光が丘"
+        }
+    },
+    "吉川_光が丘": {
+        "0": {
+            "station_block": 1,
+            "station_name": "吉川"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "32分",
+            "line": "ＪＲ武蔵野線 府中本町行",
+            "congestion": "普通に立てる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "北朝霞"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "朝霞台"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "東武東上線 池袋行",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "成増"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "成増駅南口"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "西武バス [練高01]光が丘駅経由 練馬高野台駅行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "光が丘ＩＭＡ"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "徒歩 ",
+            "congestion": "不明"
         },
         "12": {
             "station_block": 1,
@@ -19815,6 +19937,82 @@
             "station_name": "光が丘"
         }
     },
+    "竹岡_光が丘": {
+        "0": {
+            "station_block": 1,
+            "station_name": "竹岡"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "24分",
+            "line": "ＪＲ内房線 木更津行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "君津"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "44分",
+            "line": "ＪＲ内房線快速 逗子行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "37分",
+            "line": "ＪＲ総武本線快速 逗子行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "馬喰町"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "馬喰横山"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "都営新宿線 橋本（神奈川県）行",
+            "congestion": "席はいっぱい"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "新宿"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "1分",
+            "line": "都営大江戸線 都庁前,光が丘方面",
+            "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "都庁前"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "22分",
+            "line": "都営大江戸線 光が丘行",
+            "congestion": "不明"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "光が丘"
+        }
+    },
     "浜金谷_光が丘": {
         "0": {
             "station_block": 1,
@@ -20473,6 +20671,92 @@
             "time": "22分",
             "line": "都営大江戸線 光が丘行",
             "congestion": "余裕で座れる"
+        },
+        "16": {
+            "station_block": 1,
+            "station_name": "光が丘"
+        }
+    },
+    "千歳_光が丘": {
+        "0": {
+            "station_block": 1,
+            "station_name": "千歳"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "ＪＲ内房線 館山行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "館山"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "59分",
+            "line": "ＪＲ内房線 木更津行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "君津"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "47分",
+            "line": "ＪＲ内房線快速 逗子行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "38分",
+            "line": "ＪＲ総武本線快速 逗子行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "馬喰町"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "馬喰横山"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "都営新宿線 橋本（神奈川県）行",
+            "congestion": "席はいっぱい"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "新宿"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "都営大江戸線 都庁前,光が丘方面",
+            "congestion": "余裕で座れる"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "都庁前"
+        },
+        "15": {
+            "route_block": 1,
+            "time": "22分",
+            "line": "都営大江戸線 光が丘行",
+            "congestion": "不明"
         },
         "16": {
             "station_block": 1,
@@ -22679,6 +22963,62 @@
             "station_name": "光が丘"
         }
     },
+    "小林_光が丘": {
+        "0": {
+            "station_block": 1,
+            "station_name": "小林"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "24分",
+            "line": "ＪＲ成田線 我孫子（千葉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "我孫子"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "29分",
+            "line": "ＪＲ常磐線快速 上野行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "日暮里"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "ＪＲ山手線 池袋,新宿方面",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "池袋"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "西武池袋・秩父線準急 所沢行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "練馬"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "都営大江戸線 光が丘行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "光が丘"
+        }
+    },
     "安食_光が丘": {
         "0": {
             "station_block": 1,
@@ -22873,6 +23213,82 @@
             "congestion": "余裕で座れる"
         },
         "16": {
+            "station_block": 1,
+            "station_name": "光が丘"
+        }
+    },
+    "祇園_光が丘": {
+        "0": {
+            "station_block": 1,
+            "station_name": "祇園"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "ＪＲ久留里線 木更津行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "木更津"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "36分",
+            "line": "ＪＲ内房線快速 逗子行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "37分",
+            "line": "ＪＲ総武本線快速 逗子行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "馬喰町"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "馬喰横山"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "都営新宿線 橋本（神奈川県）行",
+            "congestion": "席はいっぱい"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "新宿"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "1分",
+            "line": "都営大江戸線 都庁前,光が丘方面",
+            "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "都庁前"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "22分",
+            "line": "都営大江戸線 光が丘行",
+            "congestion": "不明"
+        },
+        "14": {
             "station_block": 1,
             "station_name": "光が丘"
         }
@@ -29695,6 +30111,72 @@
             "station_name": "光が丘"
         }
     },
+    "大和田_光が丘": {
+        "0": {
+            "station_block": 1,
+            "station_name": "大和田"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "東武アーバンパークライン 大宮（埼玉県）行",
+            "congestion": "圧迫される"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "18分",
+            "line": "ＪＲ高崎線 上野行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "赤羽"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "ＪＲ埼京線 海老名（小田急・相鉄）行",
+            "congestion": "圧迫される"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "池袋"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "東京メトロ有楽町線 川越市行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "小竹向原"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "西武有楽町線準急 小手指行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "練馬"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "都営大江戸線 光が丘行",
+            "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "光が丘"
+        }
+    },
     "七里_光が丘": {
         "0": {
             "station_block": 1,
@@ -34791,6 +35273,52 @@
             "station_name": "光が丘"
         }
     },
+    "競艇場前_光が丘": {
+        "0": {
+            "station_block": 1,
+            "station_name": "競艇場前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "12分",
+            "line": "西武多摩川線各停 武蔵境行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "武蔵境"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "ＪＲ中央線快速 東京行",
+            "congestion": "圧迫される"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "高円寺"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "ＪＲ中央総武線各停 津田沼行",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "東中野"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "都営大江戸線 光が丘行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "光が丘"
+        }
+    },
     "是政_光が丘": {
         "0": {
             "station_block": 1,
@@ -38529,6 +39057,72 @@
             "station_name": "光が丘"
         }
     },
+    "学園前_光が丘": {
+        "0": {
+            "station_block": 1,
+            "station_name": "学園前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "京成千原線 京成津田沼行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉中央"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "京成千葉線 京成津田沼行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "京成津田沼"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "34分",
+            "line": "京成本線通勤特急 京成上野行",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "日暮里"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "ＪＲ山手線 池袋,新宿方面",
+            "congestion": "普通に立てる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "池袋"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "西武池袋・秩父線準急 所沢行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "練馬"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "都営大江戸線 光が丘行",
+            "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "光が丘"
+        }
+    },
     "おゆみ野_光が丘": {
         "0": {
             "station_block": 1,
@@ -40845,6 +41439,52 @@
             "time": "22分",
             "line": "都営大江戸線 光が丘行",
             "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "光が丘"
+        }
+    },
+    "山田_光が丘": {
+        "0": {
+            "station_block": 1,
+            "station_name": "山田"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "京王高尾線各停 新宿行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "北野"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "47分",
+            "line": "京王線準特急 新宿行",
+            "congestion": "圧迫される"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "新宿"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "1分",
+            "line": "都営大江戸線 都庁前,光が丘方面",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "都庁前"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "22分",
+            "line": "都営大江戸線 光が丘行",
+            "congestion": "不明"
         },
         "8": {
             "station_block": 1,
@@ -44308,61 +44948,51 @@
         },
         "1": {
             "route_block": 1,
-            "time": "8分",
-            "line": "名古屋市営名城線 栄（愛知県）,金山（愛知県）方面",
-            "congestion": "余裕で座れる"
+            "time": "1分",
+            "line": "小田急多摩線各停 新百合ヶ丘行",
+            "congestion": "席はいっぱい"
         },
         "2": {
             "station_block": 1,
-            "station_name": "栄"
+            "station_name": "栗平"
         },
         "3": {
             "route_block": 1,
-            "time": "4分",
-            "line": "名古屋市営東山線 藤が丘（愛知県）行",
-            "congestion": "余裕で座れる"
+            "time": "3分",
+            "line": "小田急多摩線通勤急行 新宿行",
+            "congestion": "普通に立てる"
         },
         "4": {
             "station_block": 1,
-            "station_name": "千種"
+            "station_name": "新百合ヶ丘"
         },
         "5": {
             "route_block": 1,
-            "time": "1時間47分",
-            "line": "ＪＲ中央本線 特急ワイドビューしなの5号 長野行",
-            "congestion": "余裕で座れる"
+            "time": "30分",
+            "line": "小田急小田原線通勤急行 新宿行",
+            "congestion": "不明"
         },
         "6": {
             "station_block": 1,
-            "station_name": "塩尻"
+            "station_name": "新宿"
         },
         "7": {
             "route_block": 1,
-            "time": "2時間24分",
-            "line": "ＪＲ中央本線 特急あずさ22号 新宿行",
+            "time": "1分",
+            "line": "都営大江戸線 都庁前,光が丘方面",
             "congestion": "余裕で座れる"
         },
         "8": {
             "station_block": 1,
-            "station_name": "新宿"
+            "station_name": "都庁前"
         },
         "9": {
             "route_block": 1,
-            "time": "2分",
-            "line": "都営大江戸線 都庁前,光が丘方面",
-            "congestion": "余裕で座れる"
-        },
-        "10": {
-            "station_block": 1,
-            "station_name": "都庁前"
-        },
-        "11": {
-            "route_block": 1,
             "time": "22分",
             "line": "都営大江戸線 光が丘行",
-            "congestion": "余裕で座れる"
+            "congestion": "不明"
         },
-        "12": {
+        "10": {
             "station_block": 1,
             "station_name": "光が丘"
         }
@@ -48667,6 +49297,62 @@
             "congestion": "余裕で座れる"
         },
         "8": {
+            "station_block": 1,
+            "station_name": "光が丘"
+        }
+    },
+    "山下_光が丘": {
+        "0": {
+            "station_block": 1,
+            "station_name": "山下"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "豪徳寺"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "小田急小田原線各停 綾瀬行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "代々木上原"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "小田急小田原線快速急行 新宿行",
+            "congestion": "圧迫される"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "新宿"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "1分",
+            "line": "都営大江戸線 都庁前,光が丘方面",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "都庁前"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "22分",
+            "line": "都営大江戸線 光が丘行",
+            "congestion": "不明"
+        },
+        "10": {
             "station_block": 1,
             "station_name": "光が丘"
         }
@@ -53189,6 +53875,42 @@
             "station_name": "光が丘"
         }
     },
+    "京橋_光が丘": {
+        "0": {
+            "station_block": 1,
+            "station_name": "京橋"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "東京メトロ銀座線 渋谷行",
+            "congestion": "普通に立てる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "青山一丁目"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "都営大江戸線 都庁前,光が丘方面",
+            "congestion": "席はいっぱい"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "都庁前"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "22分",
+            "line": "都営大江戸線 光が丘行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "光が丘"
+        }
+    },
     "銀座_光が丘": {
         "0": {
             "station_block": 1,
@@ -55481,6 +56203,42 @@
             "congestion": "余裕で座れる"
         },
         "8": {
+            "station_block": 1,
+            "station_name": "光が丘"
+        }
+    },
+    "明治神宮前〈原宿〉_光が丘": {
+        "0": {
+            "station_block": 1,
+            "station_name": "明治神宮前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "東京メトロ副都心線 池袋行",
+            "congestion": "席はいっぱい"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "新宿三丁目"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "東京メトロ丸ノ内線 方南町行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "中野坂上"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "18分",
+            "line": "都営大江戸線 光が丘行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
             "station_block": 1,
             "station_name": "光が丘"
         }
@@ -61922,39 +62680,39 @@
         },
         "1": {
             "route_block": 1,
-            "time": "3分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
+            "time": "4分",
+            "line": "千葉都市モノレール１号線 千葉みなと行",
+            "congestion": "不明"
         },
         "2": {
             "station_block": 1,
-            "station_name": "栄"
+            "station_name": "千葉"
         },
         "3": {
             "route_block": 1,
-            "time": "4分",
-            "line": "名古屋市営東山線 藤が丘（愛知県）行",
-            "congestion": "余裕で座れる"
+            "time": "38分",
+            "line": "ＪＲ総武本線快速 東京行",
+            "congestion": "普通に立てる"
         },
         "4": {
             "station_block": 1,
-            "station_name": "千種"
+            "station_name": "馬喰町"
         },
         "5": {
             "route_block": 1,
-            "time": "1時間47分",
-            "line": "ＪＲ中央本線 特急ワイドビューしなの5号 長野行",
-            "congestion": "余裕で座れる"
+            "time": "5分",
+            "line": "徒歩 ",
+            "congestion": "不明"
         },
         "6": {
             "station_block": 1,
-            "station_name": "塩尻"
+            "station_name": "馬喰横山"
         },
         "7": {
             "route_block": 1,
-            "time": "2時間24分",
-            "line": "ＪＲ中央本線 特急あずさ22号 新宿行",
-            "congestion": "余裕で座れる"
+            "time": "15分",
+            "line": "都営新宿線 笹塚行",
+            "congestion": "席はいっぱい"
         },
         "8": {
             "station_block": 1,
@@ -61974,7 +62732,7 @@
             "route_block": 1,
             "time": "22分",
             "line": "都営大江戸線 光が丘行",
-            "congestion": "余裕で座れる"
+            "congestion": "不明"
         },
         "12": {
             "station_block": 1,
@@ -65661,6 +66419,82 @@
             "station_name": "光が丘"
         }
     },
+    "久我原_光が丘": {
+        "0": {
+            "station_block": 1,
+            "station_name": "久我原"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "いすみ鉄道 大原（千葉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "城見ヶ丘"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "大多喜〔オリブ〕"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "1時間27分",
+            "line": "高速バス 浜松町・東京-勝浦・御宿・安房小湊 東京駅八重洲口前行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "東京駅八重洲口前"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "ＪＲ中央線快速 青梅行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "新宿"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "1分",
+            "line": "都営大江戸線 都庁前,光が丘方面",
+            "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "都庁前"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "22分",
+            "line": "都営大江戸線 光が丘行",
+            "congestion": "不明"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "光が丘"
+        }
+    },
     "総元_光が丘": {
         "0": {
             "station_block": 1,
@@ -66681,6 +67515,52 @@
         "1": {
             "route_block": 1,
             "time": "10分",
+            "line": "ゆりかもめ 豊洲行",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "豊洲"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "35分",
+            "line": "東京メトロ有楽町線 和光市行",
+            "congestion": "席はいっぱい"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "小竹向原"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "西武有楽町線各停 清瀬行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "練馬"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "都営大江戸線 光が丘行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "光が丘"
+        }
+    },
+    "国際展示場正門_光が丘": {
+        "0": {
+            "station_block": 1,
+            "station_name": "東京ビッグサイト"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "8分",
             "line": "ゆりかもめ 豊洲行",
             "congestion": "余裕で座れる"
         },
@@ -71375,6 +72255,82 @@
             "station_name": "光が丘"
         }
     },
+    "伊奈中央_光が丘": {
+        "0": {
+            "station_block": 1,
+            "station_name": "伊奈中央"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "22分",
+            "line": "埼玉新都市交通ニューシャトル 大宮（埼玉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "むさしの号 八王子行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "北朝霞"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "朝霞台"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "東武東上線 池袋行",
+            "congestion": "席はいっぱい"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "成増"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "成増駅南口"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "西武バス [練高02]光が丘駅経由 南田中車庫行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "光が丘ＩＭＡ"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "光が丘"
+        }
+    },
     "羽貫_光が丘": {
         "0": {
             "station_block": 1,
@@ -74727,6 +75683,72 @@
             "station_name": "光が丘"
         }
     },
+    "市役所前_光が丘": {
+        "0": {
+            "station_block": 1,
+            "station_name": "市役所前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "千葉都市モノレール１号線 動物公園行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "38分",
+            "line": "ＪＲ総武本線快速 東京行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "馬喰町"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "馬喰横山"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "都営新宿線 笹塚行",
+            "congestion": "席はいっぱい"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "新宿"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "都営大江戸線 都庁前,光が丘方面",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "都庁前"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "22分",
+            "line": "都営大江戸線 光が丘行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "光が丘"
+        }
+    },
     "葭川公園_光が丘": {
         "0": {
             "station_block": 1,
@@ -74787,6 +75809,72 @@
             "time": "22分",
             "line": "都営大江戸線 光が丘行",
             "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "光が丘"
+        }
+    },
+    "県庁前_光が丘": {
+        "0": {
+            "station_block": 1,
+            "station_name": "県庁前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "千葉都市モノレール１号線 千葉みなと行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "38分",
+            "line": "ＪＲ総武本線快速 東京行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "馬喰町"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "馬喰横山"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "都営新宿線 笹塚行",
+            "congestion": "席はいっぱい"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "新宿"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "都営大江戸線 都庁前,光が丘方面",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "都庁前"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "22分",
+            "line": "都営大江戸線 光が丘行",
+            "congestion": "不明"
         },
         "12": {
             "station_block": 1,
@@ -76489,6 +77577,62 @@
             "congestion": "余裕で座れる"
         },
         "8": {
+            "station_block": 1,
+            "station_name": "光が丘"
+        }
+    },
+    "高松_光が丘": {
+        "0": {
+            "station_block": 1,
+            "station_name": "高松"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "多摩モノレール 多摩センター行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "立川北"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "立川"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "30分",
+            "line": "ＪＲ中央線快速 東京行",
+            "congestion": "圧迫される"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "荻窪"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "東京メトロ丸ノ内線 池袋行",
+            "congestion": "普通に立てる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "中野坂上"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "18分",
+            "line": "都営大江戸線 光が丘行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
             "station_block": 1,
             "station_name": "光が丘"
         }
@@ -79141,6 +80285,62 @@
         "1": {
             "route_block": 1,
             "time": "12分",
+            "line": "北総鉄道 羽田空港第１・第２ターミナル（京急）行",
+            "congestion": "席はいっぱい"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "京成高砂"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "京成本線通勤特急 京成上野行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "日暮里"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "ＪＲ山手線 池袋,新宿方面",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "池袋"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "西武池袋・秩父線各停 豊島園〔西武線〕行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "練馬"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "都営大江戸線 光が丘行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "光が丘"
+        }
+    },
+    "大町_光が丘": {
+        "0": {
+            "station_block": 1,
+            "station_name": "大町"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "14分",
             "line": "北総鉄道 羽田空港第１・第２ターミナル（京急）行",
             "congestion": "席はいっぱい"
         },

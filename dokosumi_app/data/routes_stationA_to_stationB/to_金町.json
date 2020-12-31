@@ -3769,6 +3769,52 @@
             "station_name": "金町"
         }
     },
+    "扇町_金町": {
+        "0": {
+            "station_block": 1,
+            "station_name": "扇町"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "ＪＲ鶴見線 鶴見行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "鶴見"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "47分",
+            "line": "ＪＲ京浜東北・根岸線 南浦和行",
+            "congestion": "席はいっぱい"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "西日暮里"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "東京メトロ千代田線 我孫子（千葉県）行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "綾瀬"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "ＪＲ常磐線各停 我孫子（千葉県）行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "金町"
+        }
+    },
     "北府中_金町": {
         "0": {
             "station_block": 1,
@@ -19023,6 +19069,82 @@
             "station_name": "金町"
         }
     },
+    "竹岡_金町": {
+        "0": {
+            "station_block": 1,
+            "station_name": "竹岡"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "24分",
+            "line": "ＪＲ内房線 木更津行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "君津"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "44分",
+            "line": "ＪＲ内房線快速 逗子行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "ＪＲ総武本線快速 逗子行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "船橋"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "京成船橋"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "京成本線快特 京成上野行",
+            "congestion": "普通に立てる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "京成高砂"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "京成金町線 京成金町行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "京成金町"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "金町"
+        }
+    },
     "浜金谷_金町": {
         "0": {
             "station_block": 1,
@@ -19651,6 +19773,72 @@
             "time": "38分",
             "line": "ＪＲ内房線快速 逗子行",
             "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "蘇我"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "ＪＲ京葉線快速 東京行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "南船橋"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "22分",
+            "line": "ＪＲ武蔵野線 府中本町行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "新松戸"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "ＪＲ常磐線各停 向ヶ丘遊園行",
+            "congestion": "席はいっぱい"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "金町"
+        }
+    },
+    "千歳_金町": {
+        "0": {
+            "station_block": 1,
+            "station_name": "千歳"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "ＪＲ内房線 館山行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "館山"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "59分",
+            "line": "ＪＲ内房線 木更津行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "君津"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "38分",
+            "line": "ＪＲ内房線快速 逗子行",
+            "congestion": "不明"
         },
         "6": {
             "station_block": 1,
@@ -21507,6 +21695,42 @@
             "station_name": "金町"
         }
     },
+    "小林_金町": {
+        "0": {
+            "station_block": 1,
+            "station_name": "小林"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "24分",
+            "line": "ＪＲ成田線 我孫子（千葉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "我孫子"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "ＪＲ常磐線快速 上野行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "松戸"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "ＪＲ常磐線各停 成城学園前行",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "金町"
+        }
+    },
     "安食_金町": {
         "0": {
             "station_block": 1,
@@ -21621,6 +21845,82 @@
             "congestion": "余裕で座れる"
         },
         "8": {
+            "station_block": 1,
+            "station_name": "金町"
+        }
+    },
+    "祇園_金町": {
+        "0": {
+            "station_block": 1,
+            "station_name": "祇園"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "ＪＲ久留里線 木更津行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "木更津"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "36分",
+            "line": "ＪＲ内房線快速 逗子行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "ＪＲ総武本線快速 逗子行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "船橋"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "京成船橋"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "京成本線快速 京成上野行",
+            "congestion": "席はいっぱい"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "京成高砂"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "京成金町線 京成金町行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "京成金町"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "14": {
             "station_block": 1,
             "station_name": "金町"
         }
@@ -26889,6 +27189,52 @@
             "congestion": "余裕で座れる"
         },
         "10": {
+            "station_block": 1,
+            "station_name": "金町"
+        }
+    },
+    "大和田_金町": {
+        "0": {
+            "station_block": 1,
+            "station_name": "大和田"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "東武アーバンパークライン 春日部行",
+            "congestion": "席はいっぱい"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "春日部"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "31分",
+            "line": "東武伊勢崎線[スカイツリーライン]区間急行 浅草行",
+            "congestion": "席はいっぱい"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "北千住"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "東京メトロ千代田線 我孫子（千葉県）行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "綾瀬"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "ＪＲ常磐線各停 我孫子（千葉県）行",
+            "congestion": "不明"
+        },
+        "8": {
             "station_block": 1,
             "station_name": "金町"
         }
@@ -32935,6 +33281,62 @@
             "station_name": "金町"
         }
     },
+    "競艇場前_金町": {
+        "0": {
+            "station_block": 1,
+            "station_name": "競艇場前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "12分",
+            "line": "西武多摩川線各停 武蔵境行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "武蔵境"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "35分",
+            "line": "ＪＲ中央線快速 東京行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "御茶ノ水"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "新御茶ノ水"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "東京メトロ千代田線 我孫子（千葉県）行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "綾瀬"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "ＪＲ常磐線各停 我孫子（千葉県）行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "金町"
+        }
+    },
     "是政_金町": {
         "0": {
             "station_block": 1,
@@ -35277,6 +35679,62 @@
             "time": "3分",
             "line": "徒歩 ",
             "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "金町"
+        }
+    },
+    "学園前_金町": {
+        "0": {
+            "station_block": 1,
+            "station_name": "学園前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "京成千原線 京成津田沼行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉中央"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "京成千葉線 京成津田沼行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "京成津田沼"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "18分",
+            "line": "京成本線通勤特急 京成上野行",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "京成高砂"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "京成金町線 京成金町行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "京成金町"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "徒歩 ",
+            "congestion": "不明"
         },
         "10": {
             "station_block": 1,
@@ -37999,6 +38457,62 @@
             "time": "5分",
             "line": "ＪＲ常磐線各停 我孫子（千葉県）行",
             "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "金町"
+        }
+    },
+    "山田_金町": {
+        "0": {
+            "station_block": 1,
+            "station_name": "山田"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "京王高尾線各停 新宿行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "北野"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "47分",
+            "line": "京王線準特急 新宿行",
+            "congestion": "圧迫される"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "新宿"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "19分",
+            "line": "ＪＲ山手線 池袋,上野方面",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "西日暮里"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "東京メトロ千代田線 我孫子（千葉県）行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "綾瀬"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "ＪＲ常磐線各停 我孫子（千葉県）行",
+            "congestion": "不明"
         },
         "10": {
             "station_block": 1,
@@ -41522,71 +42036,41 @@
         },
         "1": {
             "route_block": 1,
-            "time": "8分",
-            "line": "名古屋市営名城線 栄（愛知県）,金山（愛知県）方面",
-            "congestion": "余裕で座れる"
+            "time": "6分",
+            "line": "小田急多摩線各停 新百合ヶ丘行",
+            "congestion": "席はいっぱい"
         },
         "2": {
             "station_block": 1,
-            "station_name": "栄"
+            "station_name": "新百合ヶ丘"
         },
         "3": {
             "route_block": 1,
-            "time": "4分",
-            "line": "名古屋市営東山線 藤が丘（愛知県）行",
-            "congestion": "余裕で座れる"
+            "time": "21分",
+            "line": "小田急小田原線快速急行 新宿行",
+            "congestion": "圧迫される"
         },
         "4": {
             "station_block": 1,
-            "station_name": "千種"
+            "station_name": "代々木上原"
         },
         "5": {
             "route_block": 1,
-            "time": "1時間46分",
-            "line": "ＪＲ中央本線 特急ワイドビューしなの11号 長野行",
-            "congestion": "余裕で座れる"
+            "time": "41分",
+            "line": "東京メトロ千代田線 松戸行",
+            "congestion": "席はいっぱい"
         },
         "6": {
             "station_block": 1,
-            "station_name": "塩尻"
+            "station_name": "綾瀬"
         },
         "7": {
             "route_block": 1,
-            "time": "2時間29分",
-            "line": "ＪＲ中央本線 特急あずさ34号 新宿行",
-            "congestion": "余裕で座れる"
+            "time": "5分",
+            "line": "ＪＲ常磐線各停 松戸行",
+            "congestion": "不明"
         },
         "8": {
-            "station_block": 1,
-            "station_name": "新宿"
-        },
-        "9": {
-            "route_block": 1,
-            "time": "20分",
-            "line": "ＪＲ山手線 池袋,上野方面",
-            "congestion": "普通に立てる"
-        },
-        "10": {
-            "station_block": 1,
-            "station_name": "西日暮里"
-        },
-        "11": {
-            "route_block": 1,
-            "time": "10分",
-            "line": "東京メトロ千代田線 取手行",
-            "congestion": "普通に立てる"
-        },
-        "12": {
-            "station_block": 1,
-            "station_name": "綾瀬"
-        },
-        "13": {
-            "route_block": 1,
-            "time": "6分",
-            "line": "ＪＲ常磐線各停 取手行",
-            "congestion": "余裕で座れる"
-        },
-        "14": {
             "station_block": 1,
             "station_name": "金町"
         }
@@ -45749,6 +46233,62 @@
             "time": "5分",
             "line": "ＪＲ常磐線各停 我孫子（千葉県）行",
             "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "金町"
+        }
+    },
+    "山下_金町": {
+        "0": {
+            "station_block": 1,
+            "station_name": "山下"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "豪徳寺"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "小田急小田原線各停 綾瀬行",
+            "congestion": "席はいっぱい"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "代々木上原"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "32分",
+            "line": "東京メトロ千代田線 綾瀬行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "西日暮里"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "東京メトロ千代田線 我孫子（千葉県）行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "綾瀬"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "ＪＲ常磐線各停 我孫子（千葉県）行",
+            "congestion": "不明"
         },
         "10": {
             "station_block": 1,
@@ -50393,6 +50933,52 @@
             "station_name": "金町"
         }
     },
+    "京橋_金町": {
+        "0": {
+            "station_block": 1,
+            "station_name": "京橋"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "東京メトロ銀座線 浅草行",
+            "congestion": "普通に立てる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "日本橋"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "1分",
+            "line": "東京メトロ東西線 中野（東京都）行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "大手町"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "20分",
+            "line": "東京メトロ千代田線 我孫子（千葉県）行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "綾瀬"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "ＪＲ常磐線各停 我孫子（千葉県）行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "金町"
+        }
+    },
     "銀座_金町": {
         "0": {
             "station_block": 1,
@@ -52753,6 +53339,32 @@
             "time": "5分",
             "line": "ＪＲ常磐線各停 松戸行",
             "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "金町"
+        }
+    },
+    "明治神宮前〈原宿〉_金町": {
+        "0": {
+            "station_block": 1,
+            "station_name": "明治神宮前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "37分",
+            "line": "東京メトロ千代田線 我孫子（千葉県）行",
+            "congestion": "席はいっぱい"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "綾瀬"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "ＪＲ常磐線各停 我孫子（千葉県）行",
+            "congestion": "不明"
         },
         "4": {
             "station_block": 1,
@@ -59106,71 +59718,61 @@
         },
         "1": {
             "route_block": 1,
-            "time": "3分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
+            "time": "4分",
+            "line": "千葉都市モノレール１号線 千葉みなと行",
+            "congestion": "不明"
         },
         "2": {
             "station_block": 1,
-            "station_name": "栄"
+            "station_name": "千葉"
         },
         "3": {
             "route_block": 1,
-            "time": "4分",
-            "line": "名古屋市営東山線 藤が丘（愛知県）行",
-            "congestion": "余裕で座れる"
+            "time": "5分",
+            "line": "徒歩 ",
+            "congestion": "不明"
         },
         "4": {
             "station_block": 1,
-            "station_name": "千種"
+            "station_name": "京成千葉"
         },
         "5": {
             "route_block": 1,
-            "time": "1時間46分",
-            "line": "ＪＲ中央本線 特急ワイドビューしなの11号 長野行",
-            "congestion": "余裕で座れる"
+            "time": "16分",
+            "line": "京成千葉線 京成津田沼行",
+            "congestion": "不明"
         },
         "6": {
             "station_block": 1,
-            "station_name": "塩尻"
+            "station_name": "京成津田沼"
         },
         "7": {
             "route_block": 1,
-            "time": "2時間29分",
-            "line": "ＪＲ中央本線 特急あずさ34号 新宿行",
-            "congestion": "余裕で座れる"
+            "time": "18分",
+            "line": "京成本線通勤特急 京成上野行",
+            "congestion": "普通に立てる"
         },
         "8": {
             "station_block": 1,
-            "station_name": "新宿"
+            "station_name": "京成高砂"
         },
         "9": {
             "route_block": 1,
-            "time": "20分",
-            "line": "ＪＲ山手線 池袋,上野方面",
-            "congestion": "普通に立てる"
+            "time": "5分",
+            "line": "京成金町線 京成金町行",
+            "congestion": "不明"
         },
         "10": {
             "station_block": 1,
-            "station_name": "西日暮里"
+            "station_name": "京成金町"
         },
         "11": {
             "route_block": 1,
-            "time": "10分",
-            "line": "東京メトロ千代田線 取手行",
-            "congestion": "普通に立てる"
+            "time": "3分",
+            "line": "徒歩 ",
+            "congestion": "不明"
         },
         "12": {
-            "station_block": 1,
-            "station_name": "綾瀬"
-        },
-        "13": {
-            "route_block": 1,
-            "time": "6分",
-            "line": "ＪＲ常磐線各停 取手行",
-            "congestion": "余裕で座れる"
-        },
-        "14": {
             "station_block": 1,
             "station_name": "金町"
         }
@@ -62725,6 +63327,82 @@
             "station_name": "金町"
         }
     },
+    "久我原_金町": {
+        "0": {
+            "station_block": 1,
+            "station_name": "久我原"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "40分",
+            "line": "いすみ鉄道 大原（千葉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "大原"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "1時間5分",
+            "line": "ＪＲ外房線 千葉行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "ＪＲ総武本線快速 逗子行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "船橋"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "京成船橋"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "京成本線快特 京成上野行",
+            "congestion": "席はいっぱい"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "京成高砂"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "京成金町線 京成金町行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "京成金町"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "金町"
+        }
+    },
     "総元_金町": {
         "0": {
             "station_block": 1,
@@ -63907,6 +64585,62 @@
             "time": "5分",
             "line": "ＪＲ常磐線各停 我孫子（千葉県）行",
             "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "金町"
+        }
+    },
+    "国際展示場正門_金町": {
+        "0": {
+            "station_block": 1,
+            "station_name": "東京ビッグサイト"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "ゆりかもめ 豊洲行",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "豊洲"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "東京メトロ有楽町線 和光市行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "有楽町"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "徒歩（地下鉄） ",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "日比谷"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "24分",
+            "line": "東京メトロ千代田線 我孫子（千葉県）行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "綾瀬"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "ＪＲ常磐線各停 我孫子（千葉県）行",
+            "congestion": "不明"
         },
         "10": {
             "station_block": 1,
@@ -68399,6 +69133,62 @@
             "station_name": "金町"
         }
     },
+    "伊奈中央_金町": {
+        "0": {
+            "station_block": 1,
+            "station_name": "伊奈中央"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "22分",
+            "line": "埼玉新都市交通ニューシャトル 大宮（埼玉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "ＪＲ埼京線通勤快速 新木場行",
+            "congestion": "圧迫される"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "赤羽"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "12分",
+            "line": "ＪＲ京浜東北・根岸線 大船行",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "西日暮里"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "東京メトロ千代田線 我孫子（千葉県）行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "綾瀬"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "ＪＲ常磐線各停 我孫子（千葉県）行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "金町"
+        }
+    },
     "羽貫_金町": {
         "0": {
             "station_block": 1,
@@ -70611,6 +71401,72 @@
             "station_name": "金町"
         }
     },
+    "市役所前_金町": {
+        "0": {
+            "station_block": 1,
+            "station_name": "市役所前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "千葉都市モノレール１号線 千葉みなと行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉みなと"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "ＪＲ京葉線 東京行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "新習志野"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "ＪＲ京葉線 西船橋行",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "南船橋"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "ＪＲ武蔵野線 西船橋行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "西船橋"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "ＪＲ武蔵野線 府中本町行",
+            "congestion": "席はいっぱい"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "新松戸"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "ＪＲ常磐線各停 代々木上原行",
+            "congestion": "普通に立てる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "金町"
+        }
+    },
     "葭川公園_金町": {
         "0": {
             "station_block": 1,
@@ -70671,6 +71527,72 @@
             "time": "3分",
             "line": "徒歩 ",
             "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "金町"
+        }
+    },
+    "県庁前_金町": {
+        "0": {
+            "station_block": 1,
+            "station_name": "県庁前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "千葉都市モノレール１号線 千葉みなと行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "京成千葉"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "京成千葉線 京成津田沼行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "京成津田沼"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "18分",
+            "line": "京成本線通勤特急 京成上野行",
+            "congestion": "普通に立てる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "京成高砂"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "京成金町線 京成金町行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "京成金町"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "徒歩 ",
+            "congestion": "不明"
         },
         "12": {
             "station_block": 1,
@@ -72153,6 +73075,72 @@
             "congestion": "余裕で座れる"
         },
         "10": {
+            "station_block": 1,
+            "station_name": "金町"
+        }
+    },
+    "高松_金町": {
+        "0": {
+            "station_block": 1,
+            "station_name": "高松"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "多摩モノレール 多摩センター行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "立川南"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "立川"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "45分",
+            "line": "ＪＲ中央線通勤特別快速 東京行",
+            "congestion": "圧迫される"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "御茶ノ水"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "新御茶ノ水"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "東京メトロ千代田線 我孫子（千葉県）行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "綾瀬"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "ＪＲ常磐線各停 我孫子（千葉県）行",
+            "congestion": "不明"
+        },
+        "12": {
             "station_block": 1,
             "station_name": "金町"
         }
@@ -74787,6 +75775,52 @@
             "time": "2分",
             "line": "徒歩 ",
             "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "金町"
+        }
+    },
+    "大町_金町": {
+        "0": {
+            "station_block": 1,
+            "station_name": "大町"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "12分",
+            "line": "北総鉄道 羽田空港第１・第２ターミナル（京急）行",
+            "congestion": "席はいっぱい"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "新柴又"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "新柴又駅"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "京成バス [小５５] 金町駅前行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "金町駅前"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "徒歩 ",
+            "congestion": "不明"
         },
         "8": {
             "station_block": 1,

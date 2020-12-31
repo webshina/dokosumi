@@ -3199,6 +3199,52 @@
             "station_name": "栢山"
         }
     },
+    "扇町_栢山": {
+        "0": {
+            "station_block": 1,
+            "station_name": "扇町"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "ＪＲ鶴見線 鶴見行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "鶴見"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "ＪＲ京浜東北・根岸線 南浦和行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "川崎"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "1時間0分",
+            "line": "ＪＲ東海道本線 熱海行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "小田原"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "小田急小田原線各停 新松田行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "栢山"
+        }
+    },
     "北府中_栢山": {
         "0": {
             "station_block": 1,
@@ -3959,6 +4005,62 @@
             "congestion": "余裕で座れる"
         },
         "14": {
+            "station_block": 1,
+            "station_name": "栢山"
+        }
+    },
+    "吉川_栢山": {
+        "0": {
+            "station_block": 1,
+            "station_name": "吉川"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "24分",
+            "line": "ＪＲ武蔵野線 府中本町行",
+            "congestion": "普通に立てる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "武蔵浦和"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "24分",
+            "line": "ＪＲ埼京線通勤快速 新木場行",
+            "congestion": "身動き不可"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "新宿"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "35分",
+            "line": "小田急小田原線快速急行 藤沢行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "相模大野"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "45分",
+            "line": "小田急小田原線急行 小田原行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "新松田"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "小田急小田原線各停 小田原行",
+            "congestion": "不明"
+        },
+        "10": {
             "station_block": 1,
             "station_name": "栢山"
         }
@@ -18213,6 +18315,72 @@
             "station_name": "栢山"
         }
     },
+    "竹岡_栢山": {
+        "0": {
+            "station_block": 1,
+            "station_name": "竹岡"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "38分",
+            "line": "ＪＲ内房線 木更津行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "木更津"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "木更津駅東口"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "1時間2分",
+            "line": "京急バス [高速] 横浜駅東口行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "横浜駅東口"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "横浜"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "53分",
+            "line": "ＪＲ東海道本線 熱海行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "小田原"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "小田急小田原線各停 新松田行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "栢山"
+        }
+    },
     "浜金谷_栢山": {
         "0": {
             "station_block": 1,
@@ -18791,6 +18959,72 @@
             "time": "9分",
             "line": "小田急小田原線各停 新松田行",
             "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "栢山"
+        }
+    },
+    "千歳_栢山": {
+        "0": {
+            "station_block": 1,
+            "station_name": "千歳"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "ＪＲ内房線 館山行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "館山"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "館山駅前"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "2時間5分",
+            "line": "京急バス [高速] 横浜駅東口行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "横浜駅東口"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "横浜"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "58分",
+            "line": "ＪＲ東海道本線 熱海行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "小田原"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "小田急小田原線各停 新松田行",
+            "congestion": "不明"
         },
         "12": {
             "station_block": 1,
@@ -20917,6 +21151,82 @@
             "station_name": "栢山"
         }
     },
+    "小林_栢山": {
+        "0": {
+            "station_block": 1,
+            "station_name": "小林"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "24分",
+            "line": "ＪＲ成田線 我孫子（千葉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "我孫子"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "ＪＲ常磐線快速 上野行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "松戸"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "ＪＲ常磐線各停 成城学園前行",
+            "congestion": "圧迫される"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "綾瀬"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "42分",
+            "line": "東京メトロ千代田線 成城学園前行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "代々木上原"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "29分",
+            "line": "小田急小田原線快速急行 藤沢行",
+            "congestion": "席はいっぱい"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "相模大野"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "44分",
+            "line": "小田急小田原線急行 新松田行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "新松田"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "小田急小田原線各停 小田原行",
+            "congestion": "不明"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "栢山"
+        }
+    },
     "安食_栢山": {
         "0": {
             "station_block": 1,
@@ -21152,101 +21462,71 @@
         },
         "1": {
             "route_block": 1,
-            "time": "2分",
-            "line": "福岡市営空港線 福岡空港行",
-            "congestion": "余裕で座れる"
+            "time": "4分",
+            "line": "徒歩 ",
+            "congestion": "不明"
         },
         "2": {
             "station_block": 1,
-            "station_name": "博多"
+            "station_name": "祇園"
         },
         "3": {
             "route_block": 1,
-            "time": "40分",
-            "line": "ＪＲ鹿児島本線 特急ソニック29号 大分行",
-            "congestion": "余裕で座れる"
+            "time": "11分",
+            "line": "日東交通 馬来田線 木更津駅東口行",
+            "congestion": "不明"
         },
         "4": {
             "station_block": 1,
-            "station_name": "小倉"
+            "station_name": "木更津駅東口"
         },
         "5": {
             "route_block": 1,
-            "time": "6分",
-            "line": "ＪＲ鹿児島本線 下関行",
-            "congestion": "余裕で座れる"
+            "time": "4分",
+            "line": "徒歩 ",
+            "congestion": "不明"
         },
         "6": {
             "station_block": 1,
-            "station_name": "門司"
+            "station_name": "木更津駅東口"
         },
         "7": {
             "route_block": 1,
-            "time": "7分",
-            "line": "ＪＲ山陽本線 下関行",
-            "congestion": "余裕で座れる"
+            "time": "55分",
+            "line": "京急バス [高速] 横浜駅東口行",
+            "congestion": "不明"
         },
         "8": {
             "station_block": 1,
-            "station_name": "下関"
+            "station_name": "横浜駅東口"
         },
         "9": {
             "route_block": 1,
-            "time": "3時間3分",
-            "line": "ＪＲ山陽本線 岩国行",
-            "congestion": "余裕で座れる"
+            "time": "10分",
+            "line": "徒歩 ",
+            "congestion": "不明"
         },
         "10": {
             "station_block": 1,
-            "station_name": "岩国"
+            "station_name": "横浜"
         },
         "11": {
             "route_block": 1,
-            "time": "2時間8分",
-            "line": "ＪＲ山陽本線 糸崎行",
-            "congestion": "余裕で座れる"
+            "time": "56分",
+            "line": "ＪＲ東海道本線 熱海行",
+            "congestion": "不明"
         },
         "12": {
             "station_block": 1,
-            "station_name": "三原"
+            "station_name": "小田原"
         },
         "13": {
             "route_block": 1,
-            "time": "1時間31分",
-            "line": "ＪＲ山陽本線 瀬戸行",
-            "congestion": "余裕で座れる"
-        },
-        "14": {
-            "station_block": 1,
-            "station_name": "岡山"
-        },
-        "15": {
-            "route_block": 1,
-            "time": "7時間9分",
-            "line": "ＪＲ山陽本線 寝台特急サンライズ出雲 東京行",
-            "congestion": "余裕で座れる"
-        },
-        "16": {
-            "station_block": 1,
-            "station_name": "熱海"
-        },
-        "17": {
-            "route_block": 1,
-            "time": "23分",
-            "line": "ＪＲ上野東京ライン 宇都宮〔東京経由〕行",
-            "congestion": "余裕で座れる"
-        },
-        "18": {
-            "station_block": 1,
-            "station_name": "小田原"
-        },
-        "19": {
-            "route_block": 1,
             "time": "9分",
             "line": "小田急小田原線各停 新松田行",
-            "congestion": "余裕で座れる"
+            "congestion": "不明"
         },
-        "20": {
+        "14": {
             "station_block": 1,
             "station_name": "栢山"
         }
@@ -27283,6 +27563,52 @@
             "time": "8分",
             "line": "小田急小田原線各停 新松田行",
             "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "栢山"
+        }
+    },
+    "大和田_栢山": {
+        "0": {
+            "station_block": 1,
+            "station_name": "大和田"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "東武アーバンパークライン 大宮（埼玉県）行",
+            "congestion": "圧迫される"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "36分",
+            "line": "ＪＲ上野東京ライン 品川〔上野経由〕行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "1時間1分",
+            "line": "ＪＲ東海道本線 特急踊り子3号 伊豆急下田行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "小田原"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "小田急小田原線各停 新松田行",
+            "congestion": "不明"
         },
         "8": {
             "station_block": 1,
@@ -35475,6 +35801,102 @@
             "station_name": "栢山"
         }
     },
+    "競艇場前_栢山": {
+        "0": {
+            "station_block": 1,
+            "station_name": "競艇場前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "西武多摩川線各停 武蔵境行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "白糸台"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "武蔵野台"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "京王線各停 新宿行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "調布"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "京王相模原線区間急行 京王多摩センター行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "京王永山"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "小田急永山"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "小田急多摩線各停 新百合ヶ丘行",
+            "congestion": "席はいっぱい"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "新百合ヶ丘"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "小田急小田原線快速急行 藤沢行",
+            "congestion": "席はいっぱい"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "相模大野"
+        },
+        "15": {
+            "route_block": 1,
+            "time": "45分",
+            "line": "小田急小田原線急行 小田原行",
+            "congestion": "不明"
+        },
+        "16": {
+            "station_block": 1,
+            "station_name": "新松田"
+        },
+        "17": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "小田急小田原線各停 小田原行",
+            "congestion": "不明"
+        },
+        "18": {
+            "station_block": 1,
+            "station_name": "栢山"
+        }
+    },
     "是政_栢山": {
         "0": {
             "station_block": 1,
@@ -39033,6 +39455,72 @@
             "station_name": "栢山"
         }
     },
+    "学園前_栢山": {
+        "0": {
+            "station_block": 1,
+            "station_name": "学園前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "京成千原線 京成上野行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉中央"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "1分",
+            "line": "京成千葉線 京成上野行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "京成千葉"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "33分",
+            "line": "ＪＲ総武本線 特急成田エクスプレス6号 大船行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "品川"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "53分",
+            "line": "ＪＲ東海道本線 特急踊り子7号 伊豆急下田行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "小田原"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "小田急小田原線各停 新松田行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "栢山"
+        }
+    },
     "おゆみ野_栢山": {
         "0": {
             "station_block": 1,
@@ -41955,6 +42443,92 @@
             "station_name": "栢山"
         }
     },
+    "山田_栢山": {
+        "0": {
+            "station_block": 1,
+            "station_name": "山田"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "京王高尾線各停 新宿行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "北野"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "京王線準特急 新宿行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "高幡不動"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "多摩モノレール 多摩センター行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "多摩センター"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "小田急多摩センター"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "小田急多摩線急行 新宿行",
+            "congestion": "席はいっぱい"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "新百合ヶ丘"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "36分",
+            "line": "小田急小田原線 特急はこね3号 箱根湯本行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "秦野"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "小田急小田原線急行 小田原行",
+            "congestion": "不明"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "新松田"
+        },
+        "15": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "小田急小田原線各停 小田原行",
+            "congestion": "不明"
+        },
+        "16": {
+            "station_block": 1,
+            "station_name": "栢山"
+        }
+    },
     "めじろ台_栢山": {
         "0": {
             "station_block": 1,
@@ -44676,71 +45250,31 @@
         },
         "1": {
             "route_block": 1,
-            "time": "16分",
-            "line": "名古屋市営名城線 栄（愛知県）,金山（愛知県）方面",
-            "congestion": "余裕で座れる"
+            "time": "6分",
+            "line": "小田急多摩線各停 新百合ヶ丘行",
+            "congestion": "席はいっぱい"
         },
         "2": {
             "station_block": 1,
-            "station_name": "金山"
+            "station_name": "新百合ヶ丘"
         },
         "3": {
             "route_block": 1,
-            "time": "47分",
-            "line": "名鉄名古屋本線特急 豊橋行",
-            "congestion": "余裕で座れる"
+            "time": "1時間1分",
+            "line": "小田急小田原線急行 小田原行",
+            "congestion": "不明"
         },
         "4": {
             "station_block": 1,
-            "station_name": "豊橋"
+            "station_name": "開成"
         },
         "5": {
             "route_block": 1,
-            "time": "35分",
-            "line": "ＪＲ東海道本線 浜松行",
-            "congestion": "余裕で座れる"
+            "time": "2分",
+            "line": "小田急小田原線各停 小田原行",
+            "congestion": "不明"
         },
         "6": {
-            "station_block": 1,
-            "station_name": "浜松"
-        },
-        "7": {
-            "route_block": 1,
-            "time": "1時間29分",
-            "line": "ＪＲ東海道本線 興津行",
-            "congestion": "余裕で座れる"
-        },
-        "8": {
-            "station_block": 1,
-            "station_name": "興津"
-        },
-        "9": {
-            "route_block": 1,
-            "time": "57分",
-            "line": "ＪＲ東海道本線 熱海行",
-            "congestion": "余裕で座れる"
-        },
-        "10": {
-            "station_block": 1,
-            "station_name": "熱海"
-        },
-        "11": {
-            "route_block": 1,
-            "time": "17分",
-            "line": "ＪＲ東海道本線 特急踊り子8号 東京行",
-            "congestion": "余裕で座れる"
-        },
-        "12": {
-            "station_block": 1,
-            "station_name": "小田原"
-        },
-        "13": {
-            "route_block": 1,
-            "time": "9分",
-            "line": "小田急小田原線各停 新松田行",
-            "congestion": "余裕で座れる"
-        },
-        "14": {
             "station_block": 1,
             "station_name": "栢山"
         }
@@ -48809,6 +49343,52 @@
             "station_name": "栢山"
         }
     },
+    "山下_栢山": {
+        "0": {
+            "station_block": 1,
+            "station_name": "山下"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "豪徳寺"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "小田急小田原線各停 相模大野行",
+            "congestion": "席はいっぱい"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "経堂"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "1時間12分",
+            "line": "小田急小田原線急行 小田原行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "新松田"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "小田急小田原線各停 小田原行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "栢山"
+        }
+    },
     "松原_栢山": {
         "0": {
             "station_block": 1,
@@ -52447,6 +53027,42 @@
             "station_name": "栢山"
         }
     },
+    "京橋_栢山": {
+        "0": {
+            "station_block": 1,
+            "station_name": "京橋"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "東京メトロ銀座線 渋谷行",
+            "congestion": "圧迫される"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "新橋"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "1時間8分",
+            "line": "ＪＲ東海道本線快速〔アクティー〕 熱海行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "小田原"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "小田急小田原線各停 新松田行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "栢山"
+        }
+    },
     "銀座_栢山": {
         "0": {
             "station_block": 1,
@@ -55227,6 +55843,52 @@
             "time": "5分",
             "line": "小田急小田原線各停 小田原行",
             "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "栢山"
+        }
+    },
+    "明治神宮前〈原宿〉_栢山": {
+        "0": {
+            "station_block": 1,
+            "station_name": "明治神宮前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "東京メトロ千代田線 成城学園前行",
+            "congestion": "席はいっぱい"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "代々木上原"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "31分",
+            "line": "小田急小田原線快速急行 藤沢行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "相模大野"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "41分",
+            "line": "小田急小田原線急行 小田原行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "新松田"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "小田急小田原線各停 小田原行",
+            "congestion": "不明"
         },
         "8": {
             "station_block": 1,
@@ -61830,71 +62492,41 @@
         },
         "1": {
             "route_block": 1,
-            "time": "3分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
+            "time": "4分",
+            "line": "千葉都市モノレール１号線 千葉みなと行",
+            "congestion": "不明"
         },
         "2": {
             "station_block": 1,
-            "station_name": "栄"
+            "station_name": "千葉"
         },
         "3": {
             "route_block": 1,
-            "time": "21分",
-            "line": "名古屋市営東山線 藤が丘（愛知県）行",
-            "congestion": "余裕で座れる"
+            "time": "49分",
+            "line": "ＪＲ総武本線 特急成田エクスプレス2号 大船行",
+            "congestion": "不明"
         },
         "4": {
             "station_block": 1,
-            "station_name": "本郷"
+            "station_name": "品川"
         },
         "5": {
             "route_block": 1,
-            "time": "5分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
+            "time": "1時間1分",
+            "line": "ＪＲ東海道本線快速〔アクティー〕 熱海行",
+            "congestion": "不明"
         },
         "6": {
             "station_block": 1,
-            "station_name": "名古屋インター"
+            "station_name": "小田原"
         },
         "7": {
             "route_block": 1,
-            "time": "3時間31分",
-            "line": "JR高速バス 東名ハイウェイバス 東京駅〔日本橋口〕行",
-            "congestion": "余裕で座れる"
+            "time": "9分",
+            "line": "小田急小田原線各停 新松田行",
+            "congestion": "不明"
         },
         "8": {
-            "station_block": 1,
-            "station_name": "東名御殿場"
-        },
-        "9": {
-            "route_block": 1,
-            "time": "23分",
-            "line": "高速バス 新宿-御殿場・箱根 バスタ新宿〔新宿駅新南口〕行",
-            "congestion": "余裕で座れる"
-        },
-        "10": {
-            "station_block": 1,
-            "station_name": "東名松田"
-        },
-        "11": {
-            "route_block": 1,
-            "time": "18分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
-        },
-        "12": {
-            "station_block": 1,
-            "station_name": "新松田"
-        },
-        "13": {
-            "route_block": 1,
-            "time": "5分",
-            "line": "小田急小田原線各停 小田原行",
-            "congestion": "余裕で座れる"
-        },
-        "14": {
             "station_block": 1,
             "station_name": "栢山"
         }
@@ -65639,6 +66271,72 @@
             "station_name": "栢山"
         }
     },
+    "久我原_栢山": {
+        "0": {
+            "station_block": 1,
+            "station_name": "久我原"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "いすみ鉄道 大原（千葉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "城見ヶ丘"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "大多喜〔オリブ〕"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "1時間27分",
+            "line": "高速バス 浜松町・東京-勝浦・御宿・安房小湊 東京駅八重洲口前行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "東京駅八重洲口前"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "1時間11分",
+            "line": "ＪＲ東海道本線快速〔アクティー〕 熱海行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "小田原"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "小田急小田原線各停 新松田行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "栢山"
+        }
+    },
     "総元_栢山": {
         "0": {
             "station_block": 1,
@@ -66633,6 +67331,72 @@
             "congestion": "余裕で座れる"
         },
         "8": {
+            "station_block": 1,
+            "station_name": "栢山"
+        }
+    },
+    "国際展示場正門_栢山": {
+        "0": {
+            "station_block": 1,
+            "station_name": "東京ビッグサイト"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "ゆりかもめ 豊洲行",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "有明"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "国際展示場"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "りんかい線通勤快速 川越行",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "大井町"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "ＪＲ京浜東北・根岸線 大船行",
+            "congestion": "席はいっぱい"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "川崎"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "45分",
+            "line": "ＪＲ東海道本線 特急踊り子3号 伊豆急下田行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "小田原"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "小田急小田原線各停 新松田行",
+            "congestion": "不明"
+        },
+        "12": {
             "station_block": 1,
             "station_name": "栢山"
         }
@@ -70123,6 +70887,52 @@
             "station_name": "栢山"
         }
     },
+    "伊奈中央_栢山": {
+        "0": {
+            "station_block": 1,
+            "station_name": "伊奈中央"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "22分",
+            "line": "埼玉新都市交通ニューシャトル 大宮（埼玉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "33分",
+            "line": "ＪＲ埼京線通勤快速 新木場行",
+            "congestion": "圧迫される"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "新宿"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "1時間27分",
+            "line": "小田急小田原線急行 新松田行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "新松田"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "小田急小田原線各停 小田原行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "栢山"
+        }
+    },
     "羽貫_栢山": {
         "0": {
             "station_block": 1,
@@ -73035,6 +73845,52 @@
             "station_name": "栢山"
         }
     },
+    "市役所前_栢山": {
+        "0": {
+            "station_block": 1,
+            "station_name": "市役所前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "千葉都市モノレール１号線 千城台行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "49分",
+            "line": "ＪＲ総武本線 特急成田エクスプレス2号 大船行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "品川"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "1時間1分",
+            "line": "ＪＲ東海道本線快速〔アクティー〕 熱海行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "小田原"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "小田急小田原線各停 新松田行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "栢山"
+        }
+    },
     "葭川公園_栢山": {
         "0": {
             "station_block": 1,
@@ -73075,6 +73931,52 @@
             "time": "9分",
             "line": "小田急小田原線各停 新松田行",
             "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "栢山"
+        }
+    },
+    "県庁前_栢山": {
+        "0": {
+            "station_block": 1,
+            "station_name": "県庁前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "千葉都市モノレール１号線 千葉みなと行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "49分",
+            "line": "ＪＲ総武本線 特急成田エクスプレス2号 大船行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "品川"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "1時間1分",
+            "line": "ＪＲ東海道本線快速〔アクティー〕 熱海行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "小田原"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "小田急小田原線各停 新松田行",
+            "congestion": "不明"
         },
         "8": {
             "station_block": 1,
@@ -74625,6 +75527,72 @@
             "time": "6分",
             "line": "小田急小田原線各停 小田原行",
             "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "栢山"
+        }
+    },
+    "高松_栢山": {
+        "0": {
+            "station_block": 1,
+            "station_name": "高松"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "29分",
+            "line": "多摩モノレール 多摩センター行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "多摩センター"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "小田急多摩センター"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "小田急多摩線急行 新宿行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "新百合ヶ丘"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "36分",
+            "line": "小田急小田原線 特急はこね3号 箱根湯本行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "秦野"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "小田急小田原線急行 小田原行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "新松田"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "小田急小田原線各停 小田原行",
+            "congestion": "不明"
         },
         "12": {
             "station_block": 1,
@@ -77101,6 +78069,72 @@
             "time": "8分",
             "line": "小田急小田原線各停 新松田行",
             "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "栢山"
+        }
+    },
+    "大町_栢山": {
+        "0": {
+            "station_block": 1,
+            "station_name": "大町"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "北総鉄道 羽田空港第１・第２ターミナル（京急）行",
+            "congestion": "普通に立てる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "京成高砂"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "京成押上線 羽田空港第１・第２ターミナル（京急）行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "押上[スカイツリー前]"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "25分",
+            "line": "都営浅草線急行 羽田空港第１・第２ターミナル（京急）行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "泉岳寺"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "京急本線エアポート急行 羽田空港第１・第２ターミナル（京急）行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "品川"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "53分",
+            "line": "ＪＲ東海道本線 特急踊り子3号 伊豆急下田行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "小田原"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "小田急小田原線各停 新松田行",
+            "congestion": "不明"
         },
         "12": {
             "station_block": 1,

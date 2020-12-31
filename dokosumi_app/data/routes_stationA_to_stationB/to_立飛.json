@@ -3979,6 +3979,62 @@
             "station_name": "立飛"
         }
     },
+    "扇町_立飛": {
+        "0": {
+            "station_block": 1,
+            "station_name": "扇町"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "ＪＲ鶴見線 鶴見行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "鶴見"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "ＪＲ京浜東北・根岸線 南浦和行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "川崎"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "1時間2分",
+            "line": "ＪＲ南武線 立川行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "立川"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "立川北"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "多摩モノレール 上北台行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "立飛"
+        }
+    },
     "北府中_立飛": {
         "0": {
             "station_block": 1,
@@ -4607,6 +4663,52 @@
             "time": "5分",
             "line": "多摩モノレール 上北台行",
             "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "立飛"
+        }
+    },
+    "吉川_立飛": {
+        "0": {
+            "station_block": 1,
+            "station_name": "吉川"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "50分",
+            "line": "ＪＲ武蔵野線 府中本町行",
+            "congestion": "普通に立てる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "西国分寺"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "ＪＲ中央線快速 高尾（東京都）行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "立川"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "立川南"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "多摩モノレール 上北台行",
+            "congestion": "不明"
         },
         "8": {
             "station_block": 1,
@@ -19103,6 +19205,82 @@
             "station_name": "立飛"
         }
     },
+    "竹岡_立飛": {
+        "0": {
+            "station_block": 1,
+            "station_name": "竹岡"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "24分",
+            "line": "ＪＲ内房線 木更津行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "君津"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "44分",
+            "line": "ＪＲ内房線快速 逗子行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "33分",
+            "line": "ＪＲ総武本線快速 逗子行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "錦糸町"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "ＪＲ中央総武線各停 中野（東京都）行",
+            "congestion": "普通に立てる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "御茶ノ水"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "36分",
+            "line": "ＪＲ中央線特別快速 高尾（東京都）行",
+            "congestion": "席はいっぱい"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "立川"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "立川北"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "多摩モノレール 上北台行",
+            "congestion": "不明"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "立飛"
+        }
+    },
     "浜金谷_立飛": {
         "0": {
             "station_block": 1,
@@ -19781,6 +19959,82 @@
             "time": "3分",
             "line": "多摩モノレール 上北台行",
             "congestion": "余裕で座れる"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "立飛"
+        }
+    },
+    "千歳_立飛": {
+        "0": {
+            "station_block": 1,
+            "station_name": "千歳"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "ＪＲ内房線 館山行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "館山"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "59分",
+            "line": "ＪＲ内房線 木更津行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "君津"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "47分",
+            "line": "ＪＲ内房線快速 逗子行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "42分",
+            "line": "ＪＲ総武本線快速 逗子行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "41分",
+            "line": "ＪＲ中央線青梅特快 青梅行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "立川"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "立川北"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "多摩モノレール 上北台行",
+            "congestion": "不明"
         },
         "14": {
             "station_block": 1,
@@ -22347,6 +22601,72 @@
             "station_name": "立飛"
         }
     },
+    "小林_立飛": {
+        "0": {
+            "station_block": 1,
+            "station_name": "小林"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "24分",
+            "line": "ＪＲ成田線 我孫子（千葉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "我孫子"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "29分",
+            "line": "ＪＲ常磐線快速 上野行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "日暮里"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "23分",
+            "line": "ＪＲ山手線 池袋,新宿方面",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "新宿"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "28分",
+            "line": "ＪＲ中央線特別快速 高尾（東京都）行",
+            "congestion": "普通に立てる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "立川"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "立川北"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "多摩モノレール 上北台行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "立飛"
+        }
+    },
     "安食_立飛": {
         "0": {
             "station_block": 1,
@@ -22549,6 +22869,82 @@
             "time": "3分",
             "line": "多摩モノレール 上北台行",
             "congestion": "余裕で座れる"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "立飛"
+        }
+    },
+    "祇園_立飛": {
+        "0": {
+            "station_block": 1,
+            "station_name": "祇園"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "ＪＲ久留里線 木更津行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "木更津"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "36分",
+            "line": "ＪＲ内房線快速 逗子行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "33分",
+            "line": "ＪＲ総武本線快速 逗子行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "錦糸町"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "ＪＲ中央総武線各停 中野（東京都）行",
+            "congestion": "普通に立てる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "御茶ノ水"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "36分",
+            "line": "ＪＲ中央線特別快速 高尾（東京都）行",
+            "congestion": "席はいっぱい"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "立川"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "立川北"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "多摩モノレール 上北台行",
+            "congestion": "不明"
         },
         "14": {
             "station_block": 1,
@@ -29573,6 +29969,52 @@
             "station_name": "立飛"
         }
     },
+    "大和田_立飛": {
+        "0": {
+            "station_block": 1,
+            "station_name": "大和田"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "東武アーバンパークライン 大宮（埼玉県）行",
+            "congestion": "圧迫される"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "43分",
+            "line": "むさしの号 八王子行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "立川"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "立川南"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "多摩モノレール 上北台行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "立飛"
+        }
+    },
     "七里_立飛": {
         "0": {
             "station_block": 1,
@@ -35769,6 +36211,52 @@
             "station_name": "立飛"
         }
     },
+    "競艇場前_立飛": {
+        "0": {
+            "station_block": 1,
+            "station_name": "競艇場前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "12分",
+            "line": "西武多摩川線各停 武蔵境行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "武蔵境"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "ＪＲ中央線快速 高尾（東京都）行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "立川"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "立川北"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "多摩モノレール 上北台行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "立飛"
+        }
+    },
     "是政_立飛": {
         "0": {
             "station_block": 1,
@@ -39667,6 +40155,82 @@
             "station_name": "立飛"
         }
     },
+    "学園前_立飛": {
+        "0": {
+            "station_block": 1,
+            "station_name": "学園前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "京成千原線 京成津田沼行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉中央"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "京成千葉線 京成津田沼行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "京成幕張本郷"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "幕張本郷"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "47分",
+            "line": "ＪＲ中央総武線各停 三鷹行",
+            "congestion": "普通に立てる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "御茶ノ水"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "40分",
+            "line": "ＪＲ中央線特別快速 高尾（東京都）行",
+            "congestion": "席はいっぱい"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "立川"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "立川北"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "多摩モノレール 上北台行",
+            "congestion": "不明"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "立飛"
+        }
+    },
     "おゆみ野_立飛": {
         "0": {
             "station_block": 1,
@@ -41673,6 +42237,42 @@
             "time": "15分",
             "line": "多摩モノレール 上北台行",
             "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "立飛"
+        }
+    },
+    "山田_立飛": {
+        "0": {
+            "station_block": 1,
+            "station_name": "山田"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "京王高尾線各停 新宿行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "北野"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "京王線準特急 新宿行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "高幡不動"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "多摩モノレール 上北台行",
+            "congestion": "不明"
         },
         "6": {
             "station_block": 1,
@@ -45406,61 +46006,31 @@
         },
         "1": {
             "route_block": 1,
-            "time": "8分",
-            "line": "名古屋市営名城線 栄（愛知県）,金山（愛知県）方面",
-            "congestion": "余裕で座れる"
+            "time": "7分",
+            "line": "小田急多摩線各停 唐木田行",
+            "congestion": "普通に立てる"
         },
         "2": {
             "station_block": 1,
-            "station_name": "栄"
+            "station_name": "小田急多摩センター"
         },
         "3": {
             "route_block": 1,
-            "time": "4分",
-            "line": "名古屋市営東山線 藤が丘（愛知県）行",
-            "congestion": "余裕で座れる"
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
         },
         "4": {
             "station_block": 1,
-            "station_name": "千種"
+            "station_name": "多摩センター"
         },
         "5": {
             "route_block": 1,
-            "time": "1時間47分",
-            "line": "ＪＲ中央本線 特急ワイドビューしなの5号 長野行",
-            "congestion": "余裕で座れる"
+            "time": "28分",
+            "line": "多摩モノレール 上北台行",
+            "congestion": "不明"
         },
         "6": {
-            "station_block": 1,
-            "station_name": "塩尻"
-        },
-        "7": {
-            "route_block": 1,
-            "time": "2時間1分",
-            "line": "ＪＲ中央本線 特急あずさ22号 新宿行",
-            "congestion": "余裕で座れる"
-        },
-        "8": {
-            "station_block": 1,
-            "station_name": "立川"
-        },
-        "9": {
-            "route_block": 1,
-            "time": "7分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
-        },
-        "10": {
-            "station_block": 1,
-            "station_name": "立川北"
-        },
-        "11": {
-            "route_block": 1,
-            "time": "3分",
-            "line": "多摩モノレール 上北台行",
-            "congestion": "余裕で座れる"
-        },
-        "12": {
             "station_block": 1,
             "station_name": "立飛"
         }
@@ -50133,6 +50703,82 @@
             "time": "4分",
             "line": "多摩モノレール 上北台行",
             "congestion": "余裕で座れる"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "立飛"
+        }
+    },
+    "山下_立飛": {
+        "0": {
+            "station_block": 1,
+            "station_name": "山下"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "東急世田谷線各停 下高井戸行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "下高井戸"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "京王線各停 京王八王子行",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "桜上水"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "京王線区間急行 橋本（神奈川県）行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "調布"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "京王線準特急 高尾山口行",
+            "congestion": "席はいっぱい"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "分倍河原"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "ＪＲ南武線 立川行",
+            "congestion": "普通に立てる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "立川"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "立川北"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "多摩モノレール 上北台行",
+            "congestion": "不明"
         },
         "14": {
             "station_block": 1,
@@ -54827,6 +55473,62 @@
             "station_name": "立飛"
         }
     },
+    "京橋_立飛": {
+        "0": {
+            "station_block": 1,
+            "station_name": "京橋"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "東京メトロ銀座線 渋谷行",
+            "congestion": "普通に立てる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "赤坂見附"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "東京メトロ丸ノ内線 荻窪行",
+            "congestion": "席はいっぱい"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "新宿"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "29分",
+            "line": "ＪＲ中央本線 特急富士回遊7号 河口湖行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "立川"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "立川北"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "多摩モノレール 上北台行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "立飛"
+        }
+    },
     "銀座_立飛": {
         "0": {
             "station_block": 1,
@@ -57947,6 +58649,62 @@
             "time": "4分",
             "line": "多摩モノレール 上北台行",
             "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "立飛"
+        }
+    },
+    "明治神宮前〈原宿〉_立飛": {
+        "0": {
+            "station_block": 1,
+            "station_name": "明治神宮前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "東京メトロ副都心線 和光市行",
+            "congestion": "席はいっぱい"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "新宿三丁目"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "1分",
+            "line": "東京メトロ丸ノ内線 荻窪行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "新宿"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "29分",
+            "line": "ＪＲ中央本線 特急富士回遊7号 河口湖行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "立川"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "立川北"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "多摩モノレール 上北台行",
+            "congestion": "不明"
         },
         "10": {
             "station_block": 1,
@@ -65640,39 +66398,39 @@
         },
         "1": {
             "route_block": 1,
-            "time": "3分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
+            "time": "4分",
+            "line": "千葉都市モノレール１号線 千葉みなと行",
+            "congestion": "不明"
         },
         "2": {
             "station_block": 1,
-            "station_name": "栄"
+            "station_name": "千葉"
         },
         "3": {
             "route_block": 1,
-            "time": "4分",
-            "line": "名古屋市営東山線 藤が丘（愛知県）行",
-            "congestion": "余裕で座れる"
+            "time": "34分",
+            "line": "ＪＲ総武本線快速 東京行",
+            "congestion": "普通に立てる"
         },
         "4": {
             "station_block": 1,
-            "station_name": "千種"
+            "station_name": "錦糸町"
         },
         "5": {
             "route_block": 1,
-            "time": "1時間47分",
-            "line": "ＪＲ中央本線 特急ワイドビューしなの5号 長野行",
-            "congestion": "余裕で座れる"
+            "time": "10分",
+            "line": "ＪＲ中央総武線各停 三鷹行",
+            "congestion": "圧迫される"
         },
         "6": {
             "station_block": 1,
-            "station_name": "塩尻"
+            "station_name": "御茶ノ水"
         },
         "7": {
             "route_block": 1,
-            "time": "2時間1分",
-            "line": "ＪＲ中央本線 特急あずさ22号 新宿行",
-            "congestion": "余裕で座れる"
+            "time": "51分",
+            "line": "ＪＲ中央線快速 高尾（東京都）行",
+            "congestion": "席はいっぱい"
         },
         "8": {
             "station_block": 1,
@@ -65682,17 +66440,17 @@
             "route_block": 1,
             "time": "7分",
             "line": "徒歩 ",
-            "congestion": "余裕で座れる"
+            "congestion": "不明"
         },
         "10": {
             "station_block": 1,
-            "station_name": "立川南"
+            "station_name": "立川北"
         },
         "11": {
             "route_block": 1,
-            "time": "5分",
+            "time": "4分",
             "line": "多摩モノレール 上北台行",
-            "congestion": "余裕で座れる"
+            "congestion": "不明"
         },
         "12": {
             "station_block": 1,
@@ -70019,6 +70777,82 @@
             "station_name": "立飛"
         }
     },
+    "久我原_立飛": {
+        "0": {
+            "station_block": 1,
+            "station_name": "久我原"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "いすみ鉄道 大原（千葉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "城見ヶ丘"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "大多喜〔オリブ〕"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "1時間27分",
+            "line": "高速バス 浜松町・東京-勝浦・御宿・安房小湊 東京駅八重洲口前行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "東京駅八重洲口前"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "40分",
+            "line": "ＪＲ中央線特別快速 高尾（東京都）行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "立川"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "立川北"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "多摩モノレール 上北台行",
+            "congestion": "不明"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "立飛"
+        }
+    },
     "総元_立飛": {
         "0": {
             "station_block": 1,
@@ -71471,6 +72305,82 @@
             "time": "5分",
             "line": "多摩モノレール 上北台行",
             "congestion": "余裕で座れる"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "立飛"
+        }
+    },
+    "国際展示場正門_立飛": {
+        "0": {
+            "station_block": 1,
+            "station_name": "東京ビッグサイト"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "ゆりかもめ 豊洲行",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "有明"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "国際展示場"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "りんかい線 大宮（埼玉県）行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "大崎"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "12分",
+            "line": "ＪＲ埼京線 大宮（埼玉県）行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "新宿"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "37分",
+            "line": "ＪＲ中央線快速 青梅行",
+            "congestion": "席はいっぱい"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "立川"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "立川南"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "多摩モノレール 上北台行",
+            "congestion": "不明"
         },
         "14": {
             "station_block": 1,
@@ -76123,6 +77033,52 @@
             "station_name": "立飛"
         }
     },
+    "伊奈中央_立飛": {
+        "0": {
+            "station_block": 1,
+            "station_name": "伊奈中央"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "22分",
+            "line": "埼玉新都市交通ニューシャトル 大宮（埼玉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "43分",
+            "line": "むさしの号 八王子行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "立川"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "立川南"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "多摩モノレール 上北台行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "立飛"
+        }
+    },
     "羽貫_立飛": {
         "0": {
             "station_block": 1,
@@ -79295,6 +80251,72 @@
             "station_name": "立飛"
         }
     },
+    "市役所前_立飛": {
+        "0": {
+            "station_block": 1,
+            "station_name": "市役所前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "千葉都市モノレール１号線 動物公園行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "34分",
+            "line": "ＪＲ総武本線快速 東京行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "錦糸町"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "ＪＲ中央総武線各停 三鷹行",
+            "congestion": "圧迫される"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "御茶ノ水"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "51分",
+            "line": "ＪＲ中央線快速 高尾（東京都）行",
+            "congestion": "席はいっぱい"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "立川"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "立川北"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "多摩モノレール 上北台行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "立飛"
+        }
+    },
     "葭川公園_立飛": {
         "0": {
             "station_block": 1,
@@ -79355,6 +80377,72 @@
             "time": "4分",
             "line": "多摩モノレール 上北台行",
             "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "立飛"
+        }
+    },
+    "県庁前_立飛": {
+        "0": {
+            "station_block": 1,
+            "station_name": "県庁前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "千葉都市モノレール１号線 千葉みなと行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "34分",
+            "line": "ＪＲ総武本線快速 東京行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "錦糸町"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "ＪＲ中央総武線各停 三鷹行",
+            "congestion": "圧迫される"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "御茶ノ水"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "51分",
+            "line": "ＪＲ中央線快速 高尾（東京都）行",
+            "congestion": "席はいっぱい"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "立川"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "立川北"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "多摩モノレール 上北台行",
+            "congestion": "不明"
         },
         "12": {
             "station_block": 1,
@@ -80545,6 +81633,22 @@
             "time": "3分",
             "line": "多摩モノレール 上北台行",
             "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "立飛"
+        }
+    },
+    "高松_立飛": {
+        "0": {
+            "station_block": 1,
+            "station_name": "高松"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "1分",
+            "line": "多摩モノレール 上北台行",
+            "congestion": "不明"
         },
         "2": {
             "station_block": 1,
@@ -83175,6 +84279,62 @@
             "time": "3分",
             "line": "多摩モノレール 上北台行",
             "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "立飛"
+        }
+    },
+    "大町_立飛": {
+        "0": {
+            "station_block": 1,
+            "station_name": "大町"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "北総鉄道 羽田空港第１・第２ターミナル（京急）行",
+            "congestion": "席はいっぱい"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "東松戸"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "1時間9分",
+            "line": "ＪＲ武蔵野線 府中本町行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "西国分寺"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "ＪＲ中央線快速 立川行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "立川"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "立川北"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "多摩モノレール 上北台行",
+            "congestion": "不明"
         },
         "10": {
             "station_block": 1,

@@ -2989,6 +2989,52 @@
             "station_name": "京王八王子"
         }
     },
+    "扇町_京王八王子": {
+        "0": {
+            "station_block": 1,
+            "station_name": "扇町"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "ＪＲ鶴見線 鶴見行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "浜川崎"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "ＪＲ南武線 尻手行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "尻手"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "48分",
+            "line": "ＪＲ南武線 立川行",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "分倍河原"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "京王線準特急 京王八王子行",
+            "congestion": "席はいっぱい"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "京王八王子"
+        }
+    },
     "北府中_京王八王子": {
         "0": {
             "station_block": 1,
@@ -3477,6 +3523,42 @@
             "time": "12分",
             "line": "徒歩 ",
             "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "京王八王子"
+        }
+    },
+    "吉川_京王八王子": {
+        "0": {
+            "station_block": 1,
+            "station_name": "吉川"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "50分",
+            "line": "ＪＲ武蔵野線 府中本町行",
+            "congestion": "普通に立てる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "西国分寺"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "ＪＲ中央線快速 高尾（東京都）行",
+            "congestion": "席はいっぱい"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "八王子"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "12分",
+            "line": "徒歩 ",
+            "congestion": "不明"
         },
         "6": {
             "station_block": 1,
@@ -15415,6 +15497,82 @@
             "station_name": "京王八王子"
         }
     },
+    "竹岡_京王八王子": {
+        "0": {
+            "station_block": 1,
+            "station_name": "竹岡"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "24分",
+            "line": "ＪＲ内房線 木更津行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "君津"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "44分",
+            "line": "ＪＲ内房線快速 逗子行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "37分",
+            "line": "ＪＲ総武本線快速 逗子行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "馬喰町"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "馬喰横山"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "都営新宿線 橋本（神奈川県）行",
+            "congestion": "席はいっぱい"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "新宿"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "京王新線快速 橋本（神奈川県）行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "笹塚"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "37分",
+            "line": "京王線準特急 京王八王子行",
+            "congestion": "余裕で座れる"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "京王八王子"
+        }
+    },
     "浜金谷_京王八王子": {
         "0": {
             "station_block": 1,
@@ -15973,6 +16131,62 @@
             "time": "12分",
             "line": "徒歩 ",
             "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "新宿"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "42分",
+            "line": "京王線準特急 京王八王子行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "京王八王子"
+        }
+    },
+    "千歳_京王八王子": {
+        "0": {
+            "station_block": 1,
+            "station_name": "千歳"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "ＪＲ内房線 館山行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "館山"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "館山駅前"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "1時間49分",
+            "line": "東京-千葉/新宿なのはな号[高速バス] 高速バス 新宿なのはな号 バスタ新宿〔新宿駅新南口〕行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "バスタ新宿〔新宿駅新南口〕"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "12分",
+            "line": "徒歩 ",
+            "congestion": "不明"
         },
         "8": {
             "station_block": 1,
@@ -18139,6 +18353,52 @@
             "station_name": "京王八王子"
         }
     },
+    "小林_京王八王子": {
+        "0": {
+            "station_block": 1,
+            "station_name": "小林"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "24分",
+            "line": "ＪＲ成田線 我孫子（千葉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "我孫子"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "29分",
+            "line": "ＪＲ常磐線快速 上野行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "日暮里"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "23分",
+            "line": "ＪＲ山手線 池袋,新宿方面",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "新宿"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "43分",
+            "line": "京王線特急 京王八王子行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "京王八王子"
+        }
+    },
     "安食_京王八王子": {
         "0": {
             "station_block": 1,
@@ -18303,6 +18563,72 @@
             "congestion": "余裕で座れる"
         },
         "14": {
+            "station_block": 1,
+            "station_name": "京王八王子"
+        }
+    },
+    "祇園_京王八王子": {
+        "0": {
+            "station_block": 1,
+            "station_name": "祇園"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "ＪＲ久留里線 木更津行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "木更津"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "36分",
+            "line": "ＪＲ内房線快速 逗子行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "33分",
+            "line": "ＪＲ総武本線快速 逗子行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "錦糸町"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "ＪＲ中央総武線各停 中野（東京都）行",
+            "congestion": "普通に立てる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "御茶ノ水"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "ＪＲ中央線快速 青梅行",
+            "congestion": "席はいっぱい"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "新宿"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "42分",
+            "line": "京王線準特急 京王八王子行",
+            "congestion": "余裕で座れる"
+        },
+        "12": {
             "station_block": 1,
             "station_name": "京王八王子"
         }
@@ -24049,6 +24375,42 @@
             "time": "12分",
             "line": "徒歩 ",
             "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "京王八王子"
+        }
+    },
+    "大和田_京王八王子": {
+        "0": {
+            "station_block": 1,
+            "station_name": "大和田"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "東武アーバンパークライン 大宮（埼玉県）行",
+            "congestion": "圧迫される"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "55分",
+            "line": "むさしの号 八王子行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "八王子"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "12分",
+            "line": "徒歩 ",
+            "congestion": "不明"
         },
         "6": {
             "station_block": 1,
@@ -30087,6 +30449,52 @@
             "station_name": "京王八王子"
         }
     },
+    "競艇場前_京王八王子": {
+        "0": {
+            "station_block": 1,
+            "station_name": "競艇場前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "西武多摩川線各停 武蔵境行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "白糸台"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "武蔵野台"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "京王線各停 京王八王子行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "府中"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "21分",
+            "line": "京王線準特急 京王八王子行",
+            "congestion": "席はいっぱい"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "京王八王子"
+        }
+    },
     "是政_京王八王子": {
         "0": {
             "station_block": 1,
@@ -33355,6 +33763,92 @@
             "station_name": "京王八王子"
         }
     },
+    "学園前_京王八王子": {
+        "0": {
+            "station_block": 1,
+            "station_name": "学園前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "京成千原線 京成津田沼行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉中央"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "1分",
+            "line": "京成千葉線 京成津田沼行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "京成千葉"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "33分",
+            "line": "ＪＲ総武本線快速 大船行",
+            "congestion": "普通に立てる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "錦糸町"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "ＪＲ中央総武線各停 中野（東京都）行",
+            "congestion": "圧迫される"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "御茶ノ水"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "ＪＲ中央線快速 青梅行",
+            "congestion": "席はいっぱい"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "新宿"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "39分",
+            "line": "京王線特急 高尾山口行",
+            "congestion": "余裕で座れる"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "北野"
+        },
+        "15": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "京王線各停 京王八王子行",
+            "congestion": "余裕で座れる"
+        },
+        "16": {
+            "station_block": 1,
+            "station_name": "京王八王子"
+        }
+    },
     "おゆみ野_京王八王子": {
         "0": {
             "station_block": 1,
@@ -34781,6 +35275,32 @@
             "time": "3分",
             "line": "京王高尾線各停 新宿行",
             "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "北野"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "京王線特急 京王八王子行",
+            "congestion": "席はいっぱい"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "京王八王子"
+        }
+    },
+    "山田_京王八王子": {
+        "0": {
+            "station_block": 1,
+            "station_name": "山田"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "京王高尾線各停 新宿行",
+            "congestion": "不明"
         },
         "2": {
             "station_block": 1,
@@ -37724,49 +38244,49 @@
         },
         "1": {
             "route_block": 1,
-            "time": "8分",
-            "line": "名古屋市営名城線 栄（愛知県）,金山（愛知県）方面",
-            "congestion": "余裕で座れる"
+            "time": "4分",
+            "line": "小田急多摩線各停 唐木田行",
+            "congestion": "普通に立てる"
         },
         "2": {
             "station_block": 1,
-            "station_name": "栄"
+            "station_name": "小田急永山"
         },
         "3": {
             "route_block": 1,
-            "time": "4分",
-            "line": "名古屋市営東山線 藤が丘（愛知県）行",
-            "congestion": "余裕で座れる"
+            "time": "2分",
+            "line": "徒歩 ",
+            "congestion": "不明"
         },
         "4": {
             "station_block": 1,
-            "station_name": "千種"
+            "station_name": "永山駅"
         },
         "5": {
             "route_block": 1,
-            "time": "1時間47分",
-            "line": "ＪＲ中央本線 特急ワイドビューしなの5号 長野行",
-            "congestion": "余裕で座れる"
+            "time": "11分",
+            "line": "神奈川中央交通 [桜24] 聖蹟桜ヶ丘駅行",
+            "congestion": "不明"
         },
         "6": {
             "station_block": 1,
-            "station_name": "塩尻"
+            "station_name": "聖蹟桜ヶ丘駅"
         },
         "7": {
             "route_block": 1,
-            "time": "1時間53分",
-            "line": "ＪＲ中央本線 特急あずさ22号 新宿行",
-            "congestion": "余裕で座れる"
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
         },
         "8": {
             "station_block": 1,
-            "station_name": "八王子"
+            "station_name": "聖蹟桜ヶ丘"
         },
         "9": {
             "route_block": 1,
-            "time": "12分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
+            "time": "16分",
+            "line": "京王線準特急 京王八王子行",
+            "congestion": "席はいっぱい"
         },
         "10": {
             "station_block": 1,
@@ -41451,6 +41971,62 @@
             "time": "7分",
             "line": "東急世田谷線各停 下高井戸行",
             "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "下高井戸"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "京王線各停 京王八王子行",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "桜上水"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "京王線区間急行 橋本（神奈川県）行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "調布"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "23分",
+            "line": "京王線準特急 高尾山口行",
+            "congestion": "席はいっぱい"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "北野"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "京王線各停 京王八王子行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "京王八王子"
+        }
+    },
+    "山下_京王八王子": {
+        "0": {
+            "station_block": 1,
+            "station_name": "山下"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "東急世田谷線各停 下高井戸行",
+            "congestion": "不明"
         },
         "2": {
             "station_block": 1,
@@ -45475,6 +46051,42 @@
             "station_name": "京王八王子"
         }
     },
+    "京橋_京王八王子": {
+        "0": {
+            "station_block": 1,
+            "station_name": "京橋"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "東京メトロ銀座線 渋谷行",
+            "congestion": "普通に立てる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "赤坂見附"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "東京メトロ丸ノ内線 方南町行",
+            "congestion": "席はいっぱい"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "新宿"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "49分",
+            "line": "京王線準特急 京王八王子行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "京王八王子"
+        }
+    },
     "銀座_京王八王子": {
         "0": {
             "station_block": 1,
@@ -48055,6 +48667,52 @@
             "time": "3分",
             "line": "小田急小田原線各停 成城学園前行",
             "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "下北沢"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "京王井の頭線各停 吉祥寺行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "明大前"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "39分",
+            "line": "京王線特急 京王八王子行",
+            "congestion": "席はいっぱい"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "京王八王子"
+        }
+    },
+    "明治神宮前〈原宿〉_京王八王子": {
+        "0": {
+            "station_block": 1,
+            "station_name": "明治神宮前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "東京メトロ千代田線 成城学園前行",
+            "congestion": "席はいっぱい"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "代々木上原"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "小田急小田原線各停 成城学園前行",
+            "congestion": "不明"
         },
         "4": {
             "station_block": 1,
@@ -54199,50 +54857,60 @@
         "1": {
             "route_block": 1,
             "time": "3分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
+            "line": "千葉都市モノレール１号線 千葉みなと行",
+            "congestion": "不明"
         },
         "2": {
             "station_block": 1,
-            "station_name": "栄"
+            "station_name": "千葉"
         },
         "3": {
             "route_block": 1,
-            "time": "4分",
-            "line": "名古屋市営東山線 藤が丘（愛知県）行",
-            "congestion": "余裕で座れる"
+            "time": "33分",
+            "line": "ＪＲ総武本線快速 大船行",
+            "congestion": "普通に立てる"
         },
         "4": {
             "station_block": 1,
-            "station_name": "千種"
+            "station_name": "錦糸町"
         },
         "5": {
             "route_block": 1,
-            "time": "1時間47分",
-            "line": "ＪＲ中央本線 特急ワイドビューしなの5号 長野行",
-            "congestion": "余裕で座れる"
+            "time": "10分",
+            "line": "ＪＲ中央総武線各停 中野（東京都）行",
+            "congestion": "圧迫される"
         },
         "6": {
             "station_block": 1,
-            "station_name": "塩尻"
+            "station_name": "御茶ノ水"
         },
         "7": {
             "route_block": 1,
-            "time": "1時間53分",
-            "line": "ＪＲ中央本線 特急あずさ22号 新宿行",
-            "congestion": "余裕で座れる"
+            "time": "10分",
+            "line": "ＪＲ中央線快速 青梅行",
+            "congestion": "席はいっぱい"
         },
         "8": {
             "station_block": 1,
-            "station_name": "八王子"
+            "station_name": "新宿"
         },
         "9": {
             "route_block": 1,
-            "time": "12分",
-            "line": "徒歩 ",
+            "time": "39分",
+            "line": "京王線特急 高尾山口行",
             "congestion": "余裕で座れる"
         },
         "10": {
+            "station_block": 1,
+            "station_name": "北野"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "京王線各停 京王八王子行",
+            "congestion": "余裕で座れる"
+        },
+        "12": {
             "station_block": 1,
             "station_name": "京王八王子"
         }
@@ -57847,6 +58515,72 @@
             "station_name": "京王八王子"
         }
     },
+    "久我原_京王八王子": {
+        "0": {
+            "station_block": 1,
+            "station_name": "久我原"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "いすみ鉄道 大原（千葉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "城見ヶ丘"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "大多喜〔オリブ〕"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "1時間27分",
+            "line": "高速バス 浜松町・東京-勝浦・御宿・安房小湊 東京駅八重洲口前行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "東京駅八重洲口前"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "ＪＲ中央線快速 青梅行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "新宿"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "42分",
+            "line": "京王線準特急 京王八王子行",
+            "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "京王八王子"
+        }
+    },
     "総元_京王八王子": {
         "0": {
             "station_block": 1,
@@ -59151,6 +59885,82 @@
             "congestion": "余裕で座れる"
         },
         "10": {
+            "station_block": 1,
+            "station_name": "京王八王子"
+        }
+    },
+    "国際展示場正門_京王八王子": {
+        "0": {
+            "station_block": 1,
+            "station_name": "東京ビッグサイト"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "ゆりかもめ 豊洲行",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "有明"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "国際展示場"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "りんかい線 大宮（埼玉県）行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "大崎"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "12分",
+            "line": "ＪＲ埼京線 大宮（埼玉県）行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "新宿"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "35分",
+            "line": "京王線特急 高尾山口行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "高幡不動"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "京王線各停 高尾山口行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "北野"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "京王線各停 京王八王子行",
+            "congestion": "余裕で座れる"
+        },
+        "14": {
             "station_block": 1,
             "station_name": "京王八王子"
         }
@@ -63061,6 +63871,42 @@
             "station_name": "京王八王子"
         }
     },
+    "伊奈中央_京王八王子": {
+        "0": {
+            "station_block": 1,
+            "station_name": "伊奈中央"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "22分",
+            "line": "埼玉新都市交通ニューシャトル 大宮（埼玉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "55分",
+            "line": "むさしの号 八王子行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "八王子"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "12分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "京王八王子"
+        }
+    },
     "羽貫_京王八王子": {
         "0": {
             "station_block": 1,
@@ -65933,6 +66779,72 @@
             "station_name": "京王八王子"
         }
     },
+    "市役所前_京王八王子": {
+        "0": {
+            "station_block": 1,
+            "station_name": "市役所前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "千葉都市モノレール１号線 県庁前（千葉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "33分",
+            "line": "ＪＲ総武本線快速 大船行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "錦糸町"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "ＪＲ中央総武線各停 中野（東京都）行",
+            "congestion": "圧迫される"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "御茶ノ水"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "ＪＲ中央線快速 青梅行",
+            "congestion": "席はいっぱい"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "新宿"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "39分",
+            "line": "京王線特急 高尾山口行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "北野"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "京王線各停 京王八王子行",
+            "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "京王八王子"
+        }
+    },
     "葭川公園_京王八王子": {
         "0": {
             "station_block": 1,
@@ -65943,6 +66855,72 @@
             "time": "5分",
             "line": "千葉都市モノレール１号線 千葉みなと行",
             "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "33分",
+            "line": "ＪＲ総武本線快速 大船行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "錦糸町"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "ＪＲ中央総武線各停 中野（東京都）行",
+            "congestion": "圧迫される"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "御茶ノ水"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "ＪＲ中央線快速 青梅行",
+            "congestion": "席はいっぱい"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "新宿"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "39分",
+            "line": "京王線特急 高尾山口行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "北野"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "京王線各停 京王八王子行",
+            "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "京王八王子"
+        }
+    },
+    "県庁前_京王八王子": {
+        "0": {
+            "station_block": 1,
+            "station_name": "県庁前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "千葉都市モノレール１号線 千葉みなと行",
+            "congestion": "不明"
         },
         "2": {
             "station_block": 1,
@@ -67243,6 +68221,32 @@
             "time": "11分",
             "line": "多摩モノレール 多摩センター行",
             "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "高幡不動"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "京王線特急 京王八王子行",
+            "congestion": "席はいっぱい"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "京王八王子"
+        }
+    },
+    "高松_京王八王子": {
+        "0": {
+            "station_block": 1,
+            "station_name": "高松"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "多摩モノレール 多摩センター行",
+            "congestion": "不明"
         },
         "2": {
             "station_block": 1,
@@ -69529,6 +70533,62 @@
             "time": "4分",
             "line": "京成押上線 羽田空港第１・第２ターミナル（京急）行",
             "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "青砥"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "12分",
+            "line": "京成本線通勤特急 京成上野行",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "日暮里"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "22分",
+            "line": "ＪＲ山手線 池袋,新宿方面",
+            "congestion": "普通に立てる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "新宿"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "46分",
+            "line": "京王線準特急 京王八王子行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "京王八王子"
+        }
+    },
+    "大町_京王八王子": {
+        "0": {
+            "station_block": 1,
+            "station_name": "大町"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "北総鉄道 羽田空港第１・第２ターミナル（京急）行",
+            "congestion": "席はいっぱい"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "京成高砂"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "京成押上線 羽田空港第１・第２ターミナル（京急）行",
+            "congestion": "不明"
         },
         "4": {
             "station_block": 1,

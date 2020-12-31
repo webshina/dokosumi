@@ -4209,6 +4209,82 @@
             "station_name": "東大島"
         }
     },
+    "扇町_東大島": {
+        "0": {
+            "station_block": 1,
+            "station_name": "扇町"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "ＪＲ鶴見線 鶴見行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "鶴見"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "ＪＲ京浜東北・根岸線 南浦和行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "川崎"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "ＪＲ上野東京ライン 小金井〔東京経由〕行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "品川"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "ＪＲ横須賀線 津田沼行",
+            "congestion": "普通に立てる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "ＪＲ総武本線快速 津田沼行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "馬喰町"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "馬喰横山"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "12分",
+            "line": "都営新宿線 本八幡〔新宿線〕行",
+            "congestion": "余裕で座れる"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "東大島"
+        }
+    },
     "北府中_東大島": {
         "0": {
             "station_block": 1,
@@ -4879,6 +4955,52 @@
             "congestion": "余裕で座れる"
         },
         "10": {
+            "station_block": 1,
+            "station_name": "東大島"
+        }
+    },
+    "吉川_東大島": {
+        "0": {
+            "station_block": 1,
+            "station_name": "吉川"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "30分",
+            "line": "ＪＲ武蔵野線 海浜幕張行",
+            "congestion": "普通に立てる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "西船橋"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "ＪＲ中央総武線各停 三鷹行",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "本八幡〔ＪＲ〕"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "本八幡〔新宿線〕"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "都営新宿線 笹塚行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
             "station_block": 1,
             "station_name": "東大島"
         }
@@ -18349,6 +18471,82 @@
             "station_name": "東大島"
         }
     },
+    "竹岡_東大島": {
+        "0": {
+            "station_block": 1,
+            "station_name": "竹岡"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "24分",
+            "line": "ＪＲ内房線 木更津行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "君津"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "44分",
+            "line": "ＪＲ内房線快速 逗子行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "ＪＲ総武本線快速 逗子行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "船橋"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "ＪＲ中央総武線各停 中野（東京都）行",
+            "congestion": "席はいっぱい"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "本八幡〔ＪＲ〕"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "本八幡〔新宿線〕"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "都営新宿線急行 笹塚行",
+            "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "船堀"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "都営新宿線 橋本（神奈川県）行",
+            "congestion": "席はいっぱい"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "東大島"
+        }
+    },
     "浜金谷_東大島": {
         "0": {
             "station_block": 1,
@@ -19017,6 +19215,82 @@
             "time": "7分",
             "line": "徒歩 ",
             "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "本八幡〔新宿線〕"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "都営新宿線 橋本（神奈川県）行",
+            "congestion": "余裕で座れる"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "東大島"
+        }
+    },
+    "千歳_東大島": {
+        "0": {
+            "station_block": 1,
+            "station_name": "千歳"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "ＪＲ内房線 館山行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "館山"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "59分",
+            "line": "ＪＲ内房線 木更津行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "君津"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "47分",
+            "line": "ＪＲ内房線快速 逗子行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "ＪＲ総武本線快速 逗子行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "船橋"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "ＪＲ中央総武線各停 三鷹行",
+            "congestion": "席はいっぱい"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "本八幡〔ＪＲ〕"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
         },
         "12": {
             "station_block": 1,
@@ -21223,6 +21497,92 @@
             "station_name": "東大島"
         }
     },
+    "小林_東大島": {
+        "0": {
+            "station_block": 1,
+            "station_name": "小林"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "ＪＲ成田線 我孫子（千葉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "木下"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "木下駅"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "19分",
+            "line": "ちばレインボーバス 神崎線 八千代緑が丘駅行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "千葉ニュータウン中央駅"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "千葉ニュータウン中央"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "20分",
+            "line": "京成成田空港線アクセス特急 羽田空港第１・第２ターミナル（京急）行",
+            "congestion": "普通に立てる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "京成高砂"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "京成押上線アクセス特急 羽田空港第１・第２ターミナル（京急）行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "押上[スカイツリー前]"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "東京メトロ半蔵門線 中央林間行",
+            "congestion": "余裕で座れる"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "住吉"
+        },
+        "15": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "都営新宿線 本八幡〔新宿線〕行",
+            "congestion": "余裕で座れる"
+        },
+        "16": {
+            "station_block": 1,
+            "station_name": "東大島"
+        }
+    },
     "安食_東大島": {
         "0": {
             "station_block": 1,
@@ -21415,6 +21775,72 @@
             "time": "8分",
             "line": "徒歩 ",
             "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "本八幡〔新宿線〕"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "都営新宿線 新宿行",
+            "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "東大島"
+        }
+    },
+    "祇園_東大島": {
+        "0": {
+            "station_block": 1,
+            "station_name": "祇園"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "ＪＲ久留里線 木更津行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "木更津"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "36分",
+            "line": "ＪＲ内房線快速 逗子行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "ＪＲ総武本線快速 逗子行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "稲毛"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "24分",
+            "line": "ＪＲ中央総武線各停 中野（東京都）行",
+            "congestion": "席はいっぱい"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "本八幡〔ＪＲ〕"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
         },
         "10": {
             "station_block": 1,
@@ -26915,6 +27341,52 @@
             "congestion": "余裕で座れる"
         },
         "10": {
+            "station_block": 1,
+            "station_name": "東大島"
+        }
+    },
+    "大和田_東大島": {
+        "0": {
+            "station_block": 1,
+            "station_name": "大和田"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "東武アーバンパークライン 春日部行",
+            "congestion": "席はいっぱい"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "春日部"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "49分",
+            "line": "東武伊勢崎線[スカイツリーライン]準急 中央林間行",
+            "congestion": "席はいっぱい"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "押上[スカイツリー前]"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "東京メトロ半蔵門線 中央林間行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "住吉"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "都営新宿線 本八幡〔新宿線〕行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
             "station_block": 1,
             "station_name": "東大島"
         }
@@ -32655,6 +33127,42 @@
             "station_name": "東大島"
         }
     },
+    "競艇場前_東大島": {
+        "0": {
+            "station_block": 1,
+            "station_name": "競艇場前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "12分",
+            "line": "西武多摩川線各停 武蔵境行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "武蔵境"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "26分",
+            "line": "ＪＲ中央線快速 東京行",
+            "congestion": "圧迫される"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "新宿"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "29分",
+            "line": "都営新宿線 本八幡〔新宿線〕行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "東大島"
+        }
+    },
     "是政_東大島": {
         "0": {
             "station_block": 1,
@@ -35103,6 +35611,62 @@
             "station_name": "東大島"
         }
     },
+    "学園前_東大島": {
+        "0": {
+            "station_block": 1,
+            "station_name": "学園前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "京成千原線 京成津田沼行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉中央"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "京成千葉線 京成津田沼行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "京成津田沼"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "京成本線通勤特急 京成上野行",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "京成八幡"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "本八幡〔新宿線〕"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "都営新宿線 橋本（神奈川県）行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "東大島"
+        }
+    },
     "おゆみ野_東大島": {
         "0": {
             "station_block": 1,
@@ -37089,6 +37653,52 @@
             "time": "29分",
             "line": "都営新宿線 本八幡〔新宿線〕行",
             "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "東大島"
+        }
+    },
+    "山田_東大島": {
+        "0": {
+            "station_block": 1,
+            "station_name": "山田"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "京王高尾線各停 新宿行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "北野"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "40分",
+            "line": "京王線準特急 新宿行",
+            "congestion": "圧迫される"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "笹塚"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "京王新線各停 本八幡〔新宿線〕行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "新宿"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "29分",
+            "line": "都営新宿線 本八幡〔新宿線〕行",
+            "congestion": "不明"
         },
         "8": {
             "station_block": 1,
@@ -40672,51 +41282,41 @@
         },
         "1": {
             "route_block": 1,
-            "time": "8分",
-            "line": "名古屋市営名城線 栄（愛知県）,金山（愛知県）方面",
-            "congestion": "余裕で座れる"
+            "time": "1分",
+            "line": "小田急多摩線各停 新百合ヶ丘行",
+            "congestion": "席はいっぱい"
         },
         "2": {
             "station_block": 1,
-            "station_name": "栄"
+            "station_name": "栗平"
         },
         "3": {
             "route_block": 1,
-            "time": "4分",
-            "line": "名古屋市営東山線 藤が丘（愛知県）行",
-            "congestion": "余裕で座れる"
+            "time": "3分",
+            "line": "小田急多摩線通勤急行 新宿行",
+            "congestion": "普通に立てる"
         },
         "4": {
             "station_block": 1,
-            "station_name": "千種"
+            "station_name": "新百合ヶ丘"
         },
         "5": {
             "route_block": 1,
-            "time": "1時間47分",
-            "line": "ＪＲ中央本線 特急ワイドビューしなの5号 長野行",
-            "congestion": "余裕で座れる"
+            "time": "30分",
+            "line": "小田急小田原線通勤急行 新宿行",
+            "congestion": "不明"
         },
         "6": {
             "station_block": 1,
-            "station_name": "塩尻"
+            "station_name": "新宿"
         },
         "7": {
             "route_block": 1,
-            "time": "2時間24分",
-            "line": "ＪＲ中央本線 特急あずさ22号 新宿行",
-            "congestion": "余裕で座れる"
+            "time": "29分",
+            "line": "都営新宿線 本八幡〔新宿線〕行",
+            "congestion": "席はいっぱい"
         },
         "8": {
-            "station_block": 1,
-            "station_name": "新宿"
-        },
-        "9": {
-            "route_block": 1,
-            "time": "31分",
-            "line": "都営新宿線 本八幡〔新宿線〕行",
-            "congestion": "余裕で座れる"
-        },
-        "10": {
             "station_block": 1,
             "station_name": "東大島"
         }
@@ -44659,6 +45259,52 @@
             "time": "29分",
             "line": "都営新宿線 本八幡〔新宿線〕行",
             "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "東大島"
+        }
+    },
+    "山下_東大島": {
+        "0": {
+            "station_block": 1,
+            "station_name": "山下"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "東急世田谷線各停 下高井戸行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "下高井戸"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "京王線各停 本八幡〔新宿線〕行",
+            "congestion": "席はいっぱい"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "笹塚"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "京王新線各停 本八幡〔新宿線〕行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "新宿"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "29分",
+            "line": "都営新宿線 本八幡〔新宿線〕行",
+            "congestion": "不明"
         },
         "8": {
             "station_block": 1,
@@ -49483,6 +50129,62 @@
             "station_name": "東大島"
         }
     },
+    "京橋_東大島": {
+        "0": {
+            "station_block": 1,
+            "station_name": "京橋"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "東京メトロ銀座線 浅草行",
+            "congestion": "普通に立てる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "三越前"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "新日本橋"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "ＪＲ総武本線快速 成田空港（成田第１ターミナル）行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "馬喰町"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "馬喰横山"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "12分",
+            "line": "都営新宿線 本八幡〔新宿線〕行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "東大島"
+        }
+    },
     "銀座_東大島": {
         "0": {
             "station_block": 1,
@@ -51571,6 +52273,42 @@
         "5": {
             "route_block": 1,
             "time": "15分",
+            "line": "都営新宿線 本八幡〔新宿線〕行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "東大島"
+        }
+    },
+    "明治神宮前〈原宿〉_東大島": {
+        "0": {
+            "station_block": 1,
+            "station_name": "明治神宮前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "1分",
+            "line": "東京メトロ千代田線 我孫子（千葉県）行",
+            "congestion": "普通に立てる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "表参道"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "東京メトロ半蔵門線 押上[スカイツリー前]行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "九段下"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "19分",
             "line": "都営新宿線 本八幡〔新宿線〕行",
             "congestion": "席はいっぱい"
         },
@@ -56506,51 +57244,61 @@
         },
         "1": {
             "route_block": 1,
-            "time": "3分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
+            "time": "4分",
+            "line": "千葉都市モノレール１号線 千葉みなと行",
+            "congestion": "不明"
         },
         "2": {
             "station_block": 1,
-            "station_name": "栄"
+            "station_name": "千葉"
         },
         "3": {
             "route_block": 1,
-            "time": "4分",
-            "line": "名古屋市営東山線 藤が丘（愛知県）行",
-            "congestion": "余裕で座れる"
+            "time": "5分",
+            "line": "徒歩 ",
+            "congestion": "不明"
         },
         "4": {
             "station_block": 1,
-            "station_name": "千種"
+            "station_name": "京成千葉"
         },
         "5": {
             "route_block": 1,
-            "time": "1時間47分",
-            "line": "ＪＲ中央本線 特急ワイドビューしなの5号 長野行",
-            "congestion": "余裕で座れる"
+            "time": "16分",
+            "line": "京成千葉線 京成津田沼行",
+            "congestion": "不明"
         },
         "6": {
             "station_block": 1,
-            "station_name": "塩尻"
+            "station_name": "京成津田沼"
         },
         "7": {
             "route_block": 1,
-            "time": "2時間24分",
-            "line": "ＪＲ中央本線 特急あずさ22号 新宿行",
-            "congestion": "余裕で座れる"
+            "time": "11分",
+            "line": "京成本線通勤特急 京成上野行",
+            "congestion": "普通に立てる"
         },
         "8": {
             "station_block": 1,
-            "station_name": "新宿"
+            "station_name": "京成八幡"
         },
         "9": {
             "route_block": 1,
-            "time": "31分",
-            "line": "都営新宿線 本八幡〔新宿線〕行",
-            "congestion": "余裕で座れる"
+            "time": "8分",
+            "line": "徒歩 ",
+            "congestion": "不明"
         },
         "10": {
+            "station_block": 1,
+            "station_name": "本八幡〔新宿線〕"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "都営新宿線 橋本（神奈川県）行",
+            "congestion": "余裕で座れる"
+        },
+        "12": {
             "station_block": 1,
             "station_name": "東大島"
         }
@@ -59895,6 +60643,92 @@
             "station_name": "東大島"
         }
     },
+    "久我原_東大島": {
+        "0": {
+            "station_block": 1,
+            "station_name": "久我原"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "いすみ鉄道 大原（千葉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "城見ヶ丘"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "大多喜〔オリブ〕"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "1時間27分",
+            "line": "高速バス 浜松町・東京-勝浦・御宿・安房小湊 東京駅八重洲口前行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "東京駅八重洲口前"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "東京駅八重洲口"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "日の丸自動車 メトロリンク日本橋Eライン 浜町２丁目明治座前,人形町１丁目方面",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "地下鉄三越前駅"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "三越前"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "東京メトロ半蔵門線急行 久喜行",
+            "congestion": "余裕で座れる"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "住吉"
+        },
+        "15": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "都営新宿線 本八幡〔新宿線〕行",
+            "congestion": "余裕で座れる"
+        },
+        "16": {
+            "station_block": 1,
+            "station_name": "東大島"
+        }
+    },
     "総元_東大島": {
         "0": {
             "station_block": 1,
@@ -61035,6 +61869,52 @@
         "5": {
             "route_block": 1,
             "time": "8分",
+            "line": "都営大江戸線 両国〔大江戸線〕,飯田橋方面",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "森下"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "都営新宿線 本八幡〔新宿線〕行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "東大島"
+        }
+    },
+    "国際展示場正門_東大島": {
+        "0": {
+            "station_block": 1,
+            "station_name": "東京ビッグサイト"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "ゆりかもめ 豊洲行",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "豊洲"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "東京メトロ有楽町線 和光市行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "月島"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "6分",
             "line": "都営大江戸線 両国〔大江戸線〕,飯田橋方面",
             "congestion": "席はいっぱい"
         },
@@ -65669,6 +66549,62 @@
             "station_name": "東大島"
         }
     },
+    "伊奈中央_東大島": {
+        "0": {
+            "station_block": 1,
+            "station_name": "伊奈中央"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "22分",
+            "line": "埼玉新都市交通ニューシャトル 大宮（埼玉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "28分",
+            "line": "ＪＲ上野東京ライン 熱海〔上野経由〕行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "上野"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "ＪＲ山手線 東京,品川方面",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "秋葉原"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "岩本町"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "都営新宿線 本八幡〔新宿線〕行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "東大島"
+        }
+    },
     "羽貫_東大島": {
         "0": {
             "station_block": 1,
@@ -68311,6 +69247,52 @@
             "station_name": "東大島"
         }
     },
+    "市役所前_東大島": {
+        "0": {
+            "station_block": 1,
+            "station_name": "市役所前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "千葉都市モノレール１号線 千城台行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "33分",
+            "line": "ＪＲ中央総武線各停 三鷹行",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "本八幡〔ＪＲ〕"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "本八幡〔新宿線〕"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "都営新宿線 橋本（神奈川県）行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "東大島"
+        }
+    },
     "葭川公園_東大島": {
         "0": {
             "station_block": 1,
@@ -68361,6 +69343,72 @@
             "time": "8分",
             "line": "徒歩 ",
             "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "本八幡〔新宿線〕"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "都営新宿線 橋本（神奈川県）行",
+            "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "東大島"
+        }
+    },
+    "県庁前_東大島": {
+        "0": {
+            "station_block": 1,
+            "station_name": "県庁前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "千葉都市モノレール１号線 千葉みなと行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "京成千葉"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "京成千葉線 京成津田沼行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "京成津田沼"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "京成本線通勤特急 京成上野行",
+            "congestion": "普通に立てる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "京成八幡"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "徒歩 ",
+            "congestion": "不明"
         },
         "10": {
             "station_block": 1,
@@ -69853,6 +70901,52 @@
             "congestion": "席はいっぱい"
         },
         "6": {
+            "station_block": 1,
+            "station_name": "東大島"
+        }
+    },
+    "高松_東大島": {
+        "0": {
+            "station_block": 1,
+            "station_name": "高松"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "多摩モノレール 多摩センター行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "立川南"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "立川"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "36分",
+            "line": "ＪＲ中央線通勤特別快速 東京行",
+            "congestion": "圧迫される"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "新宿"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "29分",
+            "line": "都営新宿線 本八幡〔新宿線〕行",
+            "congestion": "席はいっぱい"
+        },
+        "8": {
             "station_block": 1,
             "station_name": "東大島"
         }
@@ -72493,6 +73587,52 @@
             "time": "17分",
             "line": "京成押上線 羽田空港第１・第２ターミナル（京急）行",
             "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "押上[スカイツリー前]"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "東京メトロ半蔵門線急行 中央林間行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "住吉"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "都営新宿線 本八幡〔新宿線〕行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "東大島"
+        }
+    },
+    "大町_東大島": {
+        "0": {
+            "station_block": 1,
+            "station_name": "大町"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "北総鉄道 羽田空港第１・第２ターミナル（京急）行",
+            "congestion": "席はいっぱい"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "京成高砂"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "京成押上線 羽田空港第１・第２ターミナル（京急）行",
+            "congestion": "不明"
         },
         "4": {
             "station_block": 1,

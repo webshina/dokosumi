@@ -4769,6 +4769,62 @@
             "station_name": "大師前"
         }
     },
+    "扇町_大師前": {
+        "0": {
+            "station_block": 1,
+            "station_name": "扇町"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "ＪＲ鶴見線 鶴見行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "鶴見"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "47分",
+            "line": "ＪＲ京浜東北・根岸線 南浦和行",
+            "congestion": "席はいっぱい"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "西日暮里"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "東京メトロ千代田線 我孫子（千葉県）行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "北千住"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "東武伊勢崎線[スカイツリーライン]急行 久喜行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "西新井"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "東武大師線 大師前行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "大師前"
+        }
+    },
     "北府中_大師前": {
         "0": {
             "station_block": 1,
@@ -5397,6 +5453,52 @@
             "time": "2分",
             "line": "東武大師線 大師前行",
             "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "大師前"
+        }
+    },
+    "吉川_大師前": {
+        "0": {
+            "station_block": 1,
+            "station_name": "吉川"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "ＪＲ武蔵野線 府中本町行",
+            "congestion": "普通に立てる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "南越谷"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "新越谷"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "東武伊勢崎線[スカイツリーライン]区間急行 浅草行",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "西新井"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "東武大師線 大師前行",
+            "congestion": "不明"
         },
         "8": {
             "station_block": 1,
@@ -22413,6 +22515,72 @@
             "station_name": "大師前"
         }
     },
+    "竹岡_大師前": {
+        "0": {
+            "station_block": 1,
+            "station_name": "竹岡"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "24分",
+            "line": "ＪＲ内房線 木更津行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "君津"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "44分",
+            "line": "ＪＲ内房線快速 逗子行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "33分",
+            "line": "ＪＲ総武本線快速 逗子行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "錦糸町"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "東京メトロ半蔵門線急行 南栗橋行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "押上[スカイツリー前]"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "東武伊勢崎線[スカイツリーライン]急行 南栗橋行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "西新井"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "東武大師線 大師前行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "大師前"
+        }
+    },
     "浜金谷_大師前": {
         "0": {
             "station_block": 1,
@@ -23021,6 +23189,82 @@
             "time": "2分",
             "line": "東武大師線 大師前行",
             "congestion": "余裕で座れる"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "大師前"
+        }
+    },
+    "千歳_大師前": {
+        "0": {
+            "station_block": 1,
+            "station_name": "千歳"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "ＪＲ内房線 館山行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "館山"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "59分",
+            "line": "ＪＲ内房線 木更津行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "君津"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "47分",
+            "line": "ＪＲ内房線快速 逗子行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "34分",
+            "line": "ＪＲ総武本線快速 逗子行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "錦糸町"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "東京メトロ半蔵門線急行 久喜行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "押上[スカイツリー前]"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "東武伊勢崎線[スカイツリーライン]急行 久喜行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "西新井"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "東武大師線 大師前行",
+            "congestion": "不明"
         },
         "14": {
             "station_block": 1,
@@ -25407,6 +25651,52 @@
             "station_name": "大師前"
         }
     },
+    "小林_大師前": {
+        "0": {
+            "station_block": 1,
+            "station_name": "小林"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "24分",
+            "line": "ＪＲ成田線 我孫子（千葉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "我孫子"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "21分",
+            "line": "ＪＲ常磐線快速 上野行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "北千住"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "東武伊勢崎線[スカイツリーライン]急行 南栗橋行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "西新井"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "東武大師線 大師前行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "大師前"
+        }
+    },
     "安食_大師前": {
         "0": {
             "station_block": 1,
@@ -25559,6 +25849,72 @@
             "time": "2分",
             "line": "東武大師線 大師前行",
             "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "大師前"
+        }
+    },
+    "祇園_大師前": {
+        "0": {
+            "station_block": 1,
+            "station_name": "祇園"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "ＪＲ久留里線 木更津行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "木更津"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "36分",
+            "line": "ＪＲ内房線快速 逗子行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "33分",
+            "line": "ＪＲ総武本線快速 逗子行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "錦糸町"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "東京メトロ半蔵門線急行 南栗橋行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "押上[スカイツリー前]"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "東武伊勢崎線[スカイツリーライン]急行 南栗橋行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "西新井"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "東武大師線 大師前行",
+            "congestion": "不明"
         },
         "12": {
             "station_block": 1,
@@ -31077,6 +31433,42 @@
             "time": "2分",
             "line": "東武大師線 大師前行",
             "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "大師前"
+        }
+    },
+    "大和田_大師前": {
+        "0": {
+            "station_block": 1,
+            "station_name": "大和田"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "東武アーバンパークライン 春日部行",
+            "congestion": "席はいっぱい"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "春日部"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "26分",
+            "line": "東武伊勢崎線[スカイツリーライン]区間急行 浅草行",
+            "congestion": "席はいっぱい"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "西新井"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "東武大師線 大師前行",
+            "congestion": "不明"
         },
         "6": {
             "station_block": 1,
@@ -38373,6 +38765,72 @@
             "station_name": "大師前"
         }
     },
+    "競艇場前_大師前": {
+        "0": {
+            "station_block": 1,
+            "station_name": "競艇場前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "12分",
+            "line": "西武多摩川線各停 武蔵境行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "武蔵境"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "35分",
+            "line": "ＪＲ中央線快速 東京行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "御茶ノ水"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "新御茶ノ水"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "東京メトロ千代田線 綾瀬行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "北千住"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "東武伊勢崎線[スカイツリーライン]急行 久喜行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "西新井"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "東武大師線 大師前行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "大師前"
+        }
+    },
     "是政_大師前": {
         "0": {
             "station_block": 1,
@@ -41747,6 +42205,82 @@
             "congestion": "余裕で座れる"
         },
         "12": {
+            "station_block": 1,
+            "station_name": "大師前"
+        }
+    },
+    "学園前_大師前": {
+        "0": {
+            "station_block": 1,
+            "station_name": "学園前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "京成千原線 京成津田沼行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉中央"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "1分",
+            "line": "京成千葉線 京成津田沼行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "京成千葉"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "33分",
+            "line": "ＪＲ総武本線快速 大船行",
+            "congestion": "普通に立てる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "錦糸町"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "東京メトロ半蔵門線急行 久喜行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "押上[スカイツリー前]"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "19分",
+            "line": "東武伊勢崎線[スカイツリーライン]急行 久喜行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "西新井"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "東武大師線 大師前行",
+            "congestion": "不明"
+        },
+        "14": {
             "station_block": 1,
             "station_name": "大師前"
         }
@@ -45127,6 +45661,92 @@
             "time": "2分",
             "line": "東武大師線 大師前行",
             "congestion": "余裕で座れる"
+        },
+        "16": {
+            "station_block": 1,
+            "station_name": "大師前"
+        }
+    },
+    "山田_大師前": {
+        "0": {
+            "station_block": 1,
+            "station_name": "山田"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "京王高尾線各停 新宿行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "北野"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "40分",
+            "line": "京王線準特急 新宿行",
+            "congestion": "圧迫される"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "笹塚"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "京王新線各停 本八幡〔新宿線〕行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "新宿"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "都営新宿線 本八幡〔新宿線〕行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "岩本町"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "秋葉原"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "東京メトロ日比谷線 東武動物公園行",
+            "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "北千住"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "東武伊勢崎線[スカイツリーライン] 東武動物公園行",
+            "congestion": "不明"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "西新井"
+        },
+        "15": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "東武大師線 大師前行",
+            "congestion": "不明"
         },
         "16": {
             "station_block": 1,
@@ -49420,81 +50040,51 @@
         },
         "1": {
             "route_block": 1,
-            "time": "8分",
-            "line": "名古屋市営名城線 栄（愛知県）,金山（愛知県）方面",
-            "congestion": "余裕で座れる"
+            "time": "6分",
+            "line": "小田急多摩線各停 新百合ヶ丘行",
+            "congestion": "席はいっぱい"
         },
         "2": {
             "station_block": 1,
-            "station_name": "栄"
+            "station_name": "新百合ヶ丘"
         },
         "3": {
             "route_block": 1,
-            "time": "4分",
-            "line": "名古屋市営東山線 藤が丘（愛知県）行",
-            "congestion": "余裕で座れる"
+            "time": "28分",
+            "line": "小田急小田原線通勤準急 我孫子（千葉県）行",
+            "congestion": "席はいっぱい"
         },
         "4": {
             "station_block": 1,
-            "station_name": "千種"
+            "station_name": "代々木上原"
         },
         "5": {
             "route_block": 1,
-            "time": "1時間47分",
-            "line": "ＪＲ中央本線 特急ワイドビューしなの5号 長野行",
-            "congestion": "余裕で座れる"
+            "time": "38分",
+            "line": "東京メトロ千代田線 我孫子（千葉県）行",
+            "congestion": "不明"
         },
         "6": {
             "station_block": 1,
-            "station_name": "塩尻"
+            "station_name": "北千住"
         },
         "7": {
             "route_block": 1,
-            "time": "2時間24分",
-            "line": "ＪＲ中央本線 特急あずさ22号 新宿行",
+            "time": "4分",
+            "line": "東武伊勢崎線[スカイツリーライン]急行 久喜行",
             "congestion": "余裕で座れる"
         },
         "8": {
             "station_block": 1,
-            "station_name": "新宿"
+            "station_name": "西新井"
         },
         "9": {
             "route_block": 1,
-            "time": "21分",
-            "line": "ＪＲ山手線 池袋,上野方面",
-            "congestion": "席はいっぱい"
-        },
-        "10": {
-            "station_block": 1,
-            "station_name": "日暮里"
-        },
-        "11": {
-            "route_block": 1,
-            "time": "5分",
-            "line": "ＪＲ常磐線特別快速 土浦行",
-            "congestion": "普通に立てる"
-        },
-        "12": {
-            "station_block": 1,
-            "station_name": "北千住"
-        },
-        "13": {
-            "route_block": 1,
-            "time": "4分",
-            "line": "東武伊勢崎線[スカイツリーライン]急行 久喜行",
-            "congestion": "席はいっぱい"
-        },
-        "14": {
-            "station_block": 1,
-            "station_name": "西新井"
-        },
-        "15": {
-            "route_block": 1,
             "time": "2分",
             "line": "東武大師線 大師前行",
-            "congestion": "余裕で座れる"
+            "congestion": "不明"
         },
-        "16": {
+        "10": {
             "station_block": 1,
             "station_name": "大師前"
         }
@@ -54633,6 +55223,62 @@
             "station_name": "大師前"
         }
     },
+    "山下_大師前": {
+        "0": {
+            "station_block": 1,
+            "station_name": "山下"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "豪徳寺"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "小田急小田原線各停 綾瀬行",
+            "congestion": "席はいっぱい"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "代々木上原"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "38分",
+            "line": "東京メトロ千代田線 綾瀬行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "北千住"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "東武伊勢崎線[スカイツリーライン]区間準急 北春日部行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "西新井"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "東武大師線 大師前行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "大師前"
+        }
+    },
     "松原_大師前": {
         "0": {
             "station_block": 1,
@@ -59541,6 +60187,52 @@
             "station_name": "大師前"
         }
     },
+    "京橋_大師前": {
+        "0": {
+            "station_block": 1,
+            "station_name": "京橋"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "東京メトロ銀座線 浅草行",
+            "congestion": "席はいっぱい"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "上野"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "東京メトロ日比谷線 竹ノ塚行",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "北千住"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "東武伊勢崎線[スカイツリーライン] 竹ノ塚行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "西新井"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "東武大師線 大師前行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "大師前"
+        }
+    },
     "銀座_大師前": {
         "0": {
             "station_block": 1,
@@ -62361,6 +63053,42 @@
             "time": "2分",
             "line": "東武大師線 大師前行",
             "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "大師前"
+        }
+    },
+    "明治神宮前〈原宿〉_大師前": {
+        "0": {
+            "station_block": 1,
+            "station_name": "明治神宮前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "33分",
+            "line": "東京メトロ千代田線 我孫子（千葉県）行",
+            "congestion": "席はいっぱい"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "北千住"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "東武伊勢崎線[スカイツリーライン]区間急行 館林行",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "西新井"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "東武大師線 大師前行",
+            "congestion": "不明"
         },
         "6": {
             "station_block": 1,
@@ -69215,80 +69943,50 @@
         "1": {
             "route_block": 1,
             "time": "3分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
+            "line": "千葉都市モノレール１号線 千葉みなと行",
+            "congestion": "不明"
         },
         "2": {
             "station_block": 1,
-            "station_name": "栄"
+            "station_name": "千葉"
         },
         "3": {
             "route_block": 1,
-            "time": "4分",
-            "line": "名古屋市営東山線 藤が丘（愛知県）行",
-            "congestion": "余裕で座れる"
+            "time": "33分",
+            "line": "ＪＲ総武本線快速 大船行",
+            "congestion": "普通に立てる"
         },
         "4": {
             "station_block": 1,
-            "station_name": "千種"
+            "station_name": "錦糸町"
         },
         "5": {
             "route_block": 1,
-            "time": "1時間47分",
-            "line": "ＪＲ中央本線 特急ワイドビューしなの5号 長野行",
+            "time": "2分",
+            "line": "東京メトロ半蔵門線急行 久喜行",
             "congestion": "余裕で座れる"
         },
         "6": {
             "station_block": 1,
-            "station_name": "塩尻"
+            "station_name": "押上[スカイツリー前]"
         },
         "7": {
             "route_block": 1,
-            "time": "2時間24分",
-            "line": "ＪＲ中央本線 特急あずさ22号 新宿行",
-            "congestion": "余裕で座れる"
+            "time": "19分",
+            "line": "東武伊勢崎線[スカイツリーライン]急行 久喜行",
+            "congestion": "不明"
         },
         "8": {
             "station_block": 1,
-            "station_name": "新宿"
+            "station_name": "西新井"
         },
         "9": {
             "route_block": 1,
-            "time": "21分",
-            "line": "ＪＲ山手線 池袋,上野方面",
-            "congestion": "席はいっぱい"
-        },
-        "10": {
-            "station_block": 1,
-            "station_name": "日暮里"
-        },
-        "11": {
-            "route_block": 1,
-            "time": "5分",
-            "line": "ＪＲ常磐線特別快速 土浦行",
-            "congestion": "普通に立てる"
-        },
-        "12": {
-            "station_block": 1,
-            "station_name": "北千住"
-        },
-        "13": {
-            "route_block": 1,
-            "time": "4分",
-            "line": "東武伊勢崎線[スカイツリーライン]急行 久喜行",
-            "congestion": "席はいっぱい"
-        },
-        "14": {
-            "station_block": 1,
-            "station_name": "西新井"
-        },
-        "15": {
-            "route_block": 1,
             "time": "2分",
             "line": "東武大師線 大師前行",
-            "congestion": "余裕で座れる"
+            "congestion": "不明"
         },
-        "16": {
+        "10": {
             "station_block": 1,
             "station_name": "大師前"
         }
@@ -73003,6 +73701,92 @@
             "station_name": "大師前"
         }
     },
+    "久我原_大師前": {
+        "0": {
+            "station_block": 1,
+            "station_name": "久我原"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "いすみ鉄道 大原（千葉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "城見ヶ丘"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "大多喜〔オリブ〕"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "1時間27分",
+            "line": "高速バス 浜松町・東京-勝浦・御宿・安房小湊 東京駅八重洲口前行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "東京駅八重洲口前"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "ＪＲ京浜東北・根岸線 南浦和行",
+            "congestion": "席はいっぱい"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "秋葉原"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "12分",
+            "line": "東京メトロ日比谷線 竹ノ塚行",
+            "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "北千住"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "東武伊勢崎線[スカイツリーライン] 竹ノ塚行",
+            "congestion": "不明"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "西新井"
+        },
+        "15": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "東武大師線 大師前行",
+            "congestion": "不明"
+        },
+        "16": {
+            "station_block": 1,
+            "station_name": "大師前"
+        }
+    },
     "総元_大師前": {
         "0": {
             "station_block": 1,
@@ -74295,6 +75079,72 @@
             "time": "2分",
             "line": "東武大師線 大師前行",
             "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "大師前"
+        }
+    },
+    "国際展示場正門_大師前": {
+        "0": {
+            "station_block": 1,
+            "station_name": "東京ビッグサイト"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "ゆりかもめ 豊洲行",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "豊洲"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "東京メトロ有楽町線 川越市行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "月島"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "都営大江戸線 両国〔大江戸線〕,飯田橋方面",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "清澄白河"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "東京メトロ半蔵門線急行 南栗橋行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "押上[スカイツリー前]"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "東武伊勢崎線[スカイツリーライン]急行 南栗橋行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "西新井"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "東武大師線 大師前行",
+            "congestion": "不明"
         },
         "12": {
             "station_block": 1,
@@ -79297,6 +80147,72 @@
             "station_name": "大師前"
         }
     },
+    "伊奈中央_大師前": {
+        "0": {
+            "station_block": 1,
+            "station_name": "伊奈中央"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "22分",
+            "line": "埼玉新都市交通ニューシャトル 大宮（埼玉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "ＪＲ京浜東北・根岸線 蒲田行",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "南浦和"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "ＪＲ武蔵野線 東京行",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "南越谷"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "新越谷"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "12分",
+            "line": "東武伊勢崎線[スカイツリーライン]区間急行 浅草行",
+            "congestion": "席はいっぱい"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "西新井"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "東武大師線 大師前行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "大師前"
+        }
+    },
     "羽貫_大師前": {
         "0": {
             "station_block": 1,
@@ -82059,6 +82975,62 @@
             "station_name": "大師前"
         }
     },
+    "市役所前_大師前": {
+        "0": {
+            "station_block": 1,
+            "station_name": "市役所前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "千葉都市モノレール１号線 県庁前（千葉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "33分",
+            "line": "ＪＲ総武本線快速 大船行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "錦糸町"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "東京メトロ半蔵門線急行 久喜行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "押上[スカイツリー前]"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "19分",
+            "line": "東武伊勢崎線[スカイツリーライン]急行 久喜行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "西新井"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "東武大師線 大師前行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "大師前"
+        }
+    },
     "葭川公園_大師前": {
         "0": {
             "station_block": 1,
@@ -82109,6 +83081,62 @@
             "time": "2分",
             "line": "東武大師線 大師前行",
             "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "大師前"
+        }
+    },
+    "県庁前_大師前": {
+        "0": {
+            "station_block": 1,
+            "station_name": "県庁前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "千葉都市モノレール１号線 千葉みなと行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "33分",
+            "line": "ＪＲ総武本線快速 大船行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "錦糸町"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "東京メトロ半蔵門線急行 久喜行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "押上[スカイツリー前]"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "19分",
+            "line": "東武伊勢崎線[スカイツリーライン]急行 久喜行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "西新井"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "東武大師線 大師前行",
+            "congestion": "不明"
         },
         "10": {
             "station_block": 1,
@@ -83851,6 +84879,82 @@
             "congestion": "余裕で座れる"
         },
         "12": {
+            "station_block": 1,
+            "station_name": "大師前"
+        }
+    },
+    "高松_大師前": {
+        "0": {
+            "station_block": 1,
+            "station_name": "高松"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "多摩モノレール 多摩センター行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "立川南"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "立川"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "ＪＲ中央線快速 東京行",
+            "congestion": "圧迫される"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "西国分寺"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "42分",
+            "line": "ＪＲ武蔵野線 東京行",
+            "congestion": "普通に立てる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "南越谷"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "新越谷"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "12分",
+            "line": "東武伊勢崎線[スカイツリーライン]区間急行 浅草行",
+            "congestion": "席はいっぱい"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "西新井"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "東武大師線 大師前行",
+            "congestion": "不明"
+        },
+        "14": {
             "station_block": 1,
             "station_name": "大師前"
         }
@@ -86805,6 +87909,62 @@
             "time": "2分",
             "line": "東武大師線 大師前行",
             "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "大師前"
+        }
+    },
+    "大町_大師前": {
+        "0": {
+            "station_block": 1,
+            "station_name": "大町"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "北総鉄道 羽田空港第１・第２ターミナル（京急）行",
+            "congestion": "席はいっぱい"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "京成高砂"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "10分",
+            "line": "京成本線 京成上野行",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "京成関屋"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "牛田"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "東武伊勢崎線[スカイツリーライン]区間準急 南栗橋行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "西新井"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "東武大師線 大師前行",
+            "congestion": "不明"
         },
         "10": {
             "station_block": 1,

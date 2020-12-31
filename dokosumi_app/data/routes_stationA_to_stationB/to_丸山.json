@@ -3529,6 +3529,62 @@
             "station_name": "丸山"
         }
     },
+    "扇町_丸山": {
+        "0": {
+            "station_block": 1,
+            "station_name": "扇町"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "ＪＲ鶴見線 鶴見行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "鶴見"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "4分",
+            "line": "ＪＲ京浜東北・根岸線 南浦和行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "川崎"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "21分",
+            "line": "ＪＲ上野東京ライン 籠原〔東京経由〕行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "31分",
+            "line": "ＪＲ高崎線 籠原行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "埼玉新都市交通ニューシャトル 内宿行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "丸山"
+        }
+    },
     "北府中_丸山": {
         "0": {
             "station_block": 1,
@@ -3917,6 +3973,42 @@
             "time": "15分",
             "line": "埼玉新都市交通ニューシャトル 内宿行",
             "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "丸山"
+        }
+    },
+    "吉川_丸山": {
+        "0": {
+            "station_block": 1,
+            "station_name": "吉川"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "19分",
+            "line": "ＪＲ武蔵野線 府中本町行",
+            "congestion": "普通に立てる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "南浦和"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "12分",
+            "line": "ＪＲ京浜東北・根岸線 大宮（埼玉県）行",
+            "congestion": "席はいっぱい"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "埼玉新都市交通ニューシャトル 内宿行",
+            "congestion": "不明"
         },
         "6": {
             "station_block": 1,
@@ -16923,6 +17015,62 @@
             "station_name": "丸山"
         }
     },
+    "竹岡_丸山": {
+        "0": {
+            "station_block": 1,
+            "station_name": "竹岡"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "24分",
+            "line": "ＪＲ内房線 木更津行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "君津"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "44分",
+            "line": "ＪＲ内房線快速 逗子行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "41分",
+            "line": "ＪＲ総武本線快速 逗子行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "31分",
+            "line": "ＪＲ高崎線 高崎行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "埼玉新都市交通ニューシャトル 内宿行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "丸山"
+        }
+    },
     "浜金谷_丸山": {
         "0": {
             "station_block": 1,
@@ -17451,6 +17599,72 @@
             "time": "15分",
             "line": "埼玉新都市交通ニューシャトル 内宿行",
             "congestion": "余裕で座れる"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "丸山"
+        }
+    },
+    "千歳_丸山": {
+        "0": {
+            "station_block": 1,
+            "station_name": "千歳"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "16分",
+            "line": "ＪＲ内房線 館山行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "館山"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "59分",
+            "line": "ＪＲ内房線 木更津行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "君津"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "38分",
+            "line": "ＪＲ内房線快速 逗子行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "蘇我"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "42分",
+            "line": "ＪＲ京葉線快速 東京行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "31分",
+            "line": "ＪＲ宇都宮線 古河行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "埼玉新都市交通ニューシャトル 内宿行",
+            "congestion": "不明"
         },
         "12": {
             "station_block": 1,
@@ -19427,6 +19641,52 @@
             "station_name": "丸山"
         }
     },
+    "小林_丸山": {
+        "0": {
+            "station_block": 1,
+            "station_name": "小林"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "24分",
+            "line": "ＪＲ成田線 我孫子（千葉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "我孫子"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "32分",
+            "line": "ＪＲ常磐線快速 上野行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "上野"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "24分",
+            "line": "ＪＲ高崎線快速〔アーバン〕 高崎行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "埼玉新都市交通ニューシャトル 内宿行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "丸山"
+        }
+    },
     "安食_丸山": {
         "0": {
             "station_block": 1,
@@ -19592,121 +19852,51 @@
         },
         "1": {
             "route_block": 1,
-            "time": "2分",
-            "line": "福岡市営空港線 福岡空港行",
-            "congestion": "余裕で座れる"
+            "time": "4分",
+            "line": "ＪＲ久留里線 木更津行",
+            "congestion": "不明"
         },
         "2": {
             "station_block": 1,
-            "station_name": "博多"
+            "station_name": "木更津"
         },
         "3": {
             "route_block": 1,
-            "time": "8分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
+            "time": "36分",
+            "line": "ＪＲ内房線快速 逗子行",
+            "congestion": "不明"
         },
         "4": {
             "station_block": 1,
-            "station_name": "博多バスターミナル〔博多駅〕"
+            "station_name": "千葉"
         },
         "5": {
             "route_block": 1,
-            "time": "4時間32分",
-            "line": "JR高速バス 広福ライナー 広島駅〔南口〕行",
-            "congestion": "余裕で座れる"
+            "time": "41分",
+            "line": "ＪＲ総武本線快速 逗子行",
+            "congestion": "不明"
         },
         "6": {
             "station_block": 1,
-            "station_name": "広島バスセンター"
+            "station_name": "東京"
         },
         "7": {
             "route_block": 1,
-            "time": "4分",
-            "line": "徒歩 ",
+            "time": "31分",
+            "line": "ＪＲ高崎線 高崎行",
             "congestion": "余裕で座れる"
         },
         "8": {
             "station_block": 1,
-            "station_name": "広島バスセンター"
+            "station_name": "大宮"
         },
         "9": {
             "route_block": 1,
-            "time": "4時間6分",
-            "line": "高速バス ハーバーライナー 神姫バス三ノ宮バスターミナル行",
-            "congestion": "余裕で座れる"
+            "time": "15分",
+            "line": "埼玉新都市交通ニューシャトル 内宿行",
+            "congestion": "不明"
         },
         "10": {
-            "station_block": 1,
-            "station_name": "神姫バス三ノ宮バスターミナル"
-        },
-        "11": {
-            "route_block": 1,
-            "time": "7分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
-        },
-        "12": {
-            "station_block": 1,
-            "station_name": "三ノ宮"
-        },
-        "13": {
-            "route_block": 1,
-            "time": "1時間36分",
-            "line": "ＪＲ東海道山陽本線各停 京都行",
-            "congestion": "余裕で座れる"
-        },
-        "14": {
-            "station_block": 1,
-            "station_name": "京都"
-        },
-        "15": {
-            "route_block": 1,
-            "time": "8分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
-        },
-        "16": {
-            "station_block": 1,
-            "station_name": "京都駅八条口"
-        },
-        "17": {
-            "route_block": 1,
-            "time": "6時間11分",
-            "line": "高速バス サンシャインエクスプレス 東京駅鍛冶橋駐車場行",
-            "congestion": "余裕で座れる"
-        },
-        "18": {
-            "station_block": 1,
-            "station_name": "バスタ新宿〔新宿駅新南口〕"
-        },
-        "19": {
-            "route_block": 1,
-            "time": "8分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
-        },
-        "20": {
-            "station_block": 1,
-            "station_name": "新宿"
-        },
-        "21": {
-            "route_block": 1,
-            "time": "41分",
-            "line": "ＪＲ埼京線 大宮（埼玉県）行",
-            "congestion": "余裕で座れる"
-        },
-        "22": {
-            "station_block": 1,
-            "station_name": "大宮"
-        },
-        "23": {
-            "route_block": 1,
-            "time": "15分",
-            "line": "埼玉新都市交通ニューシャトル 丸山（埼玉県）行",
-            "congestion": "余裕で座れる"
-        },
-        "24": {
             "station_block": 1,
             "station_name": "丸山"
         }
@@ -25163,6 +25353,32 @@
             "time": "15分",
             "line": "埼玉新都市交通ニューシャトル 内宿行",
             "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "丸山"
+        }
+    },
+    "大和田_丸山": {
+        "0": {
+            "station_block": 1,
+            "station_name": "大和田"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "東武アーバンパークライン 大宮（埼玉県）行",
+            "congestion": "圧迫される"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "埼玉新都市交通ニューシャトル 内宿行",
+            "congestion": "不明"
         },
         "4": {
             "station_block": 1,
@@ -31025,6 +31241,62 @@
             "station_name": "丸山"
         }
     },
+    "競艇場前_丸山": {
+        "0": {
+            "station_block": 1,
+            "station_name": "競艇場前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "12分",
+            "line": "西武多摩川線各停 武蔵境行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "武蔵境"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "ＪＲ中央線快速 高尾（東京都）行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "西国分寺"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "25分",
+            "line": "ＪＲ武蔵野線 南船橋行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "武蔵浦和"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "12分",
+            "line": "ＪＲ埼京線 大宮（埼玉県）行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "埼玉新都市交通ニューシャトル 内宿行",
+            "congestion": "不明"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "丸山"
+        }
+    },
     "是政_丸山": {
         "0": {
             "station_block": 1,
@@ -34103,6 +34375,72 @@
             "station_name": "丸山"
         }
     },
+    "学園前_丸山": {
+        "0": {
+            "station_block": 1,
+            "station_name": "学園前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "京成千原線 京成津田沼行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉中央"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "17分",
+            "line": "京成千葉線 京成津田沼行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "京成津田沼"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "34分",
+            "line": "京成本線通勤特急 京成上野行",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "日暮里"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "ＪＲ京浜東北・根岸線 赤羽行",
+            "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "赤羽"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "ＪＲ高崎線快速〔アーバン〕 高崎行",
+            "congestion": "席はいっぱい"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "埼玉新都市交通ニューシャトル 内宿行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "丸山"
+        }
+    },
     "おゆみ野_丸山": {
         "0": {
             "station_block": 1,
@@ -36501,6 +36839,62 @@
             "congestion": "余裕で座れる"
         },
         "12": {
+            "station_block": 1,
+            "station_name": "丸山"
+        }
+    },
+    "山田_丸山": {
+        "0": {
+            "station_block": 1,
+            "station_name": "山田"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "京王高尾線各停 高尾山口行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "高尾"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "29分",
+            "line": "ＪＲ中央線快速 東京行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "西国分寺"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "28分",
+            "line": "ＪＲ武蔵野線 南船橋行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "武蔵浦和"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "ＪＲ埼京線通勤快速 川越行",
+            "congestion": "席はいっぱい"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "埼玉新都市交通ニューシャトル 内宿行",
+            "congestion": "不明"
+        },
+        "10": {
             "station_block": 1,
             "station_name": "丸山"
         }
@@ -39962,81 +40356,51 @@
         },
         "1": {
             "route_block": 1,
-            "time": "8分",
-            "line": "名古屋市営名城線 栄（愛知県）,金山（愛知県）方面",
-            "congestion": "余裕で座れる"
+            "time": "1分",
+            "line": "小田急多摩線各停 新百合ヶ丘行",
+            "congestion": "席はいっぱい"
         },
         "2": {
             "station_block": 1,
-            "station_name": "栄"
+            "station_name": "栗平"
         },
         "3": {
             "route_block": 1,
-            "time": "4分",
-            "line": "名古屋市営東山線 藤が丘（愛知県）行",
-            "congestion": "余裕で座れる"
+            "time": "3分",
+            "line": "小田急多摩線通勤急行 新宿行",
+            "congestion": "普通に立てる"
         },
         "4": {
             "station_block": 1,
-            "station_name": "千種"
+            "station_name": "新百合ヶ丘"
         },
         "5": {
             "route_block": 1,
-            "time": "1時間47分",
-            "line": "ＪＲ中央本線 特急ワイドビューしなの5号 長野行",
-            "congestion": "余裕で座れる"
+            "time": "30分",
+            "line": "小田急小田原線通勤急行 新宿行",
+            "congestion": "不明"
         },
         "6": {
             "station_block": 1,
-            "station_name": "塩尻"
+            "station_name": "新宿"
         },
         "7": {
             "route_block": 1,
-            "time": "2時間1分",
-            "line": "ＪＲ中央本線 特急あずさ22号 新宿行",
-            "congestion": "余裕で座れる"
+            "time": "31分",
+            "line": "ＪＲ埼京線通勤快速 川越行",
+            "congestion": "席はいっぱい"
         },
         "8": {
             "station_block": 1,
-            "station_name": "立川"
+            "station_name": "大宮"
         },
         "9": {
             "route_block": 1,
-            "time": "5分",
-            "line": "ＪＲ中央線快速 東京行",
-            "congestion": "席はいっぱい"
-        },
-        "10": {
-            "station_block": 1,
-            "station_name": "西国分寺"
-        },
-        "11": {
-            "route_block": 1,
-            "time": "26分",
-            "line": "ＪＲ武蔵野線 南船橋行",
-            "congestion": "席はいっぱい"
-        },
-        "12": {
-            "station_block": 1,
-            "station_name": "武蔵浦和"
-        },
-        "13": {
-            "route_block": 1,
-            "time": "12分",
-            "line": "ＪＲ埼京線 大宮（埼玉県）行",
-            "congestion": "余裕で座れる"
-        },
-        "14": {
-            "station_block": 1,
-            "station_name": "大宮"
-        },
-        "15": {
-            "route_block": 1,
             "time": "15分",
             "line": "埼玉新都市交通ニューシャトル 内宿行",
-            "congestion": "余裕で座れる"
+            "congestion": "不明"
         },
-        "16": {
+        "10": {
             "station_block": 1,
             "station_name": "丸山"
         }
@@ -43851,6 +44215,62 @@
             "congestion": "余裕で座れる"
         },
         "12": {
+            "station_block": 1,
+            "station_name": "丸山"
+        }
+    },
+    "山下_丸山": {
+        "0": {
+            "station_block": 1,
+            "station_name": "山下"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "豪徳寺"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "小田急小田原線各停 綾瀬行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "代々木上原"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "小田急小田原線快速急行 新宿行",
+            "congestion": "圧迫される"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "新宿"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "32分",
+            "line": "ＪＲ埼京線通勤快速 川越行",
+            "congestion": "席はいっぱい"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "埼玉新都市交通ニューシャトル 内宿行",
+            "congestion": "不明"
+        },
+        "10": {
             "station_block": 1,
             "station_name": "丸山"
         }
@@ -47823,6 +48243,42 @@
             "station_name": "丸山"
         }
     },
+    "京橋_丸山": {
+        "0": {
+            "station_block": 1,
+            "station_name": "京橋"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "東京メトロ銀座線 浅草行",
+            "congestion": "席はいっぱい"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "上野"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "26分",
+            "line": "ＪＲ宇都宮線 小金井行",
+            "congestion": "席はいっぱい"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "埼玉新都市交通ニューシャトル 内宿行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "丸山"
+        }
+    },
     "銀座_丸山": {
         "0": {
             "station_block": 1,
@@ -50365,6 +50821,42 @@
             "congestion": "余裕で座れる"
         },
         "8": {
+            "station_block": 1,
+            "station_name": "丸山"
+        }
+    },
+    "明治神宮前〈原宿〉_丸山": {
+        "0": {
+            "station_block": 1,
+            "station_name": "明治神宮前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "東京メトロ副都心線 元町・中華街行",
+            "congestion": "普通に立てる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "渋谷"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "37分",
+            "line": "ＪＲ埼京線通勤快速 川越行",
+            "congestion": "席はいっぱい"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "埼玉新都市交通ニューシャトル 内宿行",
+            "congestion": "不明"
+        },
+        "6": {
             "station_block": 1,
             "station_name": "丸山"
         }
@@ -56786,81 +57278,41 @@
         },
         "1": {
             "route_block": 1,
-            "time": "3分",
-            "line": "徒歩 ",
-            "congestion": "余裕で座れる"
+            "time": "4分",
+            "line": "千葉都市モノレール１号線 千葉みなと行",
+            "congestion": "不明"
         },
         "2": {
             "station_block": 1,
-            "station_name": "栄"
+            "station_name": "千葉"
         },
         "3": {
             "route_block": 1,
-            "time": "4分",
-            "line": "名古屋市営東山線 藤が丘（愛知県）行",
-            "congestion": "余裕で座れる"
+            "time": "40分",
+            "line": "ＪＲ総武本線 特急成田エクスプレス2号 大船行",
+            "congestion": "不明"
         },
         "4": {
             "station_block": 1,
-            "station_name": "千種"
+            "station_name": "東京"
         },
         "5": {
             "route_block": 1,
-            "time": "1時間47分",
-            "line": "ＪＲ中央本線 特急ワイドビューしなの5号 長野行",
+            "time": "32分",
+            "line": "ＪＲ宇都宮線 宇都宮行",
             "congestion": "余裕で座れる"
         },
         "6": {
             "station_block": 1,
-            "station_name": "塩尻"
+            "station_name": "大宮"
         },
         "7": {
             "route_block": 1,
-            "time": "2時間1分",
-            "line": "ＪＲ中央本線 特急あずさ22号 新宿行",
-            "congestion": "余裕で座れる"
-        },
-        "8": {
-            "station_block": 1,
-            "station_name": "立川"
-        },
-        "9": {
-            "route_block": 1,
-            "time": "5分",
-            "line": "ＪＲ中央線快速 東京行",
-            "congestion": "席はいっぱい"
-        },
-        "10": {
-            "station_block": 1,
-            "station_name": "西国分寺"
-        },
-        "11": {
-            "route_block": 1,
-            "time": "26分",
-            "line": "ＪＲ武蔵野線 南船橋行",
-            "congestion": "席はいっぱい"
-        },
-        "12": {
-            "station_block": 1,
-            "station_name": "武蔵浦和"
-        },
-        "13": {
-            "route_block": 1,
-            "time": "12分",
-            "line": "ＪＲ埼京線 大宮（埼玉県）行",
-            "congestion": "余裕で座れる"
-        },
-        "14": {
-            "station_block": 1,
-            "station_name": "大宮"
-        },
-        "15": {
-            "route_block": 1,
             "time": "15分",
             "line": "埼玉新都市交通ニューシャトル 内宿行",
-            "congestion": "余裕で座れる"
+            "congestion": "不明"
         },
-        "16": {
+        "8": {
             "station_block": 1,
             "station_name": "丸山"
         }
@@ -59735,6 +60187,72 @@
             "station_name": "丸山"
         }
     },
+    "久我原_丸山": {
+        "0": {
+            "station_block": 1,
+            "station_name": "久我原"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "いすみ鉄道 大原（千葉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "城見ヶ丘"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "大多喜〔オリブ〕"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "1時間27分",
+            "line": "高速バス 浜松町・東京-勝浦・御宿・安房小湊 東京駅八重洲口前行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "東京駅八重洲口前"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "14分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "32分",
+            "line": "ＪＲ宇都宮線 古河行",
+            "congestion": "余裕で座れる"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "埼玉新都市交通ニューシャトル 内宿行",
+            "congestion": "不明"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "丸山"
+        }
+    },
     "総元_丸山": {
         "0": {
             "station_block": 1,
@@ -60867,6 +61385,52 @@
             "time": "15分",
             "line": "埼玉新都市交通ニューシャトル 内宿行",
             "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "丸山"
+        }
+    },
+    "国際展示場正門_丸山": {
+        "0": {
+            "station_block": 1,
+            "station_name": "東京ビッグサイト"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "23分",
+            "line": "ゆりかもめ 新橋行",
+            "congestion": "余裕で座れる"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "新橋"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "ＪＲ上野東京ライン 高崎〔東京経由〕行",
+            "congestion": "余裕で座れる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "32分",
+            "line": "ＪＲ高崎線 高崎行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "埼玉新都市交通ニューシャトル 内宿行",
+            "congestion": "不明"
         },
         "8": {
             "station_block": 1,
@@ -64473,6 +65037,22 @@
             "station_name": "丸山"
         }
     },
+    "伊奈中央_丸山": {
+        "0": {
+            "station_block": 1,
+            "station_name": "伊奈中央"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "埼玉新都市交通ニューシャトル 大宮（埼玉県）行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "丸山"
+        }
+    },
     "羽貫_丸山": {
         "0": {
             "station_block": 1,
@@ -66905,6 +67485,82 @@
             "station_name": "丸山"
         }
     },
+    "市役所前_丸山": {
+        "0": {
+            "station_block": 1,
+            "station_name": "市役所前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "千葉都市モノレール１号線 千葉みなと行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉みなと"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "13分",
+            "line": "ＪＲ京葉線 東京行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "新習志野"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "ＪＲ京葉線 西船橋行",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "南船橋"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "5分",
+            "line": "ＪＲ武蔵野線 西船橋行",
+            "congestion": "不明"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "西船橋"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "44分",
+            "line": "ＪＲ武蔵野線 府中本町行",
+            "congestion": "席はいっぱい"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "南浦和"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "ＪＲ京浜東北・根岸線 大宮（埼玉県）行",
+            "congestion": "席はいっぱい"
+        },
+        "12": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "13": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "埼玉新都市交通ニューシャトル 内宿行",
+            "congestion": "不明"
+        },
+        "14": {
+            "station_block": 1,
+            "station_name": "丸山"
+        }
+    },
     "葭川公園_丸山": {
         "0": {
             "station_block": 1,
@@ -66945,6 +67601,52 @@
             "time": "15分",
             "line": "埼玉新都市交通ニューシャトル 内宿行",
             "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "丸山"
+        }
+    },
+    "県庁前_丸山": {
+        "0": {
+            "station_block": 1,
+            "station_name": "県庁前"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "8分",
+            "line": "千葉都市モノレール１号線 千葉みなと行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "千葉"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "40分",
+            "line": "ＪＲ総武本線 特急成田エクスプレス2号 大船行",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "東京"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "32分",
+            "line": "ＪＲ宇都宮線 宇都宮行",
+            "congestion": "余裕で座れる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "埼玉新都市交通ニューシャトル 内宿行",
+            "congestion": "不明"
         },
         "8": {
             "station_block": 1,
@@ -68477,6 +69179,72 @@
             "congestion": "余裕で座れる"
         },
         "10": {
+            "station_block": 1,
+            "station_name": "丸山"
+        }
+    },
+    "高松_丸山": {
+        "0": {
+            "station_block": 1,
+            "station_name": "高松"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "2分",
+            "line": "多摩モノレール 多摩センター行",
+            "congestion": "不明"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "立川北"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "7分",
+            "line": "徒歩 ",
+            "congestion": "不明"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "立川"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "6分",
+            "line": "ＪＲ中央線快速 東京行",
+            "congestion": "普通に立てる"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "西国分寺"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "26分",
+            "line": "ＪＲ武蔵野線 新習志野行",
+            "congestion": "席はいっぱい"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "武蔵浦和"
+        },
+        "9": {
+            "route_block": 1,
+            "time": "9分",
+            "line": "ＪＲ埼京線通勤快速 川越行",
+            "congestion": "席はいっぱい"
+        },
+        "10": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "11": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "埼玉新都市交通ニューシャトル 内宿行",
+            "congestion": "不明"
+        },
+        "12": {
             "station_block": 1,
             "station_name": "丸山"
         }
@@ -70971,6 +71739,52 @@
             "time": "15分",
             "line": "埼玉新都市交通ニューシャトル 内宿行",
             "congestion": "余裕で座れる"
+        },
+        "8": {
+            "station_block": 1,
+            "station_name": "丸山"
+        }
+    },
+    "大町_丸山": {
+        "0": {
+            "station_block": 1,
+            "station_name": "大町"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "北総鉄道 羽田空港第１・第２ターミナル（京急）行",
+            "congestion": "席はいっぱい"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "東松戸"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "39分",
+            "line": "ＪＲ武蔵野線 府中本町行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "南浦和"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "11分",
+            "line": "ＪＲ京浜東北・根岸線 大宮（埼玉県）行",
+            "congestion": "席はいっぱい"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "大宮"
+        },
+        "7": {
+            "route_block": 1,
+            "time": "15分",
+            "line": "埼玉新都市交通ニューシャトル 内宿行",
+            "congestion": "不明"
         },
         "8": {
             "station_block": 1,

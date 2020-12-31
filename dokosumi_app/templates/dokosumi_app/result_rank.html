@@ -104,39 +104,47 @@
                 {% for key, value in town_score.values.items %}
                     {% comment %} 経路情報の場合 {% endcomment %}
                     {% if '通勤経路情報' in value.description  %}
-                        <div style='margin:5px;'>
+                        <div style='margin:20 5 20 5;'>
                             <div style="text-align:left; margin:5px;">
-                                <span style="font-weight:900">{{ value.description }}</span>
+                                <span style="font-weight:900"><{{ value.description }}></span>
                             </div>
-                            {% for key,value in value.remarks.items %}
-                                {% if value.station_block == 1 %}
-                                    <div class="station_block">
-                                        <img src="{% static 'icon/marker.png' %}" alt="駅" width="auto" height="18" style="margin:2px; vertical-align:middle;">
-                                        <span style="margin:2px; vertical-align:middle;">{{ value.station_name }}</span>
-                                    </div>
-                                {% elif value.route_block == 1 %}
-                                    <div class="route_block">
-                                        <div>
-                                            <img src="{% static 'icon/train_gray.png' %}" alt="駅" width="15" height="18" style="margin:1px 0 3px 0; vertical-align:middle;">
-                                            <span style="vertical-align:middle;">
-                                                {{ value.line }}
-                                            </span>
+                            {% comment %} 通勤経路情報がある場合 {% endcomment %}
+                            {% ifequal value.remarks|length 0 %}
+                                <div style="text-align:left; margin:5px;">
+                                    <span style="color:#727272; font-size:9px;">(通勤経路情報なし)</span>
+                                </div>
+                            {% comment %} 通勤経路情報がない場合 {% endcomment %}
+                            {% else %}
+                                {% for key,value in value.remarks.items %}
+                                    {% if value.station_block == 1 %}
+                                        <div class="station_block">
+                                            <img src="{% static 'icon/marker.png' %}" alt="駅" width="auto" height="18" style="margin:2px; vertical-align:middle;">
+                                            <span style="margin:2px; vertical-align:middle;">{{ value.station_name }}</span>
                                         </div>
-                                        <div>
-                                            <img src="{% static 'icon/time_gray.png' %}" alt="駅" width="18" height="18" style="margin:1px 0 3px 0; vertical-align:middle;">
-                                            <span style="vertical-align:middle;">
-                                                {{ value.time }}
-                                            </span>
+                                    {% elif value.route_block == 1 %}
+                                        <div class="route_block">
+                                            <div>
+                                                <img src="{% static 'icon/train_gray.png' %}" alt="駅" width="15" height="18" style="margin:1px 0 3px 0; vertical-align:middle;">
+                                                <span style="vertical-align:middle;">
+                                                    {{ value.line }}
+                                                </span>
+                                            </div>
+                                            <div>
+                                                <img src="{% static 'icon/time_gray.png' %}" alt="駅" width="18" height="18" style="margin:1px 0 3px 0; vertical-align:middle;">
+                                                <span style="vertical-align:middle;">
+                                                    {{ value.time }}
+                                                </span>
+                                            </div>
+                                            <div>
+                                                <img src="{% static 'icon/congestion_gray.png' %}" alt="駅" width="18" height="18" style="margin:1px 0 3px 0; vertical-align:middle;">
+                                                <span style="vertical-align:middle;">
+                                                    <span>{{ value.congestion }}</span>
+                                                </span>
+                                            </div>
                                         </div>
-                                        <div>
-                                            <img src="{% static 'icon/congestion_gray.png' %}" alt="駅" width="18" height="18" style="margin:1px 0 3px 0; vertical-align:middle;">
-                                            <span style="vertical-align:middle;">
-                                                <span>{{ value.congestion }}</span>
-                                            </span>
-                                        </div>
-                                    </div>
-                                {% endif %}
-                            {% endfor %}
+                                    {% endif %}
+                                {% endfor %}
+                            {% endifequal %}
                         </div>
                     {% else %}
                         {% comment %} 経路情報以外 {% endcomment %}
