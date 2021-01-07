@@ -196,7 +196,7 @@ def result_rank(request):
 
             #職場への乗り換え回数を取得
             # 発車駅・到着駅が対象の駅名と一致する行列を取得
-            transfer_num_to_station = transfer_num_df[transfer_num_df['station_name'] == town_score.get('station_name',0)][station_name].astype(float).values[0]
+            transfer_num_to_station = transfer_num_df[transfer_num_df['station_name'] == town_score.get('station_name',0)][station_name].astype(int).values[0]
 
             # 職場の最寄り駅への経路情報を取得
             route_dict = routes_dict.get(str(town_score.get('station_name',0))+'_'+str(station_name), '')
@@ -249,7 +249,7 @@ def result_rank(request):
 
             #職場への乗り換え回数を取得
             # 発車駅・到着駅が対象の駅名と一致する行列を取得
-            transfer_num_to_partners_station = transfer_num_df[transfer_num_df['station_name'] == town_score.get('station_name',0)][station_name].astype(float).values[0]
+            transfer_num_to_partners_station = transfer_num_df[transfer_num_df['station_name'] == town_score.get('station_name',0)][station_name].astype(int).values[0]
 
             # 職場の最寄り駅への経路情報を取得
             partners_route_dict = routes_dict.get(str(town_score.get('station_name',0))+'_'+str(partners_station_name), '')
