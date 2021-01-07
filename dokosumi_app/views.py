@@ -284,7 +284,7 @@ def result_rank(request):
                 "remarks":{
                     "0":{
                         "description":"パートナーの乗り換え回数",
-                        "value":partners_transfer_num,
+                        "value":transfer_num_to_partners_station,
                         "unit":"回",
                     },
                 },
@@ -340,7 +340,11 @@ def result_rank(request):
         town_values["park"] = {
             "description":"公園の多さ",  
             "remarks":{
-
+                "0":{
+                    "description":"駅周辺の総公園面積",
+                    "value":str(town_score.get('park_area',0)),
+                    "unit":"平方米",
+                },
             },
             "param":round(float(town_score.get('park',0))),
         }
@@ -348,7 +352,11 @@ def result_rank(request):
         town_values["flood"] = {
             "description":"浸水危険度の低さ", 
             "remarks":{
-                
+                "0":{
+                    "description":"駅周辺の最大浸水深",
+                    "value":str(town_score.get('water_depth',0)),
+                    "unit":"m",
+                },
             }, 
             "param":round(float(town_score.get('flood',0))),
         }
@@ -549,7 +557,7 @@ def town_detail(request, station_name):
                     "0":{
                         "description":"駅周辺の総公園面積",
                         "value":str(town_score.get('park_area',0)),
-                        "unit":"㎡",
+                        "unit":"平方米",
                     },
                 },
                 "param":round(float(town_score.get('park',0))),

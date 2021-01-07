@@ -299,8 +299,12 @@ body{
 
 //経路情報 - 経路ボックス
 .route_block{
-    margin-left: 10px;
+    margin: 0 10px 0 10px;
     padding: 10px;
     border-left: solid 5px #17a2b8;
     font-size: 9px;
+}
+
+.route_item{
+    margin: 0 0 5px 0;
 }
