@@ -28811,6 +28811,42 @@
             "station_name": "池袋"
         }
     },
+    "妙蓮寺_新線池袋": {
+        "0": {
+            "station_block": 1,
+            "station_name": "妙蓮寺"
+        },
+        "1": {
+            "route_block": 1,
+            "time": "3分",
+            "line": "東急東横線各停 和光市行",
+            "congestion": "席はいっぱい"
+        },
+        "2": {
+            "station_block": 1,
+            "station_name": "菊名"
+        },
+        "3": {
+            "route_block": 1,
+            "time": "29分",
+            "line": "東急東横線通勤特急 小手指行",
+            "congestion": "普通に立てる"
+        },
+        "4": {
+            "station_block": 1,
+            "station_name": "渋谷"
+        },
+        "5": {
+            "route_block": 1,
+            "time": "12分",
+            "line": "東京メトロ副都心線通勤急行 小手指行",
+            "congestion": "不明"
+        },
+        "6": {
+            "station_block": 1,
+            "station_name": "池袋"
+        }
+    },
     "白楽_新線池袋": {
         "0": {
             "station_block": 1,
@@ -50190,7 +50226,7 @@
             "route_block": 1,
             "time": "2分",
             "line": "銚子電鉄 銚子行",
-            "congestion": "余裕で座れる"
+            "congestion": "不明"
         },
         "2": {
             "station_block": 1,
@@ -50200,7 +50236,7 @@
             "route_block": 1,
             "time": "1時間53分",
             "line": "ＪＲ総武本線 千葉行",
-            "congestion": "余裕で座れる"
+            "congestion": "不明"
         },
         "4": {
             "station_block": 1,
@@ -50512,7 +50548,7 @@
             "route_block": 1,
             "time": "16分",
             "line": "銚子電鉄 銚子行",
-            "congestion": "余裕で座れる"
+            "congestion": "不明"
         },
         "2": {
             "station_block": 1,
@@ -50522,7 +50558,7 @@
             "route_block": 1,
             "time": "1時間53分",
             "line": "ＪＲ総武本線 千葉行",
-            "congestion": "余裕で座れる"
+            "congestion": "不明"
         },
         "4": {
             "station_block": 1,
@@ -50558,7 +50594,7 @@
             "route_block": 1,
             "time": "19分",
             "line": "銚子電鉄 銚子行",
-            "congestion": "余裕で座れる"
+            "congestion": "不明"
         },
         "2": {
             "station_block": 1,
@@ -50568,7 +50604,7 @@
             "route_block": 1,
             "time": "1時間53分",
             "line": "ＪＲ総武本線 千葉行",
-            "congestion": "余裕で座れる"
+            "congestion": "不明"
         },
         "4": {
             "station_block": 1,

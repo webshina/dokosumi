@@ -23,7 +23,7 @@ import glob
 
 # 各駅から各駅への経路情報のJSONファイルを取得
 json_file = 'D:\programs\Python\Dokosumi\data\元データ\駅から駅への経路情報\\routes_stationA_to_stationB.json'
-with open(json_file) as f:
+with open(json_file, mode="r", encoding="utf-8") as f:
     routes_stationA_to_stationB = json.load(f)
 
 # 駅名のTSVファイルを取得
@@ -50,7 +50,11 @@ for station_name_1 in stationA_to_stationB_list:
         if route_stationA_to_stationB != "":
             #時間の合計値を格納するリストを作成
             times = []
-            for key in route_stationA_to_stationB.keys():
+            route_list = route_stationA_to_stationB.keys()
+            route_list = ",".join(route_list)
+            route_list = re.sub("\\D", "", route_list)
+
+            for key in route_list:
                 block = route_stationA_to_stationB[key]
                 if block.get("route_block", 0) == 1:
                     time = block.get("time")

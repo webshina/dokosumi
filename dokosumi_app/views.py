@@ -67,8 +67,11 @@ def result_rank(request):
     # 駅から駅への所要時間のTSVファイルを取得
     time_df = pd.read_table(dirname + '/data/TimeToArriveByStation.tsv')
 
-    # 駅から駅への所要時間のTSVファイルを取得
+    # 駅から駅への混雑度のTSVファイルを取得
     congestion_df = pd.read_table(dirname + '/data/congestion_stationA_to_stationB.tsv')
+
+    # 駅から駅への乗り換え回数のTSVファイルを取得
+    transfer_num_df = pd.read_table(dirname + '/data/transfer_num_stationA_to_stationB.tsv')
 
     #駅名を取得
     station_name = params.get('station_name','')
@@ -126,6 +129,11 @@ def result_rank(request):
     score_df['congestion'] = calc_congestion(score_df, congestion_df, station_name)
     # パートナーの通勤混雑度を取得
     score_df['partners_congestion'] = calc_congestion(score_df, congestion_df, partners_station_name)
+
+    # 乗り換え回数を取得
+    score_df['transfer_num'] = calc_transfer_num(score_df, transfer_num_df, station_name)
+    # パートナーの乗り換え回数を取得
+    score_df['partners_transfer_num'] = calc_transfer_num(score_df, transfer_num_df, partners_station_name)
     
     print("score_df:" + str(score_df))
 
@@ -158,6 +166,8 @@ def result_rank(request):
         "dist_to_partners_office":{"description":"パートナーの通勤時間", "param":round(float(params.get("dist_to_partners_office",0)))}, \
         "congestion":{"description":"通勤混雑度", "param":round(float(params.get("congestion",0)))}, \
         "partners_congestion":{"description":"パートナーの通勤混雑度", "param":round(float(params.get("partners_congestion",0)))}, \
+        "transfer_num":{"description":"乗り換え回数", "param":round(float(params.get("transfer_num",0)))}, \
+        "partners_transfer_num":{"description":"パートナーの乗り換え回数", "param":round(float(params.get("partners_transfer_num",0)))}, \
         "access":{"description":"アクセスの良さ", "param":round(float(params.get("access",0)))}, \
         "landPrice":{"description":"家賃の安さ", "param":round(float(params.get("landPrice",0)))}, \
         "park":{"description":"公園の多さ", "param":round(float(params.get("park",0)))}, \
@@ -178,13 +188,15 @@ def result_rank(request):
         #職場の最寄り駅が設定されていれば、通勤系の情報を追加
         if station_name != '':
             # 職場の最寄り駅への時間を取得
-            # 発車駅が対象の駅名と一致する行を取得
-            time_to_station = time_df[time_df['station_name'] == town_score.get('station_name',0)]
-            # 到着駅が対象の駅名と一致する列を取得
-            time_to_station = time_to_station[station_name].astype(float).values[0]
+            # 発車駅・到着駅が対象の駅名と一致する行列を取得
+            time_to_station = time_df[time_df['station_name'] == town_score.get('station_name',0)][station_name].astype(float).values[0]
             hh = int(time_to_station / 60)
             mm = int(time_to_station % 60)
             time_to_station = '約' + str(hh) + '時間' + str(mm) + '分'
+
+            #職場への乗り換え回数を取得
+            # 発車駅・到着駅が対象の駅名と一致する行列を取得
+            transfer_num_to_station = transfer_num_df[transfer_num_df['station_name'] == town_score.get('station_name',0)][station_name].astype(float).values[0]
 
             # 職場の最寄り駅への経路情報を取得
             route_dict = routes_dict.get(str(town_score.get('station_name',0))+'_'+str(station_name), '')
@@ -214,16 +226,30 @@ def result_rank(request):
                 "param":round(float(town_score.get('congestion',0))),
             }
             
+            town_values["transfer_num"] = {
+                "description":"乗り換え回数", 
+                "remarks":{
+                    "0":{
+                        "description":"乗り換え回数",
+                        "value":transfer_num_to_station,
+                        "unit":"回",
+                    },
+                },
+                "param":round(float(town_score.get('transfer_num',0))),
+            }
+            
 
         #パートナーの職場の最寄り駅が設定されていれば、通勤系の情報を追加
         if partners_station_name != '':
-            # station_name列が対象の駅名と一致する行を取得
-            time_to_partners_station = time_df[time_df['station_name'] == partners_station_name]
-            # station_name列が対象の駅名と一致する行を取得
-            time_to_partners_station = time_to_partners_station[town_score.get('station_name',0)].astype(float).values[0]
+            # 発車駅・到着駅が対象の駅名と一致する行列を取得
+            time_to_partners_station = time_df[time_df['station_name'] == partners_station_name][town_score.get('station_name',0)].astype(float).values[0]
             hh = int(time_to_partners_station / 60)
             mm = int(time_to_partners_station % 60)
             time_to_partners_station = '約' + str(hh) + '時間' + str(mm) + '分'
+
+            #職場への乗り換え回数を取得
+            # 発車駅・到着駅が対象の駅名と一致する行列を取得
+            transfer_num_to_partners_station = transfer_num_df[transfer_num_df['station_name'] == town_score.get('station_name',0)][station_name].astype(float).values[0]
 
             # 職場の最寄り駅への経路情報を取得
             partners_route_dict = routes_dict.get(str(town_score.get('station_name',0))+'_'+str(partners_station_name), '')
@@ -251,6 +277,18 @@ def result_rank(request):
                 "remarks":{
                 },
                 "param":round(float(town_score.get('partners_congestion',0))),
+            }
+            
+            town_values["partners_transfer_num"] = {
+                "description":"パートナーの乗り換え回数", 
+                "remarks":{
+                    "0":{
+                        "description":"パートナーの乗り換え回数",
+                        "value":partners_transfer_num,
+                        "unit":"回",
+                    },
+                },
+                "param":round(float(town_score.get('partners_transfer_num',0))),
             }
 
 
@@ -377,7 +415,7 @@ def result_rank(request):
 def calc_dist_score(score_df, time_df, station_name):
 
     # 初期設定
-    score_time_df = score_df
+    score_time_df = score_df.copy()
     score_time_df['time'] = 0
 
     if station_name != '':
@@ -404,7 +442,8 @@ def calc_dist_score(score_df, time_df, station_name):
 def calc_congestion(score_df, congestion_df, station_name):
 
     #初期設定
-    score_congestion_df = score_df
+    score_congestion_df = score_df.copy()
+    score_congestion_df["congestion"] = 50
 
     if station_name != '':
 
@@ -420,23 +459,30 @@ def calc_congestion(score_df, congestion_df, station_name):
     return score_congestion_df['congestion']
 
 
-# 通勤混雑度を文字列に変換
-def congestion_to_remark(congestion):
+# 職場の最寄り駅への乗り換え回数の取得
+def calc_transfer_num(score_df, transfer_num_df, station_name):
 
-    if congestion == 1:
-        congestion_remark = "座って通勤可能"
-    elif congestion == 2:
-        congestion_remark = "席はいっぱい"
-    elif congestion == 3:
-        congestion_remark = "立って通勤"
-    elif congestion == 4:
-        congestion_remark = "周りから押される"
-    elif congestion == 5:
-        congestion_remark = "すし詰め状態"
-    else:
-        congestion_remark = "乗れない"
-    
-    return congestion_remark
+    # 初期設定
+    score_transfer_num_df = score_df.copy()
+    score_transfer_num_df['transfer_num'] = 0
+
+    if station_name != '':
+
+        # 駅を順番通りに入れ替え
+        score_transfer_num_df = pd.merge(score_df, transfer_num_df, on='station_name', how="left")
+        score_transfer_num_np = score_transfer_num_df[station_name].astype(float).values
+        
+        # 最大1最小0で正規化
+        score_transfer_num_np = (score_transfer_num_np - score_transfer_num_np.min()).astype(float) / (score_transfer_num_np.max() - score_transfer_num_np.min()).astype(float)
+        # 効用関数を適用
+        score_transfer_num_np = score_transfer_num_np ** (1/1.5)
+        # 時間が短いほどスコアは高くする
+        score_transfer_num_np = 1 - score_transfer_num_np
+
+        # DataFrameに再格納
+        score_transfer_num_df['transfer_num'] = score_transfer_num_np * 100
+
+    return score_transfer_num_df['transfer_num']
 
 
 

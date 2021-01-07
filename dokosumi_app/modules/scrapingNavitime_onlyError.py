@@ -23,13 +23,13 @@ import pickle
 import json
 
 # 駅名のTSVファイルを取得
-dirname = os.path.dirname(__file__)
 tsv_file = 'D:\programs\Python\Dokosumi\dokosumi_app\data\score_by_station.tsv'
 station_list_df = pd.read_table(tsv_file)
 station_list_all = station_list_df["station_name"].values.tolist()
-#対象を限定
-station_list = station_list_all[int(sys.argv[1]):int(sys.argv[2])]
-print(station_list)
+
+# エラーリストを取得
+tsv_file = 'D:\programs\Python\Dokosumi\data\元データ\駅から駅への経路情報\error_stations.tsv'
+error_stations_df = pd.read_table(tsv_file)
 
 # #保存先を取得
 # json_file = 'D:\programs\Python\Dokosumi\data\元データ\駅から駅への経路情報\\routes_stationA_to_stationB.json'
@@ -44,36 +44,38 @@ routes_stationA_to_stationB = {}
 #各駅から各駅への時間を再帰的に取得
 
 #エラーの駅名・検索用の駅名を定義
-station_list = {
-	"東中野":"00006790",
-	"赤羽":"00005069",
-	"朝霞台":"00006167",
-	"高柳":"00002641",
-	"若葉台":"00003440",
-	"妙蓮寺":"00008564",
-	"上大岡":"00004013",
-	"原木中山":"00002139",
-	"白山":"00007454",
-	"仲ノ町":"00006148",
-	"犬吠":"00002092",
-	"外川":"00001195",
-}
+json_file = 'D:\programs\Python\Dokosumi\data\元データ\駅から駅への経路情報\error_station_dict.json'
+with open(json_file, mode="r", encoding="utf-8") as f:
+    station_name_convert_dict = json.load(f)
 
-for station_name_1, orvStationCode in station_list.items():
+station_list = list(station_name_convert_dict.keys())
+
+#分割
+start = int(sys.argv[1])
+end = int(sys.argv[2])
+station_list = station_list[start:end]
+
+for station_name_1 in station_list:
 
     #駅Aから各駅までの所要時間を取得
     for station_name_2 in station_list_all:
         print(station_name_1 + ' to ' + station_name_2)
 
-        #jsonファイルに対象の駅が存在しない場合は処理開始
-        if routes_stationA_to_stationB_existing.get(str(station_name_1) + "_" + str(station_name_2), "") == "" and station_name_1 != station_name_2:
-
+        #対象のセルがNGの場合は処理開始
+        # flg = str(error_stations_df[error_stations_df["station_name"] == station_name_1][station_name_2].values[0])
+        if station_name_1 != station_name_2:
+            
+            print("再検索開始")
+            
             route_items = {}
 
             #経路リストに発車駅を格納
             route_items["start_station_name"] = station_name_1
             #経路リストに到着駅を格納
             route_items["goal_station_name"] = station_name_2
+
+            #NAVITIME駅コードを取得
+            orvStationCode = station_name_convert_dict.get(station_name_1,"")
 
             station_name_1_encode = urllib.parse.quote(station_name_1)
             station_name_2_encode = urllib.parse.quote(station_name_2)
@@ -90,18 +92,21 @@ for station_name_1, orvStationCode in station_list.items():
                 #駅から駅までの乗り換え情報取得
                 url = 'https://www.navitime.co.jp/transfer/searchlist?orvStationName=' + station_name_1_encode + '&orvStationCode=' + orvStationCode + '&dnvStationName=' + station_name_2_encode + \
                     '&year=' + y + '&month=' + m + '&day=' + d + '&hour=' + hh + '&minute=' + m1 + \
-                    '&basis=1&freePass=0&sort=0&wspeed=100&airplane=0&sprexprs=0&utrexprs=1&othexprs=1&mtrplbus=1&intercitybus=1&ferry=0'
+                    '&basis=0&freePass=0&sort=0&wspeed=100&airplane=0&sprexprs=0&utrexprs=1&othexprs=1&mtrplbus=1&intercitybus=1&ferry=0'
                 print(url)
                 get_url_info = requests.get(url)
 
                 #ページソースを取得
                 soup = BeautifulSoup(get_url_info.text, 'lxml')
+
+                #経路情報を格納する辞書を作成
+                route_items = {}
                 
                 #所要時間・運賃・乗り換え回数の取得
                 item = soup.find("div", attrs={"class":"section_header_frame time"})
 
                 #所要時間の取得
-                time = item.find("dd", attrs={"class":"left"}).get_text()
+                time = item.find("dd", attrs={"class":"left"}).get_text().replace("\n","").replace("\t","")
                 route_items["time"] = time
 
                 #運賃の取得
@@ -128,7 +133,6 @@ for station_name_1, orvStationCode in station_list.items():
 
                 num = 0
                 #各種経路情報を格納する辞書を作成
-                route_items = {}
                 for item in route:
 
                     #ひとつの経路情報を格納する辞書を作成
@@ -168,19 +172,22 @@ for station_name_1, orvStationCode in station_list.items():
                         congestion = congestion.split("/")[-1]
                         #コメントに変換
                         if congestion == "congestion_1.png":
-                            congestion = "余裕で座れる"
+                            congestion = "0～50%(座れる)"
                         elif congestion == "congestion_2.png":
-                            congestion = "席はいっぱい"
+                            congestion = "50%～100%(席はいっぱい)"
                         elif congestion == "congestion_3.png":
-                            congestion = "普通に立てる"
+                            congestion = "100%～150%(普通に立てる)"
                         elif congestion == "congestion_4.png":
-                            congestion = "圧迫される"
+                            congestion = "150%～200%(圧迫される)"
                         elif congestion == "congestion_5.png":
-                            congestion = "身動き不可"
+                            congestion = "200%～250%(身動きできない)"
                         elif congestion == "congestion_6.png":
-                            congestion = "乗れない"
-                        else:
+                            congestion = "250%～(乗車不可)"
+                        elif congestion == "unknown":
                             congestion = "不明"
+                        else:
+                            congestion = "error"
+                        
 
                         route_item["congestion"] = congestion
                     
@@ -199,7 +206,7 @@ for station_name_1, orvStationCode in station_list.items():
             pass
 
 #保存先を取得
-json_file = 'D:\programs\Python\Dokosumi\data\元データ\駅から駅への経路情報\\routes_stationA_to_stationB' + sys.argv[1] + "_" + sys.argv[2] + '.json'
+json_file = 'D:\programs\Python\Dokosumi\data\元データ\駅から駅への経路情報\\routes_stationA_to_stationB_error_' + sys.argv[1] + '_' + sys.argv[2] + '.json'
 #JSONに出力
-with open(json_file, mode="w") as f:
+with open(json_file, mode="w", encoding="utf-8") as f:
     json.dump(routes_stationA_to_stationB, f, indent=4, ensure_ascii=False)

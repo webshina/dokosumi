@@ -30,14 +30,14 @@ for json_file in json_files:
     print("マージ開始：" + json_file)
     
     #ファイルが存在する場合は取得
-    with open(json_file) as f:
+    with open(json_file, mode="r", encoding="utf-8") as f:
         routes_stationA_to_stationB.update(json.load(f))
 
-# #保存先を取得
-# json_file = 'D:\programs\Python\Dokosumi\data\元データ\駅から駅への経路情報\\routes_stationA_to_stationB.json'
-# #JSONに出力
-# with open(json_file, mode="w") as f:
-#     json.dump(routes_stationA_to_stationB, f, indent=4, ensure_ascii=False)
+#保存先を取得
+json_file = 'D:\programs\Python\Dokosumi\data\元データ\駅から駅への経路情報\\routes_stationA_to_stationB.json'
+#JSONに出力
+with open(json_file, mode="w", encoding="utf-8") as f:
+    json.dump(routes_stationA_to_stationB, f, indent=4, ensure_ascii=False)
 
 
 # 駅名のTSVファイルを取得
