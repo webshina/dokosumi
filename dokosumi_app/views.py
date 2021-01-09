@@ -58,7 +58,15 @@ def result_rank(request):
     params = {}
     for key, value in params_list_in_dict.items():
         params[key] = value[0]
-
+    
+    # すべて気にしない場合はすべてのパラメータを「1」に設定
+    cnt = 0
+    for key, value in params.items():
+        if key != "station_name" and key != "partners_station_name":
+            cnt = cnt + int(value)
+    if cnt == 0:
+        for key, value in params.items():
+            params[key] = 1
 
     # 駅名のTSVファイルを取得
     dirname = os.path.dirname(__file__)
