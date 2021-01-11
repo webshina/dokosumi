@@ -9,10 +9,8 @@ body {
   font-size: 12px;
   color: #333333;
   background-color: #ffffff;
-  background-size: 85% auto;
-  background-repeat: repeat;
   width: 100%;
-  max-width: 450;
+  max-width: 414;
 }
 
 .bigwrapper {
