@@ -67,3 +67,12 @@ $button.addEventListener('click', function() {
   $target.classList.toggle('is-shown')
 //   $button.classList.toggle('is-hidden')
 })
+
+
+// 読込中アニメーション 
+var $searchButton = document.querySelector('.search-btn')
+$searchButton.addEventListener('click', function() {
+    var $searchButton = document.querySelector('.search-btn')
+    $("#bfr-load").css("display", "none");
+    $("#on-load").css("display", "block");
+})
